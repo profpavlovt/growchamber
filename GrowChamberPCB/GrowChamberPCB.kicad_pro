@@ -412,6 +412,10 @@
     [
       "39371779-5336-4073-adec-fb32caf6a86f",
       "Root"
+    ],
+    [
+      "10f1dbf8-4cce-44c0-b6de-eccec8d65f6f",
+      "ESP32-S3-Wroom-1U"
     ]
   ],
   "text_variables": {}

@@ -25,7 +25,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|1257300|203200|a7908d76-92a1-4895-bcc6-1558ede8017c|00000000-0000-0000-0000-000000000000|/39371779-5336-4073-adec-fb32caf6a86f|/39371779-5336-4073-adec-fb32caf6a86f|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1638300|635000|c749f2c6-fa85-4991-aeba-eb85ef30b8e6|00000000-0000-0000-0000-000000000000|/39371779-5336-4073-adec-fb32caf6a86f/97045699-5148-46fe-862a-0c5ccb859ce2|/39371779-5336-4073-adec-fb32caf6a86f/97045699-5148-46fe-862a-0c5ccb859ce2|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1638300|838200|13a7d348-7bbf-4679-bb20-ee6a388a4ab6|00000000-0000-0000-0000-000000000000|/39371779-5336-4073-adec-fb32caf6a86f/97045699-5148-46fe-862a-0c5ccb859ce2|/39371779-5336-4073-adec-fb32caf6a86f/97045699-5148-46fe-862a-0c5ccb859ce2|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -227,9 +240,9 @@
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
-      "pin_not_connected": "error",
+      "pin_not_connected": "warning",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -416,6 +429,10 @@
     [
       "10f1dbf8-4cce-44c0-b6de-eccec8d65f6f",
       "ESP32-S3-Wroom-1U"
+    ],
+    [
+      "97045699-5148-46fe-862a-0c5ccb859ce2",
+      "USB Connector"
     ]
   ],
   "text_variables": {}

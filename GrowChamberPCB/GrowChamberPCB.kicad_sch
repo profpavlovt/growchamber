@@ -1427,156 +1427,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start -1.524 1.27)
-					(mid 0 1.778)
-					(end 1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Jumper:Jumper_2_Small_Open"
 			(pin_numbers
 				(hide yes)
@@ -1717,6 +1567,232 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Memory_Flash:W25Q128JVS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "W25Q128JVS"
+				(at 7.62 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+				(at 0 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+				(at 0 25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
+				(at 0 27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flash memory SPI QPI DTR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SOIC*5.3x5.3mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "W25Q128JVS_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "W25Q128JVS_1_1"
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "DI/IO_{0}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "DO/IO_{1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "~{WP}/IO_{2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "~{HOLD}/~{RESET}/IO_{3}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1904,7 +1980,7 @@
 	)
 	(text "1. Place the high current paths (GND, VIN,\nand SW) as close to the device as possible\nwith short, direct, and wide traces.\n2. Place the input capacitor as close to IN and\nGND as possible (recommended within\n1mm).\n3. Place the external feedback resistors next\nto FB.\n4. Keep the switching node (SW) short and\naway from the feedback network."
 		(exclude_from_sim no)
-		(at 50.038 -12.7 0)
+		(at 51.308 -20.066 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1973,7 +2049,7 @@
 		(uuid "2d91ceec-ff78-4a23-8a6d-f14b1f6fc311")
 	)
 	(junction
-		(at 86.36 158.75)
+		(at 92.71 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43f1ae52-fe02-430e-b9d6-8dafcf8e6d86")
@@ -2003,7 +2079,7 @@
 		(uuid "7b840479-009e-482d-8e6b-a2f07b945f16")
 	)
 	(junction
-		(at 86.36 151.13)
+		(at 92.71 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9041c6cf-026a-4a55-a9cf-6ac32a129b55")
@@ -2021,7 +2097,7 @@
 		(uuid "c2130842-5e6b-4cf3-870c-38ea7e14d9ae")
 	)
 	(junction
-		(at 78.74 151.13)
+		(at 85.09 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2f0300e-7107-48d1-8e87-19146638a322")
@@ -2033,7 +2109,7 @@
 		(uuid "c6c30516-ebb0-48e2-bd61-b51d370c2146")
 	)
 	(junction
-		(at 93.98 151.13)
+		(at 100.33 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc921dc9-a1ec-4f16-8647-fd0d7ce3c21b")
@@ -2084,7 +2160,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 158.75) (xy 86.36 165.1)
+			(xy 92.71 143.51) (xy 92.71 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2104,7 +2180,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 177.8) (xy 96.52 177.8)
+			(xy 114.3 162.56) (xy 102.87 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2244,7 +2320,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 151.13) (xy 86.36 151.13)
+			(xy 85.09 135.89) (xy 92.71 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2254,7 +2330,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 106.68) (xy 60.96 106.68)
+			(xy 57.15 106.68) (xy 99.06 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2284,7 +2360,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 149.86) (xy 78.74 151.13)
+			(xy 85.09 134.62) (xy 85.09 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2314,7 +2390,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 172.72) (xy 96.52 172.72)
+			(xy 114.3 157.48) (xy 102.87 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2384,7 +2460,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 173.99) (xy 107.95 172.72)
+			(xy 114.3 158.75) (xy 114.3 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2414,7 +2490,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 157.48) (xy 78.74 151.13)
+			(xy 85.09 142.24) (xy 85.09 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2424,7 +2500,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 157.48) (xy 73.66 157.48)
+			(xy 76.2 142.24) (xy 80.01 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2441,6 +2517,16 @@
 			(type default)
 		)
 		(uuid "82c0b135-b8f4-44b4-92ed-3fc5522d3af9")
+	)
+	(wire
+		(pts
+			(xy 175.26 67.31) (xy 182.88 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "841e3f37-19ee-4868-9f6a-2c0a8a84ec59")
 	)
 	(wire
 		(pts
@@ -2594,7 +2680,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 104.14) (xy 60.96 104.14)
+			(xy 57.15 104.14) (xy 99.06 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2604,7 +2690,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 101.6) (xy 60.96 101.6)
+			(xy 57.15 101.6) (xy 99.06 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2624,7 +2710,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 151.13) (xy 97.79 151.13)
+			(xy 100.33 135.89) (xy 104.14 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2634,7 +2720,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 158.75) (xy 93.98 151.13)
+			(xy 100.33 143.51) (xy 100.33 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2674,7 +2760,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 149.86) (xy 73.66 149.86)
+			(xy 76.2 134.62) (xy 80.01 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2694,7 +2780,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 176.53) (xy 107.95 177.8)
+			(xy 114.3 161.29) (xy 114.3 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2711,6 +2797,16 @@
 			(type default)
 		)
 		(uuid "d782aeb4-0558-4b84-9f8f-05dd91d82b09")
+	)
+	(wire
+		(pts
+			(xy 193.04 87.63) (xy 193.04 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da2c58ae-c1db-487a-a0fd-297153041787")
 	)
 	(wire
 		(pts
@@ -2764,7 +2860,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 151.13) (xy 86.36 158.75)
+			(xy 92.71 135.89) (xy 92.71 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2870,7 +2966,7 @@
 	)
 	(global_label "Gnd"
 		(shape input)
-		(at 86.36 185.42 270)
+		(at 92.71 170.18 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2880,7 +2976,7 @@
 		)
 		(uuid "4ddabdbf-6824-482d-a361-484451790efe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.36 191.9732 90)
+			(at 92.71 176.7332 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3002,7 +3098,7 @@
 	)
 	(global_label "Gnd"
 		(shape input)
-		(at 97.79 151.13 0)
+		(at 104.14 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3012,7 +3108,7 @@
 		)
 		(uuid "75815a00-a396-41cd-948f-99790a05ea42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.3432 151.13 0)
+			(at 110.6932 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3112,7 +3208,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 69.85 157.48 180)
+		(at 76.2 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3122,7 +3218,7 @@
 		)
 		(uuid "a4ecce20-9a6f-4a0b-9058-f56d1a9d24ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.5667 157.48 0)
+			(at 70.9167 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3154,9 +3250,31 @@
 			)
 		)
 	)
+	(global_label "Gnd"
+		(shape input)
+		(at 193.04 93.98 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bbb23968-090a-44bb-900d-150a19865e89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.04 100.5332 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "12V"
 		(shape input)
-		(at 69.85 149.86 180)
+		(at 76.2 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3166,7 +3284,7 @@
 		)
 		(uuid "bcee2492-55d9-4907-a882-5a3fd35fb72c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.3572 149.86 0)
+			(at 69.7072 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3216,6 +3334,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CS_Memory {slash} GPIO4"
+		(shape input)
+		(at 175.26 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d72b0f5c-3ddc-4568-bfaa-d2e17d8b3500")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.7411 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3488,7 +3628,7 @@
 			(uuid "e8737857-b7a7-48c0-826e-055ecfc23cd1")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f"
 					(reference "R3")
 					(unit 1)
@@ -3498,7 +3638,7 @@
 	)
 	(symbol
 		(lib_id "Driver_FET:TC4428xOA")
-		(at 86.36 175.26 0)
+		(at 92.71 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3507,7 +3647,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e7754e6-6475-4710-b3c4-7c78bea878e2")
 		(property "Reference" "U4"
-			(at 79.9398 161.29 90)
+			(at 86.2898 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,7 +3655,7 @@
 			)
 		)
 		(property "Value" "TC4428xOA"
-			(at 82.4798 161.29 90)
+			(at 88.8298 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3523,7 +3663,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 86.868 190.5 0)
+			(at 93.218 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3532,7 +3672,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20001422G.pdf"
-			(at 86.868 188.468 0)
+			(at 93.218 173.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3541,7 +3681,7 @@
 			)
 		)
 		(property "Description" "1.5A Dual High-Speed Power MOSFET Drivers, 4.5..18V supply, TTL/CMOS compatible inputs, complementary drivers, SOIC-8"
-			(at 86.868 186.436 0)
+			(at 93.218 171.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,7 +3714,7 @@
 			(uuid "ca911bfa-39e8-4489-ab9e-da2b350b3cf6")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f"
 					(reference "U4")
 					(unit 1)
@@ -3778,7 +3918,7 @@
 			(uuid "b8ddf78d-88ed-4a30-85ad-1f7374663155")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f"
 					(reference "C3")
 					(unit 1)
@@ -3858,7 +3998,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 90.17 158.75 270)
+		(at 96.52 143.51 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3866,7 +4006,7 @@
 		(dnp no)
 		(uuid "5dc77d4b-165c-43d9-99b6-a46b0d925df7")
 		(property "Reference" "C19"
-			(at 91.44 164.592 90)
+			(at 97.79 149.352 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3875,7 +4015,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 92.71 162.814 90)
+			(at 99.06 147.574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,7 +4024,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 159.7152 0)
+			(at 92.71 144.4752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,7 +4033,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 158.75 0)
+			(at 96.52 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,7 +4042,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 90.17 158.75 0)
+			(at 96.52 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,7 +4067,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Open")
-		(at 76.2 157.48 0)
+		(at 82.55 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3935,7 +4075,7 @@
 		(dnp no)
 		(uuid "605540d7-5ce3-432f-bd41-243e5f9a9c31")
 		(property "Reference" "JP3"
-			(at 76.2 151.13 0)
+			(at 82.55 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,7 +4083,7 @@
 			)
 		)
 		(property "Value" "Connect for 5V"
-			(at 70.866 154.432 0)
+			(at 77.216 139.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3951,7 +4091,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 157.48 0)
+			(at 82.55 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +4100,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 157.48 0)
+			(at 82.55 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,7 +4109,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, open"
-			(at 76.2 157.48 0)
+			(at 82.55 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3984,7 +4124,7 @@
 			(uuid "b635bfc8-221f-4d46-bd89-8c040c6b9580")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f"
 					(reference "JP3")
 					(unit 1)
@@ -4119,7 +4259,7 @@
 			(uuid "9dc28bb9-07fd-445b-9aa9-c3eeb85cb84e")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f"
 					(reference "L1")
 					(unit 1)
@@ -4265,74 +4405,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 48.26 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99299bf6-46cd-420a-adaa-33cb32b24d18")
-		(property "Reference" "JP1"
-			(at 48.26 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 48.26 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 48.26 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1067014c-68f5-45e3-8152-3584b713ff27")
-		)
-		(pin "2"
-			(uuid "21a44aea-90b3-416c-8b91-4f8c93ac6407")
-		)
-		(instances
-			(project ""
-				(path "/39371779-5336-4073-adec-fb32caf6a86f"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 119.38 27.94 0)
 		(unit 1)
@@ -4463,7 +4535,7 @@
 			(uuid "0185295e-e78c-40ed-83d1-34e4cd9fb07e")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f"
 					(reference "J2")
 					(unit 1)
@@ -4473,7 +4545,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Open")
-		(at 76.2 149.86 0)
+		(at 82.55 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4481,7 +4553,7 @@
 		(dnp no)
 		(uuid "a9f828aa-0774-45c2-8263-82de1b80b95c")
 		(property "Reference" "JP2"
-			(at 76.2 143.51 0)
+			(at 82.55 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4489,7 +4561,7 @@
 			)
 		)
 		(property "Value" "Connect for 12V"
-			(at 74.422 146.05 0)
+			(at 80.772 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,7 +4569,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 149.86 0)
+			(at 82.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4506,7 +4578,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 149.86 0)
+			(at 82.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4515,7 +4587,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, open"
-			(at 76.2 149.86 0)
+			(at 82.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4524,13 +4596,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "965efcd4-4e02-4692-99dd-7228182e893e")
+			(uuid "965efcd4-4e02-4692-99dd-7228182e893f")
 		)
 		(pin "2"
-			(uuid "b635bfc8-221f-4d46-bd89-8c040c6b9580")
+			(uuid "b635bfc8-221f-4d46-bd89-8c040c6b9581")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f"
 					(reference "JP2")
 					(unit 1)
@@ -4896,6 +4968,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Memory_Flash:W25Q128JVS")
+		(at 193.04 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0f0587c-0828-4a4d-bbac-e363b3ccc443")
+		(property "Reference" "U5"
+			(at 204.47 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "W25Q128JVS"
+			(at 204.47 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+			(at 193.04 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+			(at 193.04 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
+			(at 193.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b0c3414d-71d1-4d4e-9275-844f50c170b8")
+		)
+		(pin "5"
+			(uuid "ac7b4774-e18e-46f9-b2c3-34cf846effed")
+		)
+		(pin "7"
+			(uuid "195e15bc-c956-4d47-999a-3c4d2e3c2dcc")
+		)
+		(pin "8"
+			(uuid "c6ad92da-397e-4454-be98-e8d42d2a4139")
+		)
+		(pin "6"
+			(uuid "1a9c4235-562d-450d-bf8a-2ba130aea2c9")
+		)
+		(pin "1"
+			(uuid "3b069b8f-5ff5-4537-9d2d-6af2c76e296b")
+		)
+		(pin "3"
+			(uuid "00c909ae-6bad-4738-83d8-620f0a4527a1")
+		)
+		(pin "2"
+			(uuid "0163f665-d201-469b-a633-def2bda61a1f")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:MCP1826S")
 		(at 133.35 20.32 0)
 		(unit 1)
@@ -4958,7 +5118,7 @@
 			(uuid "a7908d76-92a1-4895-bcc6-1558ede8017c")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f"
 					(reference "U2")
 					(unit 1)
@@ -4968,7 +5128,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 113.03 173.99 0)
+		(at 119.38 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4977,7 +5137,7 @@
 		(fields_autoplaced yes)
 		(uuid "f96f4918-4ea4-46d0-8843-c749c0cb81c5")
 		(property "Reference" "J4"
-			(at 111.1249 172.72 90)
+			(at 117.4749 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4986,7 +5146,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 113.6649 172.72 90)
+			(at 120.0149 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4995,7 +5155,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 173.99 0)
+			(at 119.38 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,7 +5164,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 173.99 0)
+			(at 119.38 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5013,7 +5173,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 113.03 173.99 0)
+			(at 119.38 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5038,7 +5198,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 90.17 151.13 270)
+		(at 96.52 135.89 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5046,7 +5206,7 @@
 		(dnp no)
 		(uuid "fb6a4ca9-91dc-4406-a47d-71e4b9d4e7d4")
 		(property "Reference" "C18"
-			(at 90.678 147.066 90)
+			(at 97.028 131.826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5055,7 +5215,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 91.948 145.288 90)
+			(at 98.298 130.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5064,7 +5224,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 152.0952 0)
+			(at 92.71 136.8552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,7 +5233,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 151.13 0)
+			(at 96.52 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5242,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 90.17 151.13 0)
+			(at 96.52 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5265,7 +5425,7 @@
 		)
 	)
 	(sheet
-		(at 60.96 96.266)
+		(at 99.06 96.266)
 		(size 32.004 23.622)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5281,7 +5441,7 @@
 		)
 		(uuid "97045699-5148-46fe-862a-0c5ccb859ce2")
 		(property "Sheetname" "USB Connector"
-			(at 60.96 95.5544 0)
+			(at 99.06 95.5544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5290,7 +5450,7 @@
 			)
 		)
 		(property "Sheetfile" "TYPE-C-31-M-12_sch.kicad_sch"
-			(at 60.96 120.4726 0)
+			(at 99.06 120.4726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5299,7 +5459,7 @@
 			)
 		)
 		(pin "D+" input
-			(at 60.96 101.6 180)
+			(at 99.06 101.6 180)
 			(uuid "8c2e7a19-ef28-47ef-b976-efe0ab902669")
 			(effects
 				(font
@@ -5309,7 +5469,7 @@
 			)
 		)
 		(pin "D-" input
-			(at 60.96 104.14 180)
+			(at 99.06 104.14 180)
 			(uuid "43170a78-41c3-4c1a-ad90-f04c1f1ead81")
 			(effects
 				(font
@@ -5319,7 +5479,7 @@
 			)
 		)
 		(pin "VBUS" input
-			(at 60.96 106.68 180)
+			(at 99.06 106.68 180)
 			(uuid "df972043-ebbd-49f9-9646-74dd51957e7f")
 			(effects
 				(font

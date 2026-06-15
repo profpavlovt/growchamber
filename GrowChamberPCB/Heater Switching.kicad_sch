@@ -2,10 +2,10 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "a294f4f1-be10-4bdd-af4c-a5367b444a22")
+	(uuid "f9a21a76-8182-405f-8a28-b360afc7ffde")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Socket"
+		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -21,7 +21,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x02_Socket"
+			(property "Value" "Screw_Terminal_01x02"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -56,15 +56,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
+			(property "ki_keywords" "screw terminal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -73,7 +65,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "TerminalBlock*:*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -82,22 +74,21 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(polyline
 					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
 					)
 					(stroke
 						(width 0.1524)
@@ -107,10 +98,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -119,10 +110,44 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1093,97 +1118,227 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 137.16 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85f85a40-7f3b-4d2c-aeb6-b20ef5524022")
+	(text "2 - MOSFET Drain\n1 - 12V"
+		(exclude_from_sim no)
+		(at 132.842 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "15a372d4-3a82-4cad-bf77-3fa3a6b3c662")
+	)
+	(text "1 - Coil In\n2 - Coil Out"
+		(exclude_from_sim no)
+		(at 159.766 77.978 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4ffc70d5-c776-40c3-b2c1-8cbc51a5d7c4")
+	)
+	(text "1 - 120V AC out to heating element\n2 - 120V AC In from wall power"
+		(exclude_from_sim no)
+		(at 210.312 65.532 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b876e4d9-df61-4664-a90a-b6bfcf3421cd")
 	)
 	(junction
-		(at 139.7 88.9)
+		(at 148.59 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b4dbb549-957a-4188-bf36-799a52894bb1")
+		(uuid "8cb7c263-261e-40b4-8a29-218b55d060d6")
 	)
 	(junction
-		(at 147.32 91.44)
+		(at 138.43 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f0c618a7-6c4f-4aa0-9ace-f14f4fc5beb0")
+		(uuid "91918a6b-4162-4a37-8a05-9b910b1bb010")
+	)
+	(junction
+		(at 140.97 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcc1ab0a-03da-472f-a850-f7b3fb891dcc")
 	)
 	(wire
 		(pts
-			(xy 121.92 97.79) (xy 129.54 97.79)
+			(xy 140.97 72.39) (xy 148.59 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19a729b8-c686-4dfc-b05f-573dea649365")
+		(uuid "1ccfd9b4-e33c-452f-9b1b-6e3ee70a93d9")
 	)
 	(wire
 		(pts
-			(xy 147.32 91.44) (xy 147.32 92.71)
+			(xy 148.59 90.17) (xy 148.59 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71685121-c131-43e4-b900-5cf0396a1e02")
+		(uuid "3a6c087d-1a27-4e08-b559-963f61667070")
 	)
 	(wire
 		(pts
-			(xy 147.32 88.9) (xy 147.32 91.44)
+			(xy 146.05 74.93) (xy 134.62 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74484b52-3cba-466e-87b5-ace40e473021")
+		(uuid "3eddb344-cdc9-4f2b-ab74-d5cae225c3de")
 	)
 	(wire
 		(pts
-			(xy 139.7 88.9) (xy 139.7 91.44)
+			(xy 158.75 72.39) (xy 172.72 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d7d9671-557d-4136-8e8b-37b764d51008")
+		(uuid "4b2c8608-a5e2-4e0d-9983-29589fc6ff3b")
 	)
 	(wire
 		(pts
-			(xy 139.7 88.9) (xy 144.78 88.9)
+			(xy 127 96.52) (xy 130.81 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ec0aa7c-6603-41ef-8b9a-ab1e17a43ac4")
+		(uuid "4cbd37e6-0b87-4c5b-9983-c2771667f515")
 	)
 	(wire
 		(pts
-			(xy 137.16 97.79) (xy 139.7 97.79)
+			(xy 161.29 57.15) (xy 172.72 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b19aac0d-3081-446a-b33d-36bbf54c74b8")
+		(uuid "6532d2f3-2e9d-400d-9f83-6be0d54dd092")
 	)
 	(wire
 		(pts
-			(xy 132.08 88.9) (xy 139.7 88.9)
+			(xy 140.97 68.58) (xy 140.97 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9454d48-57a7-4c54-8deb-27cdca372ec8")
+		(uuid "6e7481df-583d-42b5-a61c-42d0bef927d3")
+	)
+	(wire
+		(pts
+			(xy 140.97 54.61) (xy 148.59 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ecffe42-2cae-407c-b290-7572aec61cf2")
+	)
+	(wire
+		(pts
+			(xy 134.62 74.93) (xy 134.62 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d0f2d69-b70e-44b9-9689-6f9021c33569")
+	)
+	(wire
+		(pts
+			(xy 172.72 72.39) (xy 172.72 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9649af17-ec8e-40b2-912e-a65168f87157")
+	)
+	(wire
+		(pts
+			(xy 148.59 54.61) (xy 148.59 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a2814a7-dd18-4071-94e9-2bdb7b804fe0")
+	)
+	(wire
+		(pts
+			(xy 140.97 60.96) (xy 140.97 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c3f657f-4339-4c49-94f6-76b3bdc969f1")
+	)
+	(wire
+		(pts
+			(xy 148.59 72.39) (xy 148.59 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb179a89-ac79-4d48-a649-b360b9c22d24")
+	)
+	(wire
+		(pts
+			(xy 172.72 57.15) (xy 172.72 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbf98a53-33c1-4a3c-82ba-a5c817ebd573")
+	)
+	(wire
+		(pts
+			(xy 138.43 96.52) (xy 140.97 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfcc470c-57f1-4eaa-b1a8-b1c0b0b8326c")
+	)
+	(wire
+		(pts
+			(xy 148.59 105.41) (xy 148.59 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9125f59-9779-48a6-bb59-7864f8ece2ca")
+	)
+	(wire
+		(pts
+			(xy 134.62 54.61) (xy 140.97 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd36cb6e-517a-4501-bf6a-9b7382d907df")
 	)
 	(global_label "Gnd"
 		(shape input)
-		(at 147.32 102.87 270)
+		(at 138.43 104.14 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1191,9 +1346,31 @@
 			)
 			(justify right)
 		)
-		(uuid "55dd2379-6ff7-4f7f-9356-1e78cb504503")
+		(uuid "3c3d5c66-0bff-4274-9874-0eae2509e9a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 109.4232 90)
+			(at 138.43 110.6932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Gnd"
+		(shape input)
+		(at 148.59 105.41 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c2b476a-9633-496b-9ff0-54ebd6997719")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.59 111.9632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1205,7 +1382,7 @@
 	)
 	(global_label "12V"
 		(shape input)
-		(at 132.08 88.9 180)
+		(at 146.05 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1213,9 +1390,9 @@
 			)
 			(justify right)
 		)
-		(uuid "7391fdb0-f386-498e-a295-155ae730f0d5")
+		(uuid "b03e2a44-51ac-4391-9a6a-a355895d4101")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.5872 88.9 0)
+			(at 139.5572 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1225,101 +1402,20 @@
 			)
 		)
 	)
-	(global_label "Gnd"
+	(hierarchical_label "GPIO"
 		(shape input)
-		(at 137.16 105.41 270)
-		(fields_autoplaced yes)
+		(at 127 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f790ebc6-62cd-440c-aa3d-df05d92b0252")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 111.9632 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 144.78 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "548ab464-9485-42f7-92ce-7d2b49a7a357")
-		(property "Reference" "J5"
-			(at 148.59 83.1849 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 148.59 85.7249 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 144.78 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e69a5a92-74d0-4c6b-a40f-fdd23a6d36fb")
-		)
-		(pin "1"
-			(uuid "6debb0f3-1e0e-4666-88ce-ed6f2cb4af85")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/39371779-5336-4073-adec-fb32caf6a86f/657146f4-d530-4a0d-a361-3cfe3957754c"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "bde5aaa0-68f0-4f97-aefe-085c619c8123")
 	)
 	(symbol
 		(lib_id "Diode:1N4007")
-		(at 143.51 91.44 0)
+		(at 140.97 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1327,7 +1423,7 @@
 		(dnp no)
 		(uuid "5a83ee59-f66b-4230-80d2-ba4c20ebc3cb")
 		(property "Reference" "D1"
-			(at 141.986 93.472 0)
+			(at 138.938 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1335,7 +1431,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 141.986 96.012 0)
+			(at 136.398 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1343,7 +1439,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 143.51 95.885 0)
+			(at 136.525 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1352,7 +1448,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 143.51 91.44 0)
+			(at 140.97 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1361,7 +1457,7 @@
 			)
 		)
 		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 143.51 91.44 0)
+			(at 140.97 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1370,7 +1466,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 143.51 91.44 0)
+			(at 140.97 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1379,7 +1475,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 143.51 91.44 0)
+			(at 140.97 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1395,7 +1491,7 @@
 		)
 		(instances
 			(project "GrowChamberPCB"
-				(path "/39371779-5336-4073-adec-fb32caf6a86f/657146f4-d530-4a0d-a361-3cfe3957754c"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/0abe98c7-bf03-44f4-a0bc-404c6a31b0fd"
 					(reference "D1")
 					(unit 1)
 				)
@@ -1404,7 +1500,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRLML6244")
-		(at 144.78 97.79 0)
+		(at 146.05 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1413,7 +1509,7 @@
 		(fields_autoplaced yes)
 		(uuid "62d49815-011c-403d-9757-ad90c384b290")
 		(property "Reference" "Q1"
-			(at 151.13 96.5199 0)
+			(at 152.4 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1422,7 +1518,7 @@
 			)
 		)
 		(property "Value" "IRLML6244"
-			(at 151.13 99.0599 0)
+			(at 152.4 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1431,7 +1527,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 149.86 99.695 0)
+			(at 151.13 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1442,7 +1538,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IRLML6244-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a4015356686fed261f"
-			(at 149.86 101.6 0)
+			(at 151.13 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1452,7 +1548,7 @@
 			)
 		)
 		(property "Description" "6.3A Id, 20V Vds, 21mOhm Rds, N-Channel StrongIRFET Power MOSFET, SOT-23"
-			(at 144.78 97.79 0)
+			(at 146.05 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1471,7 +1567,7 @@
 		)
 		(instances
 			(project "GrowChamberPCB"
-				(path "/39371779-5336-4073-adec-fb32caf6a86f/657146f4-d530-4a0d-a361-3cfe3957754c"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/0abe98c7-bf03-44f4-a0bc-404c6a31b0fd"
 					(reference "Q1")
 					(unit 1)
 				)
@@ -1480,7 +1576,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 97.79 270)
+		(at 134.62 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1488,7 +1584,7 @@
 		(dnp no)
 		(uuid "710bed72-1130-40d5-969d-fb67337a7ce3")
 		(property "Reference" "R15"
-			(at 133.858 93.472 90)
+			(at 135.128 92.202 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1496,7 +1592,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 133.604 95.758 90)
+			(at 134.874 94.488 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1504,7 +1600,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 96.012 90)
+			(at 134.62 94.742 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +1609,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 97.79 0)
+			(at 134.62 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,7 +1618,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 97.79 0)
+			(at 134.62 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1538,7 +1634,7 @@
 		)
 		(instances
 			(project "GrowChamberPCB"
-				(path "/39371779-5336-4073-adec-fb32caf6a86f/657146f4-d530-4a0d-a361-3cfe3957754c"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/0abe98c7-bf03-44f4-a0bc-404c6a31b0fd"
 					(reference "R15")
 					(unit 1)
 				)
@@ -1546,17 +1642,156 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:G5LE-1")
-		(at 142.24 64.77 0)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 146.05 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "915c40cf-3d69-46fb-83e6-33e65d99647e")
+		(property "Reference" "J8"
+			(at 151.13 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "To Relay Board"
+			(at 151.13 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 146.05 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e829a0ac-57a1-457e-bbf9-3b5f287d018e")
+		)
+		(pin "1"
+			(uuid "60f117d6-9eb2-4648-af72-e8db504fc14e")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/0abe98c7-bf03-44f4-a0bc-404c6a31b0fd"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 148.59 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b61a1b5-643c-445b-91fc-4ddadf1f652f")
+		(property "Reference" "J7"
+			(at 151.13 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Relay Coil"
+			(at 151.13 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 148.59 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3781f1e5-7c6b-4d0f-b2c6-ad0de620e511")
+		)
+		(pin "1"
+			(uuid "4334629d-fbc0-4710-815c-128a567d41b7")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/0abe98c7-bf03-44f4-a0bc-404c6a31b0fd"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G5LE-1")
+		(at 153.67 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "a703f437-ad38-43fe-9c52-165cbbf087c8")
 		(property "Reference" "K1"
-			(at 153.67 63.4999 0)
+			(at 165.1 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1565,7 +1800,7 @@
 			)
 		)
 		(property "Value" "G5LE-1"
-			(at 153.67 66.0399 0)
+			(at 164.338 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1574,7 +1809,7 @@
 			)
 		)
 		(property "Footprint" "Relay_THT:Relay_SPDT_Omron-G5LE-1"
-			(at 153.67 66.04 0)
+			(at 165.1 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1584,7 +1819,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.omron.com/ecb/products/pdf/en-g5le.pdf"
-			(at 142.24 64.77 0)
+			(at 153.67 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1593,7 +1828,7 @@
 			)
 		)
 		(property "Description" "Omron G5LE relay, Miniature Single Pole, SPDT, 10A"
-			(at 142.24 64.77 0)
+			(at 153.67 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1618,7 +1853,7 @@
 		)
 		(instances
 			(project "GrowChamberPCB"
-				(path "/39371779-5336-4073-adec-fb32caf6a86f/657146f4-d530-4a0d-a361-3cfe3957754c"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/0abe98c7-bf03-44f4-a0bc-404c6a31b0fd"
 					(reference "K1")
 					(unit 1)
 				)
@@ -1627,7 +1862,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 137.16 101.6 180)
+		(at 138.43 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1635,7 +1870,7 @@
 		(dnp no)
 		(uuid "a723e116-4d5e-467c-ac17-39dbfba23b30")
 		(property "Reference" "R14"
-			(at 141.478 102.108 90)
+			(at 142.748 100.838 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1643,7 +1878,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 139.192 101.854 90)
+			(at 140.462 100.584 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1651,7 +1886,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.938 101.6 90)
+			(at 140.208 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1660,7 +1895,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 101.6 0)
+			(at 138.43 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1669,7 +1904,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 137.16 101.6 0)
+			(at 138.43 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1685,8 +1920,78 @@
 		)
 		(instances
 			(project "GrowChamberPCB"
-				(path "/39371779-5336-4073-adec-fb32caf6a86f/657146f4-d530-4a0d-a361-3cfe3957754c"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/0abe98c7-bf03-44f4-a0bc-404c6a31b0fd"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 177.8 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1a5989f-57ef-47b1-8045-b2e0a6389b92")
+		(property "Reference" "J5"
+			(at 180.34 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Relay Coil"
+			(at 180.34 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 177.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c36f834-c923-4320-a1ed-bf0ab072b00f")
+		)
+		(pin "1"
+			(uuid "866824e9-f79f-4686-8ef8-2ba45e2ba5b0")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/0abe98c7-bf03-44f4-a0bc-404c6a31b0fd"
+					(reference "J5")
 					(unit 1)
 				)
 			)

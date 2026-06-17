@@ -25,12 +25,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "power_pin_not_driven|1257300|203200|a7908d76-92a1-4895-bcc6-1558ede8017c|00000000-0000-0000-0000-000000000000|/39371779-5336-4073-adec-fb32caf6a86f|/39371779-5336-4073-adec-fb32caf6a86f|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -420,7 +415,11 @@
     ],
     [
       "0abe98c7-bf03-44f4-a0bc-404c6a31b0fd",
-      "Heater Switching"
+      "Heater Switching Board"
+    ],
+    [
+      "b570075a-c3a2-42a6-b1ef-d9defe6d89ee",
+      "Faceplate_Board"
     ]
   ],
   "text_variables": {}

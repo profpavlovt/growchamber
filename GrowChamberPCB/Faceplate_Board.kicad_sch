@@ -2045,6 +2045,42 @@
 		)
 		(uuid "a8120129-a854-4dea-9659-c65ae3efb44e")
 	)
+	(junction
+		(at 236.22 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0118ebf4-547b-47e4-9d2f-bfb209da0c90")
+	)
+	(wire
+		(pts
+			(xy 233.68 57.15) (xy 233.68 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "332ffe2f-ce40-4a55-858c-703867f9442a")
+	)
+	(wire
+		(pts
+			(xy 236.22 48.26) (xy 241.3 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d5bb23-7034-42d9-9bcc-eb33e5596058")
+	)
+	(wire
+		(pts
+			(xy 236.22 57.15) (xy 236.22 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb84fdd9-7141-47d8-bd7a-4f7b74cc8ea4")
+	)
 	(global_label "Piezo1_FP"
 		(shape input)
 		(at 140.97 175.26 0)
@@ -2085,28 +2121,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Fan_Tach"
-		(shape input)
-		(at 107.95 186.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "15396711-e3e8-4fc8-b6c9-f3ca8b76999e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.6436 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2267,7 +2281,7 @@
 	)
 	(global_label "SCL_FP"
 		(shape input)
-		(at 21.59 130.81 0)
+		(at 88.9 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2277,7 +2291,7 @@
 		)
 		(uuid "27a76cd2-3a55-4135-9b7b-fa08706a1d4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.409 130.81 0)
+			(at 98.719 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2377,7 +2391,7 @@
 	)
 	(global_label "Gnd_FP"
 		(shape input)
-		(at 72.39 49.53 180)
+		(at 95.25 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2387,7 +2401,7 @@
 		)
 		(uuid "4cac4aa9-be07-43e5-8f55-8381d5183f00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.5106 49.53 0)
+			(at 85.3706 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,9 +2455,31 @@
 			)
 		)
 	)
+	(global_label "Circ_Fan_FP"
+		(shape input)
+		(at 50.8 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f74af7b-1151-4242-a70f-f5671f8f6db6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.2152 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TXD0_FP"
 		(shape input)
-		(at 22.86 57.15 0)
+		(at 67.31 25.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2453,7 +2489,7 @@
 		)
 		(uuid "4f7b871f-fd37-4eae-88d9-a93908511bf3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.828 57.15 0)
+			(at 78.278 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2531,7 +2567,7 @@
 	)
 	(global_label "Gnd_FP"
 		(shape input)
-		(at 22.86 52.07 0)
+		(at 67.31 20.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2541,7 +2577,7 @@
 		)
 		(uuid "5c24ffdf-0637-4cd1-9510-995d9d470419")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.7394 52.07 0)
+			(at 77.1894 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2597,7 +2633,7 @@
 	)
 	(global_label "Gnd_FP"
 		(shape input)
-		(at 24.13 86.36 0)
+		(at 26.67 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2607,7 +2643,7 @@
 		)
 		(uuid "62d30fd6-db9c-45c0-8a6a-4fa353a4aaf5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.0094 86.36 0)
+			(at 36.5494 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2619,7 +2655,7 @@
 	)
 	(global_label "DrainSol_FP"
 		(shape input)
-		(at 24.13 96.52 0)
+		(at 25.4 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2629,7 +2665,7 @@
 		)
 		(uuid "677c123a-ca50-4072-a8c4-56f36ca4c137")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.4241 96.52 0)
+			(at 39.6941 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,7 +2677,7 @@
 	)
 	(global_label "SDA_FP"
 		(shape input)
-		(at 21.59 133.35 0)
+		(at 88.9 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2651,7 +2687,7 @@
 		)
 		(uuid "6fd6a74b-e67f-4474-8983-e420e1517dd4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.4695 133.35 0)
+			(at 98.7795 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2707,7 +2743,7 @@
 	)
 	(global_label "Gnd_FP"
 		(shape input)
-		(at 20.32 111.76 0)
+		(at 25.4 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2717,7 +2753,7 @@
 		)
 		(uuid "7979ef07-d4bc-46d9-b2e5-b9ae4c3d43c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.1994 111.76 0)
+			(at 35.2794 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2749,31 +2785,9 @@
 			)
 		)
 	)
-	(global_label "3.3V_FP"
-		(shape input)
-		(at 21.59 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "87369330-68ce-4497-bde9-b39be76918e9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.0138 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BootMode_FP"
 		(shape input)
-		(at 82.55 49.53 0)
+		(at 105.41 24.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2783,7 +2797,7 @@
 		)
 		(uuid "88f19cea-2fb1-40cb-9633-c391585c9317")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.9931 49.53 0)
+			(at 120.8531 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,7 +2809,7 @@
 	)
 	(global_label "FoggerSol_FP"
 		(shape input)
-		(at 24.13 83.82 0)
+		(at 26.67 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2805,7 +2819,51 @@
 		)
 		(uuid "8b8ecbe5-c81b-4309-a426-1e2b70958aab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.8755 83.82 0)
+			(at 42.4155 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_FP"
+		(shape input)
+		(at 88.9 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d082531-37fd-4abc-ac66-9002591001cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.5095 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Fan_Tach_FP"
+		(shape input)
+		(at 107.95 186.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e75e9c4-1423-490d-bf15-4b4b11aa625e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.9698 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2927,7 +2985,7 @@
 	)
 	(global_label "Gnd_FP"
 		(shape input)
-		(at 22.86 73.66 0)
+		(at 26.67 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2937,7 +2995,7 @@
 		)
 		(uuid "a54f9f85-a52e-4cb1-b709-9e0b462c9e10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.7394 73.66 0)
+			(at 36.5494 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,7 +3007,7 @@
 	)
 	(global_label "Gnd_FP"
 		(shape input)
-		(at 27.94 40.64 0)
+		(at 149.86 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2959,29 +3017,7 @@
 		)
 		(uuid "a7c9a48a-1f9f-411b-9bd0-a49e036cbd16")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.8194 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Reset_SW_FP"
-		(shape input)
-		(at 82.55 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b4265f4b-9b13-412a-8457-4b64e77a1f53")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.6909 63.5 0)
+			(at 159.7394 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2993,7 +3029,73 @@
 	)
 	(global_label "Gnd_FP"
 		(shape input)
-		(at 21.59 128.27 0)
+		(at 50.8 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae44a73b-4739-4c49-a0fc-382efb203872")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.6794 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Circ_Fan_FP"
+		(shape input)
+		(at 90.17 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b25d19d5-d225-42e7-ac0e-6ae33e803e18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.7548 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Reset_SW_FP"
+		(shape input)
+		(at 105.41 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4265f4b-9b13-412a-8457-4b64e77a1f53")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.5509 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Gnd_FP"
+		(shape input)
+		(at 88.9 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3003,7 +3105,7 @@
 		)
 		(uuid "b4e1403a-169e-4f9a-aa27-53c8d08b0a35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.4694 128.27 0)
+			(at 98.7794 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3037,7 +3139,7 @@
 	)
 	(global_label "WaterSol_FP"
 		(shape input)
-		(at 22.86 71.12 0)
+		(at 26.67 25.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3047,7 +3149,7 @@
 		)
 		(uuid "b6200526-3248-4686-a0d5-47d972c2f2fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.396 71.12 0)
+			(at 41.206 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3059,7 +3161,7 @@
 	)
 	(global_label "RadiatorFans_FP"
 		(shape input)
-		(at 27.94 38.1 0)
+		(at 149.86 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3069,7 +3171,7 @@
 		)
 		(uuid "b77e6635-9ce8-47df-800e-ac5ce6f1e46b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.6488 38.1 0)
+			(at 168.5688 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3081,7 +3183,7 @@
 	)
 	(global_label "Gnd_FP"
 		(shape input)
-		(at 72.39 63.5 180)
+		(at 95.25 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3091,7 +3193,7 @@
 		)
 		(uuid "b821808f-f0dd-42ed-a686-135efd2ce6e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.5106 63.5 0)
+			(at 85.3706 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3123,31 +3225,31 @@
 			)
 		)
 	)
-	(global_label "3.3V_FP"
+	(global_label "GlycolSol_FP"
 		(shape input)
-		(at 90.17 147.32 180)
+		(at 48.26 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "c0b3b915-1b76-4a33-a1c6-aa3b29913df2")
+		(uuid "c31aca27-9fd9-4bf6-ae10-f9e9eecb806f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.7462 147.32 0)
+			(at 63.4007 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "Gnd_FP"
 		(shape input)
-		(at 24.13 99.06 0)
+		(at 25.4 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3157,7 +3259,7 @@
 		)
 		(uuid "c4e1fc04-2706-4a9b-9469-8a70f3bc3633")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.0094 99.06 0)
+			(at 35.2794 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3189,6 +3291,28 @@
 			)
 		)
 	)
+	(global_label "Gnd_FP"
+		(shape input)
+		(at 48.26 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c778ef60-d7d8-47fa-8ec7-9e1fa9bde3f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.1394 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Piezo2_FP"
 		(shape input)
 		(at 140.97 172.72 0)
@@ -3211,6 +3335,28 @@
 			)
 		)
 	)
+	(global_label "Gnd_FP"
+		(shape input)
+		(at 241.3 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc4cc676-7d3f-4c96-85d3-99a32b0e7e1a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.1794 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Piezo2_FP"
 		(shape input)
 		(at 90.17 129.54 180)
@@ -3224,28 +3370,6 @@
 		(uuid "cf169e10-1a8a-4a8d-bfd8-a49ca8560a3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 77.5086 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "12V_LED_FP"
-		(shape input)
-		(at 233.68 48.26 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d11e62f0-6b58-40f5-92de-8a1d9fef1d55")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.68 62.4937 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3301,7 +3425,7 @@
 	)
 	(global_label "RXD0_FP"
 		(shape input)
-		(at 22.86 54.61 0)
+		(at 67.31 22.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3311,7 +3435,7 @@
 		)
 		(uuid "ddc77441-ee38-4fa3-a6ab-8a6ebece2ef4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.1304 54.61 0)
+			(at 78.5804 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3345,7 +3469,7 @@
 	)
 	(global_label "GlycolSol_FP"
 		(shape input)
-		(at 20.32 109.22 0)
+		(at 25.4 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3355,7 +3479,7 @@
 		)
 		(uuid "ec175551-5bad-4342-98e7-34a74a0463a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.4607 109.22 0)
+			(at 40.5407 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,24 +3671,24 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 19.05 96.52 0)
+		(at 43.18 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1549eea7-7c7c-4bdf-adab-7942662d0879")
-		(property "Reference" "J13"
-			(at 19.685 91.44 0)
+		(uuid "09c1ba0e-b390-4ecd-bcbb-0b5f63887f3c")
+		(property "Reference" "J4"
+			(at 43.815 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Drain Solenoid"
-			(at 19.685 93.98 0)
+		(property "Value" "Glycol Fans"
+			(at 43.815 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3572,7 +3696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 96.52 0)
+			(at 43.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,7 +3705,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 19.05 96.52 0)
+			(at 43.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3590,7 +3714,143 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 19.05 96.52 0)
+			(at 43.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a01c103-900c-46cf-b6dd-3124a3f6a289")
+		)
+		(pin "2"
+			(uuid "2e1ec89b-331a-47eb-a58b-6a09e7f068bb")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 45.72 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ba16915-6b33-4158-b2d2-ae0e8f727b44")
+		(property "Reference" "J5"
+			(at 46.355 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Glycol Fans"
+			(at 46.355 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 45.72 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c915aae-90d3-4bc2-a4b6-bd6ec7e2b91f")
+		)
+		(pin "2"
+			(uuid "d5ecbd85-693b-4be5-9880-95c629d892c0")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 20.32 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1549eea7-7c7c-4bdf-adab-7942662d0879")
+		(property "Reference" "J13"
+			(at 20.955 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Drain Solenoid"
+			(at 20.955 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 20.32 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,7 +3865,7 @@
 			(uuid "206bfa58-b848-49ef-a073-7281bb87c531")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
 					(reference "J13")
 					(unit 1)
@@ -3615,7 +3875,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 16.51 128.27 0)
+		(at 83.82 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3624,7 +3884,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a317543-4471-480a-9c65-9a0f95acd8f7")
 		(property "Reference" "J23"
-			(at 17.145 120.65 0)
+			(at 84.455 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3632,7 +3892,7 @@
 			)
 		)
 		(property "Value" "SCD30 Connector"
-			(at 17.145 123.19 0)
+			(at 84.455 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3640,7 +3900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 16.51 128.27 0)
+			(at 83.82 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3649,7 +3909,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 16.51 128.27 0)
+			(at 83.82 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3658,7 +3918,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 16.51 128.27 0)
+			(at 83.82 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3679,7 +3939,7 @@
 			(uuid "dd703620-7161-4484-9461-4b6aa3932324")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
 					(reference "J23")
 					(unit 1)
@@ -3689,7 +3949,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 17.78 71.12 0)
+		(at 21.59 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3698,7 +3958,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c9b6bdc-9c24-45d7-a3c7-f46a538343fb")
 		(property "Reference" "J9"
-			(at 18.415 66.04 0)
+			(at 22.225 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +3966,7 @@
 			)
 		)
 		(property "Value" "Water Solenoid"
-			(at 18.415 68.58 0)
+			(at 22.225 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,7 +3974,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 71.12 0)
+			(at 21.59 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,7 +3983,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 71.12 0)
+			(at 21.59 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3732,7 +3992,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 17.78 71.12 0)
+			(at 21.59 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3747,7 +4007,7 @@
 			(uuid "206bfa58-b848-49ef-a073-7281bb87c533")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
 					(reference "J9")
 					(unit 1)
@@ -3757,7 +4017,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 17.78 54.61 0)
+		(at 62.23 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3766,7 +4026,7 @@
 		(fields_autoplaced yes)
 		(uuid "41e904ab-f194-4be9-ba40-0c3ffb078857")
 		(property "Reference" "J6"
-			(at 18.415 46.99 0)
+			(at 62.865 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3774,7 +4034,7 @@
 			)
 		)
 		(property "Value" "UART"
-			(at 18.415 49.53 0)
+			(at 62.865 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3782,7 +4042,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
-			(at 17.78 54.61 0)
+			(at 62.23 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3791,7 +4051,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 54.61 0)
+			(at 62.23 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3800,7 +4060,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 17.78 54.61 0)
+			(at 62.23 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3818,7 +4078,7 @@
 			(uuid "e147ec6b-4f92-47d9-b1e7-c6ee4053ddbc")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
 					(reference "J6")
 					(unit 1)
@@ -3828,7 +4088,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 22.86 38.1 0)
+		(at 144.78 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3837,7 +4097,7 @@
 		(fields_autoplaced yes)
 		(uuid "478472d8-bdaf-45c8-a410-ad32a21ca538")
 		(property "Reference" "J18"
-			(at 23.495 33.02 0)
+			(at 145.415 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3845,7 +4105,7 @@
 			)
 		)
 		(property "Value" "Radiator Fans Con"
-			(at 23.495 35.56 0)
+			(at 145.415 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3853,7 +4113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 38.1 0)
+			(at 144.78 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3862,7 +4122,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 38.1 0)
+			(at 144.78 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,7 +4131,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 22.86 38.1 0)
+			(at 144.78 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3896,7 +4156,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 15.24 109.22 0)
+		(at 20.32 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3905,7 +4165,7 @@
 		(fields_autoplaced yes)
 		(uuid "4db1b030-1dbc-454b-877e-bdd2af237698")
 		(property "Reference" "J14"
-			(at 15.875 104.14 0)
+			(at 20.955 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3913,7 +4173,7 @@
 			)
 		)
 		(property "Value" "Glycol Solenoid"
-			(at 15.875 106.68 0)
+			(at 20.955 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3921,7 +4181,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 15.24 109.22 0)
+			(at 20.32 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,7 +4190,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 15.24 109.22 0)
+			(at 20.32 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3939,7 +4199,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 15.24 109.22 0)
+			(at 20.32 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +4214,7 @@
 			(uuid "206bfa58-b848-49ef-a073-7281bb87c534")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
 					(reference "J14")
 					(unit 1)
@@ -4022,7 +4282,7 @@
 			(uuid "206bfa58-b848-49ef-a073-7281bb87c535")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
 					(reference "J16")
 					(unit 1)
@@ -4031,32 +4291,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 77.47 49.53 180)
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 233.68 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "652e6c86-1152-4cc5-b8f0-2ef54ea746b4")
-		(property "Reference" "SW3"
-			(at 77.47 44.196 0)
+		(fields_autoplaced yes)
+		(uuid "585d5540-7d41-484f-af8e-a214d8731dec")
+		(property "Reference" "J24"
+			(at 237.49 60.3249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "BootSwitch"
-			(at 77.47 46.736 0)
+		(property "Value" "LED_Con"
+			(at 237.49 62.8649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 54.61 0)
+			(at 233.68 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4065,7 +4328,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 54.61 0)
+			(at 233.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 233.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49982402-d0ea-4da7-bb23-c9536289d05e")
+		)
+		(pin "2"
+			(uuid "ec577531-f5ef-4a46-8a9e-722d84abdb12")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
+					(reference "J24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 100.33 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "652e6c86-1152-4cc5-b8f0-2ef54ea746b4")
+		(property "Reference" "SW3"
+			(at 100.33 18.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BootSwitch"
+			(at 100.33 21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4074,7 +4404,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 77.47 49.53 0)
+			(at 100.33 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4170,7 +4500,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 19.05 83.82 0)
+		(at 21.59 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4179,7 +4509,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ba1ae41-68c1-4da1-8bc2-c400d4d072da")
 		(property "Reference" "J12"
-			(at 19.685 78.74 0)
+			(at 22.225 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4187,7 +4517,7 @@
 			)
 		)
 		(property "Value" "Fogger Fill Solenoid"
-			(at 19.685 81.28 0)
+			(at 22.225 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4195,7 +4525,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 83.82 0)
+			(at 21.59 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +4534,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 19.05 83.82 0)
+			(at 21.59 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4213,7 +4543,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 19.05 83.82 0)
+			(at 21.59 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4228,7 +4558,7 @@
 			(uuid "206bfa58-b848-49ef-a073-7281bb87c536")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
 					(reference "J12")
 					(unit 1)
@@ -4246,7 +4576,7 @@
 		(dnp no)
 		(uuid "8cb75293-38c4-4cae-a674-50e1b2bda235")
 		(property "Reference" "J10"
-			(at 145.796 125.222 0)
+			(at 100.076 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,7 +4585,7 @@
 			)
 		)
 		(property "Value" "Conn_01x24_Pin"
-			(at 141.478 131.572 0)
+			(at 95.758 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4431,7 +4761,7 @@
 			(uuid "206bfa58-b848-49ef-a073-7281bb87c537")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
 					(reference "J17")
 					(unit 1)
@@ -4441,7 +4771,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 77.47 63.5 180)
+		(at 100.33 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4449,7 +4779,7 @@
 		(dnp no)
 		(uuid "bb64f5ac-dea6-4119-92df-4baa08b36d96")
 		(property "Reference" "SW4"
-			(at 77.47 58.166 0)
+			(at 100.33 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4457,7 +4787,7 @@
 			)
 		)
 		(property "Value" "ResetButton"
-			(at 77.47 60.706 0)
+			(at 100.33 35.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4465,7 +4795,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 68.58 0)
+			(at 100.33 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4474,7 +4804,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 68.58 0)
+			(at 100.33 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4483,7 +4813,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 77.47 63.5 0)
+			(at 100.33 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4782,7 +5112,7 @@
 			(uuid "206bfa58-b848-49ef-a073-7281bb87c538")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
 					(reference "J15")
 					(unit 1)

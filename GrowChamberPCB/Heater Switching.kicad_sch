@@ -1549,7 +1549,7 @@
 		)
 		(uuid "4ffc70d5-c776-40c3-b2c1-8cbc51a5d7c4")
 	)
-	(text "1 - 120V AC out to heating element\n2 - 120V AC In from wall power"
+	(text "1 - 120V AC out to heating element switch\n2 - 120V AC In from wall power"
 		(exclude_from_sim no)
 		(at 203.708 66.294 0)
 		(effects
@@ -1595,12 +1595,6 @@
 		(color 0 0 0 0)
 		(uuid "c18bb954-8d59-4eaf-a2c6-65fae235dff0")
 	)
-	(junction
-		(at 148.59 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8d71587-ffd1-4c7d-89d9-61f8f5e9c00d")
-	)
 	(no_connect
 		(at 156.21 57.15)
 		(uuid "df371f8c-0b2f-44c1-846a-3bf6cba599b3")
@@ -1644,16 +1638,6 @@
 			(type default)
 		)
 		(uuid "32af051c-8431-4e74-b51e-b98773e554df")
-	)
-	(wire
-		(pts
-			(xy 153.67 83.82) (xy 148.59 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36256b39-b3a7-42df-9648-6732a31e99ec")
 	)
 	(wire
 		(pts
@@ -1807,7 +1791,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 83.82) (xy 148.59 93.98)
+			(xy 148.59 72.39) (xy 148.59 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1834,16 +1818,6 @@
 			(type default)
 		)
 		(uuid "bfed4bb8-37ec-4f75-96d8-95e76d2a8fe9")
-	)
-	(wire
-		(pts
-			(xy 148.59 72.39) (xy 148.59 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb179a89-ac79-4d48-a649-b360b9c22d24")
 	)
 	(wire
 		(pts
@@ -1932,28 +1906,6 @@
 		(uuid "8c6c101d-c768-4fbe-877b-20f27ac81518")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 212.09 16.3067 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Heater_Switch_RB"
-		(shape input)
-		(at 153.67 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8f5c301a-3df7-4fac-a46a-d0b37916d16a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.4071 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2279,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "861a388d-f297-4f5d-bf3f-15f2f5ad93ca")
-		(property "Reference" "120V_ScrewConnection"
+		(property "Reference" "120V_ScrewConnection1"
 			(at 180.34 72.136 0)
 			(effects
 				(font
@@ -2379,9 +2331,9 @@
 			(uuid "243adcdb-34da-4d9b-b471-90d8051c5313")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/0abe98c7-bf03-44f4-a0bc-404c6a31b0fd"
-					(reference "120V_ScrewConnection")
+					(reference "120V_ScrewConnection1")
 					(unit 1)
 				)
 			)
@@ -2456,7 +2408,7 @@
 			(uuid "83a84a80-5a16-4ed0-931e-f0884ee89836")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/0abe98c7-bf03-44f4-a0bc-404c6a31b0fd"
 					(reference "J2")
 					(unit 1)
@@ -2526,7 +2478,7 @@
 			(uuid "deadbd0b-b5c9-4bed-970c-8fe2f70cbfb6")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/0abe98c7-bf03-44f4-a0bc-404c6a31b0fd"
 					(reference "C21")
 					(unit 1)
@@ -2616,7 +2568,7 @@
 			(uuid "cf8f6b7c-3dc9-492e-b0de-7573dad194c3")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/0abe98c7-bf03-44f4-a0bc-404c6a31b0fd"
 					(reference "U8")
 					(unit 1)
@@ -2763,7 +2715,7 @@
 			(uuid "7283272e-2d0b-446c-a895-40925897d2fc")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/0abe98c7-bf03-44f4-a0bc-404c6a31b0fd"
 					(reference "R28")
 					(unit 1)

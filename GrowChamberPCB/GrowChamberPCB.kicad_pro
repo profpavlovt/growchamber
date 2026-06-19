@@ -25,7 +25,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1168400|914400|e0b38fde-22c5-4f57-9c4a-a479f73b8f09|f7e966ad-792d-4e54-a261-b31ab20232f8|/39371779-5336-4073-adec-fb32caf6a86f|/39371779-5336-4073-adec-fb32caf6a86f|/39371779-5336-4073-adec-fb32caf6a86f",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -230,13 +235,13 @@
       "pin_not_connected": "warning",
       "pin_not_driven": "error",
       "pin_to_pin": "error",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "error",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -395,7 +400,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,

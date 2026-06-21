@@ -2102,6 +2102,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFG Part Number" ""
+			(at 212.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 212.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "065060a1-2a74-44b2-8324-d676f6f2b3f2")
 		)
@@ -2163,6 +2181,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 200.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" ""
+			(at 200.66 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 200.66 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,6 +2291,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFG Part Number" ""
+			(at 140.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 140.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7e8ca090-d516-4372-81a4-b239846368de")
 		)
@@ -2279,8 +2333,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "861a388d-f297-4f5d-bf3f-15f2f5ad93ca")
-		(property "Reference" "120V_ScrewConnection1"
-			(at 180.34 72.136 0)
+		(property "Reference" "J26"
+			(at 182.118 69.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,7 +2343,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 181.102 74.676 0)
+			(at 180.34 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2324,6 +2378,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFG Part Number" ""
+			(at 182.88 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 182.88 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "256ecf79-7982-4429-be19-47f9b76de470")
 		)
@@ -2333,7 +2405,7 @@
 		(instances
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/0abe98c7-bf03-44f4-a0bc-404c6a31b0fd"
-					(reference "120V_ScrewConnection1")
+					(reference "J26")
 					(unit 1)
 				)
 			)
@@ -2385,6 +2457,24 @@
 		)
 		(property "Description" "Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 143.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" ""
+			(at 143.51 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 143.51 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2471,6 +2561,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFG Part Number" ""
+			(at 200.66 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 200.66 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b23699d-864a-437c-b569-935336551f38")
 		)
@@ -2535,6 +2643,24 @@
 			)
 		)
 		(property "Description" "±5A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 185mV/A, SOIC-8"
+			(at 187.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" ""
+			(at 187.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type (SMD/thru-hole, etc.)" ""
 			(at 187.96 41.91 0)
 			(effects
 				(font
@@ -2631,6 +2757,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFG Part Number" ""
+			(at 153.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 153.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "0666065e-37f1-42fc-a1d3-76a396c254d6")
 		)
@@ -2701,6 +2845,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 201.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" ""
+			(at 201.93 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 201.93 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)

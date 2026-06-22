@@ -1539,6 +1539,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Diode 1000 V 1A Surface Mount SOD-123FL"
+		(exclude_from_sim no)
+		(at 181.356 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1a7ecd8d-df93-479d-a23c-1e40cd00e060")
+	)
 	(text "1 - Coil In\n2 - Coil Out"
 		(exclude_from_sim no)
 		(at 159.766 77.978 0)
@@ -2246,7 +2256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" ""
 			(at 136.525 64.77 0)
 			(effects
 				(font
@@ -2602,7 +2612,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a2ccecb0-255c-4669-baf6-745c7ed75cb2")
 		(property "Reference" "U8"
 			(at 190.1033 29.21 0)
@@ -2614,7 +2623,7 @@
 			)
 		)
 		(property "Value" "ACS712xLCTR-05B"
-			(at 190.1033 31.75 0)
+			(at 179.324 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,7 +2631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "digikey-footprints:SOIC-8_W3.9mm"
 			(at 190.5 50.8 0)
 			(effects
 				(font
@@ -2651,7 +2660,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Number" ""
+		(property "MFG Part Number" "ACS712ELCTR-05B-T"
 			(at 187.96 41.91 0)
 			(effects
 				(font
@@ -2660,7 +2669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type (SMD/thru-hole, etc.)" ""
+		(property "Type (SMD/thru-hole, etc.)" "SMD"
 			(at 187.96 41.91 0)
 			(effects
 				(font
@@ -2757,7 +2766,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Number" ""
+		(property "MFG Part Number" "G5LE-1 DC12"
 			(at 153.67 64.77 0)
 			(effects
 				(font
@@ -2766,7 +2775,25 @@
 				(hide yes)
 			)
 		)
-		(property "Type (SMD/thru-hole, etc.)" ""
+		(property "Type (SMD/thru-hole, etc.)" "THT"
+			(at 153.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron Electronics Inc-EMC Div"
+			(at 153.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package/Footprint" "NA"
 			(at 153.67 64.77 0)
 			(effects
 				(font

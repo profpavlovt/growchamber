@@ -2130,6 +2130,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 212.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 212.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "065060a1-2a74-44b2-8324-d676f6f2b3f2")
 		)
@@ -2216,6 +2234,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 200.66 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 200.66 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "68de2429-065d-49a9-9002-fdb196ce27aa")
 		)
@@ -2283,24 +2319,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 140.97 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 140.97 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFG Part Number" ""
 			(at 140.97 64.77 0)
 			(effects
@@ -2311,6 +2329,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 140.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 140.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 140.97 64.77 0)
 			(effects
 				(font
@@ -2406,6 +2442,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 182.88 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 182.88 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "256ecf79-7982-4429-be19-47f9b76de470")
 		)
@@ -2484,6 +2538,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 143.51 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 143.51 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 143.51 99.06 90)
 			(effects
 				(font
@@ -2589,6 +2661,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 200.66 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 200.66 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b23699d-864a-437c-b569-935336551f38")
 		)
@@ -2670,6 +2760,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" "SMD"
+			(at 187.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 187.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 187.96 41.91 0)
 			(effects
 				(font
@@ -2784,7 +2892,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Omron Electronics Inc-EMC Div"
+		(property "Manufacturer" ""
 			(at 153.67 64.77 0)
 			(effects
 				(font
@@ -2793,7 +2901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package/Footprint" "NA"
+		(property "Package" ""
 			(at 153.67 64.77 0)
 			(effects
 				(font
@@ -2889,6 +2997,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 201.93 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 201.93 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 201.93 41.91 90)
 			(effects
 				(font

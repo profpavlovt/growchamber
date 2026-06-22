@@ -5428,6 +5428,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 190.5 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 190.5 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "8d058ed4-e815-41a3-9fea-06ea477b9c3e")
 		)
@@ -5579,6 +5597,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 39.37 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 39.37 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a01c103-900c-46cf-b6dd-3124a3f6a289")
 		)
@@ -5664,6 +5700,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 17.78 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 17.78 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7c915aae-90d3-4bc2-a4b6-bd6ec7e2b91f")
 		)
@@ -5725,6 +5779,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 246.38 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 246.38 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 246.38 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5809,6 +5881,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 17.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 17.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 17.78 104.14 0)
 			(effects
 				(font
@@ -5903,6 +5993,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 127 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 127 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ded76db-5877-4ba5-ab45-91d7c7f8b007")
 		)
@@ -5972,6 +6080,24 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 247.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 247.65 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 247.65 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,6 +6190,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 16.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 16.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8948313c-b408-4fd9-8fd1-a24caf49ffd9")
 		)
@@ -6132,7 +6276,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Manufacturer" ""
+			(at 53.34 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 53.34 77.47 0)
 			(effects
 				(font
@@ -6219,6 +6372,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 148.59 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 148.59 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 148.59 22.86 0)
 			(effects
 				(font
@@ -6315,6 +6486,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 17.78 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 17.78 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "770bc6fd-03f3-45d4-a6c4-ca2a0744fce0")
 		)
@@ -6383,7 +6572,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Manufacturer" ""
+			(at 53.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 53.34 91.44 0)
 			(effects
 				(font
@@ -6452,6 +6650,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 62.23 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 62.23 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 62.23 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6536,6 +6752,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 17.78 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 17.78 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 17.78 115.57 0)
 			(effects
 				(font
@@ -6630,6 +6864,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 173.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 173.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8948313c-b408-4fd9-8fd1-a24caf49ffdb")
 		)
@@ -6691,6 +6943,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 60.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 60.96 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 60.96 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6775,6 +7045,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 31.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 31.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 31.75 45.72 0)
 			(effects
 				(font
@@ -6869,6 +7157,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 19.05 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 19.05 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b433fe1a-6256-4d3e-806a-f555413c2d38")
 		)
@@ -6934,6 +7240,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 186.69 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 186.69 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 186.69 139.7 0)
 			(effects
 				(font
@@ -7009,6 +7333,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 201.93 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 201.93 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "69e1922a-5f88-46fc-9919-c1ccdb571985")
 		)
@@ -7072,6 +7414,24 @@
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 232.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 232.41 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 232.41 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7167,6 +7527,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 16.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 16.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8948313c-b408-4fd9-8fd1-a24caf49ffdc")
 		)
@@ -7235,7 +7613,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Manufacturer" ""
+			(at 232.41 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 232.41 62.23 0)
 			(effects
 				(font
@@ -7312,6 +7699,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 85.09 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 85.09 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "99b9720c-42c1-4e32-ace5-c706304aa60b")
 		)
@@ -7380,7 +7785,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Manufacturer" ""
+			(at 138.43 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 138.43 40.64 0)
 			(effects
 				(font
@@ -7459,6 +7873,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 231.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 231.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3df05ae0-423a-48db-9f3e-f12f50f29ad4")
 		)
@@ -7521,6 +7953,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x26, script generated"
+			(at 138.43 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 138.43 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 138.43 124.46 0)
 			(effects
 				(font
@@ -7669,6 +8119,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 146.05 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 146.05 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "12ca1400-ffcf-4307-9925-782a2267300e")
 		)
@@ -7729,6 +8197,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 33.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 33.02 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 33.02 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7803,7 +8289,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Manufacturer" ""
+			(at 57.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 57.15 128.27 0)
 			(effects
 				(font
@@ -7872,6 +8367,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 64.77 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 64.77 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 64.77 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7965,6 +8478,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 218.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 218.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8948313c-b408-4fd9-8fd1-a24caf49ffdd")
 		)
@@ -8042,6 +8573,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 31.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 31.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 31.75 59.69 0)
 			(effects
 				(font
@@ -8136,6 +8685,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 43.18 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 43.18 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "129245f7-1729-4e3b-a72a-7cee73fe60d0")
 		)
@@ -8209,7 +8776,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Manufacturer" ""
+			(at 54.61 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 54.61 140.97 0)
 			(effects
 				(font
@@ -8278,6 +8854,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 60.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 60.96 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 60.96 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8371,6 +8965,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 19.05 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 19.05 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "46ede230-6f84-4d0e-babe-fff68a45b71d")
 		)
@@ -8441,7 +9053,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Manufacturer" ""
+			(at 40.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 40.64 153.67 0)
 			(effects
 				(font
@@ -8536,6 +9157,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 19.05 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 19.05 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c4f67ac-ae02-435d-a3fc-7a2d12be969c")
 		)
@@ -8607,7 +9246,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Manufacturer" ""
+			(at 77.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 77.47 116.84 0)
 			(effects
 				(font
@@ -8677,6 +9325,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 240.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 240.03 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 240.03 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8770,6 +9436,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 43.18 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 43.18 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8948313c-b408-4fd9-8fd1-a24caf49ffde")
 		)
@@ -8837,7 +9521,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Manufacturer" ""
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 53.34 104.14 0)
 			(effects
 				(font
@@ -8907,6 +9600,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 60.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 60.96 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 60.96 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -6556,6 +6556,12 @@
 		(uuid "07dd14e6-5e8f-46a8-90dc-5539af4246f4")
 	)
 	(junction
+		(at 83.82 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "151705b0-63c2-4d70-a778-de09ccaf83d6")
+	)
+	(junction
 		(at 128.27 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6664,6 +6670,12 @@
 		(uuid "5990d670-0dca-42fd-8846-59fe01167689")
 	)
 	(junction
+		(at 78.74 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "641f61e6-18b4-4c76-9be4-eb84f8329b6b")
+	)
+	(junction
 		(at 81.28 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6706,22 +6718,10 @@
 		(uuid "9041c6cf-026a-4a55-a9cf-6ac32a129b55")
 	)
 	(junction
-		(at 83.82 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97c8be3f-72ae-48f8-be83-5a4293e2bb28")
-	)
-	(junction
 		(at 52.07 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7354e37-cff2-41a1-8a58-ca066cf20e49")
-	)
-	(junction
-		(at 78.74 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a838279b-c4ad-4c5a-973a-754a952590d2")
 	)
 	(junction
 		(at 107.95 152.4)
@@ -6734,12 +6734,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bac90773-bb79-433b-af06-e982eafb48b1")
-	)
-	(junction
-		(at 107.95 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2130842-5e6b-4cf3-870c-38ea7e14d9ae")
 	)
 	(junction
 		(at 27.94 76.2)
@@ -6782,6 +6776,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "deeb22ee-b0ff-4cb5-8688-064c5c496af2")
+	)
+	(junction
+		(at 107.95 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7bd0543-ee60-40cc-8ad0-3d244f2bd8c6")
 	)
 	(junction
 		(at 83.82 137.16)
@@ -6987,16 +6987,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 31.75) (xy 116.84 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18586ab9-6799-43f6-9c50-45c7e817a2d7")
-	)
-	(wire
-		(pts
 			(xy 270.51 68.58) (xy 270.51 69.85)
 		)
 		(stroke
@@ -7084,6 +7074,16 @@
 			(type default)
 		)
 		(uuid "2d185883-eb72-4cc1-b267-0a57c467dd82")
+	)
+	(wire
+		(pts
+			(xy 83.82 64.77) (xy 87.63 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "301ebd48-76ca-4084-a31c-70e091d38325")
 	)
 	(wire
 		(pts
@@ -7187,6 +7187,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 64.77) (xy 83.82 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4225bbe2-cc64-45be-983a-f8a3d71934d7")
+	)
+	(wire
+		(pts
 			(xy 31.75 45.72) (xy 40.64 45.72)
 		)
 		(stroke
@@ -7234,16 +7244,6 @@
 			(type default)
 		)
 		(uuid "486828dd-1369-4c1c-a8f7-44827bf8d49e")
-	)
-	(wire
-		(pts
-			(xy 78.74 64.77) (xy 83.82 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4df2a026-4b56-450d-8204-60de7e440fd0")
 	)
 	(wire
 		(pts
@@ -7397,16 +7397,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 64.77) (xy 78.74 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c1bc7fb-cd27-4499-b985-f3b96dc3cb49")
-	)
-	(wire
-		(pts
 			(xy 124.46 20.32) (xy 128.27 20.32)
 		)
 		(stroke
@@ -7554,6 +7544,16 @@
 			(type default)
 		)
 		(uuid "82c0b135-b8f4-44b4-92ed-3fc5522d3af9")
+	)
+	(wire
+		(pts
+			(xy 107.95 31.75) (xy 116.84 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85a2c689-3437-4201-acba-455122639847")
 	)
 	(wire
 		(pts
@@ -7957,6 +7957,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 64.77) (xy 78.74 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1553912-84e6-4f58-aeb5-809bf0401bbe")
+	)
+	(wire
+		(pts
 			(xy 82.55 152.4) (xy 90.17 152.4)
 		)
 		(stroke
@@ -7984,16 +7994,6 @@
 			(type default)
 		)
 		(uuid "d4a312e4-781f-417f-bc30-6e1e39d4e4f1")
-	)
-	(wire
-		(pts
-			(xy 102.87 31.75) (xy 107.95 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d782aeb4-0558-4b84-9f8f-05dd91d82b09")
 	)
 	(wire
 		(pts
@@ -8117,16 +8117,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 64.77) (xy 83.82 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef9e9a65-65b2-47c8-89b0-b9a2f477b72e")
-	)
-	(wire
-		(pts
 			(xy 237.49 57.15) (xy 237.49 62.23)
 		)
 		(stroke
@@ -8154,6 +8144,16 @@
 			(type default)
 		)
 		(uuid "f2597f7e-7f5f-4bc4-b50b-6fa6f05a488c")
+	)
+	(wire
+		(pts
+			(xy 102.87 31.75) (xy 107.95 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4003e06-24cc-45ce-8eb1-3947df18a5f2")
 	)
 	(wire
 		(pts
@@ -12024,6 +12024,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 69.85 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 69.85 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "effb7710-5841-4626-8a4d-dbcd8cb12b51")
 		)
@@ -12092,126 +12110,6 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Espressif Systems"
-			(at 67.31 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.35mm"
-			(at 67.31 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 67.31 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ESP32-S3-WROOM-1U/Espressif+Systems/view-part/?ref=eda"
-			(at 67.31 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 67.31 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "v0.6"
-			(at 67.31 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-S3-WROOM-1U/Espressif+Systems/view-part/?ref=snap"
-			(at 67.31 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "ESP32-S3-WROOM-1U"
-			(at 67.31 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=7790784&manufacturer=Espressif Systems&part_name=ESP32-S3-WROOM-1U&search_term=None"
-			(at 67.31 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "2.4 GHz Wi-Fi (802.11 b/g/n) and Bluetooth 5 (LE) module"
-			(at 67.31 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 67.31 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Espressif"
-			(at 67.31 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "MFG Part Number" ""
 			(at 67.31 165.1 0)
 			(effects
@@ -12221,7 +12119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package/Footprint" "SMD-41 Espressif Systems"
+		(property "Type (SMD/thru-hole, etc.)" ""
 			(at 67.31 165.1 0)
 			(effects
 				(font
@@ -12230,7 +12128,16 @@
 				(hide yes)
 			)
 		)
-		(property "Type (SMD/thru-hole, etc.)" ""
+		(property "Manufacturer" ""
+			(at 67.31 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 67.31 165.1 0)
 			(effects
 				(font
@@ -12465,6 +12372,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 48.26 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 48.26 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9d3a909-c574-4fd1-82b9-403e72105563")
 		)
@@ -12475,93 +12400,6 @@
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f"
 					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 78.74 60.96 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0b6cdff0-d2d8-43a8-9205-f2f3357548a4")
-		(property "Reference" "C5"
-			(at 73.152 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22uF"
-			(at 71.882 61.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.7748 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 78.74 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 78.74 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 78.74 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0741e11-f2be-4ed0-b5bf-5cebab896751")
-		)
-		(pin "2"
-			(uuid "ba886bf9-b0c9-4d3b-a959-4e0ef7a89ee8")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/39371779-5336-4073-adec-fb32caf6a86f"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -12617,6 +12455,24 @@
 			)
 		)
 		(property "Description" "6.3A Id, 20V Vds, 21mOhm Rds, N-Channel StrongIRFET Power MOSFET, SOT-23"
+			(at 267.97 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 267.97 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 267.97 74.93 0)
 			(effects
 				(font
@@ -12688,6 +12544,24 @@
 			)
 		)
 		(property "Description" "302-S261 shrouded IDC connector"
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 182.88 82.55 0)
 			(effects
 				(font
@@ -12853,6 +12727,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 226.06 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 226.06 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ac61c065-bd8d-45fc-8afe-67b23fe5a314")
 		)
@@ -12918,6 +12810,24 @@
 			)
 		)
 		(property "Description" "6.3A Id, 20V Vds, 21mOhm Rds, N-Channel StrongIRFET Power MOSFET, SOT-23"
+			(at 226.06 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 226.06 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 226.06 158.75 0)
 			(effects
 				(font
@@ -13009,6 +12919,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 96.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 96.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 96.52 91.44 0)
 			(effects
 				(font
@@ -13122,24 +13050,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 233.68 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 233.68 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFG Part Number" ""
 			(at 233.68 62.23 0)
 			(effects
@@ -13150,6 +13060,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 233.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 233.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 233.68 62.23 0)
 			(effects
 				(font
@@ -13223,6 +13151,24 @@
 			)
 		)
 		(property "Description" "6.3A Id, 20V Vds, 21mOhm Rds, N-Channel StrongIRFET Power MOSFET, SOT-23"
+			(at 194.31 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 194.31 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 194.31 148.59 0)
 			(effects
 				(font
@@ -13321,6 +13267,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 35.56 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 35.56 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "523de7e8-d5b4-4226-b4f1-ca83a7adfd73")
 		)
@@ -13398,6 +13362,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 246.38 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 246.38 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 246.38 38.1 90)
 			(effects
 				(font
@@ -13494,6 +13476,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 83.82 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 83.82 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "779063a1-6b82-4eec-a52b-a781d2220677")
 		)
@@ -13562,24 +13562,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 265.43 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 265.43 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFG Part Number" ""
 			(at 265.43 151.13 0)
 			(effects
@@ -13590,6 +13572,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 265.43 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 265.43 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 265.43 151.13 0)
 			(effects
 				(font
@@ -13608,93 +13608,6 @@
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 83.82 60.96 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d3f7e66-e001-46ce-877a-01c448a55f50")
-		(property "Reference" "C6"
-			(at 89.916 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 90.424 57.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.8548 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 83.82 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 83.82 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 83.82 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0cb1527-a675-4d0a-8461-3c1c18501271")
-		)
-		(pin "2"
-			(uuid "aa515f0e-a363-4d83-95d5-ef11791f4cc6")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/39371779-5336-4073-adec-fb32caf6a86f"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -13764,6 +13677,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 257.81 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 257.81 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 257.81 160.02 90)
 			(effects
 				(font
@@ -13849,6 +13780,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 93.98 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 93.98 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 93.98 154.94 90)
 			(effects
 				(font
@@ -13943,6 +13892,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 156.21 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 156.21 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "48aa5063-29ba-443c-9ac2-57a4bf3a1b6c")
 		)
@@ -14021,6 +13988,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 60.96 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 60.96 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 60.96 35.56 90)
 			(effects
 				(font
@@ -14115,6 +14100,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 31.75 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 31.75 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ab65b5a-6c5b-4689-b3b9-82cf6f2b7362")
 		)
@@ -14125,6 +14128,111 @@
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 78.74 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d4f114a-f27c-427d-8696-ffb3d3334900")
+		(property "Reference" "C5"
+			(at 70.612 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22uF"
+			(at 69.596 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "digikey-footprints:0805"
+			(at 77.7748 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6808/1276_MLCC_Datasheet.pdf"
+			(at 78.74 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "X7R or X5R Ceramic - RMS current rating above 1.5A"
+			(at 78.74 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" "CL21A226KQCLRNC"
+			(at 78.74 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type (SMD/thru-hole, etc.)" "SMD"
+			(at 78.74 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 78.74 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 78.74 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dc21883-d61e-4e44-a849-0decb3cab266")
+		)
+		(pin "2"
+			(uuid "9e5f23a3-f9b2-453a-b14b-867c9e820364")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -14200,6 +14308,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 27.94 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 27.94 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "de4fc008-09d2-4742-a8d2-2090ce59e61a")
 		)
@@ -14228,93 +14354,6 @@
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 128.27 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ed381d4-af06-4cc6-a2a5-7e004f51e575")
-		(property "Reference" "C9"
-			(at 129.54 29.718 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF - X7R Ceramic"
-			(at 121.666 31.496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.2352 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 128.27 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 128.27 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 128.27 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1fecc15d-2510-4ccf-8254-c3433aaadd0c")
-		)
-		(pin "2"
-			(uuid "b86b5a01-2940-4b53-aef1-f4881be352f1")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/39371779-5336-4073-adec-fb32caf6a86f"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -14382,6 +14421,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 217.17 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 217.17 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 217.17 161.29 90)
 			(effects
 				(font
@@ -14467,6 +14524,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 63.5 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 63.5 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 63.5 40.64 90)
 			(effects
 				(font
@@ -14561,6 +14636,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 74.93 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 74.93 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "82ee035e-22b4-4d25-8458-60bd9bfb7a11")
 		)
@@ -14571,6 +14664,111 @@
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 30.48 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4aa0503c-8dd3-43c9-acbc-6864c51290b7")
+		(property "Reference" "C4"
+			(at 22.352 19.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22uF"
+			(at 21.336 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "digikey-footprints:0805"
+			(at 29.5148 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6808/1276_MLCC_Datasheet.pdf"
+			(at 30.48 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "X7R or X5R Ceramic - RMS current rating above 1.5A"
+			(at 30.48 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" "CL21A226KQCLRNC"
+			(at 30.48 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type (SMD/thru-hole, etc.)" "SMD"
+			(at 30.48 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 30.48 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 30.48 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae06a176-06e7-4230-a575-193b11145606")
+		)
+		(pin "2"
+			(uuid "4fa43e8b-8d73-4605-a078-4cdcf8770e0e")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -14626,6 +14824,24 @@
 			)
 		)
 		(property "Description" "6.3A Id, 20V Vds, 21mOhm Rds, N-Channel StrongIRFET Power MOSFET, SOT-23"
+			(at 266.7 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 266.7 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 266.7 157.48 0)
 			(effects
 				(font
@@ -14722,6 +14938,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 259.08 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 259.08 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7859f649-8d4e-4a3c-b382-1358e7c66403")
 		)
@@ -14732,93 +14966,6 @@
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f"
 					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 30.48 22.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "57de0076-eb14-401c-9835-92950fb1eee2")
-		(property "Reference" "C4"
-			(at 34.29 21.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 32.766 18.542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.5148 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "X7R or X5R Ceramic - RMS current rating above 1.5A"
-			(at 30.48 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG Part Number" "GRM188R71C105KA12D"
-			(at 30.48 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 30.48 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb541e34-70f2-414c-a9bf-fb6da4c9078c")
-		)
-		(pin "2"
-			(uuid "dfd83de2-7dac-4f59-bcec-ea205a4656b6")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/39371779-5336-4073-adec-fb32caf6a86f"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -14896,6 +15043,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 34.29 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 34.29 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "71da7083-1ed8-4dcb-8eb7-53ca3ad6208b")
 		)
@@ -14963,24 +15128,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 266.7 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 266.7 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFG Part Number" ""
 			(at 266.7 90.17 0)
 			(effects
@@ -14991,6 +15138,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 266.7 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 266.7 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 266.7 90.17 0)
 			(effects
 				(font
@@ -15084,6 +15249,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 259.08 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 259.08 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "964f6878-32b9-4886-8d7d-a1035b326f24")
 		)
@@ -15161,6 +15344,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 25.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 25.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 25.4 82.55 0)
 			(effects
 				(font
@@ -15254,6 +15455,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 50.8 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 50.8 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fed23300-576e-407c-8e45-49b9bf44d413")
 		)
@@ -15339,6 +15558,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 259.08 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 259.08 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6aea1f83-c645-4d27-b6f3-a2e59f80e47c")
 		)
@@ -15349,6 +15586,111 @@
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 83.82 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6aa251d3-e5ae-4f70-a510-ed5ffd868506")
+		(property "Reference" "C6"
+			(at 75.692 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22uF"
+			(at 74.676 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "digikey-footprints:0805"
+			(at 82.8548 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6808/1276_MLCC_Datasheet.pdf"
+			(at 83.82 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "X7R or X5R Ceramic - RMS current rating above 1.5A"
+			(at 83.82 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" "CL21A226KQCLRNC"
+			(at 83.82 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type (SMD/thru-hole, etc.)" "SMD"
+			(at 83.82 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 83.82 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 83.82 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d114bc58-7131-46c0-9026-07f6a0f5ec3e")
+		)
+		(pin "2"
+			(uuid "75220b0e-ab85-4730-94cf-98171d1035e9")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -15416,6 +15758,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 182.88 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 182.88 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 182.88 148.59 90)
 			(effects
 				(font
@@ -15492,126 +15852,6 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "HRO Electronics Co., Ltd."
-			(at 177.8 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.26 mm"
-			(at 177.8 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 177.8 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=eda"
-			(at 177.8 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 177.8 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "2020.12.08"
-			(at 177.8 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=snap"
-			(at 177.8 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TYPE-C-31-M-12"
-			(at 177.8 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS"
-			(at 177.8 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "TYPE-C-31-M-12"
-			(at 177.8 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 177.8 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "HRO Electronics Co., Ltd."
-			(at 177.8 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "MFG Part Number" ""
 			(at 177.8 27.94 0)
 			(effects
@@ -15621,7 +15861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package/Footprint" "Package"
+		(property "Type (SMD/thru-hole, etc.)" ""
 			(at 177.8 27.94 0)
 			(effects
 				(font
@@ -15630,7 +15870,16 @@
 				(hide yes)
 			)
 		)
-		(property "Type (SMD/thru-hole, etc.)" ""
+		(property "Manufacturer" ""
+			(at 177.8 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 177.8 27.94 0)
 			(effects
 				(font
@@ -15767,6 +16016,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 63.5 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 63.5 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37bc37c6-f829-4018-96e2-43e3f7a970a5")
 		)
@@ -15777,93 +16044,6 @@
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 107.95 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7caa334d-f550-4c53-9b3a-1313783aa985")
-		(property "Reference" "C11"
-			(at 105.664 23.622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF - X7R Ceramic"
-			(at 97.282 37.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 108.9152 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 107.95 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 107.95 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 107.95 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8873f935-47e2-4250-88c0-3c709fd00689")
-		)
-		(pin "2"
-			(uuid "548fe724-63e6-47a0-9e16-67e645a0c655")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/39371779-5336-4073-adec-fb32caf6a86f"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -15931,6 +16111,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 199.39 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 199.39 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 199.39 30.48 90)
 			(effects
 				(font
@@ -16007,24 +16205,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 266.7 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 266.7 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFG Part Number" ""
 			(at 266.7 130.81 0)
 			(effects
@@ -16035,6 +16215,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 266.7 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 266.7 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 266.7 130.81 0)
 			(effects
 				(font
@@ -16130,6 +16328,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 107.95 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 107.95 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9210c4d4-28ac-4ca6-8f8e-995629bf180c")
 		)
@@ -16208,6 +16424,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 36.83 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 36.83 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 36.83 35.56 90)
 			(effects
 				(font
@@ -16307,6 +16541,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 234.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 234.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "67a136d8-19c6-4473-865e-f8199c018239")
 		)
@@ -16352,7 +16604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 103.8352 31.75 0)
 			(effects
 				(font
@@ -16361,7 +16613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://pim.murata.com/en-sg/pim/details/?partNum=GRM21BR71C475KE51L"
 			(at 102.87 27.94 0)
 			(effects
 				(font
@@ -16379,7 +16631,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Number" ""
+		(property "MFG Part Number" "GRM21BR71C475KE51L"
 			(at 102.87 27.94 0)
 			(effects
 				(font
@@ -16388,7 +16640,25 @@
 				(hide yes)
 			)
 		)
-		(property "Type (SMD/thru-hole, etc.)" ""
+		(property "Type (SMD/thru-hole, etc.)" "SMD"
+			(at 102.87 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 102.87 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805 (2012 Metric) "
 			(at 102.87 27.94 0)
 			(effects
 				(font
@@ -16462,6 +16732,24 @@
 			)
 		)
 		(property "Description" "6.3A Id, 20V Vds, 21mOhm Rds, N-Channel StrongIRFET Power MOSFET, SOT-23"
+			(at 267.97 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 267.97 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 267.97 96.52 0)
 			(effects
 				(font
@@ -16558,6 +16846,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 259.08 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 259.08 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "96fc17d9-1361-4963-9584-9ed72ed0d296")
 		)
@@ -16635,6 +16941,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 186.69 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 186.69 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 186.69 152.4 90)
 			(effects
 				(font
@@ -16728,6 +17052,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 25.4 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 25.4 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "965efcd4-4e02-4692-99dd-7228182e893f")
 		)
@@ -16805,6 +17147,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 259.08 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 259.08 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 259.08 77.47 90)
 			(effects
 				(font
@@ -16898,6 +17258,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 259.08 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 259.08 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "242def49-259c-43a9-ab54-801601955bca")
 		)
@@ -16983,6 +17361,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 191.77 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 191.77 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "923b53e7-4adb-4186-a6b0-da7fa5c20458")
 		)
@@ -17055,6 +17451,24 @@
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 212.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 212.09 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 212.09 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17150,6 +17564,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 22.86 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 22.86 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f7955426-2e8c-460d-bf69-c9b54fd5982d")
 		)
@@ -17215,6 +17647,24 @@
 			)
 		)
 		(property "Description" "6.3A Id, 20V Vds, 21mOhm Rds, N-Channel StrongIRFET Power MOSFET, SOT-23"
+			(at 267.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 267.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 267.97 116.84 0)
 			(effects
 				(font
@@ -17311,6 +17761,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 259.08 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 259.08 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "30d25c34-6168-4fd6-aeb6-37fdc0282e12")
 		)
@@ -17389,6 +17857,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 48.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 48.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 48.26 41.91 0)
 			(effects
 				(font
@@ -17500,6 +17986,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 60.96 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 60.96 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0d87b55b-0126-4afb-9430-fadc8e8d0c5b")
 		)
@@ -17510,6 +18014,111 @@
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 107.95 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdb0514c-baa5-4336-94dc-513b86cc2768")
+		(property "Reference" "C9"
+			(at 104.394 24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF - X7R Ceramic"
+			(at 99.822 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "digikey-footprints:0805"
+			(at 108.9152 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/en-sg/pim/details/?partNum=GRM21BR71C475KE51L"
+			(at 107.95 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 107.95 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" "GRM21BR71C475KE51L"
+			(at 107.95 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type (SMD/thru-hole, etc.)" "SMD"
+			(at 107.95 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 107.95 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805 (2012 Metric) "
+			(at 107.95 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a75cd583-bea3-4088-a60b-1363602de507")
+		)
+		(pin "2"
+			(uuid "43e76f56-85ba-46bd-8f88-6de2ca17e1d5")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -17585,6 +18194,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 13.97 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 13.97 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "54f91c6c-a864-44d3-a35b-3e7018b9b1f5")
 		)
@@ -17627,7 +18254,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 21.8948 19.05 0)
 			(effects
 				(font
@@ -17636,7 +18263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6808/1276_MLCC_Datasheet.pdf"
 			(at 22.86 22.86 0)
 			(effects
 				(font
@@ -17654,7 +18281,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Number" "GRM21BR61E226ME44L"
+		(property "MFG Part Number" "CL21A226KQCLRNC"
 			(at 22.86 22.86 0)
 			(effects
 				(font
@@ -17664,6 +18291,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" "SMD"
+			(at 22.86 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 22.86 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 22.86 22.86 0)
 			(effects
 				(font
@@ -17753,6 +18398,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 123.19 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 123.19 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 123.19 154.94 0)
 			(effects
 				(font
@@ -17858,6 +18521,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 259.08 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 259.08 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5e99de29-f92f-44c7-b8cc-075abed2fab0")
 		)
@@ -17925,24 +18606,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 224.79 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 224.79 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFG Part Number" ""
 			(at 224.79 152.4 0)
 			(effects
@@ -17953,6 +18616,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 224.79 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 224.79 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 224.79 152.4 0)
 			(effects
 				(font
@@ -18048,6 +18729,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 16.51 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 16.51 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "620bf98a-230c-4ae1-99b7-ae6e379dbc3f")
 		)
@@ -18126,6 +18825,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 93.98 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 93.98 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 93.98 152.4 90)
 			(effects
 				(font
@@ -18221,6 +18938,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 274.32 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 274.32 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf7be85f-9d43-4474-8107-c15ff7740253")
 		)
@@ -18306,6 +19041,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 43.18 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 43.18 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c4e6de92-a80c-492c-ab2d-1edbf1fb98b6")
 		)
@@ -18374,24 +19127,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 266.7 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 266.7 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFG Part Number" ""
 			(at 266.7 110.49 0)
 			(effects
@@ -18402,6 +19137,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 266.7 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 266.7 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 266.7 110.49 0)
 			(effects
 				(font
@@ -18489,6 +19242,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 266.7 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 266.7 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 266.7 35.56 90)
 			(effects
 				(font
@@ -18602,6 +19373,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 19.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 19.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "38cdd9ab-56e4-486d-a763-6693857f6195")
 		)
@@ -18675,6 +19464,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 267.97 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 267.97 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a89d2bf0-8292-4b0b-bd13-0cd9b6499da1")
 		)
@@ -18688,6 +19495,111 @@
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 128.27 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea0f86df-1896-4ef2-925d-d20e19571e97")
+		(property "Reference" "C11"
+			(at 124.714 23.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF - X7R Ceramic"
+			(at 120.142 33.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "digikey-footprints:0805"
+			(at 129.2352 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/en-sg/pim/details/?partNum=GRM21BR71C475KE51L"
+			(at 128.27 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 128.27 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" "GRM21BR71C475KE51L"
+			(at 128.27 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type (SMD/thru-hole, etc.)" "SMD"
+			(at 128.27 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 128.27 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805 (2012 Metric) "
+			(at 128.27 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0010901a-e42f-41c4-b88c-412ce5a45e97")
+		)
+		(pin "2"
+			(uuid "1a6bcc02-e214-4739-92cc-a88816a2c3df")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -18755,6 +19667,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 226.06 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 226.06 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 226.06 71.12 90)
 			(effects
 				(font
@@ -18840,6 +19770,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 217.17 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 217.17 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 217.17 158.75 90)
 			(effects
 				(font
@@ -18936,6 +19884,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 95.25 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 95.25 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "779063a1-6b82-4eec-a52b-a781d2220678")
 		)
@@ -19021,6 +19987,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 52.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 52.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3c8eaef6-5cd5-420d-8300-c215154ac451")
 		)
@@ -19098,6 +20082,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 116.84 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 116.84 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 116.84 20.32 0)
 			(effects
 				(font
@@ -19194,6 +20196,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 39.37 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 39.37 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6b4842fb-fad0-4421-a24d-7fae340b198a")
 		)
@@ -19273,6 +20293,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 34.29 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 34.29 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 34.29 76.2 90)
 			(effects
 				(font
@@ -19368,6 +20406,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 257.81 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 257.81 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "af53dd7d-01a9-4d88-abf4-8eb8b18d724e")
 		)
@@ -19453,6 +20509,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 76.2 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 76.2 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "35a5d0f7-c9c5-498a-ae9e-159a67af7544")
 		)
@@ -19520,24 +20594,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 266.7 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 266.7 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFG Part Number" ""
 			(at 266.7 68.58 0)
 			(effects
@@ -19548,6 +20604,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 266.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 266.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 266.7 68.58 0)
 			(effects
 				(font
@@ -19635,6 +20709,24 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 104.14 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 104.14 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 104.14 158.75 0)
 			(effects
 				(font

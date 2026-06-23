@@ -3307,6 +3307,28 @@
 			)
 		)
 	)
+	(global_label "Fogger_LED"
+		(shape input)
+		(at 149.86 69.85 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a2f0041-2cf0-482b-a0c8-2f199ffd05d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.86 83.6603 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Gnd_FP"
 		(shape input)
 		(at 48.26 177.8 0)
@@ -3747,6 +3769,28 @@
 			)
 		)
 	)
+	(global_label "WifiCom_LED"
+		(shape input)
+		(at 176.53 36.83 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4303451e-85ae-42d8-9f0a-cbd1d1415a68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.53 51.7289 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Heartbeat_LED"
 		(shape input)
 		(at 182.88 80.01 90)
@@ -3903,6 +3947,28 @@
 	)
 	(global_label "12V_FP"
 		(shape input)
+		(at 149.86 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5114f4cf-8b34-4856-a3f0-2eace0176376")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.86 44.791 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_FP"
+		(shape input)
 		(at 22.86 130.81 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3958,6 +4024,28 @@
 		(uuid "560efa59-0b5e-4628-a032-859efbc1f8d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 36.1262 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_FP"
+		(shape input)
+		(at 125.73 53.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "574adf26-5dd2-47c4-8f72-b952befcfa21")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.73 43.521 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4024,6 +4112,28 @@
 		(uuid "5c24ffdf-0637-4cd1-9510-995d9d470419")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 163.5494 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_FP"
+		(shape input)
+		(at 176.53 21.59 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ca030b0-7454-4073-9bfb-7213b6ba9c48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.53 11.771 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4161,6 +4271,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HeaterFault_LED"
+		(shape input)
+		(at 125.73 68.58 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c09c603-c5ad-4357-a54a-f91bb4c8442d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.73 86.926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4341,6 +4473,28 @@
 			)
 		)
 	)
+	(global_label "FAE_LED"
+		(shape input)
+		(at 110.49 68.58 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81eefe8e-ec87-48e2-a0fe-8079ca52fcdd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.49 79.3061 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "12V_FP"
 		(shape input)
 		(at 22.86 140.97 0)
@@ -4517,6 +4671,28 @@
 			)
 		)
 	)
+	(global_label "12V_FP"
+		(shape input)
+		(at 180.34 21.59 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93a87b77-4aca-4889-abf5-e54c2b0c4b27")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.34 11.771 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "5V_FP"
 		(shape input)
 		(at 24.13 180.34 0)
@@ -4583,6 +4759,28 @@
 			)
 		)
 	)
+	(global_label "12V_FP"
+		(shape input)
+		(at 110.49 53.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d55afdb-30fb-439f-92e1-8a45314dfdeb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.49 43.521 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Heater Fans_FP"
 		(shape input)
 		(at 133.35 114.3 180)
@@ -4596,6 +4794,28 @@
 		(uuid "a3e8fc51-adbc-4256-95a8-76420a2ec036")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 115.4877 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Heartbeat_LED"
+		(shape input)
+		(at 184.15 36.83 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9f4d780-beee-4bfb-8dce-3f6ee9bf41d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.15 53.4222 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5089,6 +5309,28 @@
 			)
 		)
 	)
+	(global_label "ESPNow_LED"
+		(shape input)
+		(at 180.34 36.83 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e190550b-872c-4cf6-805a-df8a8f9a3ac8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.34 51.6684 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Heater_On_FP"
 		(shape input)
 		(at 133.35 99.06 180)
@@ -5107,6 +5349,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_FP"
+		(shape input)
+		(at 184.15 21.59 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2770a01-638c-4dad-aca6-17b4e1d55945")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.15 11.771 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5528,6 +5792,264 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 138.43 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "031689ea-5aa3-400b-9222-556ed21eace0")
+		(property "Reference" "D16"
+			(at 140.0175 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Water Solenoid LED"
+			(at 140.0175 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
+			(at 138.43 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 138.43 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 138.43 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "through-hole"
+			(at 138.43 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34148112-cac8-4940-9d52-576bdd295c98")
+		)
+		(pin "2"
+			(uuid "bd80e931-3e16-4e99-8d9c-2edfe1577c11")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 54.61 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07b58882-9af4-411e-a8e6-361651b73b1c")
+		(property "Reference" "D13"
+			(at 56.1975 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Water Solenoid LED"
+			(at 56.1975 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
+			(at 54.61 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 54.61 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 54.61 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "through-hole"
+			(at 54.61 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a934e5e-95b0-4158-874e-ce90b845cd3d")
+		)
+		(pin "2"
+			(uuid "cdce3c2c-0f9c-45ef-9be1-12dbd82b6653")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 57.15 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "090bd2e3-370b-4807-9a8b-9f6b5e10c6d0")
+		(property "Reference" "D12"
+			(at 58.7375 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Water Solenoid LED"
+			(at 58.7375 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 57.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
+			(at 57.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 57.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 57.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "through-hole"
+			(at 57.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f2dedcd-68b1-4408-888d-f3712f57893e")
+		)
+		(pin "2"
+			(uuid "35e9b01c-eb80-4467-a7a9-066abee416d6")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 39.37 115.57 0)
 		(unit 1)
@@ -5552,7 +6074,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 39.37 115.57 0)
 			(effects
 				(font
@@ -5655,7 +6177,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 17.78 138.43 0)
 			(effects
 				(font
@@ -5759,7 +6281,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 246.38 131.572 90)
 			(effects
 				(font
@@ -5844,7 +6366,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
 			(at 17.78 104.14 0)
 			(effects
 				(font
@@ -5923,6 +6445,268 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 125.73 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15d82d78-a2a2-4eb6-8211-44844c760ab7")
+		(property "Reference" "D19"
+			(at 129.54 65.0874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "HeaterFault_LED"
+			(at 129.54 67.6274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
+			(at 125.73 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 125.73 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 125.73 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "through-hole"
+			(at 125.73 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "511e618b-f239-49de-a9e2-939c3dd02177")
+		)
+		(pin "2"
+			(uuid "10f39fcf-efea-4938-95b8-8a03dbe12ff8")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 53.34 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17df2f1b-90de-4142-8efb-cd8cb83f4c24")
+		(property "Reference" "D10"
+			(at 54.9275 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Water Solenoid LED"
+			(at 54.9275 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "through-hole"
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fb9a5ff-62c6-4985-935c-09689f142396")
+		)
+		(pin "2"
+			(uuid "a945c165-2840-4750-9fbd-441a2c6df857")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 176.53 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21484263-11f0-4284-b20d-ed020d29d201")
+		(property "Reference" "R46"
+			(at 179.07 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000"
+			(at 179.07 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "digikey-footprints:0805"
+			(at 174.752 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 176.53 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 176.53 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 176.53 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77b05988-2215-4301-bd00-028fdeefe8ee")
+		)
+		(pin "1"
+			(uuid "113a73ac-acf5-4e4c-946a-cb8035e2d1f6")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 127 21.59 0)
 		(unit 1)
@@ -5948,7 +6732,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
 			(at 127 21.59 0)
 			(effects
 				(font
@@ -6060,7 +6844,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 247.65 55.88 0)
 			(effects
 				(font
@@ -6121,6 +6905,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 53.34 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39eee4a9-5c20-4422-bb1b-210c2a33a607")
+		(property "Reference" "D9"
+			(at 54.9275 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Water Solenoid LED"
+			(at 54.9275 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
+			(at 53.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 53.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 53.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "through-hole"
+			(at 53.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f6d2332-85fc-439c-b95d-35c937dfc2f3")
+		)
+		(pin "2"
+			(uuid "4700e428-fc8f-4592-b118-a0ec5fc19fa1")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 16.51 77.47 0)
 		(unit 1)
@@ -6145,7 +7015,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
 			(at 16.51 77.47 0)
 			(effects
 				(font
@@ -6276,7 +7146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kingbright"
 			(at 53.34 77.47 0)
 			(effects
 				(font
@@ -6285,7 +7155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "through-hole"
 			(at 53.34 77.47 0)
 			(effects
 				(font
@@ -6335,7 +7205,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
 			(at 148.59 22.86 0)
 			(effects
 				(font
@@ -6441,7 +7311,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
 			(at 17.78 128.27 0)
 			(effects
 				(font
@@ -6520,42 +7390,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 53.34 91.44 180)
+		(lib_id "Device:R")
+		(at 125.73 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "483648e9-0d81-4322-8b71-03911b615aa4")
-		(property "Reference" "D16"
-			(at 54.9275 83.82 0)
+		(uuid "48df5141-b20f-4e08-9974-829fbd7abc01")
+		(property "Reference" "R37"
+			(at 128.27 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Fogger FIll Solenoid LED"
-			(at 54.9275 86.36 0)
+		(property "Value" "1000"
+			(at 128.27 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 53.34 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
-			(at 53.34 91.44 0)
+		(property "Footprint" "digikey-footprints:0805"
+			(at 123.952 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6563,8 +7426,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 53.34 91.44 0)
+		(property "Datasheet" "~"
+			(at 125.73 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6573,7 +7445,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 53.34 91.44 0)
+			(at 125.73 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6582,7 +7454,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 53.34 91.44 0)
+			(at 125.73 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6590,16 +7462,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "86206fe3-b143-4453-b08c-f61fe1c0d09a")
-		)
 		(pin "2"
-			(uuid "4308ede3-d631-4a47-9ab7-319f5064261e")
+			(uuid "0bb5b660-55b9-47ec-a186-de58c7a2e7f7")
+		)
+		(pin "1"
+			(uuid "e0d39209-7726-4884-9cac-fcbd259b94e0")
 		)
 		(instances
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
-					(reference "D16")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -6630,7 +7502,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 62.23 139.192 90)
 			(effects
 				(font
@@ -6715,7 +7587,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
 			(at 17.78 115.57 0)
 			(effects
 				(font
@@ -6794,6 +7666,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 110.49 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f9cbe08-8ced-4e0c-9b3d-7f756ea93447")
+		(property "Reference" "R12"
+			(at 113.03 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000"
+			(at 113.03 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "digikey-footprints:0805"
+			(at 108.712 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 110.49 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 110.49 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b55b421-9784-4f80-8374-4e5345d6d3d7")
+		)
+		(pin "1"
+			(uuid "70f325c2-f82d-4ed9-abae-2bc06fa2b287")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 173.99 133.35 0)
 		(unit 1)
@@ -6819,7 +7779,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 173.99 133.35 0)
 			(effects
 				(font
@@ -6923,7 +7883,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 60.96 75.692 90)
 			(effects
 				(font
@@ -6978,6 +7938,92 @@
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
 					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 77.47 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62cfc45c-cd91-48a1-b12f-d73171a44bbe")
+		(property "Reference" "D11"
+			(at 79.0575 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Water Solenoid LED"
+			(at 79.0575 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 77.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
+			(at 77.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 77.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 77.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "through-hole"
+			(at 77.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5b14a7d-929c-47e6-b789-c9e5621481a5")
+		)
+		(pin "2"
+			(uuid "d0f94767-6bda-4b2b-8103-1af313c8aae5")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -7087,6 +8133,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 176.53 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "660d67a8-3224-4d6b-bfbf-0dd2d2fe4132")
+		(property "Reference" "D20"
+			(at 180.4651 33.3374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "WifiCom_LED"
+			(at 180.4651 35.8774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
+			(at 176.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 176.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 176.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "through-hole"
+			(at 176.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a48eb48-4147-4f34-91bc-9086d97becf4")
+		)
+		(pin "2"
+			(uuid "d0cbf462-8140-42e6-8d62-078d8abd5c49")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 19.05 193.04 0)
 		(unit 1)
@@ -7112,7 +8246,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
 			(at 19.05 193.04 0)
 			(effects
 				(font
@@ -7221,7 +8355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 184.912 139.7 90)
 			(effects
 				(font
@@ -7283,6 +8417,94 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 149.86 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "746641f1-e771-4c71-b838-563f5dc3f58b")
+		(property "Reference" "R39"
+			(at 152.4 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000"
+			(at 152.4 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "digikey-footprints:0805"
+			(at 148.082 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 149.86 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 149.86 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd814344-8e3f-4147-9f9e-d0156b6283a4")
+		)
+		(pin "1"
+			(uuid "38c0b000-b4b9-4db1-a1e5-e3bf686d258b")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 201.93 135.89 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7306,7 +8528,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 201.93 134.112 90)
 			(effects
 				(font
@@ -7394,7 +8616,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
 			(at 232.41 35.56 0)
 			(effects
 				(font
@@ -7482,7 +8704,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical"
 			(at 16.51 91.44 0)
 			(effects
 				(font
@@ -7561,42 +8783,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 232.41 62.23 180)
+		(lib_id "Device:R")
+		(at 180.34 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "816976f0-ce07-4c19-b7d7-13d99e4faadd")
-		(property "Reference" "D9"
-			(at 233.9975 54.61 0)
+		(uuid "85cebcdf-46ea-442d-bab0-a8e95cb31923")
+		(property "Reference" "R47"
+			(at 182.88 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "LED LED"
-			(at 233.9975 57.15 0)
+		(property "Value" "1000"
+			(at 182.88 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 232.41 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
-			(at 232.41 62.23 0)
+		(property "Footprint" "digikey-footprints:0805"
+			(at 178.562 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7604,8 +8819,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 232.41 62.23 0)
+		(property "Datasheet" "~"
+			(at 180.34 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 180.34 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7614,7 +8838,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 232.41 62.23 0)
+			(at 180.34 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7623,7 +8847,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 232.41 62.23 0)
+			(at 180.34 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7631,16 +8855,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "db62cef9-a249-4d4f-9b88-f1473222c299")
-		)
 		(pin "2"
-			(uuid "89b494be-4344-4b01-9dbc-1e4a74548cab")
+			(uuid "d6483c0a-18b8-43a2-8fc1-ad7c80ec035f")
+		)
+		(pin "1"
+			(uuid "3e2c21c5-1c1f-4f82-b0f1-c8092c6e30b7")
 		)
 		(instances
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
-					(reference "D9")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -7672,7 +8896,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 85.09 115.062 90)
 			(effects
 				(font
@@ -7733,92 +8957,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 138.43 40.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f792fbb-734e-44e6-b698-f2787ed7d30e")
-		(property "Reference" "D23"
-			(at 140.0175 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PowerOn_LED"
-			(at 140.0175 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
-			(at 138.43 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 138.43 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 138.43 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 138.43 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7a5425c-9d32-4b4c-aa29-bf7a776cd913")
-		)
-		(pin "2"
-			(uuid "e88a1fae-be52-4f14-b7ef-4dbd64114571")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
-					(reference "D23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 231.14 137.16 0)
 		(unit 1)
@@ -7846,7 +8984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 229.362 137.16 90)
 			(effects
 				(font
@@ -7907,6 +9045,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 40.64 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a10a941f-c0de-4952-bc1e-7ee7616bdbc6")
+		(property "Reference" "D14"
+			(at 39.0525 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Water Solenoid LED"
+			(at 39.0525 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 40.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
+			(at 40.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 40.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 40.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "through-hole"
+			(at 40.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "499254e1-ca68-4ce5-a6d7-90b52ace0fb9")
+		)
+		(pin "2"
+			(uuid "f919df1c-8962-4929-bb49-ec12526df87b")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x26_Pin")
 		(at 138.43 124.46 180)
 		(unit 1)
@@ -7934,7 +9158,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical"
 			(at 138.43 124.46 0)
 			(effects
 				(font
@@ -8092,7 +9316,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 146.05 38.862 90)
 			(effects
 				(font
@@ -8153,6 +9377,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 180.34 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a764323e-0c8b-40da-91f7-a31e719114d5")
+		(property "Reference" "D22"
+			(at 184.15 33.3374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESPNow_LED"
+			(at 184.15 35.8774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 180.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
+			(at 180.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 180.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 180.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "through-hole"
+			(at 180.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c90a6ef-f7cc-4d2d-be0b-5291d1c2a975")
+		)
+		(pin "2"
+			(uuid "18410eba-bce8-4150-b7ef-ae38594a0e99")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 33.02 153.67 90)
 		(unit 1)
@@ -8177,7 +9489,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 33.02 155.448 90)
 			(effects
 				(font
@@ -8238,91 +9550,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 57.15 128.27 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b4c48c87-d343-4d95-b1b0-555cc56f4466")
-		(property "Reference" "D18"
-			(at 57.15 122.682 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Heater Fans LED"
-			(at 57.15 125.222 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
-			(at 57.15 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 57.15 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 57.15 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 57.15 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d263a3ed-d7b5-43fd-8b85-fc3057adb565")
-		)
-		(pin "2"
-			(uuid "ca62ca10-11d0-47ba-83d6-b5d5a86b3d1e")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
-					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 64.77 128.27 270)
 		(unit 1)
@@ -8347,7 +9574,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 64.77 126.492 90)
 			(effects
 				(font
@@ -8433,7 +9660,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
 			(at 218.44 130.81 0)
 			(effects
 				(font
@@ -8506,6 +9733,94 @@
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
 					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 110.49 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "baeaea59-2ab4-482f-97ef-6ee2e7687945")
+		(property "Reference" "D18"
+			(at 114.3 65.0874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FAE_LED"
+			(at 114.3 67.6274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
+			(at 110.49 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 110.49 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 110.49 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "through-hole"
+			(at 110.49 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cece6b46-1d0e-4a3a-ba8b-0e8957f2e695")
+		)
+		(pin "2"
+			(uuid "91f894d7-62f0-4ea7-a706-c54c7e3b9b67")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -8615,6 +9930,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 184.15 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbc210e1-583a-4ab4-8703-7556c599eb0b")
+		(property "Reference" "R51"
+			(at 186.69 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000"
+			(at 186.69 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "digikey-footprints:0805"
+			(at 182.372 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 184.15 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 184.15 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 184.15 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8ce74952-8127-412a-aded-eb6525b5a1ab")
+		)
+		(pin "1"
+			(uuid "a929c873-4e54-4187-a656-a062bf80528e")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 43.18 180.34 0)
 		(unit 1)
@@ -8640,7 +10043,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
 			(at 43.18 180.34 0)
 			(effects
 				(font
@@ -8726,31 +10129,34 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 54.61 140.97 180)
+		(at 149.86 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d7f34f9a-7c83-4ba8-811d-9ad6515aa713")
-		(property "Reference" "D19"
-			(at 54.356 135.382 0)
+		(fields_autoplaced yes)
+		(uuid "cf3330a9-e425-4649-95c4-ddc979c52dc6")
+		(property "Reference" "D21"
+			(at 153.6999 66.3574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Circ Fans LED"
-			(at 54.356 137.922 0)
+		(property "Value" "Fogger_LED"
+			(at 153.6999 68.8974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 54.61 140.97 0)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 149.86 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8759,7 +10165,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
-			(at 54.61 140.97 0)
+			(at 149.86 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8768,7 +10174,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 54.61 140.97 0)
+			(at 149.86 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8776,8 +10182,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 54.61 140.97 0)
+		(property "Manufacturer" "Kingbright"
+			(at 149.86 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8785,8 +10191,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 54.61 140.97 0)
+		(property "Package" "through-hole"
+			(at 149.86 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8795,15 +10201,103 @@
 			)
 		)
 		(pin "1"
-			(uuid "e43a57ac-1ef3-4819-869c-4dc6682a8b41")
+			(uuid "781159b6-4d6d-487f-8153-507c4f3248da")
 		)
 		(pin "2"
-			(uuid "c9692c21-7cd6-451b-88ba-61a787d061b0")
+			(uuid "b830e909-3963-46ba-aeee-bbe8117c5e5e")
 		)
 		(instances
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
-					(reference "D19")
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 184.15 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d23eb20d-ec76-47fe-ac7b-f39f02f1ef8f")
+		(property "Reference" "D23"
+			(at 187.96 33.3374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Heartbeat_LED"
+			(at 187.96 35.8774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "through-hole"
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc31f51c-0aab-421e-8be3-b4281af1a536")
+		)
+		(pin "2"
+			(uuid "7b7da9f4-9881-4fa3-85de-49d8c546ccc8")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -8834,7 +10328,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 60.96 102.362 90)
 			(effects
 				(font
@@ -8895,6 +10389,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 232.41 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df35fc08-3403-4f7d-b611-eaafd4a9aa14")
+		(property "Reference" "D15"
+			(at 233.9975 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Water Solenoid LED"
+			(at 233.9975 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
+			(at 232.41 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 232.41 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 232.41 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "through-hole"
+			(at 232.41 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36e82298-8890-49a0-a0cc-bdfb7aa3e0a9")
+		)
+		(pin "2"
+			(uuid "606c7841-a3c5-4180-8801-5df88f4990b1")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 19.05 166.37 0)
 		(unit 1)
@@ -8920,7 +10500,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
 			(at 19.05 166.37 0)
 			(effects
 				(font
@@ -9002,91 +10582,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 40.64 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e5384b4d-f9f3-417e-9c35-330c90020225")
-		(property "Reference" "D20"
-			(at 40.64 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Heater On LED"
-			(at 40.64 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
-			(at 40.64 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 40.64 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 40.64 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 40.64 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37b8c761-a5e0-496a-a35a-6d3ca6e74a2d")
-		)
-		(pin "2"
-			(uuid "1a0d459e-14d5-4eba-aaa7-bbcc6355c696")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 19.05 180.34 0)
 		(unit 1)
@@ -9112,7 +10607,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
 			(at 19.05 180.34 0)
 			(effects
 				(font
@@ -9194,92 +10689,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 77.47 116.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f35ae680-3e4e-4a18-8091-8efe977aaeff")
-		(property "Reference" "D13"
-			(at 79.0575 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Glycol LED"
-			(at 79.0575 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
-			(at 77.47 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 77.47 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 77.47 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 77.47 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f643c85c-027e-4ee5-b6ca-1d4f13aa0307")
-		)
-		(pin "2"
-			(uuid "4cddf077-6c0a-4537-a098-9febbdcdce95")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 240.03 62.23 270)
 		(unit 1)
@@ -9305,7 +10714,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 240.03 60.452 90)
 			(effects
 				(font
@@ -9391,7 +10800,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 43.18 193.04 0)
 			(effects
 				(font
@@ -9470,91 +10879,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 53.34 104.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fdbf37c1-3e66-4760-83dc-302bf4625d0b")
-		(property "Reference" "D15"
-			(at 53.34 98.298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Drain Solenoid LED"
-			(at 53.34 100.838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
-			(at 53.34 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 53.34 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 53.34 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 53.34 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8733f6a-034e-443a-80d0-a19ecf6d34cc")
-		)
-		(pin "2"
-			(uuid "b5c6feef-be8b-44c6-af5c-87684599e395")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 60.96 91.44 270)
 		(unit 1)
@@ -9580,7 +10904,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 60.96 89.662 90)
 			(effects
 				(font

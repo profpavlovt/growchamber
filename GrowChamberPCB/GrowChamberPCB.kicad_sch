@@ -11979,7 +11979,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 71.628 39.37 90)
 			(effects
 				(font
@@ -12327,7 +12327,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 52.07 136.1948 0)
 			(effects
 				(font
@@ -12433,7 +12433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:SOT-23-3"
 			(at 273.05 76.835 0)
 			(effects
 				(font
@@ -12525,7 +12525,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical"
 			(at 182.88 82.55 0)
 			(effects
 				(font
@@ -12682,7 +12682,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 226.06 66.802 90)
 			(effects
 				(font
@@ -12788,7 +12788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:SOT-23-3"
 			(at 231.14 160.655 0)
 			(effects
 				(font
@@ -12882,7 +12882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical"
 			(at 96.52 109.22 0)
 			(effects
 				(font
@@ -13023,7 +13023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 233.68 66.675 0)
 			(effects
 				(font
@@ -13129,7 +13129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:SOT-23-3"
 			(at 199.39 150.495 0)
 			(effects
 				(font
@@ -13222,7 +13222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 33.782 143.51 90)
 			(effects
 				(font
@@ -13325,7 +13325,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 246.38 36.322 90)
 			(effects
 				(font
@@ -13431,7 +13431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 84.7852 137.16 0)
 			(effects
 				(font
@@ -13535,7 +13535,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 265.43 155.575 0)
 			(effects
 				(font
@@ -13640,7 +13640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 257.81 161.798 90)
 			(effects
 				(font
@@ -13743,7 +13743,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 93.98 156.718 90)
 			(effects
 				(font
@@ -13847,7 +13847,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 156.21 24.638 90)
 			(effects
 				(font
@@ -13951,7 +13951,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 60.96 37.338 90)
 			(effects
 				(font
@@ -14055,7 +14055,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 35.56 138.7348 0)
 			(effects
 				(font
@@ -14384,7 +14384,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 217.17 163.068 90)
 			(effects
 				(font
@@ -14487,7 +14487,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 59.69 41.6052 0)
 			(effects
 				(font
@@ -14591,7 +14591,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 71.12 30.1752 0)
 			(effects
 				(font
@@ -14802,7 +14802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:SOT-23-3"
 			(at 271.78 159.385 0)
 			(effects
 				(font
@@ -14893,7 +14893,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 259.08 100.838 90)
 			(effects
 				(font
@@ -14998,7 +14998,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 30.48 84.7852 0)
 			(effects
 				(font
@@ -15101,7 +15101,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 266.7 94.615 0)
 			(effects
 				(font
@@ -15204,7 +15204,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 259.08 141.478 90)
 			(effects
 				(font
@@ -15307,7 +15307,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 25.4 82.55 0)
 			(effects
 				(font
@@ -15410,7 +15410,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 50.8 60.198 90)
 			(effects
 				(font
@@ -15513,7 +15513,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 259.08 115.062 90)
 			(effects
 				(font
@@ -15721,7 +15721,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 182.88 146.812 90)
 			(effects
 				(font
@@ -15971,7 +15971,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_10.4x10.4_H4.8"
 			(at 63.5 64.77 0)
 			(effects
 				(font
@@ -15980,7 +15980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588886623743823872-C31964.pdf?response-content-disposition=attachment%3B%20filename%3DC31964.pdf%3B%20filename%2A%3DUTF-8%27%27C31964.pdf&x-oss-date=20260623T041219Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nRPOLx261qxKGFbR7oqG4XZdVNnL3pkDz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qYh%2BgnpG4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWorhUN8UYnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIVI6EVKKWD5sagAFHJt2v8qTfzcYeAdgvvh4w1T%2FgY%2FSGaQLlJfmThL%2FkDqzgVOKKxiHLZDxLHCAq5EWhqWU0CSXYvf3EpvVSJ%2FKGpBJoD3g8w86OxXU4gtpV8MR96Kks2lX7v0PeQT9UbDalJAmD5egYZIhiupn2w7Kj5xcIR5e9Acv9RMBP68FZ%2BCAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZdwXE6rKscno8YLnBiZasxBr%2F20260623%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=a3ec8441050e5d0af7ff6eb0a951a616bcb8d3e77b526992b8d94edc24728a7f"
 			(at 63.5 64.77 0)
 			(effects
 				(font
@@ -15998,7 +15998,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Number" ""
+		(property "MFG Part Number" "SMDRH105R-3R3NT "
 			(at 63.5 64.77 90)
 			(effects
 				(font
@@ -16007,7 +16007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type (SMD/thru-hole, etc.)" ""
+		(property "Type (SMD/thru-hole, etc.)" "SMD"
 			(at 63.5 64.77 90)
 			(effects
 				(font
@@ -16016,7 +16016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "SXN(Shun Xiang Nuo Elec)"
 			(at 63.5 64.77 90)
 			(effects
 				(font
@@ -16025,7 +16025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "SMD, 10.4x10.3"
 			(at 63.5 64.77 90)
 			(effects
 				(font
@@ -16074,7 +16074,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 199.39 32.258 90)
 			(effects
 				(font
@@ -16178,7 +16178,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 266.7 135.255 0)
 			(effects
 				(font
@@ -16283,7 +16283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 108.9152 160.02 0)
 			(effects
 				(font
@@ -16387,7 +16387,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 33.02 36.5252 0)
 			(effects
 				(font
@@ -16493,7 +16493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:SOT-23-3"
 			(at 240.03 70.485 0)
 			(effects
 				(font
@@ -16710,7 +16710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:SOT-23-3"
 			(at 273.05 98.425 0)
 			(effects
 				(font
@@ -16801,7 +16801,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 259.08 121.158 90)
 			(effects
 				(font
@@ -16904,7 +16904,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 188.468 152.4 90)
 			(effects
 				(font
@@ -17007,7 +17007,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 25.4 74.93 0)
 			(effects
 				(font
@@ -17110,7 +17110,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 259.08 79.248 90)
 			(effects
 				(font
@@ -17213,7 +17213,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 259.08 94.742 90)
 			(effects
 				(font
@@ -17316,7 +17316,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical"
 			(at 191.77 128.27 0)
 			(effects
 				(font
@@ -17431,7 +17431,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
 			(at 212.09 46.99 0)
 			(effects
 				(font
@@ -17625,7 +17625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:SOT-23-3"
 			(at 273.05 118.745 0)
 			(effects
 				(font
@@ -17716,7 +17716,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 259.08 135.382 90)
 			(effects
 				(font
@@ -17820,7 +17820,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-583-8"
 			(at 48.26 41.91 0)
 			(effects
 				(font
@@ -17941,7 +17941,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 60.96 47.498 90)
 			(effects
 				(font
@@ -18149,7 +18149,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00012_1x02_P5.00mm_Horizontal"
 			(at 13.97 33.02 0)
 			(effects
 				(font
@@ -18476,7 +18476,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 259.08 73.152 90)
 			(effects
 				(font
@@ -18579,7 +18579,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 224.79 156.845 0)
 			(effects
 				(font
@@ -18684,7 +18684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 14.732 184.15 90)
 			(effects
 				(font
@@ -18788,7 +18788,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 93.98 154.178 90)
 			(effects
 				(font
@@ -18893,7 +18893,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 270.51 22.5552 0)
 			(effects
 				(font
@@ -18996,7 +18996,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 46.99 57.4548 0)
 			(effects
 				(font
@@ -19100,7 +19100,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 266.7 114.935 0)
 			(effects
 				(font
@@ -19205,7 +19205,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:SOIC-8_W5.3mm"
 			(at 266.7 12.7 0)
 			(effects
 				(font
@@ -19328,7 +19328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 17.272 184.15 90)
 			(effects
 				(font
@@ -19434,7 +19434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:SOT-23-3"
 			(at 273.05 139.065 0)
 			(effects
 				(font
@@ -19630,7 +19630,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 226.06 72.898 90)
 			(effects
 				(font
@@ -19733,7 +19733,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 217.17 156.972 90)
 			(effects
 				(font
@@ -19839,7 +19839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 96.2152 137.16 0)
 			(effects
 				(font
@@ -19942,7 +19942,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical"
 			(at 46.99 128.27 0)
 			(effects
 				(font
@@ -20151,7 +20151,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 39.37 150.368 90)
 			(effects
 				(font
@@ -20256,7 +20256,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 30.48 77.1652 0)
 			(effects
 				(font
@@ -20361,7 +20361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 257.81 155.702 90)
 			(effects
 				(font
@@ -20464,7 +20464,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 76.2 37.338 90)
 			(effects
 				(font
@@ -20567,7 +20567,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 266.7 73.025 0)
 			(effects
 				(font
@@ -20672,7 +20672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:0805"
 			(at 105.1052 162.56 0)
 			(effects
 				(font

@@ -6049,6 +6049,182 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:IRLML6244"
 			(pin_names
 				(offset 0)
@@ -6543,6 +6719,16 @@
 		)
 		(uuid "edc1a826-444f-49c0-aed3-cf33b954189a")
 	)
+	(text "GPIO45 held low.  Turn on internal pull-up in firmware for fan tach readings"
+		(exclude_from_sim no)
+		(at 133.35 180.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f7a9675a-2f3d-4ae8-9247-4f4345f32202")
+	)
 	(junction
 		(at 71.12 64.77)
 		(diameter 0)
@@ -6846,6 +7032,10 @@
 	(no_connect
 		(at 160.02 30.48)
 		(uuid "5fd1bb80-8d8c-418d-ac0f-9da5cb403b06")
+	)
+	(no_connect
+		(at 26.67 147.32)
+		(uuid "7ddc316a-bd87-48b8-bf37-54d8b49ddaf3")
 	)
 	(no_connect
 		(at 82.55 160.02)
@@ -7997,7 +8187,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 152.4) (xy 43.18 152.4)
+			(xy 26.67 152.4) (xy 43.18 152.4)
 		)
 		(stroke
 			(width 0)
@@ -8345,7 +8535,7 @@
 	)
 	(global_label "Gnd"
 		(shape input)
-		(at 17.78 152.4 180)
+		(at 16.51 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8355,7 +8545,7 @@
 		)
 		(uuid "0b65af38-f33b-453c-8ac8-25340f8d019f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 11.2268 152.4 0)
+			(at 9.9568 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9003,7 +9193,7 @@
 			)
 		)
 	)
-	(global_label "Reset_SW"
+	(global_label "Reset_Button"
 		(shape input)
 		(at 187.96 64.77 0)
 		(fields_autoplaced yes)
@@ -9015,7 +9205,7 @@
 		)
 		(uuid "42c26115-7961-461a-9a9d-b3adfa858d35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.7747 64.77 0)
+			(at 203.2822 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9619,7 +9809,7 @@
 			)
 		)
 	)
-	(global_label "Reset_SW"
+	(global_label "Reset_Button"
 		(shape input)
 		(at 57.15 132.08 0)
 		(fields_autoplaced yes)
@@ -9631,7 +9821,7 @@
 		)
 		(uuid "73964fb6-a2be-46aa-9fe8-3bc239c7bac8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.9647 132.08 0)
+			(at 72.4722 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12909,7 +13099,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Number" ""
+		(property "MFG Part Number" "NA"
 			(at 96.52 91.44 0)
 			(effects
 				(font
@@ -12918,7 +13108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type (SMD/thru-hole, etc.)" ""
+		(property "Type (SMD/thru-hole, etc.)" "Through-hole"
 			(at 96.52 91.44 0)
 			(effects
 				(font
@@ -12927,7 +13117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NA"
 			(at 96.52 91.44 0)
 			(effects
 				(font
@@ -12936,7 +13126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "pinholes"
 			(at 96.52 91.44 0)
 			(effects
 				(font
@@ -13014,7 +13204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N4007W"
 			(at 232.918 58.674 0)
 			(effects
 				(font
@@ -13041,7 +13231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+		(property "Description" "-55℃~+150℃ 1 Independent 1.1V@1A 1A 1kV 25A 5uA@1kV SOD-123 Diodes - General Purpose ROHS"
 			(at 233.68 62.23 0)
 			(effects
 				(font
@@ -13050,7 +13240,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Number" ""
+		(property "MFG Part Number" "1N4007W"
 			(at 233.68 62.23 0)
 			(effects
 				(font
@@ -13068,7 +13258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "FUXINSEMI"
 			(at 233.68 62.23 0)
 			(effects
 				(font
@@ -13077,7 +13267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "SMD"
 			(at 233.68 62.23 0)
 			(effects
 				(font
@@ -13527,7 +13717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N4007W"
 			(at 257.048 151.638 0)
 			(effects
 				(font
@@ -13553,7 +13743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+		(property "Description" "-55℃~+150℃ 1 Independent 1.1V@1A 1A 1kV 25A 5uA@1kV SOD-123 Diodes - General Purpose ROHS"
 			(at 265.43 151.13 0)
 			(effects
 				(font
@@ -13562,7 +13752,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Number" ""
+		(property "MFG Part Number" "1N4007W"
 			(at 265.43 151.13 0)
 			(effects
 				(font
@@ -13580,7 +13770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "FUXINSEMI"
 			(at 265.43 151.13 0)
 			(effects
 				(font
@@ -13589,7 +13779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "SMD"
 			(at 265.43 151.13 0)
 			(effects
 				(font
@@ -14255,7 +14445,7 @@
 				)
 			)
 		)
-		(property "Value" "TC4428xOA"
+		(property "Value" "TC4428EOA"
 			(at 27.94 99.568 0)
 			(effects
 				(font
@@ -14263,7 +14453,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:SOIC-8_W3.9mm"
 			(at 28.448 114.3 0)
 			(effects
 				(font
@@ -14290,7 +14480,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Number" ""
+		(property "MFG Part Number" "TC4428EOA"
 			(at 27.94 99.06 0)
 			(effects
 				(font
@@ -14299,7 +14489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type (SMD/thru-hole, etc.)" ""
+		(property "Type (SMD/thru-hole, etc.)" "SMD"
 			(at 27.94 99.06 0)
 			(effects
 				(font
@@ -14308,7 +14498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Microchip Tech"
 			(at 27.94 99.06 0)
 			(effects
 				(font
@@ -14317,7 +14507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "SOIC-8"
 			(at 27.94 99.06 0)
 			(effects
 				(font
@@ -15093,7 +15283,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N4007W"
 			(at 267.208 87.63 0)
 			(effects
 				(font
@@ -15119,7 +15309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+		(property "Description" "-55℃~+150℃ 1 Independent 1.1V@1A 1A 1kV 25A 5uA@1kV SOD-123 Diodes - General Purpose ROHS"
 			(at 266.7 90.17 0)
 			(effects
 				(font
@@ -15128,7 +15318,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Number" ""
+		(property "MFG Part Number" "1N4007W"
 			(at 266.7 90.17 0)
 			(effects
 				(font
@@ -15146,7 +15336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "FUXINSEMI"
 			(at 266.7 90.17 0)
 			(effects
 				(font
@@ -15155,7 +15345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "SMD"
 			(at 266.7 90.17 0)
 			(effects
 				(font
@@ -16170,7 +16360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N4007W"
 			(at 258.318 131.318 0)
 			(effects
 				(font
@@ -16196,7 +16386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+		(property "Description" "-55℃~+150℃ 1 Independent 1.1V@1A 1A 1kV 25A 5uA@1kV SOD-123 Diodes - General Purpose ROHS"
 			(at 266.7 130.81 0)
 			(effects
 				(font
@@ -16205,7 +16395,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Number" ""
+		(property "MFG Part Number" "1N4007W"
 			(at 266.7 130.81 0)
 			(effects
 				(font
@@ -16223,7 +16413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "FUXINSEMI"
 			(at 266.7 130.81 0)
 			(effects
 				(font
@@ -16232,7 +16422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "SMD"
 			(at 266.7 130.81 0)
 			(effects
 				(font
@@ -16356,6 +16546,109 @@
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 52.07 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92fd50f6-bfd7-4ba9-87a8-f204c14f0b31")
+		(property "Reference" "SW5"
+			(at 49.53 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ResetButton_Internal"
+			(at 52.832 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 46.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8550724022091735040-C318884.pdf?response-content-disposition=attachment%3B%20filename%3DC318884.pdf%3B%20filename%2A%3DUTF-8%27%27C318884.pdf&x-oss-date=20260623T203203Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vsPfTmrKdi%2Ba%2FYOlD8nU0nar5i3fTulTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qepJv1ZG4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWpohUVpD7tHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIzGHxnqKWD5sagAGwGdg7eBRMe%2BjpmZKoMN29EbI%2BqeGWDU%2BDN00Al2NVRqyAwYTC2%2BRN3r3KydJAsor2R%2BId%2Fl0%2FMQM8NLpR3Tl%2FttaRfEoqhy9ZHOrBuuyJcP8ULoQ3qLZ6xiB%2FQQRtxnhSFSTuxrRbCzjPg0RpjFkz%2FPFgFCM03kfF1QwKI%2FFgsCAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXYvNRAxCNm38vMyMrf1N21Ew%2F20260623%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=e43aa02dab2f35991183760960ab48201f603011864f04475b1513b165997cdf"
+			(at 46.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 52.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" "TS-1187A-B-A-B "
+			(at 52.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type (SMD/thru-hole, etc.)" "SMD"
+			(at 52.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XKB Connection"
+			(at 52.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-4P,5.1x5.1mm "
+			(at 52.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9bb3be6c-569c-4aab-9bf2-8da0324f8d69")
+		)
+		(pin "1"
+			(uuid "4e486ab7-baea-4202-ba85-5b103ebccd5d")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -17316,7 +17609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical"
+		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00015_1x05_P5.00mm_Horizontal"
 			(at 191.77 128.27 0)
 			(effects
 				(font
@@ -17489,109 +17782,6 @@
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f"
 					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 22.86 152.4 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af0c6749-c028-4453-a08d-7ba6a0ed388a")
-		(property "Reference" "SW5"
-			(at 22.86 147.066 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BootSwitch"
-			(at 22.86 149.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 22.86 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 22.86 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 22.86 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 22.86 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 22.86 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f7955426-2e8c-460d-bf69-c9b54fd5982d")
-		)
-		(pin "1"
-			(uuid "5bccff01-abfb-4200-9f2d-2a34ff2950a3")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/39371779-5336-4073-adec-fb32caf6a86f"
-					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -18358,7 +18548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
 			(at 124.46 148.59 0)
 			(effects
 				(font
@@ -18388,7 +18578,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Number" ""
+		(property "MFG Part Number" "USBLC6-2SC6 "
 			(at 123.19 154.94 0)
 			(effects
 				(font
@@ -18397,7 +18587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type (SMD/thru-hole, etc.)" ""
+		(property "Type (SMD/thru-hole, etc.)" "SMD"
 			(at 123.19 154.94 0)
 			(effects
 				(font
@@ -18406,7 +18596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "STMicroelectronics"
 			(at 123.19 154.94 0)
 			(effects
 				(font
@@ -18415,7 +18605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "SOT-23-6L"
 			(at 123.19 154.94 0)
 			(effects
 				(font
@@ -18571,7 +18761,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N4007W"
 			(at 225.298 147.828 0)
 			(effects
 				(font
@@ -18597,7 +18787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+		(property "Description" "-55℃~+150℃ 1 Independent 1.1V@1A 1A 1kV 25A 5uA@1kV SOD-123 Diodes - General Purpose ROHS"
 			(at 224.79 152.4 0)
 			(effects
 				(font
@@ -18606,7 +18796,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Number" ""
+		(property "MFG Part Number" "1N4007W"
 			(at 224.79 152.4 0)
 			(effects
 				(font
@@ -18624,7 +18814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "FUXINSEMI"
 			(at 224.79 152.4 0)
 			(effects
 				(font
@@ -18633,7 +18823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "SMD"
 			(at 224.79 152.4 0)
 			(effects
 				(font
@@ -19092,7 +19282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N4007W"
 			(at 258.318 110.998 0)
 			(effects
 				(font
@@ -19118,7 +19308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+		(property "Description" "-55℃~+150℃ 1 Independent 1.1V@1A 1A 1kV 25A 5uA@1kV SOD-123 Diodes - General Purpose ROHS"
 			(at 266.7 110.49 0)
 			(effects
 				(font
@@ -19127,7 +19317,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Number" ""
+		(property "MFG Part Number" "1N4007W"
 			(at 266.7 110.49 0)
 			(effects
 				(font
@@ -19145,7 +19335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "FUXINSEMI"
 			(at 266.7 110.49 0)
 			(effects
 				(font
@@ -19154,7 +19344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "SMD"
 			(at 266.7 110.49 0)
 			(effects
 				(font
@@ -19205,7 +19395,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "digikey-footprints:SOIC-8_W5.3mm"
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
 			(at 266.7 12.7 0)
 			(effects
 				(font
@@ -19232,7 +19422,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Number" ""
+		(property "MFG Part Number" "W25Q128JVSIQ"
 			(at 266.7 35.56 90)
 			(effects
 				(font
@@ -19241,7 +19431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type (SMD/thru-hole, etc.)" ""
+		(property "Type (SMD/thru-hole, etc.)" "SMD"
 			(at 266.7 35.56 90)
 			(effects
 				(font
@@ -19250,7 +19440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Winbond Ele"
 			(at 266.7 35.56 90)
 			(effects
 				(font
@@ -19259,7 +19449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "SOIC-8 208-mil"
 			(at 266.7 35.56 90)
 			(effects
 				(font
@@ -19401,6 +19591,85 @@
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 21.59 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e50fbddb-1800-43a7-b889-874fd1b13b4f")
+		(property "Reference" "SW3"
+			(at 17.78 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BootMode_Switch"
+			(at 21.59 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 21.59 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" ""
+			(at 21.59 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "893b607b-a9d1-4c4a-8001-7526bbabcb07")
+		)
+		(pin "3"
+			(uuid "66b2588c-6877-4944-b41e-2795c20f6727")
+		)
+		(pin "2"
+			(uuid "d6a19233-f9ed-4fed-8364-c8dd2ef53ea0")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -19918,109 +20187,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 52.07 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f374f9b1-d01b-40ad-9d5f-ba10eedaf66d")
-		(property "Reference" "SW2"
-			(at 57.404 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Reset"
-			(at 54.864 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical"
-			(at 46.99 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 52.07 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 52.07 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 52.07 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 52.07 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 52.07 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3c8eaef6-5cd5-420d-8300-c215154ac451")
-		)
-		(pin "1"
-			(uuid "7b331c20-20e7-4a66-aa59-a64b21ab5e9f")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/39371779-5336-4073-adec-fb32caf6a86f"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:MCP1826S")
 		(at 116.84 20.32 0)
 		(unit 1)
@@ -20045,7 +20211,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 114.3 16.51 0)
 			(effects
 				(font
@@ -20072,7 +20238,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Number" ""
+		(property "MFG Part Number" "MCP1826S-3302E/DB"
 			(at 116.84 20.32 0)
 			(effects
 				(font
@@ -20081,7 +20247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type (SMD/thru-hole, etc.)" ""
+		(property "Type (SMD/thru-hole, etc.)" "SMD"
 			(at 116.84 20.32 0)
 			(effects
 				(font
@@ -20090,7 +20256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Microchip Tech"
 			(at 116.84 20.32 0)
 			(effects
 				(font
@@ -20099,7 +20265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "SOT-223-3 "
 			(at 116.84 20.32 0)
 			(effects
 				(font
@@ -20559,7 +20725,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N4007W"
 			(at 266.446 63.754 0)
 			(effects
 				(font
@@ -20585,7 +20751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+		(property "Description" "-55℃~+150℃ 1 Independent 1.1V@1A 1A 1kV 25A 5uA@1kV SOD-123 Diodes - General Purpose ROHS"
 			(at 266.7 68.58 0)
 			(effects
 				(font
@@ -20594,7 +20760,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Number" ""
+		(property "MFG Part Number" "1N4007W"
 			(at 266.7 68.58 0)
 			(effects
 				(font
@@ -20612,7 +20778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "FUXINSEMI"
 			(at 266.7 68.58 0)
 			(effects
 				(font
@@ -20621,7 +20787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "SMD"
 			(at 266.7 68.58 0)
 			(effects
 				(font

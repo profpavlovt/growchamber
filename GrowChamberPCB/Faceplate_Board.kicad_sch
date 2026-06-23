@@ -2978,6 +2978,182 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 216.408 23.368)
@@ -3038,6 +3214,10 @@
 	(no_connect
 		(at 177.8 105.41)
 		(uuid "1da2dbb2-5fed-44f9-8ae5-e3c47a472d92")
+	)
+	(no_connect
+		(at 35.56 40.64)
+		(uuid "f446ab26-8372-4934-82ae-36367b9bd001")
 	)
 	(wire
 		(pts
@@ -3109,7 +3289,7 @@
 		)
 		(uuid "c3190e49-f2e5-4981-9ecb-a04de148d175")
 	)
-	(global_label "Reset_SW_FP"
+	(global_label "Reset_Button_FP"
 		(shape input)
 		(at 36.83 59.69 0)
 		(fields_autoplaced yes)
@@ -3121,7 +3301,7 @@
 		)
 		(uuid "021eeeed-4c5e-4679-ac4b-29a0e4da544b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.9709 59.69 0)
+			(at 55.4784 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3659,7 +3839,7 @@
 			)
 		)
 	)
-	(global_label "Reset_SW_FP"
+	(global_label "Reset_Button_FP"
 		(shape input)
 		(at 133.35 104.14 180)
 		(fields_autoplaced yes)
@@ -3671,7 +3851,7 @@
 		)
 		(uuid "383c9d9f-50a4-4baf-ad7d-9c76c368af12")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.2091 104.14 0)
+			(at 114.7016 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4519,7 +4699,7 @@
 	)
 	(global_label "Gnd_FP"
 		(shape input)
-		(at 26.67 45.72 180)
+		(at 25.4 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4529,7 +4709,7 @@
 		)
 		(uuid "85aa91c9-43a9-4d58-b40c-efb64da6c33b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.7906 45.72 0)
+			(at 15.5206 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,7 +5755,7 @@
 	)
 	(global_label "BootMode_FP"
 		(shape input)
-		(at 36.83 45.72 0)
+		(at 35.56 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5585,7 +5765,7 @@
 		)
 		(uuid "fbecb5bc-98c8-4d26-a5f3-d36d29a517fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.2731 45.72 0)
+			(at 51.0031 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5657,7 +5837,7 @@
 				)
 			)
 		)
-		(property "Value" "PCA9555PW"
+		(property "Value" "PCA9555PW,118"
 			(at 220.98 89.8046 90)
 			(effects
 				(font
@@ -5665,7 +5845,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digikey-footprints:TSSOP-24_W4.40mm"
 			(at 190.5 92.71 0)
 			(effects
 				(font
@@ -5692,7 +5872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NXP Semicon"
 			(at 190.5 92.71 90)
 			(effects
 				(font
@@ -5701,7 +5881,25 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "TSSOP-24"
+			(at 190.5 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" "PCA9555PW,118 "
+			(at 190.5 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type (SMD/thru-hole, etc.)" "SMD"
 			(at 190.5 92.71 90)
 			(effects
 				(font
@@ -5809,7 +6007,7 @@
 				)
 			)
 		)
-		(property "Value" "Water Solenoid LED"
+		(property "Value" "LED"
 			(at 140.0175 35.56 0)
 			(effects
 				(font
@@ -5817,7 +6015,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 138.43 40.64 0)
 			(effects
 				(font
@@ -5854,6 +6052,15 @@
 			)
 		)
 		(property "Package" "through-hole"
+			(at 138.43 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" "WP7113ID"
 			(at 138.43 40.64 0)
 			(effects
 				(font
@@ -5895,7 +6102,7 @@
 				)
 			)
 		)
-		(property "Value" "Water Solenoid LED"
+		(property "Value" "LED"
 			(at 56.1975 135.89 0)
 			(effects
 				(font
@@ -5903,7 +6110,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 54.61 140.97 0)
 			(effects
 				(font
@@ -5948,6 +6155,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFG Part Number" "WP7113ID"
+			(at 54.61 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a934e5e-95b0-4158-874e-ce90b845cd3d")
 		)
@@ -5981,7 +6197,7 @@
 				)
 			)
 		)
-		(property "Value" "Water Solenoid LED"
+		(property "Value" "LED"
 			(at 58.7375 123.19 0)
 			(effects
 				(font
@@ -6026,6 +6242,15 @@
 			)
 		)
 		(property "Package" "through-hole"
+			(at 57.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" "WP7113ID"
 			(at 57.15 128.27 0)
 			(effects
 				(font
@@ -6463,7 +6688,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "HeaterFault_LED"
+		(property "Value" "LED"
 			(at 129.54 67.6274 90)
 			(effects
 				(font
@@ -6472,7 +6697,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 125.73 64.77 0)
 			(effects
 				(font
@@ -6517,6 +6742,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFG Part Number" "WP7113ID"
+			(at 125.73 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "511e618b-f239-49de-a9e2-939c3dd02177")
 		)
@@ -6550,7 +6784,7 @@
 				)
 			)
 		)
-		(property "Value" "Water Solenoid LED"
+		(property "Value" "LED"
 			(at 54.9275 99.06 0)
 			(effects
 				(font
@@ -6595,6 +6829,15 @@
 			)
 		)
 		(property "Package" "through-hole"
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" "WP7113ID"
 			(at 53.34 104.14 0)
 			(effects
 				(font
@@ -6701,6 +6944,86 @@
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
 					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 30.48 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25ecf535-d8c3-4f66-a3f4-77ea72ef58fe")
+		(property "Reference" "SW1"
+			(at 30.48 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BootMode_Switch"
+			(at 30.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 30.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" ""
+			(at 30.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84669884-fefd-4cb5-9e42-695a54d1c439")
+		)
+		(pin "3"
+			(uuid "fcd42f71-adac-472a-9019-c27067c349c8")
+		)
+		(pin "2"
+			(uuid "a71a964f-79b2-413c-9e87-ec165caba1ad")
+		)
+		(instances
+			(project ""
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -6922,7 +7245,7 @@
 				)
 			)
 		)
-		(property "Value" "Water Solenoid LED"
+		(property "Value" "LED"
 			(at 54.9275 86.36 0)
 			(effects
 				(font
@@ -6930,7 +7253,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 53.34 91.44 0)
 			(effects
 				(font
@@ -6967,6 +7290,15 @@
 			)
 		)
 		(property "Package" "through-hole"
+			(at 53.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" "WP7113ID"
 			(at 53.34 91.44 0)
 			(effects
 				(font
@@ -7111,7 +7443,7 @@
 				)
 			)
 		)
-		(property "Value" "Water Solenoid LED"
+		(property "Value" "LED"
 			(at 54.9275 72.39 0)
 			(effects
 				(font
@@ -7119,7 +7451,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 53.34 77.47 0)
 			(effects
 				(font
@@ -7156,6 +7488,15 @@
 			)
 		)
 		(property "Package" "through-hole"
+			(at 53.34 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" "WP7113ID"
 			(at 53.34 77.47 0)
 			(effects
 				(font
@@ -7961,7 +8302,7 @@
 				)
 			)
 		)
-		(property "Value" "Water Solenoid LED"
+		(property "Value" "LED"
 			(at 79.0575 111.76 0)
 			(effects
 				(font
@@ -8014,6 +8355,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFG Part Number" "WP7113ID"
+			(at 77.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c5b14a7d-929c-47e6-b789-c9e5621481a5")
 		)
@@ -8024,109 +8374,6 @@
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
 					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 31.75 45.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "652e6c86-1152-4cc5-b8f0-2ef54ea746b4")
-		(property "Reference" "SW3"
-			(at 31.75 40.386 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BootSwitch"
-			(at 31.75 42.926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 31.75 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 31.75 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 31.75 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 31.75 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 31.75 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "96e4df85-cf09-41e8-8f83-6d46031fff5f")
-		)
-		(pin "1"
-			(uuid "79099077-32c2-419a-b7c9-998adf129e8d")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -8151,7 +8398,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "WifiCom_LED"
+		(property "Value" "LED"
 			(at 180.4651 35.8774 90)
 			(effects
 				(font
@@ -8160,7 +8407,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 176.53 33.02 0)
 			(effects
 				(font
@@ -8198,6 +8445,15 @@
 		)
 		(property "Package" "through-hole"
 			(at 176.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" "WP7113ID"
+			(at 176.53 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9062,7 +9318,7 @@
 				)
 			)
 		)
-		(property "Value" "Water Solenoid LED"
+		(property "Value" "LED"
 			(at 39.0525 149.86 0)
 			(effects
 				(font
@@ -9107,6 +9363,15 @@
 			)
 		)
 		(property "Package" "through-hole"
+			(at 40.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" "WP7113ID"
 			(at 40.64 153.67 0)
 			(effects
 				(font
@@ -9395,7 +9660,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ESPNow_LED"
+		(property "Value" "LED"
 			(at 184.15 35.8774 90)
 			(effects
 				(font
@@ -9442,6 +9707,15 @@
 		)
 		(property "Package" "through-hole"
 			(at 180.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" "WP7113ID"
+			(at 180.34 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9757,7 +10031,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FAE_LED"
+		(property "Value" "LED"
 			(at 114.3 67.6274 90)
 			(effects
 				(font
@@ -9766,7 +10040,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 110.49 64.77 0)
 			(effects
 				(font
@@ -9811,6 +10085,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFG Part Number" "WP7113ID"
+			(at 110.49 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cece6b46-1d0e-4a3a-ba8b-0e8957f2e695")
 		)
@@ -9821,109 +10104,6 @@
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
 					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 31.75 59.69 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bb64f5ac-dea6-4119-92df-4baa08b36d96")
-		(property "Reference" "SW4"
-			(at 31.75 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ResetButton"
-			(at 31.75 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 31.75 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 31.75 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 31.75 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 31.75 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 31.75 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "36e2a58b-8887-4eae-bf70-c908bbfd50a2")
-		)
-		(pin "1"
-			(uuid "0eb90881-4586-49e8-a2f5-ed4be3c5ba21")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
-					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -10146,7 +10326,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Fogger_LED"
+		(property "Value" "LED"
 			(at 153.6999 68.8974 90)
 			(effects
 				(font
@@ -10200,6 +10380,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFG Part Number" "WP7113ID"
+			(at 149.86 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "781159b6-4d6d-487f-8153-507c4f3248da")
 		)
@@ -10234,7 +10423,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Heartbeat_LED"
+		(property "Value" "LED"
 			(at 187.96 35.8774 90)
 			(effects
 				(font
@@ -10243,7 +10432,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 184.15 33.02 0)
 			(effects
 				(font
@@ -10281,6 +10470,15 @@
 		)
 		(property "Package" "through-hole"
 			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" "WP7113ID"
+			(at 184.15 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10406,7 +10604,7 @@
 				)
 			)
 		)
-		(property "Value" "Water Solenoid LED"
+		(property "Value" "LED"
 			(at 233.9975 57.15 0)
 			(effects
 				(font
@@ -10414,7 +10612,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 232.41 62.23 0)
 			(effects
 				(font
@@ -10451,6 +10649,15 @@
 			)
 		)
 		(property "Package" "through-hole"
+			(at 232.41 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" "WP7113ID"
 			(at 232.41 62.23 0)
 			(effects
 				(font
@@ -10683,6 +10890,110 @@
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
 					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 31.75 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f374f9b1-d01b-40ad-9d5f-ba10eedaf66d")
+		(property "Reference" "SW2"
+			(at 31.75 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ResetButton_External"
+			(at 31.75 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 31.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" ""
+			(at 31.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type (SMD/thru-hole, etc.)" ""
+			(at 31.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 31.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 31.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3c8eaef6-5cd5-420d-8300-c215154ac451")
+		)
+		(pin "1"
+			(uuid "7b331c20-20e7-4a66-aa59-a64b21ab5e9f")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
+					(reference "SW2")
 					(unit 1)
 				)
 			)

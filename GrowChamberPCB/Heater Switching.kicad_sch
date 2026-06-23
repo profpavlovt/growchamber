@@ -2284,7 +2284,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N4007W"
 			(at 136.398 63.246 0)
 			(effects
 				(font
@@ -2310,7 +2310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+		(property "Description" "-55℃~+150℃ 1 Independent 1.1V@1A 1A 1kV 25A 5uA@1kV SOD-123 Diodes - General Purpose ROHS"
 			(at 140.97 64.77 0)
 			(effects
 				(font
@@ -2319,7 +2319,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Number" ""
+		(property "MFG Part Number" "1N4007W"
 			(at 140.97 64.77 0)
 			(effects
 				(font
@@ -2337,7 +2337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "FUXINSEMI"
 			(at 140.97 64.77 0)
 			(effects
 				(font
@@ -2346,7 +2346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "SMD"
 			(at 140.97 64.77 0)
 			(effects
 				(font
@@ -2768,7 +2768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Allegro MicroSystems, LLC"
 			(at 187.96 41.91 0)
 			(effects
 				(font
@@ -2777,7 +2777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "SOIC-8"
 			(at 187.96 41.91 0)
 			(effects
 				(font
@@ -2837,7 +2837,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "G5LE-1"
+		(property "Value" "G5LE-14 DC12"
 			(at 164.338 66.04 0)
 			(effects
 				(font
@@ -2874,7 +2874,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Number" "G5LE-1 DC12"
+		(property "MFG Part Number" "G5LE-14 DC12 "
 			(at 153.67 64.77 0)
 			(effects
 				(font
@@ -2892,7 +2892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Omron Electronics Inc-EMC Div"
 			(at 153.67 64.77 0)
 			(effects
 				(font

@@ -2149,25 +2149,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -10.16 31.369 0)
+			(property "Reference" "U1"
+				(at 0 35.56 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "ESP32-S3-WROOM-1U"
-				(at -10.16 -33.02 0)
+				(at 0.508 39.878 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "ESP32-S3-WROOM-1U:XCVR_ESP32-S3-WROOM-1U"
+			(property "Footprint" "PCM_Espressif:ESP32-S3-WROOM-1U"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2177,7 +2175,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://documentation.espressif.com/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2186,7 +2184,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "microcontroller"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2195,133 +2193,39 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Espressif Systems"
+			(property "MFG Part Number" "ESP32-S3-WROOM-1U-N8R8 "
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "3.35mm"
+			(property "Type (SMD/thru-hole, etc.)" "SMD"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Package" "SMD-41 Espressif Systems"
+			(property "Manufacturer" "Espressif Systems"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Price" "None"
+			(property "Package" "SMD,19.2x18mm"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/ESP32-S3-WROOM-1U/Espressif+Systems/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "v0.6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-S3-WROOM-1U/Espressif+Systems/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "ESP32-S3-WROOM-1U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=7790784&manufacturer=Espressif Systems&part_name=ESP32-S3-WROOM-1U&search_term=None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "2.4 GHz Wi-Fi (802.11 b/g/n) and Bluetooth 5 (LE) module"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "Not in stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Espressif"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -3051,177 +2955,6 @@
 						)
 					)
 					(number "40"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -27.94 180)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "41_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -27.94 180)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "41_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -27.94 180)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "41_3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -27.94 180)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "41_4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -27.94 180)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "41_5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -27.94 180)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "41_6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -27.94 180)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "41_7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -27.94 180)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "41_8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -27.94 180)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "41_9"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -6049,182 +5782,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPDT"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPDT"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPDT_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:IRLML6244"
 			(pin_names
 				(offset 0)
@@ -6514,6 +6071,392 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:TYPE-C-31-M-12"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "USBC"
+				(at 0 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TYPE-C-31-M-12"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:USB-C_SMD-TYPE-C-31-M-12_1"
+				(at 0 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/USB-Type-C_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.html"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "韩国韩荣"
+				(at 0 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "TYPE-C-31-M-12"
+				(at 0 -29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C165948"
+				(at 0 -31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "USB Connectors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TYPE-C-31-M-12_0_1"
+				(rectangle
+					(start -3.81 16.51)
+					(end 8.89 -16.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 13.97 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 11.43 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 8.89 0)
+					(length 2.54)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 6.35 0)
+					(length 2.54)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 3.81 0)
+					(length 2.54)
+					(name "DN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 1.27 0)
+					(length 2.54)
+					(name "DP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -1.27 0)
+					(length 2.54)
+					(name "DN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -3.81 0)
+					(length 2.54)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -6.35 0)
+					(length 2.54)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -8.89 0)
+					(length 2.54)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -11.43 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -13.97 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -6.35 180)
+					(length 2.54)
+					(name "EH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -8.89 180)
+					(length 2.54)
+					(name "EH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -11.43 180)
+					(length 2.54)
+					(name "EH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -13.97 180)
+					(length 2.54)
+					(name "EH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7024,6 +6967,10 @@
 	(no_connect
 		(at 82.55 165.1)
 		(uuid "44fa3e34-bfee-4cbd-ac55-e1478c68c08f")
+	)
+	(no_connect
+		(at 116.84 91.44)
+		(uuid "52ab8bf7-73df-422e-9906-10a3c580882f")
 	)
 	(no_connect
 		(at 195.58 22.86)
@@ -8535,7 +8482,7 @@
 	)
 	(global_label "Gnd"
 		(shape input)
-		(at 16.51 149.86 180)
+		(at 16.51 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8545,7 +8492,7 @@
 		)
 		(uuid "0b65af38-f33b-453c-8ac8-25340f8d019f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 9.9568 149.86 0)
+			(at 9.9568 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8568,28 +8515,6 @@
 		(uuid "1093c384-95ff-427e-a2cb-8402b9ded29c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 194.4528 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MISO"
-		(shape input)
-		(at 116.84 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "10a3356f-bd05-402b-8677-7049b3ad93c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.4214 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12142,6 +12067,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 21.59 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "078620bf-1d71-49e7-a013-4cd7a91d4b78")
+		(property "Reference" "SW3"
+			(at 21.59 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BootMode_Button"
+			(at 18.542 149.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 21.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8550724022091735040-C318884.pdf?response-content-disposition=attachment%3B%20filename%3DC318884.pdf%3B%20filename%2A%3DUTF-8%27%27C318884.pdf&x-oss-date=20260623T203203Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vsPfTmrKdi%2Ba%2FYOlD8nU0nar5i3fTulTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qepJv1ZG4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWpohUVpD7tHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIzGHxnqKWD5sagAGwGdg7eBRMe%2BjpmZKoMN29EbI%2BqeGWDU%2BDN00Al2NVRqyAwYTC2%2BRN3r3KydJAsor2R%2BId%2Fl0%2FMQM8NLpR3Tl%2FttaRfEoqhy9ZHOrBuuyJcP8ULoQ3qLZ6xiB%2FQQRtxnhSFSTuxrRbCzjPg0RpjFkz%2FPFgFCM03kfF1QwKI%2FFgsCAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXYvNRAxCNm38vMyMrf1N21Ew%2F20260623%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=e43aa02dab2f35991183760960ab48201f603011864f04475b1513b165997cdf"
+			(at 21.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 21.59 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Number" "TS-1187A-B-A-B "
+			(at 21.59 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type (SMD/thru-hole, etc.)" "SMD"
+			(at 21.59 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XKB Connection"
+			(at 21.59 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-4P,5.1x5.1mm "
+			(at 21.59 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81993f46-8129-4d15-adec-b3e40c4a9e75")
+		)
+		(pin "1"
+			(uuid "fc0b2e53-74fb-4938-b132-707f182f2887")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 69.85 39.37 180)
 		(unit 1)
@@ -12272,7 +12300,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Espressif:ESP32-S3-WROOM-1U"
 			(at 67.31 165.1 0)
 			(effects
 				(font
@@ -12291,7 +12319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "microcontroller"
 			(at 67.31 165.1 0)
 			(effects
 				(font
@@ -12300,7 +12328,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Number" ""
+		(property "MFG Part Number" "ESP32-S3-WROOM-1U-N8R8 "
 			(at 67.31 165.1 0)
 			(effects
 				(font
@@ -12309,7 +12337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type (SMD/thru-hole, etc.)" ""
+		(property "Type (SMD/thru-hole, etc.)" "SMD"
 			(at 67.31 165.1 0)
 			(effects
 				(font
@@ -12318,7 +12346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Espressif Systems"
 			(at 67.31 165.1 0)
 			(effects
 				(font
@@ -12327,7 +12355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "SMD,19.2x18mm"
 			(at 67.31 165.1 0)
 			(effects
 				(font
@@ -12429,29 +12457,14 @@
 		(pin "1"
 			(uuid "4abb23ac-e726-4eda-9c9a-79669b2fe5af")
 		)
-		(pin "41_3"
-			(uuid "ae1aab63-b7fb-46c0-86d7-78857242067f")
-		)
-		(pin "41_2"
-			(uuid "702949e7-6c08-4f90-97d8-82d319a2b14d")
-		)
-		(pin "41_6"
-			(uuid "8a9d9e8c-03e4-426f-97c4-30f7757ef02e")
-		)
 		(pin "34"
 			(uuid "e1fc9095-31e0-41c0-a0ed-b8d87b618e79")
 		)
 		(pin "25"
 			(uuid "201ae3e2-ca62-4b84-b997-4cf193d33fac")
 		)
-		(pin "41_4"
-			(uuid "3f5144d0-1fe4-411c-a6d7-f925730e146d")
-		)
 		(pin "24"
 			(uuid "8baff071-df8f-49d8-9a23-b1b8000e1062")
-		)
-		(pin "41_8"
-			(uuid "d8dcdd38-6c41-4d91-9a65-9288e596b2b4")
 		)
 		(pin "33"
 			(uuid "11667f6f-df3d-4491-b86d-7f54651a307e")
@@ -12462,31 +12475,156 @@
 		(pin "40"
 			(uuid "a6ef8821-7d74-4b92-85cf-a9630f24e99e")
 		)
-		(pin "41_5"
-			(uuid "1217e7a6-32d7-4e0b-b9a5-f753bd1ca73f")
-		)
 		(pin "32"
 			(uuid "d0a288c9-4d55-4c63-a1ac-e349456bb0d1")
-		)
-		(pin "41_7"
-			(uuid "92eca170-2132-4da9-a030-8a634f0d6eed")
 		)
 		(pin "35"
 			(uuid "265d59c2-548f-440c-95cb-a30759d84a29")
 		)
-		(pin "41_9"
-			(uuid "36de5113-ee0e-450f-b865-2b91e85aeaf3")
-		)
 		(pin "26"
 			(uuid "620319a6-0c28-4f5f-a0fb-d26bdc360106")
-		)
-		(pin "41_1"
-			(uuid "6ab785e3-efb2-4f35-a25a-f94a10078a3a")
 		)
 		(instances
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:TYPE-C-31-M-12")
+		(at 173.99 -13.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09dc9ab6-7f13-4902-b0e3-80eb0cc2788b")
+		(property "Reference" "USBC1"
+			(at 176.53 -34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TYPE-C-31-M-12"
+			(at 176.53 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:USB-C_SMD-TYPE-C-31-M-12_1"
+			(at 173.99 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/USB-Type-C_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.html"
+			(at 173.99 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "韩国韩荣"
+			(at 173.99 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TYPE-C-31-M-12"
+			(at 173.99 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C165948"
+			(at 173.99 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B4A9"
+			(uuid "8f74eaeb-319c-4ce8-bd7f-9d7c6a6e2d0f")
+		)
+		(pin "1"
+			(uuid "ba9f55cc-6b4d-475c-9e4f-8500dbd7f0bf")
+		)
+		(pin "A8"
+			(uuid "99de2a49-23f5-44e2-8060-70ca0edeb9cc")
+		)
+		(pin "2"
+			(uuid "43091b8d-ee5b-428a-acc5-5d07bde5b0ae")
+		)
+		(pin "B1A12"
+			(uuid "38afadbb-7665-4c91-b5dc-cdb7085dbe03")
+		)
+		(pin "B5"
+			(uuid "a488071c-e05a-455c-adf2-357b8257735d")
+		)
+		(pin "4"
+			(uuid "b3760c65-26b9-491c-b1e7-5b3f89490b07")
+		)
+		(pin "B6"
+			(uuid "725e0c51-2754-4e26-82b4-0c3a735a0d1b")
+		)
+		(pin "A4B9"
+			(uuid "a9a4d90b-3754-462e-89b3-d3b19119edf0")
+		)
+		(pin "A1B12"
+			(uuid "4c17a4c5-7faf-4e55-9505-b2af0899f3b4")
+		)
+		(pin "B8"
+			(uuid "8baae386-6cd2-43d5-a4ad-25dd5f996fbb")
+		)
+		(pin "A6"
+			(uuid "9d971e74-4a57-47d9-a64e-f3bbce1ad3b7")
+		)
+		(pin "B7"
+			(uuid "6f080419-b9d6-4a56-b63d-71ab6b667d47")
+		)
+		(pin "A5"
+			(uuid "fbd3c096-0266-45bf-b389-bb3536782a2c")
+		)
+		(pin "3"
+			(uuid "2b9d9dfa-39f5-4070-a933-bdbe0de443a9")
+		)
+		(pin "A7"
+			(uuid "56bfe8f5-3a5b-490f-b8c1-baf46a5faab4")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/39371779-5336-4073-adec-fb32caf6a86f"
+					(reference "USBC1")
 					(unit 1)
 				)
 			)
@@ -19591,85 +19729,6 @@
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f"
 					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 21.59 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e50fbddb-1800-43a7-b889-874fd1b13b4f")
-		(property "Reference" "SW3"
-			(at 17.78 144.526 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BootMode_Switch"
-			(at 21.59 144.018 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 21.59 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 21.59 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 21.59 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 21.59 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "893b607b-a9d1-4c4a-8001-7526bbabcb07")
-		)
-		(pin "3"
-			(uuid "66b2588c-6877-4944-b41e-2795c20f6727")
-		)
-		(pin "2"
-			(uuid "d6a19233-f9ed-4fed-8364-c8dd2ef53ea0")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/39371779-5336-4073-adec-fb32caf6a86f"
-					(reference "SW3")
 					(unit 1)
 				)
 			)

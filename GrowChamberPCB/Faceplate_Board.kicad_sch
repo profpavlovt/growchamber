@@ -2828,156 +2828,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_SPDT"
 			(pin_names
 				(offset 0)
@@ -3288,28 +3138,6 @@
 			(type default)
 		)
 		(uuid "c3190e49-f2e5-4981-9ecb-a04de148d175")
-	)
-	(global_label "Reset_Button_FP"
-		(shape input)
-		(at 36.83 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "021eeeed-4c5e-4679-ac4b-29a0e4da544b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.4784 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "Drain_Level_FP"
 		(shape input)
@@ -3835,50 +3663,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Reset_Button_FP"
-		(shape input)
-		(at 133.35 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "383c9d9f-50a4-4baf-ad7d-9c76c368af12")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.7016 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Gnd_FP"
-		(shape input)
-		(at 26.67 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3a7dbfe5-cfb2-4603-8043-90006c84d548")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.7906 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5181,7 +4965,7 @@
 			)
 		)
 	)
-	(global_label "BootMode_FP"
+	(global_label "Heater_On_FP"
 		(shape input)
 		(at 133.35 101.6 180)
 		(fields_autoplaced yes)
@@ -5191,9 +4975,9 @@
 			)
 			(justify right)
 		)
-		(uuid "c40767b9-3c4c-456a-a5d4-532778c01d9b")
+		(uuid "c371a444-f4f8-4eb2-8eea-afe73500c5dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.9069 101.6 0)
+			(at 117.4229 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5282,6 +5066,28 @@
 		(uuid "c9cd5c14-a72a-4dc9-8976-5a2f5fed0211")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 117.6045 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BootMode_FP"
+		(shape input)
+		(at 133.35 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb4af090-ab7b-42df-82c1-998671464c5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.9069 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,28 +5308,6 @@
 		(uuid "e190550b-872c-4cf6-805a-df8a8f9a3ac8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 180.34 51.6684 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Heater_On_FP"
-		(shape input)
-		(at 133.35 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e2167ea4-27a5-44a7-8e14-75cd6a70250c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.4229 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6591,7 +6375,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 17.78 104.14 0)
 			(effects
 				(font
@@ -6975,7 +6759,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
 			(at 30.48 38.1 0)
 			(effects
 				(font
@@ -6993,7 +6777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
+		(property "Description" "4.4mm 8.7mm 8.7mm Black PC Pin Rectangular Columnar SPDT Through Hole 插件-5P,8.7x4.4mm Slide Switches ROHS"
 			(at 30.48 38.1 0)
 			(effects
 				(font
@@ -7002,7 +6786,25 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Number" ""
+		(property "MFG Part Number" "SS12D07VG4"
+			(at 30.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HanElectricity"
+			(at 30.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Plugin-5P,8.7x4.4mm"
 			(at 30.48 38.1 0)
 			(effects
 				(font
@@ -7021,7 +6823,7 @@
 			(uuid "a71a964f-79b2-413c-9e87-ec165caba1ad")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
 					(reference "SW1")
 					(unit 1)
@@ -7652,7 +7454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 17.78 128.27 0)
 			(effects
 				(font
@@ -7928,7 +7730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 17.78 115.57 0)
 			(effects
 				(font
@@ -9934,7 +9736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 218.44 130.81 0)
 			(effects
 				(font
@@ -10223,7 +10025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
 			(at 43.18 180.34 0)
 			(effects
 				(font
@@ -10890,110 +10692,6 @@
 			(project "GrowChamberPCB"
 				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
 					(reference "J19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 31.75 59.69 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f374f9b1-d01b-40ad-9d5f-ba10eedaf66d")
-		(property "Reference" "SW2"
-			(at 31.75 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ResetButton_External"
-			(at 31.75 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 31.75 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 31.75 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 31.75 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 31.75 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 31.75 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3c8eaef6-5cd5-420d-8300-c215154ac451")
-		)
-		(pin "1"
-			(uuid "7b331c20-20e7-4a66-aa59-a64b21ab5e9f")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/39371779-5336-4073-adec-fb32caf6a86f/b570075a-c3a2-42a6-b1ef-d9defe6d89ee"
-					(reference "SW2")
 					(unit 1)
 				)
 			)

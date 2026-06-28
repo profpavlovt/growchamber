@@ -396,6 +396,144 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:SD15_C2931147"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SD15_C2931147"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SOD-323_L1.7-W1.3-LS2.6-RD"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2931147.pdf"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UMW(友台半导体)"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SD15"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2931147"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SD15_C2931147_0_1"
+				(polyline
+					(pts
+						(xy -2.29 2.29) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.25 -2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.52) (xy -1.27 0) (xy 1.27 1.78) (xy 1.27 -1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:WJ127-5.0-2P"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -520,158 +658,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "easyeda2kicad:WJ127-5.0-3P"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "WJ127-5.0-3P"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:CONN-TH_3P-P5.00_WJ127-5.0-3P"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Terminal-Blocks_WJ127-5-0-3P_C8393.html"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "WJ127-5.0-3P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "KANGNEX(康奈克斯电气)"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "WJ127-5.0-03P-14-00A"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C8393"
-				(at 0 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "WJ127-5.0-3P_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -2.54 -5.08 90)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 90)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 -5.08 90)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1459,35 +1445,27 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 12.7 150.622)
-		(end 96.012 197.104)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 1bb6c427-44bc-40f4-9025-1d8c2c0c10d1)
-	)
 	(text "Display"
 		(exclude_from_sim no)
-		(at 53.594 154.94 0)
+		(at 38.354 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "f9149653-3716-4ae9-a157-7ef224f1dfd7")
+		(uuid "703ebee8-85b4-4dd3-a1da-7822d06827a0")
 	)
 	(no_connect
-		(at 80.01 175.26)
-		(uuid "7e227172-6810-4032-8f1a-de0eff6858a2")
+		(at 24.13 171.45)
+		(uuid "37e74426-fd53-4141-b648-c267e7874075")
 	)
 	(no_connect
-		(at 39.37 175.26)
-		(uuid "ec2c33e2-e062-4253-b4a7-ca9f2f93a621")
+		(at 194.31 54.61)
+		(uuid "466b77cc-8cf3-4806-84bd-b8ec4420fc74")
+	)
+	(no_connect
+		(at 64.77 171.45)
+		(uuid "7eea8d8d-cac0-4574-8143-f6f71ac80925")
 	)
 	(global_label "KSD_Fault"
 		(shape input)
@@ -1529,6 +1507,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DC_Display"
+		(shape input)
+		(at 64.77 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15a4a435-8887-40f1-800a-11ceaefa3718")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.0965 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1599,31 +1599,9 @@
 			)
 		)
 	)
-	(global_label "SCK"
+	(global_label "GND_FP"
 		(shape input)
-		(at 39.37 172.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "22e728c1-6926-4415-9cf7-1cac5faaa3e4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.6353 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3.3V"
-		(shape input)
-		(at 80.01 180.34 0)
+		(at 262.89 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1631,14 +1609,36 @@
 			)
 			(justify left)
 		)
-		(uuid "2919464a-f971-42a4-bbfa-0988d4a2122e")
+		(uuid "2305ba2a-fbfd-45eb-8a65-5d3aac21c2d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.1076 180.34 0)
+			(at 273.0719 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK"
+		(shape input)
+		(at 24.13 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28fc2dc8-32c9-40af-ab49-40b22408468c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.3953 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1731,9 +1731,9 @@
 			)
 		)
 	)
-	(global_label "Display_Reset"
+	(global_label "5V"
 		(shape input)
-		(at 80.01 182.88 0)
+		(at 194.31 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1741,9 +1741,9 @@
 			)
 			(justify left)
 		)
-		(uuid "46eb595c-1dcb-4140-af87-3778a07530ae")
+		(uuid "4a2b93e4-2631-4f36-b0e5-ddadfba5e758")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.9975 182.88 0)
+			(at 199.5933 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1753,24 +1753,46 @@
 			)
 		)
 	)
-	(global_label "DC_Display"
+	(global_label "GND"
 		(shape input)
-		(at 80.01 167.64 0)
+		(at 44.45 186.69 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "4e43ef86-5439-4e84-82b7-304d4089ffed")
+		(uuid "4c2e7674-836d-40da-80a1-1d3d996a49f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.3365 167.64 0)
+			(at 44.45 193.5457 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CS_SD"
+		(shape input)
+		(at 24.13 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50cd7337-232c-4002-890f-eaecc46cf2fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.2182 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1788,28 +1810,6 @@
 		(uuid "56c5a43d-006d-4b6f-a3a6-5c74d1d44bef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 257.81 55.1157 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CS_SD"
-		(shape input)
-		(at 39.37 165.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5c8e5a49-3196-4fd3-ad6d-17da80c6deba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.4582 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1841,6 +1841,28 @@
 			)
 		)
 	)
+	(global_label "MOSI"
+		(shape input)
+		(at 64.77 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "638ebbb8-e8ec-49aa-b76b-37e26bb88854")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.3514 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 257.81 80.01 270)
@@ -1859,28 +1881,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3.3V"
-		(shape input)
-		(at 59.69 160.02 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6eecf1ae-41da-4fe6-82e4-aaa84a622edd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.69 152.9224 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -1920,6 +1920,28 @@
 		(uuid "7488db21-cab1-4c55-9416-17a2b5376902")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 260.35 53.5433 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape input)
+		(at 24.13 166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79bc2ebf-b145-4aad-8917-143947db81db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.5486 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2017,6 +2039,28 @@
 			)
 		)
 	)
+	(global_label "CS_Display"
+		(shape input)
+		(at 64.77 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "818f2b2c-e676-47b2-bb06-b27625594ffc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.036 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Heater_ON"
 		(shape input)
 		(at 179.07 41.91 180)
@@ -2041,7 +2085,7 @@
 	)
 	(global_label "LEDs"
 		(shape input)
-		(at 262.89 80.01 270)
+		(at 261.62 105.41 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2051,7 +2095,7 @@
 		)
 		(uuid "8792fc7d-e0e0-47d1-88b5-09a314d96430")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.89 87.4704 90)
+			(at 261.62 112.8704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2061,24 +2105,24 @@
 			)
 		)
 	)
-	(global_label "MOSI"
+	(global_label "LEDs"
 		(shape input)
-		(at 39.37 167.64 180)
+		(at 194.31 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "8bb48734-6fd5-42d1-aafe-99d7d4f8728d")
+		(uuid "88b39b7c-e19a-4dc3-a017-3349ab6f0a04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.7886 167.64 0)
+			(at 201.7704 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2105,9 +2149,31 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "12V"
 		(shape input)
-		(at 194.31 39.37 0)
+		(at 259.08 105.41 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "989fed1b-0dfa-43e5-9e8e-cbd7fb8f58d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.08 111.9028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Display_Reset"
+		(shape input)
+		(at 64.77 179.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2115,9 +2181,9 @@
 			)
 			(justify left)
 		)
-		(uuid "9c2dc2b8-efe8-4fe5-b5fa-72129001cefe")
+		(uuid "99dc272f-2363-4868-bd4e-7863bbbe920f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.5933 39.37 0)
+			(at 80.7575 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,6 +2211,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape input)
+		(at 24.13 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e7efa10-79d7-41d7-bf31-4e39b7e4996c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.5486 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2237,28 +2325,6 @@
 			)
 		)
 	)
-	(global_label "MOSI"
-		(shape input)
-		(at 80.01 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b8ac7455-7d09-4931-a6c0-a52ea1d5163f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.5914 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "12V"
 		(shape input)
 		(at 262.89 48.26 270)
@@ -2303,6 +2369,50 @@
 			)
 		)
 	)
+	(global_label "LEDs"
+		(shape input)
+		(at 252.73 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d63dd55a-8022-413b-b359-46ed91a885b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.2696 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK"
+		(shape input)
+		(at 64.77 173.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8c1316a-db84-4a6a-88ce-d4de27e892a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.5047 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BootMode"
 		(shape input)
 		(at 179.07 26.67 180)
@@ -2321,6 +2431,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 44.45 156.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9f901f6-0a8c-46d0-bc10-9d15d018d036")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.45 149.1124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2391,50 +2523,6 @@
 			)
 		)
 	)
-	(global_label "CS_Display"
-		(shape input)
-		(at 80.01 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e0860271-ee68-450d-a718-9e80f19ea0f0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.276 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MISO"
-		(shape input)
-		(at 39.37 170.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e2159691-9c00-4abb-9817-edbce744fb4d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.7886 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Fogger_Basin_Float_Switch"
 		(shape input)
 		(at 194.31 49.53 0)
@@ -2457,9 +2545,9 @@
 			)
 		)
 	)
-	(global_label "SCK"
+	(global_label "3.3V"
 		(shape input)
-		(at 80.01 177.8 0)
+		(at 64.77 176.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2467,143 +2555,21 @@
 			)
 			(justify left)
 		)
-		(uuid "eaa26e5e-9205-404d-8cab-dd7f76a15dd1")
+		(uuid "fdbaa269-542c-46b5-a019-82324d0163d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.7447 177.8 0)
+			(at 71.8676 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(global_label "Gnd"
-		(shape input)
-		(at 59.69 190.5 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ead91617-fb8f-4800-920e-7a810be31a74")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.69 197.0532 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:WJ127-5.0-3P")
-		(at 260.35 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10db675b-c1a3-40b8-9135-c9c1404481a7")
-		(property "Reference" "P1"
-			(at 266.7 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "To Faceplate"
-			(at 266.7 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CONN-TH_3P-P5.00_WJ127-5.0-3P"
-			(at 260.35 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Terminal-Blocks_WJ127-5-0-3P_C8393.html"
-			(at 260.35 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "WJ127-5.0-3P"
-			(at 260.35 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KANGNEX(康奈克斯电气)"
-			(at 260.35 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "WJ127-5.0-03P-14-00A"
-			(at 260.35 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C8393"
-			(at 260.35 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79141372-bf2b-45d6-8522-1f539641028c")
-		)
-		(pin "2"
-			(uuid "5b19f80f-63db-4b96-a12d-ea587f532c00")
-		)
-		(pin "3"
-			(uuid "4f89c4ce-f86b-4c7f-b792-f8379561e4d0")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae"
-					(reference "P1")
-					(unit 1)
-				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Driver_Display:CR2013-MI2120")
-		(at 59.69 175.26 0)
+		(at 44.45 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2612,7 +2578,7 @@
 		(fields_autoplaced yes)
 		(uuid "17ff4e61-050e-46f6-9f31-e05bb4e938fd")
 		(property "Reference" "U6"
-			(at 61.8333 157.48 0)
+			(at 46.5933 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2621,7 +2587,7 @@
 			)
 		)
 		(property "Value" "CR2013-MI2120"
-			(at 61.8333 160.02 0)
+			(at 46.5933 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2630,7 +2596,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical"
-			(at 59.69 193.04 0)
+			(at 44.45 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,7 +2605,7 @@
 			)
 		)
 		(property "Datasheet" "http://pan.baidu.com/s/11Y990"
-			(at 43.18 162.56 0)
+			(at 27.94 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2648,7 +2614,7 @@
 			)
 		)
 		(property "Description" "ILI9341 controller, SPI TFT LCD Display, 9-pin breakout PCB, 4-pin SD card interface, 5V/3.3V"
-			(at 59.69 175.26 0)
+			(at 44.45 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,7 +2623,7 @@
 			)
 		)
 		(property "MFG Part Number" "NA"
-			(at 59.69 175.26 0)
+			(at 44.45 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +2632,7 @@
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" "Through-hole"
-			(at 59.69 175.26 0)
+			(at 44.45 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +2641,7 @@
 			)
 		)
 		(property "Manufacturer" "NA"
-			(at 59.69 175.26 0)
+			(at 44.45 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2684,7 +2650,7 @@
 			)
 		)
 		(property "Package" "pinholes"
-			(at 59.69 175.26 0)
+			(at 44.45 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2845,6 +2811,197 @@
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae"
 					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:WJ127-5.0-2P")
+		(at 259.08 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75518ed7-d47e-446a-80b8-1790202a9a8b")
+		(property "Reference" "12V_IN4"
+			(at 267.97 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw Terminal"
+			(at 265.43 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CONN-TH_2P-P5.00_CPC3703CTR"
+			(at 259.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Terminal-Blocks_WJ127-5-0-2P_C3703.html"
+			(at 259.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WJ127-5.0-2P"
+			(at 259.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KANGNEX(康奈克斯电气)"
+			(at 259.08 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WJ127-5.0-02P-14-00A"
+			(at 259.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C3703"
+			(at 259.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a4d15e4a-c1dc-4742-a641-6d52c4f3adb6")
+		)
+		(pin "1"
+			(uuid "f34f86df-a61a-400d-a726-e5699dd4db1d")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae"
+					(reference "12V_IN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:WJ127-5.0-2P")
+		(at 260.35 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88b40e18-27cd-4575-9775-44ebee7b39a8")
+		(property "Reference" "LED_To_Connector1"
+			(at 252.73 108.9659 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw Terminal"
+			(at 254.762 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CONN-TH_2P-P5.00_CPC3703CTR"
+			(at 260.35 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Terminal-Blocks_WJ127-5-0-2P_C3703.html"
+			(at 260.35 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WJ127-5.0-2P"
+			(at 260.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KANGNEX(康奈克斯电气)"
+			(at 260.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WJ127-5.0-02P-14-00A"
+			(at 260.35 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C3703"
+			(at 260.35 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "14230e48-ef86-4da4-ab8f-2771d923ba63")
+		)
+		(pin "1"
+			(uuid "bebd0df9-7bdf-4235-991c-3f895968369c")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae"
+					(reference "LED_To_Connector1")
 					(unit 1)
 				)
 			)
@@ -3027,7 +3184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d83d3189-ed9e-4b7e-a309-866026995a31")
-		(property "Reference" "12V_IN"
+		(property "Reference" "12V_IN1"
 			(at 269.24 20.32 90)
 			(effects
 				(font
@@ -3106,7 +3263,101 @@
 		(instances
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae"
-					(reference "12V_IN")
+					(reference "12V_IN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SD15_C2931147")
+		(at 257.81 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef31bfae-7a4d-4596-8dba-bf206b38cc15")
+		(property "Reference" "D4"
+			(at 257.81 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SD15"
+			(at 258.064 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.7-W1.3-LS2.6-RD"
+			(at 257.81 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2931147.pdf"
+			(at 257.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UMW(友台半导体)"
+			(at 257.81 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SD15"
+			(at 257.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2931147"
+			(at 257.81 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55f7e372-051c-4b5d-9b3c-d2f329a003d0")
+		)
+		(pin "1"
+			(uuid "37707d7d-ad60-4f0c-a9a1-7cb958211d47")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae"
+					(reference "D4")
 					(unit 1)
 				)
 			)

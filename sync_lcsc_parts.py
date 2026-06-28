@@ -31,6 +31,39 @@ LCSC_PROPERTY_RE = re.compile(
 LCSC_BARE_RE = re.compile(r'"(C\d{4,})"')
 
 KICAD_EXTENSIONS = {".kicad_sch", ".kicad_pcb"}
+LIB_EXTENSIONS = {".kicad_sym", ".kicad_mod"}
+
+
+def get_default_easyeda_lib_dir() -> Path:
+    """Return the default easyeda2kicad library directory for the current OS."""
+    if sys.platform == "win32":
+        # C:/Users/<username>/Documents/Kicad/easyeda2kicad/
+        docs = Path.home() / "Documents" / "Kicad" / "easyeda2kicad"
+    else:
+        # Linux/macOS: ~/Documents/Kicad/easyeda2kicad/
+        docs = Path.home() / "Documents" / "Kicad" / "easyeda2kicad"
+    return docs
+
+
+def find_existing_parts(search_dirs: list[Path]) -> set[str]:
+    """Scan library files (.kicad_sym, .kicad_mod) for LCSC parts already downloaded."""
+    found: set[str] = set()
+    seen_files: set[Path] = set()
+    for d in search_dirs:
+        if not d.is_dir():
+            continue
+        for root, _dirs, filenames in os.walk(d):
+            for name in filenames:
+                p = Path(root) / name
+                if p.suffix in LIB_EXTENSIONS and p not in seen_files:
+                    seen_files.add(p)
+                    try:
+                        text = p.read_text(encoding="utf-8", errors="replace")
+                    except OSError:
+                        continue
+                    # easyeda2kicad stores LCSC IDs in property fields and symbol names
+                    found.update(re.findall(r'C\d{4,}', text))
+    return found
 
 
 def find_kicad_files(project_dir: Path) -> list[Path]:
@@ -103,6 +136,18 @@ def main():
         default=DEFAULT_DELAY,
         help=f"Seconds to wait between downloads to avoid rate-limiting (default: {DEFAULT_DELAY})",
     )
+    parser.add_argument(
+        "--lib-dir",
+        action="append",
+        default=None,
+        help="Additional directory to scan for existing library files (can be repeated; "
+             "always checks ~/Documents/Kicad/easyeda2kicad/ by default)",
+    )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Download all parts even if they already exist in libraries",
+    )
     args = parser.parse_args()
 
     project_dir = Path(args.project_dir).resolve()
@@ -136,8 +181,39 @@ def main():
         sources = ", ".join(all_parts[part_id])
         print(f"  {part_id}  (in {sources})")
 
+    # Check which parts already exist in libraries
+    if not args.force:
+        lib_dirs = [Path(d).resolve() for d in args.lib_dir] if args.lib_dir else []
+        # Always check the default easyeda2kicad library location
+        default_lib = get_default_easyeda_lib_dir()
+        lib_dirs.append(default_lib)
+        # Also check the project dir and output dir
+        lib_dirs.append(project_dir)
+        if args.output:
+            lib_dirs.append(Path(args.output).resolve())
+            lib_dirs.append(Path(args.output).resolve().parent)
+
+        print(f"\nChecking for already-downloaded parts...")
+        print(f"  Default library: {default_lib}")
+        if not default_lib.is_dir():
+            print(f"  (directory does not exist yet)")
+        existing = find_existing_parts(lib_dirs)
+        already = {p for p in all_parts if p in existing}
+        if already:
+            print(f"  Skipping {len(already)} part(s) already in libraries:")
+            for part_id in sorted(already):
+                print(f"    {part_id}")
+            for p in already:
+                del all_parts[p]
+        else:
+            print("  None found in existing libraries.")
+
+    if not all_parts:
+        print("\nAll parts already downloaded. Use --force to re-download.")
+        sys.exit(0)
+
     # Download
-    print()
+    print(f"\nDownloading {len(all_parts)} part(s)...")
     sorted_parts = sorted(all_parts)
     ok, fail = 0, 0
     for i, part_id in enumerate(sorted_parts):

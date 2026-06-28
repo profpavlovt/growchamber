@@ -2378,16 +2378,16 @@
 		(uuid "4a55b145-0d06-4f0e-979b-c91f2ca4cdb6")
 	)
 	(junction
+		(at 33.02 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90f4d6b8-1654-4237-99cf-ec528174f228")
+	)
+	(junction
 		(at 38.1 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8574fd0-befd-489f-9cc1-5a24392f1e0e")
-	)
-	(junction
-		(at 33.02 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c09e6976-0b61-4183-83b6-61771d71895b")
 	)
 	(wire
 		(pts
@@ -2418,16 +2418,6 @@
 			(type default)
 		)
 		(uuid "0de82551-c0cb-4bd8-9f83-b98bc1fc9801")
-	)
-	(wire
-		(pts
-			(xy 38.1 43.18) (xy 33.02 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1798d407-c2dc-454e-b00d-fea1f14f1934")
 	)
 	(wire
 		(pts
@@ -2508,6 +2498,16 @@
 			(type default)
 		)
 		(uuid "71f956cc-6424-4320-850e-de2a21672a68")
+	)
+	(wire
+		(pts
+			(xy 33.02 43.18) (xy 38.1 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77adc5de-b343-4ffe-bf49-53aef80dfd2b")
 	)
 	(wire
 		(pts
@@ -3891,7 +3891,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:CL10B105KA8NNNC")
-		(at 41.91 43.18 180)
+		(at 41.91 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3899,7 +3899,7 @@
 		(dnp no)
 		(uuid "8dc9452b-8313-408b-b8ec-dc787e766812")
 		(property "Reference" "C4"
-			(at 41.91 47.498 0)
+			(at 41.91 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3907,7 +3907,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 41.91 45.974 0)
+			(at 41.91 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +3915,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0603"
-			(at 41.91 35.56 0)
+			(at 41.91 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,7 +3924,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10B105KA8NNNC_1uF-105-10-25V-X7R_C29936.html"
-			(at 41.91 33.02 0)
+			(at 41.91 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3942,7 +3942,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 41.91 30.48 0)
+			(at 41.91 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3951,7 +3951,7 @@
 			)
 		)
 		(property "MPN" "CL10B105KA8NNNC"
-			(at 41.91 27.94 0)
+			(at 41.91 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +3960,7 @@
 			)
 		)
 		(property "LCSC Part" "C29936"
-			(at 41.91 25.4 0)
+			(at 41.91 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)

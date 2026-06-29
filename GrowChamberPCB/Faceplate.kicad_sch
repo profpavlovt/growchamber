@@ -2848,7 +2848,7 @@
 	)
 	(text "12V ESD"
 		(exclude_from_sim no)
-		(at 35.814 96.774 0)
+		(at 36.068 81.026 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2857,32 +2857,98 @@
 		(uuid "fdee33a5-f694-426c-84b4-d62623c727a0")
 	)
 	(no_connect
+		(at 240.03 139.7)
+		(uuid "0222ed3b-74a2-4419-8391-90fb6cd1ae3b")
+	)
+	(no_connect
+		(at 250.19 139.7)
+		(uuid "05dfa877-5444-492e-919a-6b965529dd9f")
+	)
+	(no_connect
+		(at 252.73 116.84)
+		(uuid "0706f8bf-323a-4260-961d-b8c9503f5114")
+	)
+	(no_connect
+		(at 255.27 116.84)
+		(uuid "2f33a4e2-e39c-420a-b591-f34f3e2893a8")
+	)
+	(no_connect
+		(at 237.49 139.7)
+		(uuid "4e0ad137-f6b8-4487-902f-40550cf2f2ba")
+	)
+	(no_connect
+		(at 245.11 139.7)
+		(uuid "56112d2f-a427-4761-a6da-89343ecab983")
+	)
+	(no_connect
+		(at 245.11 116.84)
+		(uuid "5f39954a-ebe9-4d8f-bfbf-dd418111309b")
+	)
+	(no_connect
+		(at 242.57 139.7)
+		(uuid "77d1d6d1-3218-46bc-8fe3-8c276652c021")
+	)
+	(no_connect
 		(at 36.83 27.94)
 		(uuid "853cffd2-c1d3-41f7-88a5-1ff1726449da")
 	)
 	(no_connect
-		(at 236.22 80.01)
+		(at 247.65 116.84)
+		(uuid "871b5799-af32-4eae-a176-f3a5d149b6df")
+	)
+	(no_connect
+		(at 265.43 116.84)
 		(uuid "8cf092b4-f080-4e1a-9eab-98e6b3d30e1c")
+	)
+	(no_connect
+		(at 242.57 116.84)
+		(uuid "98c4d4a7-8317-4ec5-916e-b8795a3384af")
 	)
 	(no_connect
 		(at 250.19 53.34)
 		(uuid "a48bf71e-7dbb-40a0-b328-bc1b60c21f8a")
 	)
 	(no_connect
+		(at 250.19 116.84)
+		(uuid "a84304bb-0a83-41ca-b253-c9d0a7400be7")
+	)
+	(no_connect
+		(at 252.73 139.7)
+		(uuid "abf2dcb4-a10a-492b-8687-5c7f6b653853")
+	)
+	(no_connect
 		(at 29.21 27.94)
 		(uuid "c0f060b5-3f09-4270-96d9-f9ab1e5509ae")
 	)
 	(no_connect
-		(at 99.06 148.59)
+		(at 44.45 154.94)
 		(uuid "de6eb4bc-9664-48a3-a047-4562cb02992f")
 	)
 	(no_connect
 		(at 24.13 30.48)
 		(uuid "ead5b898-993f-47ef-b5de-8f9273cb1b22")
 	)
+	(no_connect
+		(at 247.65 139.7)
+		(uuid "eed3b772-ab19-4684-9511-dc51a6363191")
+	)
+	(no_connect
+		(at 255.27 139.7)
+		(uuid "f5716c71-d7b6-475f-8ee7-e3aa000132ee")
+	)
 	(wire
 		(pts
-			(xy 99.06 156.21) (xy 97.79 156.21)
+			(xy 257.81 105.41) (xy 257.81 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "008b50b8-b52e-4cf5-b66b-39932e174d70")
+	)
+	(wire
+		(pts
+			(xy 44.45 162.56) (xy 43.18 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2892,13 +2958,23 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 151.13) (xy 97.79 151.13)
+			(xy 44.45 157.48) (xy 43.18 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4f9f4a11-566d-417a-8ef5-1420f7b3c745")
+	)
+	(wire
+		(pts
+			(xy 240.03 105.41) (xy 240.03 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "997b1cd4-70b9-456e-ac4c-5c008410edf6")
 	)
 	(wire
 		(pts
@@ -2912,7 +2988,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 21.59) (xy 41.91 21.59)
+			(xy 44.45 21.59) (xy 41.91 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2922,7 +2998,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 31.75) (xy 41.91 31.75)
+			(xy 44.45 31.75) (xy 41.91 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2932,7 +3008,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 153.67) (xy 97.79 153.67)
+			(xy 44.45 160.02) (xy 43.18 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2942,7 +3018,7 @@
 	)
 	(global_label "5V_FP"
 		(shape input)
-		(at 203.2 142.24 0)
+		(at 240.03 85.09 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2952,7 +3028,7 @@
 		)
 		(uuid "0331eed7-a2f9-4278-801c-7e05d579a800")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.8095 142.24 0)
+			(at 240.03 76.4805 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2984,31 +3060,9 @@
 			)
 		)
 	)
-	(global_label "12V_FP"
-		(shape input)
-		(at 207.01 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0463f055-abd1-4c07-8648-77d4aa24bc87")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.829 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Fogger_Basin_Float_Switch_FP"
 		(shape input)
-		(at 139.7 19.05 0)
+		(at 77.47 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3018,7 +3072,7 @@
 		)
 		(uuid "055bf4e4-6b49-4679-8504-0978fdb22a68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.4111 19.05 0)
+			(at 109.1811 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3052,7 +3106,7 @@
 	)
 	(global_label "SCL_FP"
 		(shape input)
-		(at 99.06 185.42 180)
+		(at 44.45 187.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3062,7 +3116,7 @@
 		)
 		(uuid "07c44e9e-f099-46ce-b7c0-77fc40d2abc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.241 185.42 0)
+			(at 34.631 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,7 +3128,7 @@
 	)
 	(global_label "TXD0_FP"
 		(shape input)
-		(at 99.06 190.5 180)
+		(at 44.45 193.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3084,7 +3138,7 @@
 		)
 		(uuid "0cafa22b-4837-4fc9-a8f5-f4615630376c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.092 190.5 0)
+			(at 33.482 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,7 +3172,7 @@
 	)
 	(global_label "GPIO4_FP"
 		(shape input)
-		(at 113.03 95.25 0)
+		(at 111.76 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3128,7 +3182,7 @@
 		)
 		(uuid "0d2ea8cd-bb72-404e-a0a1-f724a1e293f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.0262 95.25 0)
+			(at 123.7562 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3140,7 +3194,7 @@
 	)
 	(global_label "GlycolSol_FP"
 		(shape input)
-		(at 109.22 59.69 0)
+		(at 77.47 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3150,7 +3204,7 @@
 		)
 		(uuid "112949c1-8981-4cca-a405-7fa29d017542")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.3607 59.69 0)
+			(at 92.6107 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3272,7 +3326,7 @@
 	)
 	(global_label "GND_FP"
 		(shape input)
-		(at 41.91 154.94 0)
+		(at 41.91 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3282,7 +3336,7 @@
 		)
 		(uuid "205eb374-9bdc-4563-a8d9-6576ca0d6246")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.0919 154.94 0)
+			(at 52.0919 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3294,7 +3348,7 @@
 	)
 	(global_label "12V_FP"
 		(shape input)
-		(at 109.22 62.23 0)
+		(at 77.47 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3304,7 +3358,7 @@
 		)
 		(uuid "22ad974c-5f4f-42a2-a289-3517f94e0d68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.039 62.23 0)
+			(at 87.289 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +3370,7 @@
 	)
 	(global_label "RXD0_FP"
 		(shape input)
-		(at 99.06 187.96 180)
+		(at 44.45 190.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3326,7 +3380,7 @@
 		)
 		(uuid "22bd07b3-a53d-4aee-81a3-597eb7cd93b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.7896 187.96 0)
+			(at 33.1796 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3338,7 +3392,7 @@
 	)
 	(global_label "DrainSol_FP"
 		(shape input)
-		(at 31.75 154.94 180)
+		(at 31.75 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3348,7 +3402,7 @@
 		)
 		(uuid "2a14d77e-355d-4fcd-9a4b-a9b712d71d18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.4559 154.94 0)
+			(at 17.4559 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3360,7 +3414,7 @@
 	)
 	(global_label "GND_FP"
 		(shape input)
-		(at 208.28 80.01 90)
+		(at 237.49 116.84 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3370,7 +3424,7 @@
 		)
 		(uuid "2c37d549-a9b8-46d0-9313-8441384a6e60")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.28 69.8281 90)
+			(at 237.49 106.6581 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,9 +3434,31 @@
 			)
 		)
 	)
+	(global_label "Heater Fans_FP"
+		(shape input)
+		(at 144.78 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c87858a-1c24-4174-9ea6-4972a46d5618")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.9177 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND_FP"
 		(shape input)
-		(at 41.91 120.65 0)
+		(at 41.91 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3392,7 +3468,7 @@
 		)
 		(uuid "2ea4ed94-39ab-4880-8850-9a6ba495a8e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.0919 120.65 0)
+			(at 52.0919 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,7 +3480,7 @@
 	)
 	(global_label "GPIO1_FP"
 		(shape input)
-		(at 88.9 88.9 0)
+		(at 111.76 24.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3414,7 +3490,7 @@
 		)
 		(uuid "37a914b9-29a3-4bfb-971a-c5a7b3aec69d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.8962 88.9 0)
+			(at 123.7562 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,7 +3502,7 @@
 	)
 	(global_label "GND_FP"
 		(shape input)
-		(at 41.91 135.89 0)
+		(at 41.91 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3436,7 +3512,7 @@
 		)
 		(uuid "38125abc-065d-4c02-a3a2-711450a96bc7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.0919 135.89 0)
+			(at 52.0919 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,7 +3546,7 @@
 	)
 	(global_label "12V_FP"
 		(shape input)
-		(at 109.22 52.07 0)
+		(at 77.47 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3480,7 +3556,7 @@
 		)
 		(uuid "3abce41e-f3b3-4f0e-9685-8c7ae13d89b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.039 52.07 0)
+			(at 87.289 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,7 +3568,7 @@
 	)
 	(global_label "SDA_FP"
 		(shape input)
-		(at 233.68 102.87 270)
+		(at 262.89 139.7 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3502,7 +3578,7 @@
 		)
 		(uuid "3e0141a8-961f-4197-9766-6e91d1ac6ba0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.68 112.7495 90)
+			(at 262.89 149.5795 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3514,7 +3590,7 @@
 	)
 	(global_label "Drain_Level_FP"
 		(shape input)
-		(at 99.06 175.26 180)
+		(at 44.45 177.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3524,7 +3600,7 @@
 		)
 		(uuid "3f5b2203-c15c-48bf-9553-38d082a7a4e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.9839 175.26 0)
+			(at 27.3739 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3536,7 +3612,7 @@
 	)
 	(global_label "RXD0_FP"
 		(shape input)
-		(at 140.97 93.98 0)
+		(at 111.76 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3546,7 +3622,29 @@
 		)
 		(uuid "404fcecc-a4fa-4c90-9904-7b9ff8828e22")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.2404 93.98 0)
+			(at 123.0304 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_FP"
+		(shape input)
+		(at 165.1 191.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40d449a2-911b-4546-8cb1-0f927949117f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.919 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3580,7 +3678,7 @@
 	)
 	(global_label "GND_FP"
 		(shape input)
-		(at 228.6 102.87 270)
+		(at 257.81 139.7 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3590,7 +3688,7 @@
 		)
 		(uuid "4abb2618-4740-4a62-aec4-51ad88cef1be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.6 113.0519 90)
+			(at 257.81 149.8819 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,9 +3764,31 @@
 			)
 		)
 	)
+	(global_label "GND_FP"
+		(shape input)
+		(at 144.78 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51388699-ad83-43cf-ae69-65347aabaad9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.5981 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO1_FP"
 		(shape input)
-		(at 99.06 167.64 180)
+		(at 44.45 170.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3678,7 +3798,7 @@
 		)
 		(uuid "5147dd45-44a8-4865-babc-358b2150a033")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.0638 167.64 0)
+			(at 32.4538 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3690,7 +3810,7 @@
 	)
 	(global_label "3.3V_FP"
 		(shape input)
-		(at 88.9 99.06 0)
+		(at 111.76 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3700,7 +3820,7 @@
 		)
 		(uuid "5159a2e7-6354-4fd8-9370-8d76b929da3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.3238 99.06 0)
+			(at 122.1838 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3710,9 +3830,31 @@
 			)
 		)
 	)
+	(global_label "Heater_ON_FP"
+		(shape input)
+		(at 144.78 191.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "524088e9-18f1-4cc5-acc1-5402e17550bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.6714 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND_FP"
 		(shape input)
-		(at 41.91 163.83 0)
+		(at 41.91 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3722,7 +3864,7 @@
 		)
 		(uuid "52659104-4688-49b8-aad0-17da0349a138")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.0919 163.83 0)
+			(at 52.0919 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3732,9 +3874,31 @@
 			)
 		)
 	)
+	(global_label "GlycolSol_FP"
+		(shape input)
+		(at 144.78 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "555ed775-4f33-424f-9c91-d6df88fe232d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.6393 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "5V_FP"
 		(shape input)
-		(at 236.22 102.87 270)
+		(at 265.43 139.7 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3744,7 +3908,7 @@
 		)
 		(uuid "563f8896-4b19-4292-8262-c8ad86a6db0a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.22 111.4795 90)
+			(at 265.43 148.3095 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3756,7 +3920,7 @@
 	)
 	(global_label "3.3V_FP"
 		(shape input)
-		(at 170.18 21.59 0)
+		(at 78.74 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3766,7 +3930,7 @@
 		)
 		(uuid "569ab8c9-2ef7-4748-bfac-d2398be11337")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.6038 21.59 0)
+			(at 89.1638 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3778,7 +3942,7 @@
 	)
 	(global_label "SCL_FP"
 		(shape input)
-		(at 231.14 102.87 270)
+		(at 260.35 139.7 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3788,7 +3952,7 @@
 		)
 		(uuid "5bf73ed1-740f-4a34-b2bf-b924fd5e455b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.14 112.689 90)
+			(at 260.35 149.519 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3800,7 +3964,7 @@
 	)
 	(global_label "GPIO2_FP"
 		(shape input)
-		(at 99.06 170.18 180)
+		(at 44.45 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3810,7 +3974,7 @@
 		)
 		(uuid "5bf915d9-a286-4fcc-b6de-ee9bbae81c34")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.0638 170.18 0)
+			(at 32.4538 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,7 +3986,7 @@
 	)
 	(global_label "SCL_FP"
 		(shape input)
-		(at 90.17 121.92 0)
+		(at 137.16 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3832,7 +3996,51 @@
 		)
 		(uuid "5e37c493-6d70-4a4d-bebf-900ed0d8fa4d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.989 121.92 0)
+			(at 146.979 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_FP"
+		(shape input)
+		(at 165.1 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60c58043-16e1-4e39-86c6-f213ee9b392e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.919 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_FP"
+		(shape input)
+		(at 165.1 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "623db167-aeb9-4249-ba1e-c43197d3c88b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.919 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3844,7 +4052,7 @@
 	)
 	(global_label "GND_FP"
 		(shape input)
-		(at 41.91 127 0)
+		(at 41.91 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3854,7 +4062,7 @@
 		)
 		(uuid "62467e84-8916-41d5-b4b0-224018ec0007")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.0919 127 0)
+			(at 52.0919 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,7 +4074,7 @@
 	)
 	(global_label "BootMode_FP"
 		(shape input)
-		(at 99.06 153.67 180)
+		(at 44.45 160.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3876,7 +4084,7 @@
 		)
 		(uuid "63bff2d7-8bf0-4f68-86bd-b489df968d34")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.6169 153.67 0)
+			(at 29.0069 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3886,31 +4094,9 @@
 			)
 		)
 	)
-	(global_label "Piezo2_FP"
+	(global_label "12V_FP"
 		(shape input)
-		(at 31.75 181.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "64f94360-e230-4c6d-8064-6798fd3eee01")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.0886 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND_FP"
-		(shape input)
-		(at 41.91 181.61 0)
+		(at 165.1 173.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3918,9 +4104,9 @@
 			)
 			(justify left)
 		)
-		(uuid "6e087730-0b1d-4059-805c-58ba09c4f41a")
+		(uuid "64cc840b-9484-43e1-bfff-8b27d942acdb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.0919 181.61 0)
+			(at 174.919 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,9 +4116,31 @@
 			)
 		)
 	)
+	(global_label "LEDs_FP"
+		(shape input)
+		(at 144.78 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d5150d7-545b-430b-8a3c-a4b40614e77a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.9934 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND_FP"
 		(shape input)
-		(at 41.91 113.03 0)
+		(at 41.91 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3942,7 +4150,7 @@
 		)
 		(uuid "7157032e-50ab-48dd-aaea-7d1f68b76cd4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.0919 113.03 0)
+			(at 52.0919 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +4162,7 @@
 	)
 	(global_label "EN_FP"
 		(shape input)
-		(at 99.06 151.13 180)
+		(at 44.45 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3964,12 +4172,56 @@
 		)
 		(uuid "74eb0e5c-e65b-4a35-9100-41f8fa9fb8bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.2691 151.13 0)
+			(at 35.6591 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Circ_Fan_FP"
+		(shape input)
+		(at 144.78 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75128d1c-f71b-4344-b336-a0780c9cbbd9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.3648 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V_FP"
+		(shape input)
+		(at 77.47 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7668463d-6350-4699-83e1-3f5e3a0ff1d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.8938 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3998,7 +4250,7 @@
 	)
 	(global_label "Fogger_Basin_Float_Switch_FP"
 		(shape input)
-		(at 99.06 156.21 180)
+		(at 44.45 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4008,7 +4260,7 @@
 		)
 		(uuid "78123aee-8c9c-4d15-9e3e-91bf343acb06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.3489 156.21 0)
+			(at 12.7389 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,9 +4270,53 @@
 			)
 		)
 	)
+	(global_label "12V_FP"
+		(shape input)
+		(at 165.1 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b0311b3-c4cd-46c3-abd8-68855c4a3c3f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.919 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_FP"
+		(shape input)
+		(at 165.1 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b4936fa-f0f5-4783-9878-8cb759528df2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.919 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Circ_Fan_FP"
 		(shape input)
-		(at 31.75 113.03 180)
+		(at 31.75 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4030,7 +4326,7 @@
 		)
 		(uuid "7becaf38-33d9-4373-8820-7cb8cb483cdb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.3348 113.03 0)
+			(at 17.3348 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4064,7 +4360,7 @@
 	)
 	(global_label "Circ_Fan_FP"
 		(shape input)
-		(at 109.22 69.85 0)
+		(at 77.47 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4074,7 +4370,7 @@
 		)
 		(uuid "7d7b9b90-4889-4b32-991a-ad2e0416199e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.6352 69.85 0)
+			(at 91.8852 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4086,7 +4382,7 @@
 	)
 	(global_label "GND_FP"
 		(shape input)
-		(at 233.68 80.01 90)
+		(at 262.89 116.84 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4096,7 +4392,7 @@
 		)
 		(uuid "7dd168ba-4fc7-4032-88e3-dd3010061dd1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.68 69.8281 90)
+			(at 262.89 106.6581 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4130,7 +4426,7 @@
 	)
 	(global_label "GND_FP"
 		(shape input)
-		(at 231.14 80.01 90)
+		(at 260.35 116.84 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4140,7 +4436,7 @@
 		)
 		(uuid "83e847ad-e3a7-403e-bcbc-8c0696f270a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.14 69.8281 90)
+			(at 260.35 106.6581 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4174,7 +4470,7 @@
 	)
 	(global_label "Piezo2_FP"
 		(shape input)
-		(at 31.75 120.65 180)
+		(at 31.75 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4184,7 +4480,7 @@
 		)
 		(uuid "845d657c-cd23-438a-94f5-b53b9885e23f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.0886 120.65 0)
+			(at 19.0886 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4196,7 +4492,7 @@
 	)
 	(global_label "External_Fan_PWM_FP"
 		(shape input)
-		(at 118.11 124.46 0)
+		(at 137.16 25.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4206,7 +4502,7 @@
 		)
 		(uuid "8647f5fc-d9f7-4708-873c-0d120fcebb15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.6568 124.46 0)
+			(at 160.7068 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4218,7 +4514,7 @@
 	)
 	(global_label "SDA_FP"
 		(shape input)
-		(at 90.17 124.46 0)
+		(at 137.16 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4228,7 +4524,7 @@
 		)
 		(uuid "878c3dfe-12e8-41fd-b226-dd3eb2d455d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.0495 124.46 0)
+			(at 147.0395 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4240,7 +4536,7 @@
 	)
 	(global_label "EN_FP"
 		(shape input)
-		(at 54.61 21.59 0)
+		(at 44.45 21.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4250,7 +4546,7 @@
 		)
 		(uuid "8844c662-c0e3-4077-bcaa-80b2344d4502")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.4009 21.59 0)
+			(at 53.2409 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4262,7 +4558,29 @@
 	)
 	(global_label "DrainSol_FP"
 		(shape input)
-		(at 109.22 39.37 0)
+		(at 144.78 165.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8918c67a-4ac1-49df-a0d7-8915f273e255")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.4859 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DrainSol_FP"
+		(shape input)
+		(at 77.47 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4272,7 +4590,7 @@
 		)
 		(uuid "8d5aa6d9-a1a5-4de2-b92b-229ae6f92e0e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.5141 39.37 0)
+			(at 91.7641 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4306,7 +4624,7 @@
 	)
 	(global_label "WaterSol_FP"
 		(shape input)
-		(at 31.75 163.83 180)
+		(at 31.75 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4316,7 +4634,7 @@
 		)
 		(uuid "92a41ec9-08b4-4f25-b518-e324cab88780")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.214 163.83 0)
+			(at 17.214 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4372,7 +4690,7 @@
 	)
 	(global_label "GND_FP"
 		(shape input)
-		(at 140.97 88.9 0)
+		(at 111.76 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4382,7 +4700,7 @@
 		)
 		(uuid "95b0fa02-063a-429e-9d6d-5576d27c9253")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.1519 88.9 0)
+			(at 121.9419 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4392,31 +4710,9 @@
 			)
 		)
 	)
-	(global_label "Heater_ON_FP"
-		(shape input)
-		(at 186.69 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "98ae03fd-62ab-4377-a879-9e37a56c7ad8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.5814 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND_FP"
 		(shape input)
-		(at 41.91 144.78 0)
+		(at 41.91 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4426,7 +4722,7 @@
 		)
 		(uuid "9959194b-6ac2-47bc-b38c-2e7b0c14d517")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.0919 144.78 0)
+			(at 52.0919 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4460,7 +4756,7 @@
 	)
 	(global_label "3.3V_FP"
 		(shape input)
-		(at 88.9 86.36 0)
+		(at 111.76 21.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4470,7 +4766,7 @@
 		)
 		(uuid "9bac2a03-eff3-44be-9cd7-065fd0daa17d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.3238 86.36 0)
+			(at 122.1838 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4482,7 +4778,7 @@
 	)
 	(global_label "3.3V_FP"
 		(shape input)
-		(at 113.03 92.71 0)
+		(at 111.76 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4492,7 +4788,7 @@
 		)
 		(uuid "9d2d351e-9e50-4145-88bb-d0f08ee86233")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.4538 92.71 0)
+			(at 122.1838 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4526,7 +4822,7 @@
 	)
 	(global_label "TXD0_FP"
 		(shape input)
-		(at 140.97 91.44 0)
+		(at 111.76 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4536,7 +4832,7 @@
 		)
 		(uuid "a1700769-f8fc-41d2-a5c0-84109d79ed98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.938 91.44 0)
+			(at 122.728 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4548,7 +4844,7 @@
 	)
 	(global_label "GlycolSol_FP"
 		(shape input)
-		(at 31.75 172.72 180)
+		(at 31.75 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4558,7 +4854,29 @@
 		)
 		(uuid "a1e8ea10-7488-4590-ab86-59883eb78105")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.6093 172.72 0)
+			(at 16.6093 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FoggerSol_FP"
+		(shape input)
+		(at 144.78 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a46f875d-ca8f-404b-bc2a-1c53e73c2be5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.0345 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4570,7 +4888,7 @@
 	)
 	(global_label "GND_FP"
 		(shape input)
-		(at 90.17 119.38 0)
+		(at 137.16 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4580,7 +4898,7 @@
 		)
 		(uuid "a4a3da89-4809-4fbe-a8ff-cde5564e64b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.3519 119.38 0)
+			(at 147.3419 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,7 +4932,7 @@
 	)
 	(global_label "3.3V_FP"
 		(shape input)
-		(at 90.17 116.84 0)
+		(at 137.16 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4624,7 +4942,7 @@
 		)
 		(uuid "a8ff023f-02ba-4401-897f-7272b5164dde")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.5938 116.84 0)
+			(at 147.5838 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4636,7 +4954,7 @@
 	)
 	(global_label "Piezo1_FP"
 		(shape input)
-		(at 82.55 19.05 0)
+		(at 77.47 19.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4646,7 +4964,7 @@
 		)
 		(uuid "a927a613-2d92-4627-a408-bc3e4b485471")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.2114 19.05 0)
+			(at 90.1314 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4658,7 +4976,7 @@
 	)
 	(global_label "GND_FP"
 		(shape input)
-		(at 118.11 116.84 0)
+		(at 137.16 17.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4668,7 +4986,7 @@
 		)
 		(uuid "aaa766b9-b9a9-464a-a33c-b27de69b0a84")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.2919 116.84 0)
+			(at 147.3419 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4680,7 +4998,7 @@
 	)
 	(global_label "Heater Fans_FP"
 		(shape input)
-		(at 109.22 19.05 0)
+		(at 77.47 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4690,7 +5008,7 @@
 		)
 		(uuid "ab0289f6-dce8-49f9-8917-97b566e44c46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.0823 19.05 0)
+			(at 95.3323 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4702,7 +5020,7 @@
 	)
 	(global_label "Drain_Level_FP"
 		(shape input)
-		(at 170.18 29.21 0)
+		(at 78.74 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4712,7 +5030,7 @@
 		)
 		(uuid "b0430fac-0305-43ec-aee8-4cd6eaec2465")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.2561 29.21 0)
+			(at 95.8161 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4722,31 +5040,9 @@
 			)
 		)
 	)
-	(global_label "Piezo1_FP"
-		(shape input)
-		(at 31.75 190.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b04fb92d-bf8e-40d0-98bf-e6546b53da03")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.0886 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND_FP"
 		(shape input)
-		(at 88.9 83.82 0)
+		(at 111.76 19.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4756,117 +5052,7 @@
 		)
 		(uuid "b07dcb6a-e2a5-495a-b401-9f8e1687efd9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.0819 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Piezo2_FP"
-		(shape input)
-		(at 82.55 21.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b515a187-5edf-4399-8281-ba7ae9b77440")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.2114 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Fan_Tach_FP"
-		(shape input)
-		(at 118.11 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b6141a34-e4a8-47f3-8bb9-971660040239")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.1298 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "12V_FP"
-		(shape input)
-		(at 109.22 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b820a2b7-93ab-4d50-9f16-3a97299a76fb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.039 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO4_FP"
-		(shape input)
-		(at 99.06 172.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bb064fb7-51de-4df5-bc22-1572ac211bc8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.0638 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "12V_FP"
-		(shape input)
-		(at 109.22 31.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bb530835-34d4-49d3-927c-644aa0e1377f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.039 31.75 0)
+			(at 121.9419 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4878,7 +5064,161 @@
 	)
 	(global_label "WaterSol_FP"
 		(shape input)
-		(at 109.22 49.53 0)
+		(at 144.78 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2ebedb7-0dba-431f-8a25-23e9492f5f86")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.244 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Piezo2_FP"
+		(shape input)
+		(at 77.47 21.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b515a187-5edf-4399-8281-ba7ae9b77440")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.1314 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Fan_Tach_FP"
+		(shape input)
+		(at 137.16 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6141a34-e4a8-47f3-8bb9-971660040239")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.1798 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_FP"
+		(shape input)
+		(at 77.47 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b820a2b7-93ab-4d50-9f16-3a97299a76fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.289 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO4_FP"
+		(shape input)
+		(at 44.45 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb064fb7-51de-4df5-bc22-1572ac211bc8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.4538 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_FP"
+		(shape input)
+		(at 77.47 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb530835-34d4-49d3-927c-644aa0e1377f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.289 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_FP"
+		(shape input)
+		(at 165.1 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bcf1af26-34c3-4ea7-b7f5-5045170ffb67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.919 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WaterSol_FP"
+		(shape input)
+		(at 77.47 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4888,7 +5228,7 @@
 		)
 		(uuid "be9aa66b-aa82-4260-a10d-dc9077d7641f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.756 49.53 0)
+			(at 92.006 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4900,7 +5240,7 @@
 	)
 	(global_label "12V_FP"
 		(shape input)
-		(at 109.22 41.91 0)
+		(at 77.47 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4910,7 +5250,7 @@
 		)
 		(uuid "bf297e23-63ed-4679-b221-5bff99dbd814")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.039 41.91 0)
+			(at 87.289 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4922,7 +5262,7 @@
 	)
 	(global_label "12V_FP"
 		(shape input)
-		(at 109.22 21.59 0)
+		(at 77.47 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4932,7 +5272,7 @@
 		)
 		(uuid "c3bc182b-9b91-4b14-9027-35fcd148eaed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.039 21.59 0)
+			(at 87.289 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4944,7 +5284,7 @@
 	)
 	(global_label "GND_FP"
 		(shape input)
-		(at 41.91 172.72 0)
+		(at 41.91 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4954,7 +5294,7 @@
 		)
 		(uuid "c468af5c-9867-4b9f-9e2e-668c2a4440b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.0919 172.72 0)
+			(at 52.0919 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,7 +5306,7 @@
 	)
 	(global_label "FoggerSol_FP"
 		(shape input)
-		(at 109.22 29.21 0)
+		(at 77.47 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4976,7 +5316,7 @@
 		)
 		(uuid "c5777b76-31cc-4c80-a2db-e21bc0088ba0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.9655 29.21 0)
+			(at 93.2155 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +5328,7 @@
 	)
 	(global_label "GND_FP"
 		(shape input)
-		(at 113.03 90.17 0)
+		(at 111.76 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4998,7 +5338,29 @@
 		)
 		(uuid "cdb52828-8cb1-4a8d-9c7c-504b185bc4bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.2119 90.17 0)
+			(at 121.9419 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_FP"
+		(shape input)
+		(at 165.1 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf743c58-c386-4b63-8600-ac61d1104a32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.919 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5032,7 +5394,7 @@
 	)
 	(global_label "FoggerSol_FP"
 		(shape input)
-		(at 31.75 144.78 180)
+		(at 31.75 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5042,7 +5404,7 @@
 		)
 		(uuid "d65a4e5b-8235-4641-b4a8-66287674e889")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.0045 144.78 0)
+			(at 16.0045 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5052,31 +5414,9 @@
 			)
 		)
 	)
-	(global_label "GND_FP"
-		(shape input)
-		(at 41.91 190.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d96f8a33-0266-4e7b-8bc6-2768a65f1a6a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.0919 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA_FP"
 		(shape input)
-		(at 99.06 182.88 180)
+		(at 44.45 185.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5086,7 +5426,7 @@
 		)
 		(uuid "da74529f-379e-4869-a750-e1a971d1e146")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.1805 182.88 0)
+			(at 34.5705 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5098,7 +5438,7 @@
 	)
 	(global_label "12V_FP"
 		(shape input)
-		(at 118.11 119.38 0)
+		(at 137.16 20.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5108,7 +5448,7 @@
 		)
 		(uuid "db6e8ad1-56c2-4d37-962b-dd6e00c2c84f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.929 119.38 0)
+			(at 146.979 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5120,7 +5460,7 @@
 	)
 	(global_label "Heater Fans_FP"
 		(shape input)
-		(at 31.75 135.89 180)
+		(at 31.75 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5130,7 +5470,7 @@
 		)
 		(uuid "db777e52-3ea3-4530-a99c-9c5846e5c7ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.8877 135.89 0)
+			(at 13.8877 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5206,31 +5546,9 @@
 			)
 		)
 	)
-	(global_label "3.3V_FP"
-		(shape input)
-		(at 139.7 31.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f3668ff6-40e6-4c4c-8f6c-96b3de999c3d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.1238 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Piezo1_FP"
 		(shape input)
-		(at 31.75 127 180)
+		(at 31.75 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5240,7 +5558,7 @@
 		)
 		(uuid "f3da150d-4b1a-4cf1-a67f-f7c24ab5ec80")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.0886 127 0)
+			(at 19.0886 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5252,7 +5570,7 @@
 	)
 	(global_label "GPIO2_FP"
 		(shape input)
-		(at 88.9 101.6 0)
+		(at 111.76 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5262,7 +5580,7 @@
 		)
 		(uuid "f4416cf5-c5c2-4e07-a3e4-e22a42e53994")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.8962 101.6 0)
+			(at 123.7562 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5318,7 +5636,7 @@
 	)
 	(global_label "GND_FP"
 		(shape input)
-		(at 88.9 96.52 0)
+		(at 111.76 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5328,7 +5646,29 @@
 		)
 		(uuid "f6feea0e-c266-452c-b2e8-241d62eb991d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.0819 96.52 0)
+			(at 121.9419 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_FP"
+		(shape input)
+		(at 165.1 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f73df219-72dc-4c72-b473-54556c0f764d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.919 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5340,7 +5680,7 @@
 	)
 	(global_label "BootMode_FP"
 		(shape input)
-		(at 54.61 31.75 0)
+		(at 44.45 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5350,7 +5690,29 @@
 		)
 		(uuid "f758a5c3-4985-4fa5-8e85-7c5b2bda09fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.0531 31.75 0)
+			(at 59.8931 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_FP"
+		(shape input)
+		(at 257.81 85.09 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd89afb1-9df9-4c7f-8c5e-7b01aae30a55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.81 76.4805 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5361,33 +5723,32 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:PCA9555APW,118")
-		(at 222.25 91.44 270)
+		(lib_id "easyeda2kicad:FRC0603J102TS")
+		(at 160.02 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c3e1525-132a-4d24-b2f0-9af5f6b6c385")
-		(property "Reference" "U20"
-			(at 243.84 91.44 0)
+		(uuid "032f69d2-f129-47ab-94bf-d69b85a48876")
+		(property "Reference" "R42"
+			(at 160.02 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "PCA9555APW,118"
-			(at 241.3 91.44 0)
+		(property "Value" "1k"
+			(at 160.02 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:TSSOP-24_L7.8-W4.4-P0.65-LS6.4-BL"
-			(at 200.66 91.44 0)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 160.02 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5395,8 +5756,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2652295.pdf"
-			(at 198.12 91.44 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2907113.pdf"
+			(at 160.02 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5405,7 +5766,196 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 91.44 0)
+			(at 160.02 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 160.02 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FRC0603J102 TS"
+			(at 160.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2907113"
+			(at 160.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "027756ed-df53-4cd1-a4c8-bf73c30ef9a0")
+		)
+		(pin "2"
+			(uuid "3bf9ed79-6458-463f-a579-6172f3fe0375")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:EL304RD")
+		(at 149.86 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07ad5ba8-7187-4fdc-9016-e46460780d43")
+		(property "Reference" "12V_On1"
+			(at 149.098 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EL304RD"
+			(at 149.098 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-TH_BD3.9-P2.54-RD_RED"
+			(at 149.86 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2856645.pdf"
+			(at 149.86 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ekinglux(亿晶源)"
+			(at 149.86 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EL304RD"
+			(at 149.86 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2856645"
+			(at 149.86 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec8ee78e-bf29-41cf-9291-fdb542acbe2e")
+		)
+		(pin "1"
+			(uuid "59aa9365-9b74-4f7c-882f-21064d131354")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
+					(reference "12V_On1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:PCA9555APW,118")
+		(at 251.46 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c3e1525-132a-4d24-b2f0-9af5f6b6c385")
+		(property "Reference" "U20"
+			(at 273.05 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PCA9555APW,118"
+			(at 270.51 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:TSSOP-24_L7.8-W4.4-P0.65-LS6.4-BL"
+			(at 229.87 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2652295.pdf"
+			(at 227.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5414,7 +5964,7 @@
 			)
 		)
 		(property "Manufacturer" "NXP(恩智浦)"
-			(at 195.58 91.44 0)
+			(at 224.79 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5423,7 +5973,7 @@
 			)
 		)
 		(property "MPN" "PCA9555APW,118"
-			(at 193.04 91.44 0)
+			(at 222.25 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +5982,7 @@
 			)
 		)
 		(property "LCSC Part" "C2652295"
-			(at 190.5 91.44 0)
+			(at 219.71 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5522,42 +6072,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 134.62 29.21 0)
+		(lib_id "easyeda2kicad:EL304RD")
+		(at 149.86 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14ed7d82-402f-4b26-b224-972e66602737")
-		(property "Reference" "J11"
-			(at 135.255 24.13 0)
+		(uuid "1574e03f-3300-48c8-96ac-dd1f569c290d")
+		(property "Reference" "GlycolSolenoidLED1"
+			(at 149.098 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 135.255 26.67 0)
+		(property "Value" "EL304RD"
+			(at 149.098 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 134.62 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 29.21 0)
+		(property "Footprint" "easyeda2kicad:LED-TH_BD3.9-P2.54-RD_RED"
+			(at 149.86 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5565,66 +6105,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 134.62 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e6b7962-dc1c-4eb1-894f-2c04aefeb788")
-		)
-		(pin "2"
-			(uuid "7bf03def-bf59-41d2-8770-bf681264cbc7")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:SD15_C2931147")
-		(at 36.83 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "193a3b04-9322-428e-9098-6a5589c470e6")
-		(property "Reference" "D11"
-			(at 36.83 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SD15"
-			(at 37.084 169.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SOD-323_L1.7-W1.3-LS2.6-RD"
-			(at 36.83 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2931147.pdf"
-			(at 36.83 182.88 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2856645.pdf"
+			(at 149.86 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,7 +6115,101 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 172.72 0)
+			(at 149.86 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ekinglux(亿晶源)"
+			(at 149.86 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EL304RD"
+			(at 149.86 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2856645"
+			(at 149.86 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b4e56e4-67d0-4028-8764-caf65a780a5d")
+		)
+		(pin "1"
+			(uuid "4c144dc8-b59b-42a3-830c-38d435bdbfe9")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
+					(reference "GlycolSolenoidLED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SD15_C2931147")
+		(at 36.83 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "193a3b04-9322-428e-9098-6a5589c470e6")
+		(property "Reference" "D11"
+			(at 36.83 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SD15"
+			(at 37.084 145.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.7-W1.3-LS2.6-RD"
+			(at 36.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2931147.pdf"
+			(at 36.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,7 +6218,7 @@
 			)
 		)
 		(property "Manufacturer" "UMW(友台半导体)"
-			(at 36.83 185.42 0)
+			(at 36.83 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,7 +6227,7 @@
 			)
 		)
 		(property "MPN" "SD15"
-			(at 36.83 187.96 0)
+			(at 36.83 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5660,7 +6236,7 @@
 			)
 		)
 		(property "LCSC Part" "C2931147"
-			(at 36.83 190.5 0)
+			(at 36.83 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5684,8 +6260,199 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:EL304RD")
+		(at 149.86 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "198e8b5f-b4bf-48d3-9ba4-a2787a06b247")
+		(property "Reference" "HeaterOnLED1"
+			(at 149.098 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EL304RD"
+			(at 149.098 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-TH_BD3.9-P2.54-RD_RED"
+			(at 149.86 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2856645.pdf"
+			(at 149.86 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ekinglux(亿晶源)"
+			(at 149.86 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EL304RD"
+			(at 149.86 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2856645"
+			(at 149.86 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f189b87-7fb2-43ef-aade-075b5bf1b219")
+		)
+		(pin "1"
+			(uuid "eafca8b2-b7f8-481a-80e7-f2907638a647")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
+					(reference "HeaterOnLED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:EL304RD")
+		(at 256.54 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b48711d-f860-4345-8d0d-5fff4637c0f9")
+		(property "Reference" "FAEFan1"
+			(at 260.35 99.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "EL304RD"
+			(at 260.35 102.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-TH_BD3.9-P2.54-RD_RED"
+			(at 265.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2856645.pdf"
+			(at 267.97 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ekinglux(亿晶源)"
+			(at 270.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EL304RD"
+			(at 273.05 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2856645"
+			(at 275.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "89070931-19aa-400b-b79f-fc3bbbe13702")
+		)
+		(pin "1"
+			(uuid "d6f63073-65d4-4651-b8dd-cef9c14d8f0b")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
+					(reference "FAEFan1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 104.14 49.53 0)
+		(at 72.39 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5694,7 +6461,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b68cf10-9c89-4e0c-acf6-5ba68dd3dfd6")
 		(property "Reference" "J7"
-			(at 104.775 44.45 0)
+			(at 73.025 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5702,7 +6469,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 104.775 46.99 0)
+			(at 73.025 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,7 +6477,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 104.14 49.53 0)
+			(at 72.39 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5719,7 +6486,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 49.53 0)
+			(at 72.39 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5728,7 +6495,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 104.14 49.53 0)
+			(at 72.39 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5753,7 +6520,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 134.62 19.05 0)
+		(at 72.39 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5762,7 +6529,7 @@
 		(fields_autoplaced yes)
 		(uuid "1dd23a2e-b21e-40b9-a72e-f8e95889d26f")
 		(property "Reference" "J10"
-			(at 135.255 13.97 0)
+			(at 73.025 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5770,7 +6537,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 135.255 16.51 0)
+			(at 73.025 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5778,7 +6545,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 134.62 19.05 0)
+			(at 72.39 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5787,7 +6554,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 19.05 0)
+			(at 72.39 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5796,7 +6563,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 134.62 19.05 0)
+			(at 72.39 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +6588,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 104.14 39.37 0)
+		(at 72.39 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5830,7 +6597,7 @@
 		(fields_autoplaced yes)
 		(uuid "2017215a-11ff-4a47-b7e8-b0c7128aa499")
 		(property "Reference" "J6"
-			(at 104.775 34.29 0)
+			(at 73.025 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5838,7 +6605,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 104.775 36.83 0)
+			(at 73.025 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5846,7 +6613,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 104.14 39.37 0)
+			(at 72.39 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5855,7 +6622,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 39.37 0)
+			(at 72.39 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5864,7 +6631,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 104.14 39.37 0)
+			(at 72.39 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5888,8 +6655,102 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:EL304RD")
+		(at 149.86 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "216025ba-45d0-4860-8a6c-5964e4e1966c")
+		(property "Reference" "WaterSolenoidLED1"
+			(at 149.098 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EL304RD"
+			(at 149.098 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-TH_BD3.9-P2.54-RD_RED"
+			(at 149.86 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2856645.pdf"
+			(at 149.86 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ekinglux(亿晶源)"
+			(at 149.86 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EL304RD"
+			(at 149.86 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2856645"
+			(at 149.86 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb1cd9ae-c174-44e4-b033-74199ce5a944")
+		)
+		(pin "1"
+			(uuid "8eb2ada1-e0a9-4bbf-b403-bb4425aa0ce8")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
+					(reference "WaterSolenoidLED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 83.82 99.06 0)
+		(at 106.68 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5898,7 +6759,7 @@
 		(fields_autoplaced yes)
 		(uuid "290c515c-8604-4491-9c92-8baf2f91a8c8")
 		(property "Reference" "J13"
-			(at 84.455 91.44 0)
+			(at 107.315 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5906,7 +6767,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 84.455 93.98 0)
+			(at 107.315 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5914,7 +6775,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
-			(at 83.82 99.06 0)
+			(at 106.68 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5923,7 +6784,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 99.06 0)
+			(at 106.68 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5932,7 +6793,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 83.82 99.06 0)
+			(at 106.68 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5960,7 +6821,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:SD15_C2931147")
-		(at 36.83 154.94 0)
+		(at 36.83 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5968,7 +6829,7 @@
 		(dnp no)
 		(uuid "2a7b8433-2e81-437c-b22d-d26c5234738f")
 		(property "Reference" "D9"
-			(at 36.83 149.86 0)
+			(at 36.83 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5976,7 +6837,7 @@
 			)
 		)
 		(property "Value" "SD15"
-			(at 37.084 151.638 0)
+			(at 37.084 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5984,7 +6845,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SOD-323_L1.7-W1.3-LS2.6-RD"
-			(at 36.83 162.56 0)
+			(at 36.83 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5993,7 +6854,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2931147.pdf"
-			(at 36.83 165.1 0)
+			(at 36.83 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6002,7 +6863,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 154.94 0)
+			(at 36.83 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6011,7 +6872,7 @@
 			)
 		)
 		(property "Manufacturer" "UMW(友台半导体)"
-			(at 36.83 167.64 0)
+			(at 36.83 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,7 +6881,7 @@
 			)
 		)
 		(property "MPN" "SD15"
-			(at 36.83 170.18 0)
+			(at 36.83 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6029,7 +6890,7 @@
 			)
 		)
 		(property "LCSC Part" "C2931147"
-			(at 36.83 172.72 0)
+			(at 36.83 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,7 +6915,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:0603WAF2700T5E")
-		(at 198.12 142.24 0)
+		(at 240.03 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6063,7 +6924,7 @@
 		(fields_autoplaced yes)
 		(uuid "326622c4-9738-468e-b134-c30f03656954")
 		(property "Reference" "R35"
-			(at 198.12 135.89 0)
+			(at 233.68 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6071,7 +6932,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 198.12 138.43 0)
+			(at 236.22 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6079,7 +6940,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:R0603"
-			(at 198.12 149.86 0)
+			(at 247.65 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6088,7 +6949,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_270R-2700-1_C22966.html"
-			(at 198.12 152.4 0)
+			(at 250.19 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6097,7 +6958,7 @@
 			)
 		)
 		(property "Description" "270Ω (2700) ±1%"
-			(at 198.12 142.24 0)
+			(at 240.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6106,7 +6967,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 198.12 154.94 0)
+			(at 252.73 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6115,7 +6976,7 @@
 			)
 		)
 		(property "MPN" "0603WAF2700T5E"
-			(at 198.12 157.48 0)
+			(at 255.27 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6124,7 +6985,7 @@
 			)
 		)
 		(property "LCSC Part" "C22966"
-			(at 198.12 160.02 0)
+			(at 257.81 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6148,8 +7009,197 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:0603WAF2700T5E")
+		(at 257.81 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34df2220-5f56-4c09-8a5e-98f7bc383d29")
+		(property "Reference" "R43"
+			(at 251.46 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 254 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 265.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_270R-2700-1_C22966.html"
+			(at 267.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "270Ω (2700) ±1%"
+			(at 257.81 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 270.51 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF2700T5E"
+			(at 273.05 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22966"
+			(at 275.59 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68699b54-02ec-4ed3-820b-ab8f03c69724")
+		)
+		(pin "2"
+			(uuid "c1c07e70-13c1-42c1-ae05-27163a00d59d")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:FRC0603J102TS")
+		(at 160.02 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36622c5c-eb8f-4662-9b32-b0377cb00b5a")
+		(property "Reference" "R41"
+			(at 160.02 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 160.02 189.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 160.02 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2907113.pdf"
+			(at 160.02 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 160.02 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FRC0603J102 TS"
+			(at 160.02 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2907113"
+			(at 160.02 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "477f19a6-4310-48b4-a466-52d744a84b6e")
+		)
+		(pin "2"
+			(uuid "d1c5335b-6706-4227-b8fe-c63f378604a1")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 83.82 86.36 0)
+		(at 106.68 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6158,7 +7208,7 @@
 		(fields_autoplaced yes)
 		(uuid "4cd4248f-3d43-4bbe-84ac-f2eaaf8d0f79")
 		(property "Reference" "J2"
-			(at 84.455 78.74 0)
+			(at 107.315 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6166,7 +7216,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 84.455 81.28 0)
+			(at 107.315 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6174,7 +7224,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
-			(at 83.82 86.36 0)
+			(at 106.68 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,7 +7233,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 86.36 0)
+			(at 106.68 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6192,7 +7242,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 83.82 86.36 0)
+			(at 106.68 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6220,7 +7270,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:SD15_C2931147")
-		(at 36.83 120.65 0)
+		(at 36.83 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6228,7 +7278,7 @@
 		(dnp no)
 		(uuid "4ff2fcd0-124e-4b3d-b725-7b6ffa959a4d")
 		(property "Reference" "D6"
-			(at 36.83 115.57 0)
+			(at 36.83 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6237,7 +7287,7 @@
 			)
 		)
 		(property "Value" "SD15"
-			(at 37.084 117.348 0)
+			(at 37.084 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6245,7 +7295,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SOD-323_L1.7-W1.3-LS2.6-RD"
-			(at 36.83 128.27 0)
+			(at 36.83 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6254,7 +7304,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2931147.pdf"
-			(at 36.83 130.81 0)
+			(at 36.83 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6263,7 +7313,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 120.65 0)
+			(at 36.83 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6272,7 +7322,7 @@
 			)
 		)
 		(property "Manufacturer" "UMW(友台半导体)"
-			(at 36.83 133.35 0)
+			(at 36.83 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6281,7 +7331,7 @@
 			)
 		)
 		(property "MPN" "SD15"
-			(at 36.83 135.89 0)
+			(at 36.83 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6290,7 +7340,7 @@
 			)
 		)
 		(property "LCSC Part" "C2931147"
-			(at 36.83 138.43 0)
+			(at 36.83 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6315,7 +7365,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:SD15_C2931147")
-		(at 36.83 163.83 0)
+		(at 36.83 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6323,7 +7373,7 @@
 		(dnp no)
 		(uuid "58a31e12-94bf-4bf8-8ad0-d96e6df33b96")
 		(property "Reference" "D10"
-			(at 36.83 158.75 0)
+			(at 36.83 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6331,7 +7381,7 @@
 			)
 		)
 		(property "Value" "SD15"
-			(at 37.084 160.528 0)
+			(at 37.084 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6339,7 +7389,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SOD-323_L1.7-W1.3-LS2.6-RD"
-			(at 36.83 171.45 0)
+			(at 36.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6348,7 +7398,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2931147.pdf"
-			(at 36.83 173.99 0)
+			(at 36.83 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6357,7 +7407,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 163.83 0)
+			(at 36.83 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6366,7 +7416,7 @@
 			)
 		)
 		(property "Manufacturer" "UMW(友台半导体)"
-			(at 36.83 176.53 0)
+			(at 36.83 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6375,7 +7425,7 @@
 			)
 		)
 		(property "MPN" "SD15"
-			(at 36.83 179.07 0)
+			(at 36.83 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6384,7 +7434,7 @@
 			)
 		)
 		(property "LCSC Part" "C2931147"
-			(at 36.83 181.61 0)
+			(at 36.83 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6409,7 +7459,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:SD15_C2931147")
-		(at 36.83 127 0)
+		(at 36.83 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6417,7 +7467,7 @@
 		(dnp no)
 		(uuid "5d0da103-2dd1-48b6-ae69-cdc5afb8316d")
 		(property "Reference" "D12"
-			(at 36.83 121.92 0)
+			(at 36.83 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6426,7 +7476,7 @@
 			)
 		)
 		(property "Value" "SD15"
-			(at 37.084 123.698 0)
+			(at 37.084 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6434,7 +7484,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SOD-323_L1.7-W1.3-LS2.6-RD"
-			(at 36.83 134.62 0)
+			(at 36.83 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6443,7 +7493,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2931147.pdf"
-			(at 36.83 137.16 0)
+			(at 36.83 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6452,7 +7502,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 127 0)
+			(at 36.83 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6461,7 +7511,7 @@
 			)
 		)
 		(property "Manufacturer" "UMW(友台半导体)"
-			(at 36.83 139.7 0)
+			(at 36.83 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6470,7 +7520,7 @@
 			)
 		)
 		(property "MPN" "SD15"
-			(at 36.83 142.24 0)
+			(at 36.83 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6479,7 +7529,7 @@
 			)
 		)
 		(property "LCSC Part" "C2931147"
-			(at 36.83 144.78 0)
+			(at 36.83 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6503,111 +7553,16 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:SD15_C2931147")
-		(at 36.83 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "66c6ebf0-d3a6-4c23-9600-0d7bd44b9ad0")
-		(property "Reference" "D15"
-			(at 36.83 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SD15"
-			(at 37.084 187.198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SOD-323_L1.7-W1.3-LS2.6-RD"
-			(at 36.83 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2931147.pdf"
-			(at 36.83 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UMW(友台半导体)"
-			(at 36.83 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SD15"
-			(at 36.83 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C2931147"
-			(at 36.83 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "da7f3df0-059f-4253-93be-78dbbc1ccfc3")
-		)
-		(pin "1"
-			(uuid "84d6b34f-b8c5-47e5-a64f-9bfb60e37cdd")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:FRC0603J102TS")
-		(at 201.93 127 0)
+		(at 160.02 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68fdd24e-a3c9-4c27-9dec-626ed939a0f8")
-		(property "Reference" "R33"
-			(at 201.93 120.65 0)
+		(uuid "5f2472c7-3de9-4304-93a2-8c058d00dee9")
+		(property "Reference" "R38"
+			(at 160.02 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6615,7 +7570,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 201.93 123.19 0)
+			(at 160.02 163.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6623,7 +7578,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:R0603"
-			(at 201.93 134.62 0)
+			(at 160.02 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6632,7 +7587,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2907113.pdf"
-			(at 201.93 137.16 0)
+			(at 160.02 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6641,7 +7596,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 127 0)
+			(at 160.02 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6650,7 +7605,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN(富捷)"
-			(at 201.93 139.7 0)
+			(at 160.02 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6659,7 +7614,7 @@
 			)
 		)
 		(property "MPN" "FRC0603J102 TS"
-			(at 201.93 142.24 0)
+			(at 160.02 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6668,7 +7623,101 @@
 			)
 		)
 		(property "LCSC Part" "C2907113"
-			(at 201.93 144.78 0)
+			(at 160.02 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "690a6509-111e-4c3d-99af-ece1431239bf")
+		)
+		(pin "2"
+			(uuid "f2aa7661-7b22-47a1-8890-3314ef1b6b65")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:FRC0603J102TS")
+		(at 160.02 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68fdd24e-a3c9-4c27-9dec-626ed939a0f8")
+		(property "Reference" "R33"
+			(at 160.02 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 160.02 136.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 160.02 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2907113.pdf"
+			(at 160.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 160.02 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FRC0603J102 TS"
+			(at 160.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2907113"
+			(at 160.02 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6693,7 +7742,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 77.47 19.05 0)
+		(at 72.39 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6702,7 +7751,7 @@
 		(fields_autoplaced yes)
 		(uuid "69359f9f-4dcb-4f08-bec3-0ff7c7de07bc")
 		(property "Reference" "J1"
-			(at 78.105 13.97 0)
+			(at 73.025 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6710,7 +7759,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 78.105 16.51 0)
+			(at 73.025 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6718,7 +7767,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 77.47 19.05 0)
+			(at 72.39 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6727,7 +7776,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 19.05 0)
+			(at 72.39 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6736,7 +7785,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 77.47 19.05 0)
+			(at 72.39 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6760,8 +7809,102 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:EL304RD")
+		(at 149.86 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ac8453b-ba9e-4430-ba95-83de1e5208a0")
+		(property "Reference" "FoggerFillSolenoidLED1"
+			(at 149.098 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EL304RD"
+			(at 149.098 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-TH_BD3.9-P2.54-RD_RED"
+			(at 149.86 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2856645.pdf"
+			(at 149.86 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ekinglux(亿晶源)"
+			(at 149.86 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EL304RD"
+			(at 149.86 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2856645"
+			(at 149.86 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a245f7c4-cb5e-49e5-b033-032712bed4d2")
+		)
+		(pin "1"
+			(uuid "28ad7fdb-c59c-49d6-8cc5-76ee5c0726dd")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
+					(reference "FoggerFillSolenoidLED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 107.95 92.71 0)
+		(at 106.68 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6770,7 +7913,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b155bad-d2a2-4716-baec-3b3c0152419b")
 		(property "Reference" "J12"
-			(at 108.585 85.09 0)
+			(at 107.315 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6778,7 +7921,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 108.585 87.63 0)
+			(at 107.315 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6786,7 +7929,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
-			(at 107.95 92.71 0)
+			(at 106.68 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6795,7 +7938,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 92.71 0)
+			(at 106.68 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6804,7 +7947,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 107.95 92.71 0)
+			(at 106.68 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6825,6 +7968,100 @@
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:EL304RD")
+		(at 149.86 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b84d991-9422-43f6-87eb-7e8aa9b5c063")
+		(property "Reference" "HeaterFansLED1"
+			(at 149.098 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EL304RD"
+			(at 149.098 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-TH_BD3.9-P2.54-RD_RED"
+			(at 149.86 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2856645.pdf"
+			(at 149.86 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ekinglux(亿晶源)"
+			(at 149.86 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EL304RD"
+			(at 149.86 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2856645"
+			(at 149.86 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b0583f3-2142-4df9-a12b-d5848764de4e")
+		)
+		(pin "1"
+			(uuid "10f9a244-8168-4da1-80d0-cea37a299223")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
+					(reference "HeaterFansLED1")
 					(unit 1)
 				)
 			)
@@ -7031,7 +8268,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 85.09 119.38 0)
+		(at 132.08 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7040,7 +8277,7 @@
 		(fields_autoplaced yes)
 		(uuid "700e69ce-9cb4-4550-a5f0-06425db2e366")
 		(property "Reference" "J3"
-			(at 85.725 111.76 0)
+			(at 132.715 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7048,7 +8285,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 85.725 114.3 0)
+			(at 132.715 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7056,7 +8293,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
-			(at 85.09 119.38 0)
+			(at 132.08 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7065,7 +8302,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 119.38 0)
+			(at 132.08 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7074,7 +8311,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 85.09 119.38 0)
+			(at 132.08 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7105,7 +8342,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:SD15_C2931147")
-		(at 36.83 144.78 0)
+		(at 36.83 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7113,7 +8350,7 @@
 		(dnp no)
 		(uuid "781a328c-6a97-4dc1-9f8e-0853dd1d7c32")
 		(property "Reference" "D8"
-			(at 36.83 139.7 0)
+			(at 36.83 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,7 +8358,7 @@
 			)
 		)
 		(property "Value" "SD15"
-			(at 37.084 141.478 0)
+			(at 37.084 117.348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7129,7 +8366,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SOD-323_L1.7-W1.3-LS2.6-RD"
-			(at 36.83 152.4 0)
+			(at 36.83 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7138,7 +8375,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2931147.pdf"
-			(at 36.83 154.94 0)
+			(at 36.83 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7147,7 +8384,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 144.78 0)
+			(at 36.83 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7156,7 +8393,7 @@
 			)
 		)
 		(property "Manufacturer" "UMW(友台半导体)"
-			(at 36.83 157.48 0)
+			(at 36.83 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7165,7 +8402,7 @@
 			)
 		)
 		(property "MPN" "SD15"
-			(at 36.83 160.02 0)
+			(at 36.83 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7174,7 +8411,7 @@
 			)
 		)
 		(property "LCSC Part" "C2931147"
-			(at 36.83 162.56 0)
+			(at 36.83 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7198,8 +8435,102 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:FRC0603J102TS")
+		(at 160.02 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c611738-70fa-434f-a75f-1ed17b5e37cb")
+		(property "Reference" "R44"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 160.02 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 160.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2907113.pdf"
+			(at 160.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 160.02 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FRC0603J102 TS"
+			(at 160.02 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2907113"
+			(at 160.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0c497ee-1fea-49bb-bfd8-05d5dc6aea8c")
+		)
+		(pin "2"
+			(uuid "7eda5b67-3815-45f4-9af1-b9a97f8f4b4c")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 135.89 91.44 0)
+		(at 106.68 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7208,7 +8539,7 @@
 		(fields_autoplaced yes)
 		(uuid "8085afb0-ce84-44ba-a41c-91b6c3b0d9c7")
 		(property "Reference" "J14"
-			(at 136.525 83.82 0)
+			(at 107.315 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7216,7 +8547,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 136.525 86.36 0)
+			(at 107.315 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7224,7 +8555,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
-			(at 135.89 91.44 0)
+			(at 106.68 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7233,7 +8564,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 91.44 0)
+			(at 106.68 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7242,7 +8573,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 135.89 91.44 0)
+			(at 106.68 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,6 +8594,100 @@
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
 					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:FRC0603J102TS")
+		(at 160.02 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8aac8949-a22b-42e9-b1e6-93583459b266")
+		(property "Reference" "R36"
+			(at 160.02 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 160.02 145.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 160.02 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2907113.pdf"
+			(at 160.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 160.02 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FRC0603J102 TS"
+			(at 160.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2907113"
+			(at 160.02 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8f2161c-484d-4bce-8003-f693a412c870")
+		)
+		(pin "2"
+			(uuid "b3fa92e3-e28a-4ad5-8c72-1e87c5ce7ca5")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -7366,33 +8791,32 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:EL304RD")
-		(at 187.96 140.97 0)
+		(lib_id "easyeda2kicad:FRC0603J102TS")
+		(at 160.02 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5a6c5fb-0ba2-41b1-977d-3e5df2cfe7d9")
-		(property "Reference" "LED2"
-			(at 187.2 133.35 0)
+		(uuid "9e63322c-3baf-4e01-9aa0-68b636c32007")
+		(property "Reference" "R40"
+			(at 160.02 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "EL304RD"
-			(at 187.2 135.89 0)
+		(property "Value" "1k"
+			(at 160.02 180.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-TH_BD3.9-P2.54-RD_RED"
-			(at 187.96 149.86 0)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 160.02 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7400,8 +8824,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2856645.pdf"
-			(at 187.96 152.4 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2907113.pdf"
+			(at 160.02 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7410,7 +8834,104 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 140.97 0)
+			(at 160.02 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 160.02 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FRC0603J102 TS"
+			(at 160.02 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2907113"
+			(at 160.02 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddc30d45-223a-485c-aa45-093ff599c480")
+		)
+		(pin "2"
+			(uuid "a5d2bec2-330e-4971-8afc-2945074336cf")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:EL304RD")
+		(at 238.76 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5a6c5fb-0ba2-41b1-977d-3e5df2cfe7d9")
+		(property "Reference" "Piezo1"
+			(at 242.57 99.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "EL304RD"
+			(at 242.57 102.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-TH_BD3.9-P2.54-RD_RED"
+			(at 247.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2856645.pdf"
+			(at 250.19 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7419,7 +8940,7 @@
 			)
 		)
 		(property "Manufacturer" "ekinglux(亿晶源)"
-			(at 187.96 154.94 0)
+			(at 252.73 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,7 +8949,7 @@
 			)
 		)
 		(property "MPN" "EL304RD"
-			(at 187.96 157.48 0)
+			(at 255.27 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7437,7 +8958,7 @@
 			)
 		)
 		(property "LCSC Part" "C2856645"
-			(at 187.96 160.02 0)
+			(at 257.81 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7454,7 +8975,101 @@
 		(instances
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
-					(reference "LED2")
+					(reference "Piezo1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:EL304RD")
+		(at 149.86 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac937409-e3cd-4924-ab2c-501414ca83ca")
+		(property "Reference" "DrainSolenoidLED1"
+			(at 149.098 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EL304RD"
+			(at 149.098 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-TH_BD3.9-P2.54-RD_RED"
+			(at 149.86 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2856645.pdf"
+			(at 149.86 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ekinglux(亿晶源)"
+			(at 149.86 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EL304RD"
+			(at 149.86 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2856645"
+			(at 149.86 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "744c2494-fe59-4eb5-99bb-9a69cb1ee165")
+		)
+		(pin "1"
+			(uuid "93c27369-131d-47db-96cd-a10f3e4494a3")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
+					(reference "DrainSolenoidLED1")
 					(unit 1)
 				)
 			)
@@ -7462,7 +9077,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 104.14 59.69 0)
+		(at 72.39 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7471,7 +9086,7 @@
 		(fields_autoplaced yes)
 		(uuid "b56699c2-9150-48fe-a564-ddd01fb7167d")
 		(property "Reference" "J8"
-			(at 104.775 54.61 0)
+			(at 73.025 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7479,7 +9094,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 104.775 57.15 0)
+			(at 73.025 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7487,7 +9102,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 104.14 59.69 0)
+			(at 72.39 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7496,7 +9111,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 59.69 0)
+			(at 72.39 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7505,7 +9120,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 104.14 59.69 0)
+			(at 72.39 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7529,8 +9144,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 73.66 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b674c4f2-bb35-4226-b9de-f6b4917d3243")
+		(property "Reference" "J16"
+			(at 74.295 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 74.295 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 73.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 73.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d42797d2-e9db-4f2b-a07a-9b9519f78f17")
+		)
+		(pin "2"
+			(uuid "d5271a4e-4b2d-47a0-a88f-7eabfba850cb")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:SD15_C2931147")
-		(at 36.83 135.89 0)
+		(at 36.83 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7538,7 +9221,7 @@
 		(dnp no)
 		(uuid "c369d330-3a05-4f4e-aa1f-8d5a340ff09d")
 		(property "Reference" "D7"
-			(at 36.83 130.81 0)
+			(at 36.83 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7546,7 +9229,7 @@
 			)
 		)
 		(property "Value" "SD15"
-			(at 37.084 132.588 0)
+			(at 37.084 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7554,7 +9237,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SOD-323_L1.7-W1.3-LS2.6-RD"
-			(at 36.83 143.51 0)
+			(at 36.83 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7563,7 +9246,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2931147.pdf"
-			(at 36.83 146.05 0)
+			(at 36.83 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7572,7 +9255,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 135.89 0)
+			(at 36.83 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7581,7 +9264,7 @@
 			)
 		)
 		(property "Manufacturer" "UMW(友台半导体)"
-			(at 36.83 148.59 0)
+			(at 36.83 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7590,7 +9273,7 @@
 			)
 		)
 		(property "MPN" "SD15"
-			(at 36.83 151.13 0)
+			(at 36.83 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7599,7 +9282,7 @@
 			)
 		)
 		(property "LCSC Part" "C2931147"
-			(at 36.83 153.67 0)
+			(at 36.83 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7623,32 +9306,32 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:SD15_C2931147")
-		(at 36.83 181.61 0)
+		(lib_id "easyeda2kicad:EL304RD")
+		(at 149.86 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c4551d85-6a24-4836-acf5-a7861ad652ae")
-		(property "Reference" "D14"
-			(at 36.83 176.53 0)
+		(uuid "d142874e-db9e-4dbb-81d4-886211082519")
+		(property "Reference" "LEDOn1"
+			(at 149.098 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SD15"
-			(at 37.084 178.308 0)
+		(property "Value" "EL304RD"
+			(at 149.098 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SOD-323_L1.7-W1.3-LS2.6-RD"
-			(at 36.83 189.23 0)
+		(property "Footprint" "easyeda2kicad:LED-TH_BD3.9-P2.54-RD_RED"
+			(at 149.86 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7656,8 +9339,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2931147.pdf"
-			(at 36.83 191.77 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2856645.pdf"
+			(at 149.86 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7666,7 +9349,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 181.61 0)
+			(at 149.86 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7674,8 +9357,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UMW(友台半导体)"
-			(at 36.83 194.31 0)
+		(property "Manufacturer" "ekinglux(亿晶源)"
+			(at 149.86 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7683,8 +9366,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SD15"
-			(at 36.83 196.85 0)
+		(property "MPN" "EL304RD"
+			(at 149.86 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7692,8 +9375,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2931147"
-			(at 36.83 199.39 0)
+		(property "LCSC Part" "C2856645"
+			(at 149.86 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7702,15 +9385,203 @@
 			)
 		)
 		(pin "2"
-			(uuid "6265bd77-cb4a-4b9e-9286-9a4e2b324878")
+			(uuid "83cc1d13-42c2-479e-af90-256d627a9e05")
 		)
 		(pin "1"
-			(uuid "58e9dfdd-1e0d-45e8-aa28-14c82cf76f25")
+			(uuid "ca5a76c2-a25f-4027-a3ee-7bea05d544ef")
 		)
 		(instances
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
-					(reference "D14")
+					(reference "LEDOn1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:FRC0603J102TS")
+		(at 160.02 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d66a8a9d-bd27-4491-8c8e-196d0d367c4d")
+		(property "Reference" "R39"
+			(at 160.02 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 160.02 171.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 160.02 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2907113.pdf"
+			(at 160.02 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 160.02 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FRC0603J102 TS"
+			(at 160.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2907113"
+			(at 160.02 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8a9635c-96de-4942-b729-9ad8df153411")
+		)
+		(pin "2"
+			(uuid "3ea7a9c7-dc53-4f9c-b575-d462c8c1290c")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:FRC0603J102TS")
+		(at 160.02 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d79efefb-9af6-4dc7-8048-655ca59f4334")
+		(property "Reference" "R37"
+			(at 160.02 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 160.02 154.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 160.02 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2907113.pdf"
+			(at 160.02 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 160.02 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FRC0603J102 TS"
+			(at 160.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2907113"
+			(at 160.02 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4085c4d3-a7fa-4eb2-b9eb-ff6bb57d6999")
+		)
+		(pin "2"
+			(uuid "ec36df8e-2b78-4ad6-983d-490e6a24907b")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -7718,7 +9589,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 104.14 19.05 0)
+		(at 72.39 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7727,7 +9598,7 @@
 		(fields_autoplaced yes)
 		(uuid "da988f56-3129-412b-a82b-3d96a3878a17")
 		(property "Reference" "J4"
-			(at 104.775 13.97 0)
+			(at 73.025 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7735,7 +9606,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 104.775 16.51 0)
+			(at 73.025 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7743,7 +9614,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 104.14 19.05 0)
+			(at 72.39 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7752,7 +9623,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 19.05 0)
+			(at 72.39 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7761,7 +9632,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 104.14 19.05 0)
+			(at 72.39 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7786,16 +9657,15 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:EL304RD")
-		(at 191.77 125.73 0)
+		(at 149.86 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dbe97d60-69ef-40fa-a851-3f25c943de54")
-		(property "Reference" "LED1"
-			(at 191.01 118.11 0)
+		(property "Reference" "CircFanLED1"
+			(at 149.098 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7803,7 +9673,7 @@
 			)
 		)
 		(property "Value" "EL304RD"
-			(at 191.01 120.65 0)
+			(at 149.098 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7811,7 +9681,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:LED-TH_BD3.9-P2.54-RD_RED"
-			(at 191.77 134.62 0)
+			(at 149.86 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7820,7 +9690,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2856645.pdf"
-			(at 191.77 137.16 0)
+			(at 149.86 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7829,7 +9699,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 125.73 0)
+			(at 149.86 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7838,7 +9708,7 @@
 			)
 		)
 		(property "Manufacturer" "ekinglux(亿晶源)"
-			(at 191.77 139.7 0)
+			(at 149.86 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7847,7 +9717,7 @@
 			)
 		)
 		(property "MPN" "EL304RD"
-			(at 191.77 142.24 0)
+			(at 149.86 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7856,7 +9726,7 @@
 			)
 		)
 		(property "LCSC Part" "C2856645"
-			(at 191.77 144.78 0)
+			(at 149.86 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7871,9 +9741,9 @@
 			(uuid "aea51c11-5ce7-43f8-a287-da15fd21aed8")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
-					(reference "LED1")
+					(reference "CircFanLED1")
 					(unit 1)
 				)
 			)
@@ -7881,7 +9751,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 104.14 29.21 0)
+		(at 72.39 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7890,7 +9760,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0c274e0-6e73-489b-ac9e-e817152e2daf")
 		(property "Reference" "J5"
-			(at 104.775 24.13 0)
+			(at 73.025 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7898,7 +9768,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 104.775 26.67 0)
+			(at 73.025 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7906,7 +9776,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 104.14 29.21 0)
+			(at 72.39 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7915,7 +9785,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 29.21 0)
+			(at 72.39 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7924,7 +9794,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 104.14 29.21 0)
+			(at 72.39 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7949,7 +9819,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 104.14 69.85 0)
+		(at 72.39 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7958,7 +9828,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4ec34db-df71-48b0-ad92-ecdb486f7ee8")
 		(property "Reference" "J9"
-			(at 104.775 64.77 0)
+			(at 73.025 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7966,7 +9836,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 104.775 67.31 0)
+			(at 73.025 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7974,7 +9844,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 104.14 69.85 0)
+			(at 72.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7983,7 +9853,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 69.85 0)
+			(at 72.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7992,7 +9862,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 104.14 69.85 0)
+			(at 72.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8184,7 +10054,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:SD15_C2931147")
-		(at 36.83 113.03 0)
+		(at 36.83 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8192,7 +10062,7 @@
 		(dnp no)
 		(uuid "ec3612ba-071f-4962-bcf3-1d7ca08ef44e")
 		(property "Reference" "D5"
-			(at 36.83 107.95 0)
+			(at 36.83 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8200,7 +10070,7 @@
 			)
 		)
 		(property "Value" "SD15"
-			(at 37.084 109.728 0)
+			(at 37.084 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8208,7 +10078,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SOD-323_L1.7-W1.3-LS2.6-RD"
-			(at 36.83 120.65 0)
+			(at 36.83 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8217,7 +10087,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2931147.pdf"
-			(at 36.83 123.19 0)
+			(at 36.83 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8226,7 +10096,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 113.03 0)
+			(at 36.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8235,7 +10105,7 @@
 			)
 		)
 		(property "Manufacturer" "UMW(友台半导体)"
-			(at 36.83 125.73 0)
+			(at 36.83 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8244,7 +10114,7 @@
 			)
 		)
 		(property "MPN" "SD15"
-			(at 36.83 128.27 0)
+			(at 36.83 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8253,7 +10123,7 @@
 			)
 		)
 		(property "LCSC Part" "C2931147"
-			(at 36.83 130.81 0)
+			(at 36.83 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8278,7 +10148,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 113.03 119.38 0)
+		(at 132.08 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8287,7 +10157,7 @@
 		(fields_autoplaced yes)
 		(uuid "ffe74488-f566-450d-94dd-cde2d9833764")
 		(property "Reference" "J15"
-			(at 113.665 111.76 0)
+			(at 132.715 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8295,7 +10165,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 113.665 114.3 0)
+			(at 132.715 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8303,7 +10173,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
-			(at 113.03 119.38 0)
+			(at 132.08 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8312,7 +10182,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 119.38 0)
+			(at 132.08 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8321,7 +10191,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 113.03 119.38 0)
+			(at 132.08 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8351,13 +10221,12 @@
 		)
 	)
 	(sheet
-		(at 99.06 146.05)
-		(size 12.7 13.97)
+		(at 44.45 153.67)
+		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -8366,8 +10235,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "4617caea-6164-4cde-afba-3767557ebe60")
-		(property "Sheetname" "3.3V ESD1"
-			(at 99.06 145.3384 0)
+		(property "Sheetname" "Data Line ESD"
+			(at 44.196 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8376,7 +10245,7 @@
 			)
 		)
 		(property "Sheetfile" "3.3VESD.kicad_sch"
-			(at 99.06 160.6046 0)
+			(at 41.656 164.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8385,7 +10254,7 @@
 			)
 		)
 		(pin "IO1" input
-			(at 99.06 148.59 180)
+			(at 44.45 154.94 180)
 			(uuid "8c25bde2-755e-4257-876f-dfeddae0b53d")
 			(effects
 				(font
@@ -8395,7 +10264,7 @@
 			)
 		)
 		(pin "IO2" input
-			(at 99.06 151.13 180)
+			(at 44.45 157.48 180)
 			(uuid "35dd0992-8bc9-4940-a74c-629a6d8c06fa")
 			(effects
 				(font
@@ -8405,7 +10274,7 @@
 			)
 		)
 		(pin "IO3" input
-			(at 99.06 153.67 180)
+			(at 44.45 160.02 180)
 			(uuid "7c78ffdd-55cf-40b7-9f06-5e6570932d47")
 			(effects
 				(font
@@ -8415,7 +10284,7 @@
 			)
 		)
 		(pin "IO4" input
-			(at 99.06 156.21 180)
+			(at 44.45 162.56 180)
 			(uuid "39eb1efa-9101-4e5b-abe2-95a74d683f04")
 			(effects
 				(font
@@ -8433,7 +10302,7 @@
 		)
 	)
 	(sheet
-		(at 99.06 166.37)
+		(at 44.45 168.91)
 		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8449,7 +10318,7 @@
 		)
 		(uuid "523196bc-63c3-40bf-aa15-5a19eeb2813e")
 		(property "Sheetname" "3.3V ESD"
-			(at 99.06 165.6584 0)
+			(at 44.45 168.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8458,7 +10327,7 @@
 			)
 		)
 		(property "Sheetfile" "3.3VESD.kicad_sch"
-			(at 99.06 177.1146 0)
+			(at 44.45 179.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8467,7 +10336,7 @@
 			)
 		)
 		(pin "IO1" input
-			(at 99.06 167.64 180)
+			(at 44.45 170.18 180)
 			(uuid "983ef7ac-112b-4a6b-8b7f-d447100fc06f")
 			(effects
 				(font
@@ -8477,7 +10346,7 @@
 			)
 		)
 		(pin "IO2" input
-			(at 99.06 170.18 180)
+			(at 44.45 172.72 180)
 			(uuid "58003101-b258-4111-8dc0-12a97ef524a4")
 			(effects
 				(font
@@ -8487,7 +10356,7 @@
 			)
 		)
 		(pin "IO3" input
-			(at 99.06 172.72 180)
+			(at 44.45 175.26 180)
 			(uuid "6ab5a51b-13a2-41e3-bfae-d5a121f461fd")
 			(effects
 				(font
@@ -8497,7 +10366,7 @@
 			)
 		)
 		(pin "IO4" input
-			(at 99.06 175.26 180)
+			(at 44.45 177.8 180)
 			(uuid "d33f9ff1-fc96-43b2-a6c5-ad474ba0a17e")
 			(effects
 				(font
@@ -8515,7 +10384,7 @@
 		)
 	)
 	(sheet
-		(at 99.06 181.61)
+		(at 44.45 184.15)
 		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8531,7 +10400,7 @@
 		)
 		(uuid "f371a2c8-8593-49e6-b7f8-2b57ddd687f3")
 		(property "Sheetname" "3.3V ESD2"
-			(at 99.06 180.8984 0)
+			(at 44.45 183.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8540,7 +10409,7 @@
 			)
 		)
 		(property "Sheetfile" "3.3VESD.kicad_sch"
-			(at 99.06 192.3546 0)
+			(at 44.45 194.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8549,7 +10418,7 @@
 			)
 		)
 		(pin "IO1" input
-			(at 99.06 182.88 180)
+			(at 44.45 185.42 180)
 			(uuid "432ff0aa-8872-4c7a-888b-72140ac4ed6c")
 			(effects
 				(font
@@ -8559,7 +10428,7 @@
 			)
 		)
 		(pin "IO2" input
-			(at 99.06 185.42 180)
+			(at 44.45 187.96 180)
 			(uuid "15b3dd97-47d6-4d44-9d26-e9150727151b")
 			(effects
 				(font
@@ -8569,7 +10438,7 @@
 			)
 		)
 		(pin "IO3" input
-			(at 99.06 187.96 180)
+			(at 44.45 190.5 180)
 			(uuid "75b6ab51-154c-4b48-806d-6a28b8816293")
 			(effects
 				(font
@@ -8579,7 +10448,7 @@
 			)
 		)
 		(pin "IO4" input
-			(at 99.06 190.5 180)
+			(at 44.45 193.04 180)
 			(uuid "c4d5c6a8-0498-4578-9712-a2f8b1930fc9")
 			(effects
 				(font

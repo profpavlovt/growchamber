@@ -2322,6 +2322,28 @@
 			)
 		)
 	)
+	(global_label "12V_RB"
+		(shape input)
+		(at 63.5 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af4e22e6-f12b-4912-9fd0-f68802d8dbba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.5004 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "KSD_Fault_RB"
 		(shape input)
 		(at 53.34 90.17 90)

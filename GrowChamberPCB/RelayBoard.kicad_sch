@@ -2008,16 +2008,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 91.44) (xy 113.03 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c85771f-c3e8-4edd-9bf4-043b1157d488")
-	)
-	(wire
-		(pts
 			(xy 69.85 68.58) (xy 76.2 68.58)
 		)
 		(stroke
@@ -2055,16 +2045,6 @@
 			(type default)
 		)
 		(uuid "989afd09-8161-4242-bb9b-b843d0635b0c")
-	)
-	(wire
-		(pts
-			(xy 113.03 91.44) (xy 113.03 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a009ed6-06cb-4fd6-aac7-2b2a1d55d307")
 	)
 	(wire
 		(pts
@@ -2135,6 +2115,26 @@
 			(type default)
 		)
 		(uuid "d272afc9-6caa-4535-85bb-4d928afed218")
+	)
+	(wire
+		(pts
+			(xy 113.03 93.98) (xy 115.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5234fc3-5069-48af-877c-c807bc2e6a28")
+	)
+	(wire
+		(pts
+			(xy 113.03 73.66) (xy 113.03 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e17e64b5-d07e-4f4c-a6b5-48e2d969d504")
 	)
 	(wire
 		(pts
@@ -2366,28 +2366,6 @@
 			)
 		)
 	)
-	(global_label "120V_IN"
-		(shape input)
-		(at 115.57 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c0cbc927-177d-41fa-855a-5a52d10810ce")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.9648 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "KSD_Fault_RB"
 		(shape input)
 		(at 213.36 83.82 0)
@@ -2428,6 +2406,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "120V_IN"
+		(shape input)
+		(at 115.57 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6c9f3d7-05ed-4e6f-bb61-e415cef38b1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.9648 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

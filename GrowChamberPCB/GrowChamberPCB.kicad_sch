@@ -3184,20 +3184,22 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d83d3189-ed9e-4b7e-a309-866026995a31")
-		(property "Reference" "12V_IN1"
-			(at 269.24 20.32 90)
+		(property "Reference" "P1"
+			(at 265.43 19.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Screw Terminal"
-			(at 266.7 20.32 90)
+		(property "Value" "12V_In"
+			(at 265.43 21.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:CONN-TH_2P-P5.00_CPC3703CTR"
@@ -3263,7 +3265,7 @@
 		(instances
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae"
-					(reference "12V_IN1")
+					(reference "P1")
 					(unit 1)
 				)
 			)

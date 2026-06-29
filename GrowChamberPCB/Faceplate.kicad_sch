@@ -3918,6 +3918,28 @@
 			)
 		)
 	)
+	(global_label "External_Fan_PWM_FP"
+		(shape input)
+		(at 31.75 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5662edd7-a03c-4b5e-8267-bcd683a69d39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 8.2032 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3.3V_FP"
 		(shape input)
 		(at 78.74 100.33 0)
@@ -4107,6 +4129,28 @@
 		(uuid "64cc840b-9484-43e1-bfff-8b27d942acdb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 174.919 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_FP"
+		(shape input)
+		(at 41.91 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "686efc3a-2f27-43e1-a24f-bf1fee92c137")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.0919 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5150,6 +5194,28 @@
 			)
 		)
 	)
+	(global_label "Fan_Tach_FP"
+		(shape input)
+		(at 31.75 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9aa9643-de7f-4ef6-93bd-d58185fc11a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.7302 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO4_FP"
 		(shape input)
 		(at 44.45 175.26 180)
@@ -5251,6 +5317,28 @@
 		(uuid "bf297e23-63ed-4679-b221-5bff99dbd814")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 87.289 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_FP"
+		(shape input)
+		(at 41.91 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2a27a54-b0ca-4abe-9b08-1ba7fe0e6deb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.0919 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5825,7 +5913,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07ad5ba8-7187-4fdc-9016-e46460780d43")
-		(property "Reference" "12V_On1"
+		(property "Reference" "LED2"
 			(at 149.098 124.46 0)
 			(effects
 				(font
@@ -5833,7 +5921,7 @@
 				)
 			)
 		)
-		(property "Value" "EL304RD"
+		(property "Value" "12V On"
 			(at 149.098 127 0)
 			(effects
 				(font
@@ -5904,7 +5992,7 @@
 		(instances
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
-					(reference "12V_On1")
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -6063,7 +6151,7 @@
 			(uuid "e1dc0a43-bb87-45cb-8fba-d01d40be4752")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
 					(reference "U20")
 					(unit 1)
@@ -6080,7 +6168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1574e03f-3300-48c8-96ac-dd1f569c290d")
-		(property "Reference" "GlycolSolenoidLED1"
+		(property "Reference" "LED4"
 			(at 149.098 142.24 0)
 			(effects
 				(font
@@ -6088,7 +6176,7 @@
 				)
 			)
 		)
-		(property "Value" "EL304RD"
+		(property "Value" "Glycol Solenoid"
 			(at 149.098 144.78 0)
 			(effects
 				(font
@@ -6159,7 +6247,7 @@
 		(instances
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
-					(reference "GlycolSolenoidLED1")
+					(reference "LED4")
 					(unit 1)
 				)
 			)
@@ -6268,7 +6356,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "198e8b5f-b4bf-48d3-9ba4-a2787a06b247")
-		(property "Reference" "HeaterOnLED1"
+		(property "Reference" "LED9"
 			(at 149.098 186.69 0)
 			(effects
 				(font
@@ -6276,7 +6364,7 @@
 				)
 			)
 		)
-		(property "Value" "EL304RD"
+		(property "Value" "Heating Element"
 			(at 149.098 189.23 0)
 			(effects
 				(font
@@ -6347,7 +6435,7 @@
 		(instances
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
-					(reference "HeaterOnLED1")
+					(reference "LED9")
 					(unit 1)
 				)
 			)
@@ -6363,7 +6451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b48711d-f860-4345-8d0d-5fff4637c0f9")
-		(property "Reference" "FAEFan1"
+		(property "Reference" "LED11"
 			(at 260.35 99.8199 90)
 			(effects
 				(font
@@ -6372,7 +6460,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "EL304RD"
+		(property "Value" "FAE"
 			(at 260.35 102.3599 90)
 			(effects
 				(font
@@ -6444,7 +6532,7 @@
 		(instances
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
-					(reference "FAEFan1")
+					(reference "LED11")
 					(unit 1)
 				)
 			)
@@ -6468,7 +6556,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "Water Solenoid"
 			(at 73.025 57.15 0)
 			(effects
 				(font
@@ -6536,7 +6624,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "FoggerBasin"
 			(at 73.025 87.63 0)
 			(effects
 				(font
@@ -6604,7 +6692,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "Drain Solenoid"
 			(at 73.025 46.99 0)
 			(effects
 				(font
@@ -6663,7 +6751,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "216025ba-45d0-4860-8a6c-5964e4e1966c")
-		(property "Reference" "WaterSolenoidLED1"
+		(property "Reference" "LED5"
 			(at 149.098 151.13 0)
 			(effects
 				(font
@@ -6671,7 +6759,7 @@
 				)
 			)
 		)
-		(property "Value" "EL304RD"
+		(property "Value" "Water Solenoid"
 			(at 149.098 153.67 0)
 			(effects
 				(font
@@ -6742,7 +6830,7 @@
 		(instances
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
-					(reference "WaterSolenoidLED1")
+					(reference "LED5")
 					(unit 1)
 				)
 			)
@@ -6766,7 +6854,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "Moisture Sensor 2"
 			(at 107.315 29.21 0)
 			(effects
 				(font
@@ -7000,7 +7088,7 @@
 			(uuid "f7dd41b3-5cfd-47c2-b45f-3edf8937a6ed")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
 					(reference "R35")
 					(unit 1)
@@ -7215,7 +7303,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "Moisture Sensor 1"
 			(at 107.315 16.51 0)
 			(effects
 				(font
@@ -7260,7 +7348,7 @@
 			(uuid "1c4ad383-fbe1-4e73-85a4-674dd93cb31a")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
 					(reference "J2")
 					(unit 1)
@@ -7758,7 +7846,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "Mister"
 			(at 73.025 16.51 0)
 			(effects
 				(font
@@ -7817,7 +7905,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ac8453b-ba9e-4430-ba95-83de1e5208a0")
-		(property "Reference" "FoggerFillSolenoidLED1"
+		(property "Reference" "LED7"
 			(at 149.098 168.91 0)
 			(effects
 				(font
@@ -7825,7 +7913,7 @@
 				)
 			)
 		)
-		(property "Value" "EL304RD"
+		(property "Value" "Fogger Solenoid"
 			(at 149.098 171.45 0)
 			(effects
 				(font
@@ -7896,7 +7984,7 @@
 		(instances
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
-					(reference "FoggerFillSolenoidLED1")
+					(reference "LED7")
 					(unit 1)
 				)
 			)
@@ -7920,7 +8008,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "Moisture Sensor 3"
 			(at 107.315 41.91 0)
 			(effects
 				(font
@@ -7982,7 +8070,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b84d991-9422-43f6-87eb-7e8aa9b5c063")
-		(property "Reference" "HeaterFansLED1"
+		(property "Reference" "LED8"
 			(at 149.098 177.8 0)
 			(effects
 				(font
@@ -7990,7 +8078,7 @@
 				)
 			)
 		)
-		(property "Value" "EL304RD"
+		(property "Value" "Heater Fans"
 			(at 149.098 180.34 0)
 			(effects
 				(font
@@ -8061,7 +8149,7 @@
 		(instances
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
-					(reference "HeaterFansLED1")
+					(reference "LED8")
 					(unit 1)
 				)
 			)
@@ -8284,7 +8372,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "SCD30"
 			(at 132.715 30.48 0)
 			(effects
 				(font
@@ -8332,7 +8420,7 @@
 			(uuid "57af8a75-a644-4bb2-ba63-3001dff71663")
 		)
 		(instances
-			(project ""
+			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
 					(reference "J3")
 					(unit 1)
@@ -8429,6 +8517,100 @@
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SD15_C2931147")
+		(at 36.83 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7aa1a295-3d97-4d50-9b66-02cacc8b9598")
+		(property "Reference" "D14"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SD15"
+			(at 37.084 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.7-W1.3-LS2.6-RD"
+			(at 36.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2931147.pdf"
+			(at 36.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UMW(友台半导体)"
+			(at 36.83 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SD15"
+			(at 36.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2931147"
+			(at 36.83 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "21f0fc5e-8116-44ab-9c40-93bb81444782")
+		)
+		(pin "1"
+			(uuid "badc7e0c-c77e-40bb-9271-7d220ddbf1b8")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -8546,7 +8728,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "UART"
 			(at 107.315 55.88 0)
 			(effects
 				(font
@@ -8894,7 +9076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5a6c5fb-0ba2-41b1-977d-3e5df2cfe7d9")
-		(property "Reference" "Piezo1"
+		(property "Reference" "LED10"
 			(at 242.57 99.8199 90)
 			(effects
 				(font
@@ -8903,7 +9085,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "EL304RD"
+		(property "Value" "Mister"
 			(at 242.57 102.3599 90)
 			(effects
 				(font
@@ -8975,7 +9157,7 @@
 		(instances
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
-					(reference "Piezo1")
+					(reference "LED10")
 					(unit 1)
 				)
 			)
@@ -8990,7 +9172,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac937409-e3cd-4924-ab2c-501414ca83ca")
-		(property "Reference" "DrainSolenoidLED1"
+		(property "Reference" "LED6"
 			(at 149.098 160.02 0)
 			(effects
 				(font
@@ -8998,7 +9180,7 @@
 				)
 			)
 		)
-		(property "Value" "EL304RD"
+		(property "Value" "Drain Solenoid"
 			(at 149.098 162.56 0)
 			(effects
 				(font
@@ -9069,7 +9251,7 @@
 		(instances
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
-					(reference "DrainSolenoidLED1")
+					(reference "LED6")
 					(unit 1)
 				)
 			)
@@ -9093,7 +9275,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "Glycol Solenoid"
 			(at 73.025 67.31 0)
 			(effects
 				(font
@@ -9161,7 +9343,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "DrainLevel"
 			(at 74.295 97.79 0)
 			(effects
 				(font
@@ -9306,6 +9488,100 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:SD15_C2931147")
+		(at 36.83 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca8b867a-3300-4b93-94f1-9e7865670db2")
+		(property "Reference" "D15"
+			(at 36.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SD15"
+			(at 37.084 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.7-W1.3-LS2.6-RD"
+			(at 36.83 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2931147.pdf"
+			(at 36.83 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UMW(友台半导体)"
+			(at 36.83 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SD15"
+			(at 36.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2931147"
+			(at 36.83 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98b7746e-da0a-4395-8509-8a6364ade1af")
+		)
+		(pin "1"
+			(uuid "2932c9fb-31bc-40c7-ab2c-35baffbe6de8")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:EL304RD")
 		(at 149.86 119.38 0)
 		(unit 1)
@@ -9314,7 +9590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d142874e-db9e-4dbb-81d4-886211082519")
-		(property "Reference" "LEDOn1"
+		(property "Reference" "LED1"
 			(at 149.098 115.57 0)
 			(effects
 				(font
@@ -9322,7 +9598,7 @@
 				)
 			)
 		)
-		(property "Value" "EL304RD"
+		(property "Value" "LED On"
 			(at 149.098 118.11 0)
 			(effects
 				(font
@@ -9393,7 +9669,7 @@
 		(instances
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
-					(reference "LEDOn1")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -9605,7 +9881,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "Heater Fans"
 			(at 73.025 26.67 0)
 			(effects
 				(font
@@ -9664,7 +9940,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dbe97d60-69ef-40fa-a851-3f25c943de54")
-		(property "Reference" "CircFanLED1"
+		(property "Reference" "LED3"
 			(at 149.098 133.35 0)
 			(effects
 				(font
@@ -9672,7 +9948,7 @@
 				)
 			)
 		)
-		(property "Value" "EL304RD"
+		(property "Value" "CircFan"
 			(at 149.098 135.89 0)
 			(effects
 				(font
@@ -9743,7 +10019,7 @@
 		(instances
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
-					(reference "CircFanLED1")
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -9767,7 +10043,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "Fogger Solenoid"
 			(at 73.025 36.83 0)
 			(effects
 				(font
@@ -9835,7 +10111,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "CircFan"
 			(at 73.025 77.47 0)
 			(effects
 				(font
@@ -10164,7 +10440,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "FAE Fan"
 			(at 132.715 15.24 0)
 			(effects
 				(font

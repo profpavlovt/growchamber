@@ -1466,27 +1466,54 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:WJ127-5.0-2P"
+		(symbol "easyeda2kicad:KF237-5.08-1P"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "P"
-				(at 0 0 0)
+			(property "Reference" "CN"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "WJ127-5.0-2P"
+			(property "Value" "KF237-5.08-1P"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:CONN-TH_KF237-5.08-1P"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C976496.pdf"
 				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:CONN-TH_2P-P5.00_CPC3703CTR"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "KEFA(科发)"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -1495,7 +1522,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Terminal-Blocks_WJ127-5-0-2P_C3703.html"
+			(property "MPN" "KF237-5.08-1P"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -1504,16 +1531,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "WJ127-5.0-2P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "KANGNEX(康奈克斯电气)"
+			(property "LCSC Part" "C976496"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -1522,25 +1540,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "WJ127-5.0-02P-14-00A"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C3703"
-				(at 0 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Screw terminal"
+			(property "ki_keywords" "Spring Clamp System Terminal Block"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1549,10 +1549,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "WJ127-5.0-2P_0_1"
+			(symbol "KF237-5.08-1P_0_1"
 				(rectangle
-					(start -3.81 5.08)
-					(end 3.81 0)
+					(start -1.27 2.54)
+					(end 3.81 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -1561,9 +1561,20 @@
 						(type background)
 					)
 				)
+				(circle
+					(center 0 1.27)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin unspecified line
-					(at -1.27 -5.08 90)
-					(length 5.08)
+					(at -3.81 0 0)
+					(length 2.54)
 					(name "1"
 						(effects
 							(font
@@ -1572,24 +1583,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 1.27 -5.08 90)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1835,22 +1828,22 @@
 		(uuid "997c4041-8459-44b5-a388-4626a4c319c3")
 	)
 	(junction
-		(at 69.85 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d5c2dfd-551f-4778-84f4-3928d2eceb5d")
-	)
-	(junction
 		(at 69.85 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e1c255c8-7ada-4cdf-a818-a66dc94aa225")
+		(uuid "ab25b565-420e-4ae2-b597-188dab7be9b4")
 	)
 	(junction
 		(at 154.94 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef3bcb98-3b80-4085-967e-ceca15244a0d")
+	)
+	(junction
+		(at 69.85 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffc37807-07cd-4dc5-a149-9a7b2aaf3945")
 	)
 	(no_connect
 		(at 93.98 58.42)
@@ -1865,6 +1858,16 @@
 			(type default)
 		)
 		(uuid "01e50ff3-59cd-4edd-9df2-e3505fdb1542")
+	)
+	(wire
+		(pts
+			(xy 106.68 92.71) (xy 107.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01eead00-616c-4e6f-ab39-4735935cbe89")
 	)
 	(wire
 		(pts
@@ -1948,6 +1951,36 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 68.58) (xy 69.85 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f4c8447-37d9-47f8-802b-8d133eaa09da")
+	)
+	(wire
+		(pts
+			(xy 63.5 58.42) (xy 69.85 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "471360cd-bda9-4dbc-aa02-10b1e658a554")
+	)
+	(wire
+		(pts
+			(xy 113.03 91.44) (xy 113.03 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d15042-5885-4653-aede-bbbeced7608f")
+	)
+	(wire
+		(pts
 			(xy 76.2 58.42) (xy 69.85 58.42)
 		)
 		(stroke
@@ -1978,13 +2011,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 58.42) (xy 60.96 58.42)
+			(xy 60.96 68.58) (xy 60.96 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72476f6e-6ab7-4972-b7de-7da49c972f1e")
+		(uuid "70f7c1c8-a7ca-4151-9a00-17e189bf4f4f")
 	)
 	(wire
 		(pts
@@ -2028,16 +2061,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 68.58) (xy 69.85 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97e3cc1f-bf6e-47bb-8646-6932e25e395e")
-	)
-	(wire
-		(pts
 			(xy 151.13 74.93) (xy 151.13 83.82)
 		)
 		(stroke
@@ -2045,16 +2068,6 @@
 			(type default)
 		)
 		(uuid "989afd09-8161-4242-bb9b-b843d0635b0c")
-	)
-	(wire
-		(pts
-			(xy 63.5 90.17) (xy 63.5 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c697e05-447c-4420-9a89-c83db277063f")
 	)
 	(wire
 		(pts
@@ -2078,16 +2091,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 58.42) (xy 60.96 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b739bc08-3c40-4c61-973c-371afc441224")
-	)
-	(wire
-		(pts
 			(xy 115.57 72.39) (xy 115.57 73.66)
 		)
 		(stroke
@@ -2095,6 +2098,16 @@
 			(type default)
 		)
 		(uuid "b90d5ddb-4771-43d5-bbc0-8989ae6fb59b")
+	)
+	(wire
+		(pts
+			(xy 107.95 92.71) (xy 107.95 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4ad23b8-5a3d-4511-a071-48773ffb79d9")
 	)
 	(wire
 		(pts
@@ -2108,6 +2121,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 91.44) (xy 113.03 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce457338-8dcf-4da6-a210-11148735e0fd")
+	)
+	(wire
+		(pts
 			(xy 142.24 74.93) (xy 151.13 74.93)
 		)
 		(stroke
@@ -2118,26 +2141,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 93.98) (xy 115.57 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5234fc3-5069-48af-877c-c807bc2e6a28")
-	)
-	(wire
-		(pts
-			(xy 113.03 73.66) (xy 113.03 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e17e64b5-d07e-4f4c-a6b5-48e2d969d504")
-	)
-	(wire
-		(pts
 			(xy 209.55 83.82) (xy 213.36 83.82)
 		)
 		(stroke
@@ -2145,6 +2148,26 @@
 			(type default)
 		)
 		(uuid "e7bc472b-33c0-408d-8599-f8608bee307d")
+	)
+	(wire
+		(pts
+			(xy 107.95 99.06) (xy 115.57 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc94aeac-72b8-4fb2-aee3-6a960acbe46e")
+	)
+	(wire
+		(pts
+			(xy 63.5 58.42) (xy 63.5 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd0076ea-7007-4cb8-8272-51db9333e187")
 	)
 	(global_label "GND_RB"
 		(shape input)
@@ -2322,24 +2345,46 @@
 			)
 		)
 	)
-	(global_label "12V_RB"
+	(global_label "120V_IN"
 		(shape input)
-		(at 63.5 86.36 0)
+		(at 106.68 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "af4e22e6-f12b-4912-9fd0-f68802d8dbba")
+		(uuid "8fa0fd35-884e-4b15-9a50-779dc1e5bf05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.5004 86.36 0)
+			(at 96.0748 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "120V_Out"
+		(shape input)
+		(at 113.03 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab5c9e3d-5c36-4baa-bfb8-937afdf65334")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.1549 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2410,9 +2455,9 @@
 			)
 		)
 	)
-	(global_label "120V_IN"
+	(global_label "12V_RB"
 		(shape input)
-		(at 115.57 91.44 180)
+		(at 72.39 68.58 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2420,9 +2465,31 @@
 			)
 			(justify right)
 		)
-		(uuid "e6c9f3d7-05ed-4e6f-bb61-e415cef38b1e")
+		(uuid "df698db5-c5ad-44d5-a861-8da7ea9f6e88")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.9648 91.44 0)
+			(at 72.39 78.5804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NO_ACS"
+		(shape input)
+		(at 99.06 68.58 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f93d2ff7-1056-4a62-9d0f-9ded28488889")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.06 78.7619 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2529,6 +2596,100 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:KF237-5.08-1P")
+		(at 119.38 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "182bf896-96d8-4afa-8504-947bf39b93fc")
+		(property "Reference" "CN4"
+			(at 124.46 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KF237-5.08-1P"
+			(at 124.46 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CONN-TH_KF237-5.08-1P"
+			(at 119.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C976496.pdf"
+			(at 119.38 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEFA(科发)"
+			(at 119.38 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KF237-5.08-1P"
+			(at 119.38 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C976496"
+			(at 119.38 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be450d59-6189-4e4c-bce1-4e34856b10d3")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/9a0ca1ed-8f8c-49c5-a6a2-3c0c03092deb"
+					(reference "CN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:CL10B104KO8NNNC")
 		(at 148.59 63.5 90)
 		(unit 1)
@@ -2619,103 +2780,6 @@
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/9a0ca1ed-8f8c-49c5-a6a2-3c0c03092deb"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:WJ127-5.0-2P")
-		(at 120.65 92.71 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5476c343-656d-49ca-90a1-dcd38f9ffa9a")
-		(property "Reference" "12V_IN2"
-			(at 127 91.4399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw Terminal"
-			(at 127 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CONN-TH_2P-P5.00_CPC3703CTR"
-			(at 107.95 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Terminal-Blocks_WJ127-5-0-2P_C3703.html"
-			(at 105.41 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "WJ127-5.0-2P"
-			(at 120.65 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KANGNEX(康奈克斯电气)"
-			(at 102.87 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "WJ127-5.0-02P-14-00A"
-			(at 100.33 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C3703"
-			(at 97.79 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c7fa5af6-d0fa-4059-aac9-1883e10620ed")
-		)
-		(pin "1"
-			(uuid "76b694e5-0e12-43ea-9f5d-9e37d17b015e")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/9a0ca1ed-8f8c-49c5-a6a2-3c0c03092deb"
-					(reference "12V_IN2")
 					(unit 1)
 				)
 			)
@@ -3014,6 +3078,100 @@
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/9a0ca1ed-8f8c-49c5-a6a2-3c0c03092deb"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:KF237-5.08-1P")
+		(at 119.38 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6241103-a1ef-4362-ae2a-78cc506ea6ff")
+		(property "Reference" "CN1"
+			(at 124.46 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KF237-5.08-1P"
+			(at 124.46 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CONN-TH_KF237-5.08-1P"
+			(at 119.38 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C976496.pdf"
+			(at 119.38 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEFA(科发)"
+			(at 119.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KF237-5.08-1P"
+			(at 119.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C976496"
+			(at 119.38 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f7df8c5-b0e2-453a-8118-8e81048b24eb")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/9a0ca1ed-8f8c-49c5-a6a2-3c0c03092deb"
+					(reference "CN1")
 					(unit 1)
 				)
 			)

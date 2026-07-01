@@ -861,7 +861,7 @@
 	(footprint "easyeda2kicad:RELAY-TH_G5NB-1A-E-DCXX"
 		(layer "F.Cu")
 		(uuid "03218e8b-dea1-4abd-9708-a9301ae94417")
-		(at 65.43 173.24)
+		(at 54.18 171.43)
 		(property "Reference" "RLY1"
 			(at 0 -6.35 0)
 			(layer "F.SilkS")
@@ -19215,7 +19215,7 @@
 	(footprint "easyeda2kicad:SOD-123FL_L2.7-W1.8-LS3.7-RD"
 		(layer "F.Cu")
 		(uuid "6d599930-9a56-45dd-91f5-6555b9af089a")
-		(at 53.2 172.88 -90)
+		(at 41.95 171.07 -90)
 		(property "Reference" "U9"
 			(at 0 -4 90)
 			(layer "F.SilkS")
@@ -35434,7 +35434,7 @@
 	(footprint "easyeda2kicad:CONN-TH_2P-P5.00_CPC3703CTR"
 		(layer "F.Cu")
 		(uuid "bc003c0c-65c1-4381-aed2-9763b410b328")
-		(at 72.99 182.69 90)
+		(at 61.74 180.88 90)
 		(descr "WJ127-5.0-2P")
 		(property "Reference" "P2"
 			(at 0 -4 90)

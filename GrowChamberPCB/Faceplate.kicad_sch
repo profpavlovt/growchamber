@@ -617,140 +617,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:0603WAF2700T5E"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0603WAF2700T5E"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:R0603"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_270R-2700-1_C22966.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "270Ω (2700) ±1%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "UNI-ROYAL(厚声)"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "0603WAF2700T5E"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C22966"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Resistors"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0603WAF2700T5E_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda2kicad:EL304RD"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2948,26 +2814,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 162.56) (xy 43.18 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3588e25d-e66f-4806-b3ae-a5f784212273")
-	)
-	(wire
-		(pts
-			(xy 44.45 157.48) (xy 43.18 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f9f4a11-566d-417a-8ef5-1420f7b3c745")
-	)
-	(wire
-		(pts
 			(xy 240.03 105.41) (xy 240.03 116.84)
 		)
 		(stroke
@@ -3005,38 +2851,6 @@
 			(type default)
 		)
 		(uuid "ca5c1a80-183a-4419-9e02-3069f37760b8")
-	)
-	(wire
-		(pts
-			(xy 44.45 160.02) (xy 43.18 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbd896a1-25e7-45a6-bcd3-1d4b9d857feb")
-	)
-	(global_label "5V_FP"
-		(shape input)
-		(at 240.03 85.09 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0331eed7-a2f9-4278-801c-7e05d579a800")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.03 76.4805 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "Circ_Fan_FP"
 		(shape input)
@@ -3271,28 +3085,6 @@
 		(uuid "1d329ae2-5f1a-426c-bfc0-4fb7cb58fdbe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 262.1862 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V_FP"
-		(shape input)
-		(at 250.19 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1ee35827-11a1-4824-8d90-fb72486ed787")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.7995 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3887,28 +3679,6 @@
 		(uuid "555ed775-4f33-424f-9c91-d6df88fe232d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.6393 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V_FP"
-		(shape input)
-		(at 265.43 139.7 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "563f8896-4b19-4292-8262-c8ad86a6db0a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.43 148.3095 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5174,6 +4944,28 @@
 	)
 	(global_label "12V_FP"
 		(shape input)
+		(at 257.81 85.09 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6d9c20b-a98d-45da-859d-8931b8b49c6b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.81 75.271 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_FP"
+		(shape input)
 		(at 77.47 82.55 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5634,6 +5426,28 @@
 			)
 		)
 	)
+	(global_label "12V_FP"
+		(shape input)
+		(at 240.03 85.09 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f020fc4b-9f52-4284-9068-6f0a7d20c1ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 75.271 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Piezo1_FP"
 		(shape input)
 		(at 31.75 102.87 180)
@@ -5779,28 +5593,6 @@
 		(uuid "f758a5c3-4985-4fa5-8e85-7c5b2bda09fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 59.8931 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V_FP"
-		(shape input)
-		(at 257.81 85.09 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fd89afb1-9df9-4c7f-8c5e-7b01aae30a55")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.81 76.4805 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6996,196 +6788,6 @@
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
 					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:0603WAF2700T5E")
-		(at 240.03 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "326622c4-9738-468e-b134-c30f03656954")
-		(property "Reference" "R35"
-			(at 233.68 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "270"
-			(at 236.22 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 247.65 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_270R-2700-1_C22966.html"
-			(at 250.19 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "270Ω (2700) ±1%"
-			(at 240.03 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 252.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0603WAF2700T5E"
-			(at 255.27 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C22966"
-			(at 257.81 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed85a4b3-554a-4579-8329-89246a7ac5c3")
-		)
-		(pin "2"
-			(uuid "f7dd41b3-5cfd-47c2-b45f-3edf8937a6ed")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:0603WAF2700T5E")
-		(at 257.81 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34df2220-5f56-4c09-8a5e-98f7bc383d29")
-		(property "Reference" "R43"
-			(at 251.46 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "270"
-			(at 254 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 265.43 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_270R-2700-1_C22966.html"
-			(at 267.97 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "270Ω (2700) ±1%"
-			(at 257.81 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 270.51 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0603WAF2700T5E"
-			(at 273.05 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C22966"
-			(at 275.59 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68699b54-02ec-4ed3-820b-ab8f03c69724")
-		)
-		(pin "2"
-			(uuid "c1c07e70-13c1-42c1-ae05-27163a00d59d")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
-					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -9164,6 +8766,100 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:FRC0603J102TS")
+		(at 240.03 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abc9700c-4110-4713-bfc8-df0e2393b308")
+		(property "Reference" "R35"
+			(at 236.22 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 237.998 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 247.65 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2907113.pdf"
+			(at 250.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 252.73 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FRC0603J102 TS"
+			(at 255.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2907113"
+			(at 257.81 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d6fa64c-a7b2-4ce2-acad-6aa83f5dae44")
+		)
+		(pin "2"
+			(uuid "cf49e789-514b-486c-b95b-5a256e9d4478")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:EL304RD")
 		(at 149.86 163.83 0)
 		(unit 1)
@@ -10417,6 +10113,100 @@
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:FRC0603J102TS")
+		(at 257.81 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f50495e2-6655-49ab-8470-2543f8d9af0d")
+		(property "Reference" "R43"
+			(at 254 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 255.778 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 265.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2907113.pdf"
+			(at 267.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 270.51 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FRC0603J102 TS"
+			(at 273.05 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2907113"
+			(at 275.59 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f11b0e9-8dbd-4812-9d87-777e7e94a9e6")
+		)
+		(pin "2"
+			(uuid "c08684e6-fe26-4021-a32e-cd9d688127ee")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/c2403359-39ea-416b-9a92-81a595d10d09"
+					(reference "R43")
 					(unit 1)
 				)
 			)

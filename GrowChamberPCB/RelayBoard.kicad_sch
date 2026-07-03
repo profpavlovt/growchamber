@@ -176,6 +176,177 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:CL10A106KO8NQNC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CL10A106KO8NQNC"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:C0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C962136.pdf"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "SAMSUNG(三星)"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CL10A106KO8NQNC"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C962136"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL10A106KO8NQNC_0_1"
+				(polyline
+					(pts
+						(xy -0.51 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 -2.03) (xy -0.51 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:G5NB-1A-E-DC12"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -429,6 +600,265 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:RT0603BRD07100KL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RT0603BRD07100KL"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_100KR-1003-0-1_C122538.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO(国巨)"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RT0603BRD07100KL"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C122538"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Resistors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RT0603BRD07100KL_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:RT0603BRD0750RL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RT0603BRD0750RL"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C5879483.pdf"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO(国巨)"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RT0603BRD0750RL"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C5879483"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RT0603BRD0750RL_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:WJ127-5.0-2P"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -563,227 +993,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:WJ127-5.0-5P"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CN"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "WJ127-5.0-5P"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:CONN-TH_5P-P5.00_WJ127-5.0-5P"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_Ningbo-Kangnex-Elec-WJ127-5-0-5P_C192780.html"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "KANGNEX(康奈克斯电气)"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "WJ127-5.0-05P-14-00A"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C192780"
-				(at 0 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "WJ127-5.0-5P_0_1"
-				(rectangle
-					(start -1.27 7.62)
-					(end 3.81 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 6.35)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 5.08 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 2.54 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 -2.54 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 -5.08 0)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "easyeda2kicad:ZHT136"
+		(symbol "easyeda2kicad:ZHT103"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "L"
-				(at 0 10.16 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "ZHT136"
-				(at 0 -10.16 0)
+			(property "Value" "ZHT103"
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:IND-TH_4P-L18.0-W12.0_ZHT136"
-				(at 0 -12.7 0)
+			(property "Footprint" "easyeda2kicad:IND-TH_L18.2-W10.2-P12.00-D0.9_ZHT103"
+				(at 0 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -791,8 +1022,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C7450568.pdf"
-				(at 0 -15.24 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2935356.pdf"
+				(at 0 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -810,7 +1041,7 @@
 				)
 			)
 			(property "Manufacturer" "ZHT(圳恒通)"
-				(at 0 -17.78 0)
+				(at 0 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -818,8 +1049,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "ZHT136"
-				(at 0 -20.32 0)
+			(property "MPN" "ZHT103"
+				(at 0 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -827,8 +1058,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C7450568"
-				(at 0 -22.86 0)
+			(property "LCSC Part" "C2935356"
+				(at 0 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -836,47 +1067,30 @@
 					(hide yes)
 				)
 			)
-			(symbol "ZHT136_0_1"
-				(arc
-					(start -3.8 4.06)
-					(mid -2.7998 3.035)
-					(end -3.82 2.03)
+			(property "ki_keywords" "Current Transformers"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ZHT103_0_1"
+				(rectangle
+					(start -7.62 3.81)
+					(end 5.08 -3.81)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(arc
-					(start -3.8 2.03)
-					(mid -2.7998 1.005)
-					(end -3.82 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.8 0)
-					(mid -2.7999 -1.0249)
-					(end -3.82 -2.03)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.8 -2.03)
-					(mid -2.7999 -3.0549)
-					(end -3.82 -4.06)
+				(circle
+					(center -3.81 0)
+					(radius 2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -886,79 +1100,8 @@
 					)
 				)
 				(circle
-					(center -1.14 5.21)
-					(radius 0.13)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 -5.08) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.4 5.21)
-					(radius 0.13)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 3.8 4.06)
-					(mid 4.8201 3.0549)
-					(end 3.82 2.03)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 3.8 2.03)
-					(mid 4.8201 1.0249)
-					(end 3.82 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 3.8 0)
-					(mid 4.82 -1.005)
-					(end 3.82 -2.03)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 3.8 -2.03)
-					(mid 4.82 -3.035)
-					(end 3.82 -4.06)
+					(center 3.81 2.54)
+					(radius 0.38)
 					(stroke
 						(width 0)
 						(type default)
@@ -968,34 +1111,16 @@
 					)
 				)
 				(pin unspecified line
-					(at -3.81 5.08 270)
-					(length 1.27)
-					(name "P1"
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "P1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 -5.08 90)
-					(length 1.27)
-					(name "P2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1004,34 +1129,16 @@
 					)
 				)
 				(pin unspecified line
-					(at 3.81 5.08 270)
-					(length 1.27)
-					(name "S2"
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 3.81 -5.08 90)
-					(length 1.27)
-					(name "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1060,30 +1167,90 @@
 		(uuid "169bed6f-bd33-45c8-a061-3aeed8f9e983")
 	)
 	(junction
+		(at 102.87 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "174f41ab-8714-4fdf-80bd-b48369057db4")
+	)
+	(junction
+		(at 123.19 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "204267d4-5f7a-4a3c-9047-9e315f907535")
+	)
+	(junction
+		(at 96.52 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "529b5a3f-c64c-466c-aca2-a6756f15bcda")
+	)
+	(junction
 		(at 69.85 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7755005e-cba3-454b-8c75-078f92006e35")
 	)
-	(wire
-		(pts
-			(xy 85.09 90.17) (xy 85.09 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13280b3b-67ef-4e99-a1b6-e7bf257bd574")
+	(junction
+		(at 102.87 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a704a8b-0eef-47c1-aada-c7993f6a2daf")
+	)
+	(junction
+		(at 96.52 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a057331d-7a09-46c7-8aa9-efee166c6261")
 	)
 	(wire
 		(pts
-			(xy 92.71 96.52) (xy 115.57 96.52)
+			(xy 102.87 133.35) (xy 96.52 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c2d257f-ba1f-4122-8d99-a4b4a1776afe")
+		(uuid "1056d539-74f1-46c1-9eb2-52ff0b70e30a")
+	)
+	(wire
+		(pts
+			(xy 85.09 69.85) (xy 85.09 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1498f953-c8ab-4fd6-abd1-7f1e4c46b4ed")
+	)
+	(wire
+		(pts
+			(xy 102.87 132.08) (xy 102.87 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1de5a56a-3c3d-4766-bbbd-9acafb46847d")
+	)
+	(wire
+		(pts
+			(xy 85.09 96.52) (xy 115.57 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20e4a158-37c5-49d6-9111-1a7100506d50")
+	)
+	(wire
+		(pts
+			(xy 92.71 123.19) (xy 82.55 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22cc5e14-0dd7-4ef8-bbc2-84dd76fea7eb")
 	)
 	(wire
 		(pts
@@ -1094,16 +1261,6 @@
 			(type default)
 		)
 		(uuid "371dd63f-a467-47a1-a4ea-003367cbfde0")
-	)
-	(wire
-		(pts
-			(xy 85.09 69.85) (xy 85.09 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46337b8d-4f72-4188-9ff5-77285e8a07fc")
 	)
 	(wire
 		(pts
@@ -1127,23 +1284,53 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 69.85) (xy 92.71 96.52)
+			(xy 96.52 133.35) (xy 96.52 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a6ac784-fb82-4143-9569-dbd89812e195")
+		(uuid "561fcb6e-fc40-487d-98b7-f2df2d05c7b9")
 	)
 	(wire
 		(pts
-			(xy 63.5 90.17) (xy 63.5 69.85)
+			(xy 123.19 132.08) (xy 123.19 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72a6863d-ad2a-431f-8815-1856e4584a5e")
+		(uuid "57a1b51e-7ea0-42b9-835b-03035e588e40")
+	)
+	(wire
+		(pts
+			(xy 92.71 129.54) (xy 96.52 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5869f550-5dc3-4cfd-bbb5-bbdff53caecd")
+	)
+	(wire
+		(pts
+			(xy 92.71 69.85) (xy 92.71 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61706a36-d838-45cb-a609-dd197c2d27bc")
+	)
+	(wire
+		(pts
+			(xy 102.87 143.51) (xy 102.87 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f951999-abd4-4327-aa11-009285aeee6f")
 	)
 	(wire
 		(pts
@@ -1157,6 +1344,36 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 118.11) (xy 96.52 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "894d0ae6-14fd-4ec7-937f-6a9cfb5b4e2a")
+	)
+	(wire
+		(pts
+			(xy 123.19 115.57) (xy 123.19 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99ecbe28-e6b0-4577-a60f-3e886932ecbf")
+	)
+	(wire
+		(pts
+			(xy 92.71 93.98) (xy 115.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc6eda7-9761-4d35-901a-ac642fc4a398")
+	)
+	(wire
+		(pts
 			(xy 60.96 54.61) (xy 69.85 54.61)
 		)
 		(stroke
@@ -1167,13 +1384,83 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 54.61) (xy 60.96 90.17)
+			(xy 92.71 118.11) (xy 92.71 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd95c9b8-419c-453a-8c5d-09693bec03cc")
+		(uuid "a5447bf9-1fc1-4d68-9737-1709d4ce52f7")
+	)
+	(wire
+		(pts
+			(xy 123.19 143.51) (xy 123.19 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7393117-c1df-4482-8b48-3492b133c4f3")
+	)
+	(wire
+		(pts
+			(xy 96.52 118.11) (xy 96.52 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bccbc6b5-3a1b-4ea7-9431-119c0bd2e22b")
+	)
+	(wire
+		(pts
+			(xy 123.19 132.08) (xy 102.87 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c553830d-2f82-4de5-b5c4-3f50e74a9fbd")
+	)
+	(wire
+		(pts
+			(xy 102.87 147.32) (xy 102.87 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca144cde-97c5-4e1a-bd7e-513b5a674044")
+	)
+	(wire
+		(pts
+			(xy 92.71 125.73) (xy 92.71 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb7e0879-279e-43c3-ae0e-0d7c6241b396")
+	)
+	(wire
+		(pts
+			(xy 123.19 147.32) (xy 102.87 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0053c9b-a0fb-468b-82d5-5249e6bf6422")
+	)
+	(wire
+		(pts
+			(xy 123.19 129.54) (xy 123.19 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4eecee7-7cc6-42c7-9a16-d6a0bae82668")
 	)
 	(wire
 		(pts
@@ -1185,53 +1472,29 @@
 		)
 		(uuid "efcc02de-7d00-4f72-9722-38257ff77a40")
 	)
-	(global_label "5V_RB"
-		(shape input)
-		(at 58.42 90.17 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+	(wire
+		(pts
+			(xy 82.55 125.73) (xy 92.71 125.73)
 		)
-		(uuid "32865129-073a-4d28-aaa8-11322e49aae3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.42 81.3791 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
+		(uuid "f899910b-8f10-48d8-869a-ec976bde90f8")
 	)
-	(global_label "GND_RB"
-		(shape input)
-		(at 55.88 90.17 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+	(wire
+		(pts
+			(xy 96.52 114.3) (xy 96.52 118.11)
 		)
-		(uuid "420b1080-e725-44b7-a10b-4451c32f0ce1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 79.8067 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
+		(uuid "fd69cc75-1fc0-47c9-b2c5-649a75a6055b")
 	)
-	(global_label "120V_To_ACS"
+	(global_label "120V_Out"
 		(shape input)
-		(at 115.57 93.98 180)
+		(at 107.95 96.52 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1239,9 +1502,9 @@
 			)
 			(justify right)
 		)
-		(uuid "92deb2b9-c36f-4159-9ebe-68ce44a428e5")
+		(uuid "40e535e5-e0ea-45cd-bc5a-a7cda202b7bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.2478 93.98 0)
+			(at 107.95 108.3951 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1251,9 +1514,31 @@
 			)
 		)
 	)
-	(global_label "KSD_Fault_RB"
+	(global_label "GND"
 		(shape input)
-		(at 53.34 90.17 90)
+		(at 102.87 151.13 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a4bfa82-65fc-4182-9a38-b0c4f0eb011c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.87 157.9857 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 123.19 115.57 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1261,9 +1546,9 @@
 			)
 			(justify left)
 		)
-		(uuid "b0ab1908-3ac9-430e-ae27-1488250e7e96")
+		(uuid "af668128-c7b5-45cf-aeca-36b583d8d6b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.34 74.1826 90)
+			(at 123.19 108.4724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1273,9 +1558,9 @@
 			)
 		)
 	)
-	(global_label "120V_To_ACS"
+	(global_label "Heater_ON"
 		(shape input)
-		(at 85.09 93.98 270)
+		(at 63.5 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1283,21 +1568,43 @@
 			)
 			(justify right)
 		)
-		(uuid "bd804c88-d415-47ea-a40d-5d073c0d6872")
+		(uuid "c59901ec-daca-4a17-9851-de1524d87b2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 109.3022 90)
+			(at 50.7176 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "KSD_Fault"
+		(shape input)
+		(at 96.52 114.3 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc135700-7d57-4e82-b3ef-9b86667c24cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.52 101.8202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "120V_IN"
 		(shape input)
-		(at 133.35 104.14 0)
+		(at 107.95 93.98 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1305,9 +1612,9 @@
 			)
 			(justify left)
 		)
-		(uuid "c937a0f0-7875-4a42-8a36-5fdb261145a6")
+		(uuid "d94b69b4-97b0-42c7-a1c1-f6ee04f3e2b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.9552 104.14 0)
+			(at 107.95 83.3748 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,31 +1624,9 @@
 			)
 		)
 	)
-	(global_label "120V_Out"
+	(global_label "12V"
 		(shape input)
-		(at 95.25 96.52 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dcef93ef-c872-41c3-acd3-615566bf52f9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.25 84.6449 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "12V_RB"
-		(shape input)
-		(at 72.39 69.85 270)
+		(at 60.96 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1349,9 +1634,9 @@
 			)
 			(justify right)
 		)
-		(uuid "df698db5-c5ad-44d5-a861-8da7ea9f6e88")
+		(uuid "e72f481f-aa37-464d-a0a9-328c5345d342")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.39 79.8504 90)
+			(at 54.4672 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1362,17 +1647,17 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:WJ127-5.0-2P")
-		(at 120.65 95.25 270)
+		(lib_id "easyeda2kicad:RT0603BRD07100KL")
+		(at 123.19 124.46 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "68389db6-35da-4ddb-bba5-21a205528d9a")
-		(property "Reference" "P2"
-			(at 127 93.9799 90)
+		(uuid "1c847fb2-533e-4708-b508-26ea4fa47e28")
+		(property "Reference" "R18"
+			(at 125.73 123.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1380,8 +1665,201 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V_In"
-			(at 127 96.5199 90)
+		(property "Value" "100k"
+			(at 125.73 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 115.57 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_100KR-1003-0-1_C122538.html"
+			(at 113.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 110.49 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603BRD07100KL"
+			(at 107.95 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C122538"
+			(at 105.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bf72c5af-dab0-48e2-877f-2d7cc98b0ec6")
+		)
+		(pin "1"
+			(uuid "fa7acb01-9de2-4ecb-922c-01f5f64bb525")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/9a0ca1ed-8f8c-49c5-a6a2-3c0c03092deb"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:CL10A106KO8NQNC")
+		(at 102.87 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3119ff34-f23c-4bd9-aebc-34976eea4ab4")
+		(property "Reference" "C21"
+			(at 105.156 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 105.156 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 110.49 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C962136.pdf"
+			(at 113.03 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 115.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A106KO8NQNC"
+			(at 118.11 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C962136"
+			(at 120.65 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef21136f-b4e6-476a-afb2-36b40136b5f4")
+		)
+		(pin "2"
+			(uuid "b40627f1-a34b-4d00-bbc9-2e2336c8fb66")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/9a0ca1ed-8f8c-49c5-a6a2-3c0c03092deb"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:WJ127-5.0-2P")
+		(at 120.65 95.25 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68389db6-35da-4ddb-bba5-21a205528d9a")
+		(property "Reference" "P2"
+			(at 127 96.5201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120V"
+			(at 127 93.9801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1453,6 +1931,200 @@
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/9a0ca1ed-8f8c-49c5-a6a2-3c0c03092deb"
 					(reference "P2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:RT0603BRD0750RL")
+		(at 96.52 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "829ed29d-340a-48b5-95d4-8e9b784b0c29")
+		(property "Reference" "R16"
+			(at 99.06 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "50"
+			(at 99.06 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 104.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5879483.pdf"
+			(at 106.68 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 109.22 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603BRD0750RL"
+			(at 111.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5879483"
+			(at 114.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00026882-17be-4da8-85ee-75d57b11186f")
+		)
+		(pin "2"
+			(uuid "778e232e-f45a-4f3a-9df2-0c17e3ae87cb")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/9a0ca1ed-8f8c-49c5-a6a2-3c0c03092deb"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:RT0603BRD07100KL")
+		(at 123.19 138.43 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "977f2183-dc8d-4f43-8734-bf57962f1d69")
+		(property "Reference" "R45"
+			(at 125.73 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 125.73 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 115.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_100KR-1003-0-1_C122538.html"
+			(at 113.03 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 110.49 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603BRD07100KL"
+			(at 107.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C122538"
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04883f29-f8b7-4f44-988b-e4e3cf4ebecd")
+		)
+		(pin "1"
+			(uuid "0da2ec01-fd4e-400b-a86d-a80bdf71092e")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/9a0ca1ed-8f8c-49c5-a6a2-3c0c03092deb"
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -1659,35 +2331,33 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:WJ127-5.0-5P")
-		(at 58.42 93.98 270)
+		(lib_id "easyeda2kicad:ZHT103")
+		(at 74.93 124.46 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e37290ac-2129-4f93-849a-f59e5c090abe")
-		(property "Reference" "CN3"
-			(at 67.31 93.9799 90)
+		(uuid "ddd7a479-ccaf-45ce-a4c7-b37acf7fdab8")
+		(property "Reference" "L3"
+			(at 73.66 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Connector_RB"
-			(at 67.31 96.5199 90)
+		(property "Value" "ZHT103"
+			(at 73.66 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CONN-TH_5P-P5.00_WJ127-5.0-5P"
-			(at 45.72 93.98 0)
+		(property "Footprint" "easyeda2kicad:IND-TH_L18.2-W10.2-P12.00-D0.9_ZHT103"
+			(at 74.93 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,8 +2365,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_Ningbo-Kangnex-Elec-WJ127-5-0-5P_C192780.html"
-			(at 43.18 93.98 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2935356.pdf"
+			(at 74.93 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1705,113 +2375,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KANGNEX(康奈克斯电气)"
-			(at 40.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "WJ127-5.0-05P-14-00A"
-			(at 38.1 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C192780"
-			(at 35.56 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc9b6f17-9c5a-4b70-90a2-cd90dc5b6f3e")
-		)
-		(pin "5"
-			(uuid "440e779a-7d81-493f-a148-8588b28f4b29")
-		)
-		(pin "4"
-			(uuid "955184f3-b96c-4804-95bc-176d13a4c92f")
-		)
-		(pin "3"
-			(uuid "c8863f1c-866a-49f3-a8f3-a608cb20620d")
-		)
-		(pin "2"
-			(uuid "27891f31-ffce-44ab-b96c-3ff9d367999f")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/9a0ca1ed-8f8c-49c5-a6a2-3c0c03092deb"
-					(reference "CN3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:ZHT136")
-		(at 81.28 85.09 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef9eb219-4c09-4afe-b52d-7adebeb8ddbf")
-		(property "Reference" "L2"
-			(at 86.36 83.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ZHT136"
-			(at 86.36 86.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:IND-TH_4P-L18.0-W12.0_ZHT136"
-			(at 81.28 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C7450568.pdf"
-			(at 81.28 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 85.09 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1820,7 +2384,7 @@
 			)
 		)
 		(property "Manufacturer" "ZHT(圳恒通)"
-			(at 81.28 67.31 0)
+			(at 74.93 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1828,8 +2392,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ZHT136"
-			(at 81.28 64.77 0)
+		(property "MPN" "ZHT103"
+			(at 74.93 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,8 +2401,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C7450568"
-			(at 81.28 62.23 0)
+		(property "LCSC Part" "C2935356"
+			(at 74.93 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1846,22 +2410,16 @@
 				(hide yes)
 			)
 		)
-		(pin "P1"
-			(uuid "b4aa851c-a649-4a24-994d-58adff06c08f")
+		(pin "1"
+			(uuid "793d81fd-bbac-4f45-b671-a123cd088c68")
 		)
-		(pin "P2"
-			(uuid "fdd230cb-732b-4e0f-82e7-f150e5662b14")
-		)
-		(pin "S2"
-			(uuid "db831e0b-5738-45ef-8515-10e882e89def")
-		)
-		(pin "S1"
-			(uuid "2adfb763-895e-4fd9-9069-771949fbd15b")
+		(pin "2"
+			(uuid "0863a404-e196-434e-9fbb-0edc43dfc022")
 		)
 		(instances
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/9a0ca1ed-8f8c-49c5-a6a2-3c0c03092deb"
-					(reference "L2")
+					(reference "L3")
 					(unit 1)
 				)
 			)

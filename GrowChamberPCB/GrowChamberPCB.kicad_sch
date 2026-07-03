@@ -668,205 +668,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:WJ127-5.0-5P"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CN"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "WJ127-5.0-5P"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:CONN-TH_5P-P5.00_WJ127-5.0-5P"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_Ningbo-Kangnex-Elec-WJ127-5-0-5P_C192780.html"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "KANGNEX(康奈克斯电气)"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "WJ127-5.0-05P-14-00A"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C192780"
-				(at 0 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "WJ127-5.0-5P_0_1"
-				(rectangle
-					(start -1.27 7.62)
-					(end 3.81 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 6.35)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 5.08 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 2.54 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 -2.54 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 -5.08 0)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda2kicad:ZX-IDC2.54-2-13PZZ"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1467,28 +1268,6 @@
 		(at 64.77 171.45)
 		(uuid "7eea8d8d-cac0-4574-8143-f6f71ac80925")
 	)
-	(global_label "KSD_Fault"
-		(shape input)
-		(at 255.27 48.26 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "07ff0c22-e062-434f-a4c5-2c98405b114d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.27 60.7398 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GlycolSol"
 		(shape input)
 		(at 179.07 54.61 180)
@@ -1599,7 +1378,7 @@
 			)
 		)
 	)
-	(global_label "GND_FP"
+	(global_label "GND"
 		(shape input)
 		(at 262.89 119.38 0)
 		(fields_autoplaced yes)
@@ -1611,7 +1390,7 @@
 		)
 		(uuid "2305ba2a-fbfd-45eb-8a65-5d3aac21c2d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.0719 119.38 0)
+			(at 269.7457 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1687,28 +1466,6 @@
 			)
 		)
 	)
-	(global_label "Heater_ON"
-		(shape input)
-		(at 265.43 48.26 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3f4e6db0-4487-491d-88ad-66081c2e44a1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.43 61.0424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA"
 		(shape input)
 		(at 179.07 29.21 180)
@@ -1727,28 +1484,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 194.31 39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4a2b93e4-2631-4f36-b0e5-ddadfba5e758")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.5933 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -1788,28 +1523,6 @@
 		(uuid "50cd7337-232c-4002-890f-eaecc46cf2fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 15.2182 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 257.81 48.26 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "56c5a43d-006d-4b6f-a3a6-5c74d1d44bef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.81 55.1157 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1863,28 +1576,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 257.81 80.01 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "66ca05e6-9951-44b4-8dd0-27b7c48dbd04")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.81 86.8657 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "3.3V"
 		(shape input)
 		(at 179.07 34.29 180)
@@ -1907,28 +1598,6 @@
 			)
 		)
 	)
-	(global_label "5V"
-		(shape input)
-		(at 260.35 48.26 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7488db21-cab1-4c55-9416-17a2b5376902")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.35 53.5433 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MISO"
 		(shape input)
 		(at 24.13 166.37 180)
@@ -1942,28 +1611,6 @@
 		(uuid "79bc2ebf-b145-4aad-8917-143947db81db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 16.5486 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "12V"
-		(shape input)
-		(at 260.35 80.01 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7b148f13-7d66-4537-933a-76bca658ca5c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.35 86.5028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2316,28 +1963,6 @@
 		(uuid "b481a373-9217-4ed8-9f99-268b0ce4274c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 259.08 34.7957 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "12V"
-		(shape input)
-		(at 262.89 48.26 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bf83316f-68aa-40a5-bfe8-2b9a3162ea32")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.89 54.7528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2704,208 +2329,6 @@
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:WJ127-5.0-5P")
-		(at 260.35 44.45 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b26be95-4ae5-49fe-81d9-a9cf615e2682")
-		(property "Reference" "CN2"
-			(at 269.24 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RelayBoard Interconnect"
-			(at 269.24 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CONN-TH_5P-P5.00_WJ127-5.0-5P"
-			(at 247.65 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_Ningbo-Kangnex-Elec-WJ127-5-0-5P_C192780.html"
-			(at 245.11 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 260.35 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KANGNEX(康奈克斯电气)"
-			(at 242.57 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "WJ127-5.0-05P-14-00A"
-			(at 240.03 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C192780"
-			(at 237.49 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a7ec09b-556b-4507-9caa-34567f535947")
-		)
-		(pin "5"
-			(uuid "960cf85d-f8a8-4653-8c55-5526cf402d57")
-		)
-		(pin "4"
-			(uuid "02e36f89-bcda-4560-8c51-383b438befd8")
-		)
-		(pin "3"
-			(uuid "43c6ab54-116b-4149-b079-f7281cb77e58")
-		)
-		(pin "2"
-			(uuid "0c4f5530-3a9c-4f30-b1e4-955fea7fc0b3")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae"
-					(reference "CN2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:WJ127-5.0-2P")
-		(at 259.08 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75518ed7-d47e-446a-80b8-1790202a9a8b")
-		(property "Reference" "12V_IN4"
-			(at 267.97 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw Terminal"
-			(at 265.43 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CONN-TH_2P-P5.00_CPC3703CTR"
-			(at 259.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Terminal-Blocks_WJ127-5-0-2P_C3703.html"
-			(at 259.08 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "WJ127-5.0-2P"
-			(at 259.08 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KANGNEX(康奈克斯电气)"
-			(at 259.08 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "WJ127-5.0-02P-14-00A"
-			(at 259.08 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C3703"
-			(at 259.08 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a4d15e4a-c1dc-4742-a641-6d52c4f3adb6")
-		)
-		(pin "1"
-			(uuid "f34f86df-a61a-400d-a726-e5699dd4db1d")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae"
-					(reference "12V_IN4")
 					(unit 1)
 				)
 			)
@@ -3465,7 +2888,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "9a0ca1ed-8f8c-49c5-a6a2-3c0c03092deb")
-		(property "Sheetname" "RelayBoard"
+		(property "Sheetname" "Relay"
 			(at 102.87 57.7084 0)
 			(effects
 				(font

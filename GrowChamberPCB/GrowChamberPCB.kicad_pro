@@ -123,7 +123,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -136,7 +136,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.1,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.25,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -623,6 +623,12 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "120V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -632,12 +638,12 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
+        "netclass": "120V",
         "pattern": "120V_IN"
       },
       {
-        "netclass": "Default",
-        "pattern": ""
+        "netclass": "120V",
+        "pattern": "120V_Out"
       }
     ]
   },
@@ -835,7 +841,7 @@
     ],
     [
       "9a0ca1ed-8f8c-49c5-a6a2-3c0c03092deb",
-      "RelayBoard"
+      "Relay"
     ],
     [
       "0d345d9a-4cbe-4d19-9fb4-26a36a105e36",
@@ -858,27 +864,27 @@
       "3.3V ESD2"
     ],
     [
-      "e4db2fea-b61f-46b8-9bfe-9be9661e4077",
+      "e30b5f9c-1263-4d24-bc54-c24609404da0",
       "MOSFETSwitch1"
     ],
     [
-      "691a9880-b655-4116-80e7-49959fceed18",
+      "709f662a-4c61-4ba3-ad4e-bdd3477be85d",
       "MOSFETSwitch2"
     ],
     [
-      "09608f2c-1666-46c2-ad5e-fea660336be4",
+      "b2710fb4-799f-498e-9bc6-1b5dde7ce006",
       "MOSFETSwitch3"
     ],
     [
-      "697ab925-0b22-4b44-a36d-536496853d63",
+      "27f36bf0-6e29-4327-8654-019a11b8533b",
       "MOSFETSwitch4"
     ],
     [
-      "1db52a06-6c4a-4b99-8205-31fb692c7eb2",
+      "0d097ba2-d28c-4930-b98a-1f1b7e1ca130",
       "MOSFETSwitch5"
     ],
     [
-      "9bfabf6d-3483-4384-b3ed-cb9dc3c7bfd0",
+      "565f02d0-e3d6-4e50-99b8-483833894308",
       "MOSFETSwitch6"
     ]
   ],

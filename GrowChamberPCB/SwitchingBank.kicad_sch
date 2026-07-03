@@ -899,31 +899,9 @@
 			)
 			(justify right)
 		)
-		(uuid "0677b880-8276-4405-b90b-1383ef24a055")
+		(uuid "0f50665b-e124-4b13-b743-5acffa37af61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 79.2021 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO15"
-		(shape input)
-		(at 90.17 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0b3a4550-0530-42a1-9031-6b7740396ae7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.2905 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1021,6 +999,28 @@
 			)
 		)
 	)
+	(global_label "Heater_Switch"
+		(shape input)
+		(at 210.82 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32d85327-959b-4cf0-a2c3-36c3edc7ca87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.5905 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Heater Fans"
 		(shape input)
 		(at 30.48 92.71 180)
@@ -1034,6 +1034,28 @@
 		(uuid "412cba25-bbd5-4447-bea7-fb73b4623392")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 15.9439 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Heater_ON"
+		(shape input)
+		(at 210.82 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48c68a88-6460-4f53-bfa0-a1320d7397cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.0376 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1131,9 +1153,9 @@
 			)
 		)
 	)
-	(global_label "Heater_Switch"
+	(global_label "GPIO15"
 		(shape input)
-		(at 210.82 95.25 180)
+		(at 90.17 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1141,9 +1163,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b77f58eb-9f6e-46f1-92ff-8a10dab0f312")
+		(uuid "a98ff41e-7592-4af3-97f4-d5c2635bf96a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.5905 95.25 0)
+			(at 80.2905 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1188,28 +1210,6 @@
 		(uuid "c0b79870-a169-4a55-b538-46073f54592b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 58.7005 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Heater_ON"
-		(shape input)
-		(at 210.82 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ccc617ed-c2d3-49c3-86cc-4c3634382780")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.0376 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1773,68 +1773,6 @@
 		)
 	)
 	(sheet
-		(at 119.38 88.9)
-		(size 12.7 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "09608f2c-1666-46c2-ad5e-fea660336be4")
-		(property "Sheetname" "MOSFETSwitch3"
-			(at 119.38 88.1884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MOSFETSwitch.kicad_sch"
-			(at 119.38 99.6446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "GPIO" input
-			(at 119.38 95.25 180)
-			(uuid "337c8606-8ab0-48fb-9990-0cc4faa3c90d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Switch_Out" input
-			(at 119.38 92.71 180)
-			(uuid "b9ae8250-2ec8-4c58-9517-851963b5bc23")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
-					(page "13")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 180.34 88.9)
 		(size 12.7 10.16)
 		(exclude_from_sim no)
@@ -1849,7 +1787,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "1db52a06-6c4a-4b99-8205-31fb692c7eb2")
+		(uuid "0d097ba2-d28c-4930-b98a-1f1b7e1ca130")
 		(property "Sheetname" "MOSFETSwitch5"
 			(at 180.34 88.1884 0)
 			(effects
@@ -1870,7 +1808,7 @@
 		)
 		(pin "GPIO" input
 			(at 180.34 95.25 180)
-			(uuid "83e96728-a3cf-499a-b243-e54be9dffd85")
+			(uuid "fec429d4-4299-44a3-ae17-93852044c03b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,7 +1818,7 @@
 		)
 		(pin "Switch_Out" input
 			(at 180.34 92.71 180)
-			(uuid "f326e389-8219-4b46-851c-544709f6e8f1")
+			(uuid "e37fe668-3fa8-42af-b85f-2bfb820bb925")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1892,68 +1830,6 @@
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
 					(page "15")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 90.17 88.9)
-		(size 12.7 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "691a9880-b655-4116-80e7-49959fceed18")
-		(property "Sheetname" "MOSFETSwitch2"
-			(at 90.17 88.1884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MOSFETSwitch.kicad_sch"
-			(at 90.17 99.6446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "GPIO" input
-			(at 90.17 95.25 180)
-			(uuid "d05c4d4e-395b-4de3-a5cb-5471b18353e4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Switch_Out" input
-			(at 90.17 92.71 180)
-			(uuid "fd9af2d8-da18-4d48-90eb-512ef9f9d746")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
-					(page "12")
 				)
 			)
 		)
@@ -1973,7 +1849,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "697ab925-0b22-4b44-a36d-536496853d63")
+		(uuid "27f36bf0-6e29-4327-8654-019a11b8533b")
 		(property "Sheetname" "MOSFETSwitch4"
 			(at 149.86 88.1884 0)
 			(effects
@@ -1994,7 +1870,7 @@
 		)
 		(pin "GPIO" input
 			(at 149.86 95.25 180)
-			(uuid "ec4949a1-fa6f-4839-9427-c77a9d01cc95")
+			(uuid "8a07d1ea-697b-405a-9c38-e4c97d58810f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2004,7 +1880,7 @@
 		)
 		(pin "Switch_Out" input
 			(at 149.86 92.71 180)
-			(uuid "7d179a94-13fb-43de-a448-93f3b8f73a45")
+			(uuid "1c04b6f0-a549-4f0e-8728-fb8bac8b4038")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2035,7 +1911,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "9bfabf6d-3483-4384-b3ed-cb9dc3c7bfd0")
+		(uuid "565f02d0-e3d6-4e50-99b8-483833894308")
 		(property "Sheetname" "MOSFETSwitch6"
 			(at 210.82 88.1884 0)
 			(effects
@@ -2056,7 +1932,7 @@
 		)
 		(pin "GPIO" input
 			(at 210.82 95.25 180)
-			(uuid "2c4e5a98-5a05-42a3-8a6e-0c6ada75a7c3")
+			(uuid "c93bb31f-f737-4a2f-acee-3645d28104b8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,7 +1942,7 @@
 		)
 		(pin "Switch_Out" input
 			(at 210.82 92.71 180)
-			(uuid "f66a32c2-5c5a-44a3-88ea-4c51f8860633")
+			(uuid "9b1930db-ff10-460a-bceb-49ad225e59ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2078,6 +1954,130 @@
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
 					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 88.9)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "709f662a-4c61-4ba3-ad4e-bdd3477be85d")
+		(property "Sheetname" "MOSFETSwitch2"
+			(at 90.17 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MOSFETSwitch.kicad_sch"
+			(at 90.17 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO" input
+			(at 90.17 95.25 180)
+			(uuid "879871e8-9b20-47b9-9076-a6e20c67d43d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Switch_Out" input
+			(at 90.17 92.71 180)
+			(uuid "c63386eb-be6a-4371-b4dd-3ad54fc35c7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 88.9)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b2710fb4-799f-498e-9bc6-1b5dde7ce006")
+		(property "Sheetname" "MOSFETSwitch3"
+			(at 119.38 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MOSFETSwitch.kicad_sch"
+			(at 119.38 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO" input
+			(at 119.38 95.25 180)
+			(uuid "75ed03ac-671d-4bfb-93e3-487ae43d5951")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Switch_Out" input
+			(at 119.38 92.71 180)
+			(uuid "efd670bf-a90e-43bd-a920-b5f2df921693")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
+					(page "13")
 				)
 			)
 		)
@@ -2159,7 +2159,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "e4db2fea-b61f-46b8-9bfe-9be9661e4077")
+		(uuid "e30b5f9c-1263-4d24-bc54-c24609404da0")
 		(property "Sheetname" "MOSFETSwitch1"
 			(at 60.96 88.1884 0)
 			(effects
@@ -2180,7 +2180,7 @@
 		)
 		(pin "GPIO" input
 			(at 60.96 95.25 180)
-			(uuid "00b2edb8-fb80-4cb8-aadf-310690d77689")
+			(uuid "31e33734-859a-4d88-8a18-07d81ed1e9bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,7 +2190,7 @@
 		)
 		(pin "Switch_Out" input
 			(at 60.96 92.71 180)
-			(uuid "19327486-2cc5-40ff-abef-56c502bd7f15")
+			(uuid "7994062f-af98-4b19-b5ad-c783b258ea2b")
 			(effects
 				(font
 					(size 1.27 1.27)

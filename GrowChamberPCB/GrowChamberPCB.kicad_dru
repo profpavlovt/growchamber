@@ -1,0 +1,28 @@
+(version 1)
+
+(rule 120V_Clearance
+(condition "A.NetClass == '120V' && B.NetClass != '120V'")
+(constraint clearance (min 6.0mm))
+(severity error)
+)
+
+
+
+(rule "1_footprint_to_footprint_clearance"
+    (constraint courtyard_clearance (min 0.2mm))
+    (condition "A.Type == 'Footprint' && B.Type == 'Footprint' && A.Parent != B.Parent")
+	(severity error)
+)
+
+(rule "2_pad_to_pad_clearance"
+    (constraint clearance (min 0.2mm))
+    (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Parent != B.Parent")
+	(severity error)
+)
+
+(rule "3_footprint_to_pad_clearance"
+    (constraint courtyard_clearance (min 0.2mm))
+    (condition "A.Parent != B.Parent && ((A.Type == 'Footprint' && B.Type == 'Pad') || (A.Type == 'Pad' && B.Type == 'Footprint'))")
+	(severity error)
+)
+

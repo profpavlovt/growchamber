@@ -1965,6 +1965,140 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:RT0603BRD07100KL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RT0603BRD07100KL"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_100KR-1003-0-1_C122538.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO(国巨)"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RT0603BRD07100KL"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C122538"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Resistors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RT0603BRD07100KL_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:RT0603BRD0710KL"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4186,6 +4320,12 @@
 		(uuid "01119b8c-8547-42b1-b4b6-a413597041f7")
 	)
 	(junction
+		(at 33.02 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "097d3aaa-dce5-43f2-8262-46acd74ff70c")
+	)
+	(junction
 		(at 191.77 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4226,6 +4366,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba9cc277-e7a4-4168-b402-62bfd85bcaba")
+	)
+	(junction
+		(at 33.02 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8efb6e0-2695-4bdb-92c3-3fce4a30228d")
 	)
 	(junction
 		(at 276.86 134.62)
@@ -4311,6 +4457,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 59.69) (xy 19.05 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "048f7ded-0100-4b55-8084-1307fd2a412c")
+	)
+	(wire
+		(pts
 			(xy 276.86 134.62) (xy 276.86 138.43)
 		)
 		(stroke
@@ -4381,6 +4537,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 43.18) (xy 33.02 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d44e57-bf60-4312-a676-45e034714737")
+	)
+	(wire
+		(pts
 			(xy 195.58 138.43) (xy 195.58 142.24)
 		)
 		(stroke
@@ -4411,6 +4577,26 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 59.69) (xy 48.26 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f80ed3c-f8c1-4691-b175-7349617d1322")
+	)
+	(wire
+		(pts
+			(xy 33.02 54.61) (xy 33.02 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4496b6ae-b4fa-443c-b86f-9d00743adc95")
+	)
+	(wire
+		(pts
 			(xy 191.77 135.89) (xy 191.77 139.7)
 		)
 		(stroke
@@ -4421,6 +4607,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 43.18) (xy 33.02 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58fc2029-df8a-4f74-8653-e2cbf79c6818")
+	)
+	(wire
+		(pts
 			(xy 231.14 134.62) (xy 231.14 137.16)
 		)
 		(stroke
@@ -4428,6 +4624,16 @@
 			(type default)
 		)
 		(uuid "5ecb4d10-f28b-4f50-bb9b-1d1eba0b6bb1")
+	)
+	(wire
+		(pts
+			(xy 31.75 59.69) (xy 33.02 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70687c1c-ebb5-414e-926d-61050d782eec")
 	)
 	(wire
 		(pts
@@ -4511,6 +4717,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 43.18) (xy 21.59 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd007ba-e8ed-49b9-b6aa-8de4766462df")
+	)
+	(wire
+		(pts
 			(xy 191.77 149.86) (xy 191.77 148.59)
 		)
 		(stroke
@@ -4581,6 +4797,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 46.99) (xy 48.26 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edfaef42-cd08-4641-bd54-67aaeedb44d5")
+	)
+	(wire
+		(pts
 			(xy 276.86 129.54) (xy 276.86 134.62)
 		)
 		(stroke
@@ -4608,6 +4834,28 @@
 			(type default)
 		)
 		(uuid "fa3b39ad-8cd5-4100-83b4-10c60878a3e1")
+	)
+	(global_label "VBUS"
+		(shape input)
+		(at 182.88 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0150ee69-0655-4177-a79e-6b2a6e9f496b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.9962 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "GPIO1"
 		(shape input)
@@ -5137,6 +5385,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 22.86 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4048219e-56ec-4eac-921a-897a4c9abf4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.0043 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO20"
 		(shape input)
 		(at 48.26 64.77 180)
@@ -5348,6 +5618,28 @@
 		(uuid "568bb811-868b-4a09-ab0e-b64171587cd8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 177.0524 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Piezo1"
+		(shape input)
+		(at 16.51 120.65 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a36fe4c-5255-46cc-b664-a777efa13041")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.51 129.9852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5577,31 +5869,9 @@
 			)
 		)
 	)
-	(global_label "5V"
-		(shape input)
-		(at 182.88 34.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "760d50ad-0195-47ac-bd7f-96bd01179fdc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.5967 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Piezo2"
 		(shape input)
-		(at 16.51 120.65 270)
+		(at 21.59 120.65 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5609,9 +5879,9 @@
 			)
 			(justify right)
 		)
-		(uuid "7a2f3324-9efd-4704-bda1-1009efe4ff43")
+		(uuid "79dfc2f5-f8d8-43a0-b921-563404036d55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.51 129.9852 90)
+			(at 21.59 129.9852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5819,28 +6089,6 @@
 			)
 		)
 	)
-	(global_label "5V"
-		(shape input)
-		(at 162.56 148.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9a4cec3d-aa8e-42e8-8c65-4410432a7c04")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.8433 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO15"
 		(shape input)
 		(at 48.26 49.53 180)
@@ -5859,28 +6107,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 162.56 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9b04768d-556c-4dbc-ab14-2e41000d26eb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.8433 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6129,7 +6355,7 @@
 	)
 	(global_label "Fogger_Basin_Float_Switch"
 		(shape input)
-		(at 48.26 59.69 180)
+		(at 19.05 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6139,7 +6365,7 @@
 		)
 		(uuid "b5987a3a-2328-49ec-b296-f1a46215945a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.8751 59.69 0)
+			(at -9.3349 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6193,9 +6419,31 @@
 			)
 		)
 	)
+	(global_label "VBUS"
+		(shape input)
+		(at 162.56 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb2f1a9d-c0f3-4c5f-a9f1-151f21fd08f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.4438 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Drain_Level"
 		(shape input)
-		(at 48.26 46.99 180)
+		(at 16.51 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6205,7 +6453,7 @@
 		)
 		(uuid "bd2e40f9-aa76-43e8-a01f-fb311f236d75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.5101 46.99 0)
+			(at 2.7601 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6272,28 +6520,6 @@
 		(uuid "bfcf94b6-0adb-4818-976b-1677cf20f04f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 137.9243 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Piezo1"
-		(shape input)
-		(at 21.59 120.65 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c20f36d6-09b1-400f-a321-b85e09c9f5e7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.59 129.9852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6668,6 +6894,50 @@
 		(uuid "e93ff1d9-2136-47f3-95e5-0e0350e174b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 60.96 87.3495 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape input)
+		(at 162.56 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e994f723-9c39-45b6-9eb8-391c1ae2601b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.4438 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 22.86 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9f5aeb8-f034-45bc-9b67-aa9612922b13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.0043 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8074,6 +8344,293 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:AC0603FR-0710KL")
+		(at 26.67 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60bd5c41-9188-48d6-8b9f-6103cfe6f05b")
+		(property "Reference" "R49"
+			(at 25.4 41.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 27.94 41.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 26.67 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C116677.html"
+			(at 26.67 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 26.67 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-0710KL"
+			(at 26.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C116677"
+			(at 26.67 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2bd055ba-3d8c-4f1e-8194-9ecea09c1c8e")
+		)
+		(pin "1"
+			(uuid "839640bb-703c-4e4e-a0e1-d5c859bdfda1")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:AC0603FR-0710KL")
+		(at 26.67 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "634759d1-b34e-41a2-94d3-583517fdc17e")
+		(property "Reference" "R48"
+			(at 25.4 57.912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 27.94 57.912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 26.67 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C116677.html"
+			(at 26.67 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 26.67 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-0710KL"
+			(at 26.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C116677"
+			(at 26.67 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "203c31c4-650d-4ef9-ba62-f62193f46574")
+		)
+		(pin "1"
+			(uuid "d1828d89-5a53-48de-a804-017aabec04e6")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:RT0603BRD07100KL")
+		(at 27.94 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "674b6677-9cb0-4bf9-b07c-d5b1e25c2c75")
+		(property "Reference" "R47"
+			(at 27.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100K"
+			(at 27.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 27.94 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_100KR-1003-0-1_C122538.html"
+			(at 27.94 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 27.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603BRD07100KL"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C122538"
+			(at 27.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "791aa3ee-ea55-476e-a246-eceee6397ffa")
+		)
+		(pin "2"
+			(uuid "ff74e30f-4e08-4463-98da-3a64a2eaae00")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:SRV05-4_C2836319")
 		(at 195.58 82.55 0)
 		(unit 1)
@@ -8484,6 +9041,101 @@
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:RT0603BRD07100KL")
+		(at 27.94 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "840cb6b4-e5ff-47f6-b5ea-0d1c67b966fd")
+		(property "Reference" "R46"
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100K"
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/High-Precision-Low-TCR-SMD-Resistors_100KR-1003-0-1_C122538.html"
+			(at 27.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 27.94 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603BRD07100KL"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C122538"
+			(at 27.94 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcb22e12-5bc2-4704-9173-6b1f32a7842c")
+		)
+		(pin "2"
+			(uuid "80302940-ab1b-43ed-858e-025262f1ef2d")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -9555,7 +10207,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d4e30e99-9078-4784-b863-75b1e9f06bc0")
 		(property "Reference" "R15"
 			(at 129.54 40.64 0)

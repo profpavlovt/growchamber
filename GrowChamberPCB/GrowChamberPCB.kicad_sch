@@ -5,397 +5,6 @@
 	(uuid "e884bae1-e2d9-44d2-8169-161aa31a84ae")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Driver_Display:CR2013-MI2120"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -17.526 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "CR2013-MI2120"
-				(at 1.905 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Display:CR2013-MI2120"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://pan.baidu.com/s/11Y990"
-				(at -16.51 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "ILI9341 controller, SPI TFT LCD Display, 9-pin breakout PCB, 4-pin SD card interface, 5V/3.3V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "driver display"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*CR2013*MI2120*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CR2013-MI2120_0_0"
-				(text "ILI9341"
-					(at -5.461 4.572 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-							(italic yes)
-						)
-						(justify left)
-					)
-				)
-				(text "SPI Interface"
-					(at -5.461 -0.508 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-							(italic yes)
-						)
-						(justify left)
-					)
-				)
-				(text "SD Card Slot"
-					(at -5.461 -3.048 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-							(italic yes)
-						)
-						(justify left)
-					)
-				)
-				(text "320x240 LCD"
-					(at 0.889 2.032 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-							(italic yes)
-						)
-					)
-				)
-			)
-			(symbol "CR2013-MI2120_0_1"
-				(rectangle
-					(start -17.78 12.7)
-					(end 17.78 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -6.35 6.35)
-					(end 8.255 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CR2013-MI2120_1_1"
-				(pin input line
-					(at -20.32 10.16 0)
-					(length 2.54)
-					(name "SD_CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 7.62 0)
-					(length 2.54)
-					(name "SD_MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -20.32 5.08 0)
-					(length 2.54)
-					(name "SD_MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 2.54 0)
-					(length 2.54)
-					(name "SD_SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 0 0)
-					(length 2.54)
-					(name "FLASH_CD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 7.62 180)
-					(length 2.54)
-					(name "D/~{C}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 5.08 180)
-					(length 2.54)
-					(name "~{CS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 2.54 180)
-					(length 2.54)
-					(name "MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 20.32 0 180)
-					(length 2.54)
-					(name "MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -2.54 180)
-					(length 2.54)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -5.08 180)
-					(length 2.54)
-					(name "LED"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -7.62 180)
-					(length 2.54)
-					(name "RESET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda2kicad:SD15_C2931147"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -668,609 +277,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:ZX-IDC2.54-2-13PZZ"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ZX-IDC2.54-2-13PZZ"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:IDC-TH_26P-P2.54_ZX-IDC2.54-2-13PZZ"
-				(at 0 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C7501247.pdf"
-				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Megastar(兆星)"
-				(at 0 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "ZX-IDC2.54-2-13PZZ"
-				(at 0 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C7501247"
-				(at 0 -33.02 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "IDC Connectors"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ZX-IDC2.54-2-13PZZ_0_1"
-				(rectangle
-					(start -5.08 17.78)
-					(end 5.08 -17.78)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -3.81 16.51)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 15.24 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 12.7 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 10.16 0)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 7.62 0)
-					(length 2.54)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 5.08 0)
-					(length 2.54)
-					(name "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 -5.08 0)
-					(length 2.54)
-					(name "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 -7.62 0)
-					(length 2.54)
-					(name "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 -10.16 0)
-					(length 2.54)
-					(name "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 -12.7 0)
-					(length 2.54)
-					(name "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 -15.24 0)
-					(length 2.54)
-					(name "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 15.24 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 12.7 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 10.16 180)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 7.62 180)
-					(length 2.54)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 5.08 180)
-					(length 2.54)
-					(name "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -7.62 180)
-					(length 2.54)
-					(name "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -10.16 180)
-					(length 2.54)
-					(name "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -12.7 180)
-					(length 2.54)
-					(name "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -15.24 180)
-					(length 2.54)
-					(name "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
-	(text "Display"
-		(exclude_from_sim no)
-		(at 38.354 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "703ebee8-85b4-4dd3-a1da-7822d06827a0")
-	)
-	(no_connect
-		(at 24.13 171.45)
-		(uuid "37e74426-fd53-4141-b648-c267e7874075")
-	)
-	(no_connect
-		(at 194.31 54.61)
-		(uuid "466b77cc-8cf3-4806-84bd-b8ec4420fc74")
-	)
-	(no_connect
-		(at 64.77 171.45)
-		(uuid "7eea8d8d-cac0-4574-8143-f6f71ac80925")
 	)
 	(global_label "GlycolSol"
 		(shape input)
-		(at 179.07 54.61 180)
+		(at 172.72 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1278,9 +288,9 @@
 			)
 			(justify right)
 		)
-		(uuid "0e7815bb-4e31-47fe-af63-c923cfa397a3")
+		(uuid "01aba889-2a0b-48e1-a16c-98fd663efb0d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.2555 54.61 0)
+			(at 160.9055 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1290,31 +300,119 @@
 			)
 		)
 	)
-	(global_label "DC_Display"
+	(global_label "Heater Fans"
 		(shape input)
-		(at 64.77 163.83 0)
+		(at 172.72 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "15a4a435-8887-40f1-800a-11ceaefa3718")
+		(uuid "05fa78bb-427f-402c-b83d-f116b737cee4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.0965 163.83 0)
+			(at 158.1839 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Drain_Level"
+		(shape input)
+		(at 213.36 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d010f29-9b8a-4dd5-89ff-3a2d6f9a0cc6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.6101 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Soil_Moisture4"
+		(shape input)
+		(at 213.36 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f70e9da-92f8-4545-b402-713a978bac16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.5864 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RXD0"
+		(shape input)
+		(at 213.36 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15aeea2a-bb25-46c6-b958-1b1e910a2c5c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.4158 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Fan_Tach"
+		(shape input)
+		(at 213.36 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ca315e8-1a8b-48af-bc53-68113c584310")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.6664 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "Piezo1"
 		(shape input)
-		(at 179.07 39.37 180)
+		(at 172.72 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1322,9 +420,9 @@
 			)
 			(justify right)
 		)
-		(uuid "15cc1d11-6173-4a0b-ad5b-ef8f2d312c7a")
+		(uuid "1d4c5542-4450-4989-8513-8d6c9b98905c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.7348 39.37 0)
+			(at 163.3848 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1334,9 +432,9 @@
 			)
 		)
 	)
-	(global_label "FoggerSol"
+	(global_label "EN"
 		(shape input)
-		(at 179.07 46.99 180)
+		(at 213.36 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1344,31 +442,9 @@
 			)
 			(justify right)
 		)
-		(uuid "1ad842b7-75bb-4846-af0f-caf1db2ba6de")
+		(uuid "21f25ff9-0d8c-4de3-ad08-58d9500458a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.6507 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Piezo2"
-		(shape input)
-		(at 179.07 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1e971c41-5f93-4d8f-a6d8-16b55a76c93b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.7348 36.83 0)
+			(at 207.8953 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1400,9 +476,9 @@
 			)
 		)
 	)
-	(global_label "SCK"
+	(global_label "BootMode"
 		(shape input)
-		(at 24.13 168.91 180)
+		(at 213.36 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1410,9 +486,9 @@
 			)
 			(justify right)
 		)
-		(uuid "28fc2dc8-32c9-40af-ab49-40b22408468c")
+		(uuid "2405ed36-79d1-413d-bc36-90c5f7690cae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.3953 168.91 0)
+			(at 201.2431 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1422,31 +498,9 @@
 			)
 		)
 	)
-	(global_label "GPIO1"
+	(global_label "Soil_Moisture2"
 		(shape input)
-		(at 194.31 26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2cd5acec-7120-481f-9ddb-8b5520134a88")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.98 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EN"
-		(shape input)
-		(at 179.07 24.13 180)
+		(at 213.36 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1454,9 +508,97 @@
 			)
 			(justify right)
 		)
-		(uuid "38bcdb5b-18f8-4a8b-b393-32f4b9d6b47e")
+		(uuid "3042ebd1-c6e8-44fc-8ed2-0c5ed71a8852")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.6053 24.13 0)
+			(at 196.5864 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Heater_ON"
+		(shape input)
+		(at 172.72 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "378d0084-1fce-4d2c-acd9-05a4c0458fc0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 159.9376 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEDs"
+		(shape input)
+		(at 172.72 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "449202cd-c3d4-43dd-bbf0-d23e0871a379")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.2596 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 213.36 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "47e555b6-b69c-49c8-9ee1-d12213be8b75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.8672 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Soil_Moisture1"
+		(shape input)
+		(at 213.36 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5268ff7a-9e47-459f-a9c2-afd1dd1dc3c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.5864 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1468,7 +610,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 179.07 29.21 180)
+		(at 213.36 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1476,9 +618,9 @@
 			)
 			(justify right)
 		)
-		(uuid "468dcc3c-9e1d-4d6e-b91c-c83f82569c0e")
+		(uuid "53099b1b-8b0b-4f28-b53c-d517b92cfb40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.5167 29.21 0)
+			(at 206.8067 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1488,9 +630,9 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "Fogger_Basin_Float_Switch"
 		(shape input)
-		(at 44.45 186.69 270)
+		(at 213.36 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1498,9 +640,9 @@
 			)
 			(justify right)
 		)
-		(uuid "4c2e7674-836d-40da-80a1-1d3d996a49f8")
+		(uuid "537c8a3c-754c-42f0-8dc1-ee6d9aa9f0ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.45 193.5457 90)
+			(at 184.9751 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1510,9 +652,9 @@
 			)
 		)
 	)
-	(global_label "CS_SD"
+	(global_label "Piezo2"
 		(shape input)
-		(at 24.13 161.29 180)
+		(at 172.72 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1520,9 +662,53 @@
 			)
 			(justify right)
 		)
-		(uuid "50cd7337-232c-4002-890f-eaecc46cf2fd")
+		(uuid "5b4032d7-14e9-411c-914d-b04512c92b34")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.2182 161.29 0)
+			(at 163.3848 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 213.36 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d7fde47-da22-4405-a899-8bc84c5436c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.2624 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WaterSol"
+		(shape input)
+		(at 172.72 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6efe109b-b70c-435f-92bf-16de950649f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.5102 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1534,51 +720,7 @@
 	)
 	(global_label "External_Fan_PWM"
 		(shape input)
-		(at 194.31 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6169c187-f9e6-42ab-96da-c74227df0463")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.5306 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOSI"
-		(shape input)
-		(at 64.77 168.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "638ebbb8-e8ec-49aa-b76b-37e26bb88854")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.3514 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3.3V"
-		(shape input)
-		(at 179.07 34.29 180)
+		(at 213.36 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1586,285 +728,21 @@
 			)
 			(justify right)
 		)
-		(uuid "7346d7a9-b813-4ede-aac9-3519069abfd6")
+		(uuid "7feaa4a3-83f8-465e-8bd5-fb450f0a71bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.9724 34.29 0)
+			(at 193.1394 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MISO"
-		(shape input)
-		(at 24.13 166.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "79bc2ebf-b145-4aad-8917-143947db81db")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.5486 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TXD0"
-		(shape input)
-		(at 194.31 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7d0a8819-3c43-4269-9339-54ea0ae6dc3e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.9518 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO4"
-		(shape input)
-		(at 194.31 31.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7e89f743-b209-42ab-9006-c9fb1abc8e74")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.98 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Heater Fans"
-		(shape input)
-		(at 179.07 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7f9bac49-aed1-4670-9110-ef36d4a257d1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.5339 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CS_Display"
-		(shape input)
-		(at 64.77 166.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "818f2b2c-e676-47b2-bb06-b27625594ffc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.036 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Heater_ON"
-		(shape input)
-		(at 179.07 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "826402ab-794b-4b52-bca9-e858d968ebe4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.2876 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LEDs"
-		(shape input)
-		(at 261.62 105.41 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8792fc7d-e0e0-47d1-88b5-09a314d96430")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.62 112.8704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LEDs"
-		(shape input)
-		(at 194.31 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "88b39b7c-e19a-4dc3-a017-3349ab6f0a04")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.7704 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Fan_Tach"
-		(shape input)
-		(at 194.31 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "94e5705f-05c3-4e68-855d-c8d7fac733b1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.0036 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "12V"
-		(shape input)
-		(at 259.08 105.41 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "989fed1b-0dfa-43e5-9e8e-cbd7fb8f58d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.08 111.9028 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Display_Reset"
-		(shape input)
-		(at 64.77 179.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "99dc272f-2363-4868-bd4e-7863bbbe920f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.7575 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "Circ_Fan"
 		(shape input)
-		(at 194.31 24.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9db77045-00f2-4556-892d-0dbd8d410297")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.399 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOSI"
-		(shape input)
-		(at 24.13 163.83 180)
+		(at 172.72 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1872,31 +750,9 @@
 			)
 			(justify right)
 		)
-		(uuid "9e7efa10-79d7-41d7-bf31-4e39b7e4996c")
+		(uuid "a4ac5ad5-f9f7-4f49-9e52-b82e06b1f531")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.5486 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DrainSol"
-		(shape input)
-		(at 179.07 49.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a09d3c93-bfea-4704-9aa5-0b64d56a958c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.1021 49.53 0)
+			(at 161.631 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1928,9 +784,9 @@
 			)
 		)
 	)
-	(global_label "SCL"
+	(global_label "DrainSol"
 		(shape input)
-		(at 179.07 31.75 180)
+		(at 172.72 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1938,9 +794,9 @@
 			)
 			(justify right)
 		)
-		(uuid "aabf8676-6d65-4107-92cb-e2e0c73f37b4")
+		(uuid "a7c8dbbb-afd7-48f6-a47a-9d17d7bf1226")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.5772 31.75 0)
+			(at 161.7521 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,24 +828,24 @@
 			)
 		)
 	)
-	(global_label "RXD0"
+	(global_label "TXD0"
 		(shape input)
-		(at 194.31 44.45 0)
+		(at 213.36 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "cec3a44f-f0fd-4eb4-9e9a-dcb9ea69bf27")
+		(uuid "bfb6da2c-bde7-4671-a919-e706086681a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.2542 44.45 0)
+			(at 205.7182 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2016,31 +872,9 @@
 			)
 		)
 	)
-	(global_label "SCK"
+	(global_label "LEDs"
 		(shape input)
-		(at 64.77 173.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d8c1316a-db84-4a6a-88ce-d4de27e892a8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.5047 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BootMode"
-		(shape input)
-		(at 179.07 26.67 180)
+		(at 261.62 105.41 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2048,9 +882,9 @@
 			)
 			(justify right)
 		)
-		(uuid "d9ccc3cf-8e86-495f-8ba5-2e30ab10ceb0")
+		(uuid "f511f2c3-63b5-4c14-b337-506ea3da6018")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.9531 26.67 0)
+			(at 261.62 112.8704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2060,31 +894,9 @@
 			)
 		)
 	)
-	(global_label "3.3V"
+	(global_label "12V"
 		(shape input)
-		(at 44.45 156.21 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d9f901f6-0a8c-46d0-bc10-9d15d018d036")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.45 149.1124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "WaterSol"
-		(shape input)
-		(at 179.07 52.07 180)
+		(at 259.08 105.41 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2092,9 +904,9 @@
 			)
 			(justify right)
 		)
-		(uuid "dd05d2d8-0acd-49e3-a4f7-6b00af56e9fe")
+		(uuid "faacb1a9-8ae7-4eec-ad90-c22a7fd1b210")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.8602 52.07 0)
+			(at 259.08 111.9028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,233 +916,25 @@
 			)
 		)
 	)
-	(global_label "Drain_Level"
+	(global_label "FoggerSol"
 		(shape input)
-		(at 194.31 46.99 0)
+		(at 172.72 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "ddbf5d7e-3a6b-4dc0-9ed3-8a274b3f8e61")
+		(uuid "fae408fe-2c05-42fa-9166-5c36a3233c86")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.0599 46.99 0)
+			(at 160.3007 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO2"
-		(shape input)
-		(at 194.31 29.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e0715b07-9673-4c85-a5c7-487092271b7a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.98 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Fogger_Basin_Float_Switch"
-		(shape input)
-		(at 194.31 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e392d855-64bf-4138-bf65-4fead5ec8d74")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.6949 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3.3V"
-		(shape input)
-		(at 64.77 176.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fdbaa269-542c-46b5-a019-82324d0163d5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.8676 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_Display:CR2013-MI2120")
-		(at 44.45 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17ff4e61-050e-46f6-9f31-e05bb4e938fd")
-		(property "Reference" "U6"
-			(at 46.5933 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CR2013-MI2120"
-			(at 46.5933 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical"
-			(at 44.45 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://pan.baidu.com/s/11Y990"
-			(at 27.94 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ILI9341 controller, SPI TFT LCD Display, 9-pin breakout PCB, 4-pin SD card interface, 5V/3.3V"
-			(at 44.45 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG Part Number" "NA"
-			(at 44.45 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" "Through-hole"
-			(at 44.45 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "NA"
-			(at 44.45 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "pinholes"
-			(at 44.45 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "f7e966ad-792d-4e54-a261-b31ab20232f8")
-		)
-		(pin "13"
-			(uuid "a081b8c3-f68f-41b5-83e6-88873e62332e")
-		)
-		(pin "11"
-			(uuid "dface686-2a4f-47fc-913c-98b3e30b0e6c")
-		)
-		(pin "10"
-			(uuid "4697f46a-83fd-4f17-acce-839a14d4ec1c")
-		)
-		(pin "4"
-			(uuid "d5eb0db5-6d5e-40f6-946b-a297367e0c2a")
-		)
-		(pin "6"
-			(uuid "491a430a-4903-430f-a7ae-9d766a5f4b51")
-		)
-		(pin "3"
-			(uuid "5355a6de-40d1-4455-8171-ed0b135b69c1")
-		)
-		(pin "5"
-			(uuid "0bf5b264-2677-46e9-b23b-32aa78d3b0c9")
-		)
-		(pin "8"
-			(uuid "bc67c26b-5b49-416b-9a9e-06de41e16894")
-		)
-		(pin "7"
-			(uuid "4544e7d7-df39-41aa-bbdf-ec2d4b277998")
-		)
-		(pin "9"
-			(uuid "e0b38fde-22c5-4f57-9c4a-a479f73b8f09")
-		)
-		(pin "14"
-			(uuid "e7042317-0a18-4884-a14e-3093bbdef6e8")
-		)
-		(pin "2"
-			(uuid "f163314c-0baa-4245-9136-d7421180c957")
-		)
-		(pin "1"
-			(uuid "483c0b5e-3ff7-42dc-ad77-fc65a28087ba")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae"
-					(reference "U6")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2343,7 +947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88b40e18-27cd-4575-9775-44ebee7b39a8")
-		(property "Reference" "LED_To_Connector1"
+		(property "Reference" "P3"
 			(at 252.73 108.9659 90)
 			(effects
 				(font
@@ -2424,174 +1028,7 @@
 		(instances
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae"
-					(reference "LED_To_Connector1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:ZX-IDC2.54-2-13PZZ")
-		(at 186.69 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f4216d4-fe40-404a-ba0d-4cf5175d362f")
-		(property "Reference" "U4"
-			(at 186.69 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "To Faceplate"
-			(at 186.69 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:IDC-TH_26P-P2.54_ZX-IDC2.54-2-13PZZ"
-			(at 186.69 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C7501247.pdf"
-			(at 186.69 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Megastar(兆星)"
-			(at 186.69 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ZX-IDC2.54-2-13PZZ"
-			(at 186.69 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C7501247"
-			(at 186.69 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "26"
-			(uuid "b00779a3-bc52-4e26-aa66-aac0e66a9728")
-		)
-		(pin "17"
-			(uuid "4d78fd3c-1fe2-4544-897c-b7c61b78d2da")
-		)
-		(pin "25"
-			(uuid "6791e90f-b492-4d63-9913-ec74ad1696e9")
-		)
-		(pin "1"
-			(uuid "9637aa19-04ee-43f4-977b-09f402b92f0f")
-		)
-		(pin "16"
-			(uuid "993011c1-e97d-4680-8902-d02a0302550e")
-		)
-		(pin "9"
-			(uuid "6e984def-aa92-4ba6-9649-af8c0708e88b")
-		)
-		(pin "23"
-			(uuid "0afad7d8-d4be-47fd-a7db-fd7f1fd98b01")
-		)
-		(pin "15"
-			(uuid "2c6a655b-57f9-4fcc-b681-f1622e77dfe1")
-		)
-		(pin "14"
-			(uuid "36eb3ced-495f-4802-8d0a-224123b38c3d")
-		)
-		(pin "19"
-			(uuid "da29a103-95da-4f2f-b6ba-17a6768a9688")
-		)
-		(pin "20"
-			(uuid "69b64c9c-6de9-4825-9a98-dba2eff6b284")
-		)
-		(pin "2"
-			(uuid "0016729d-f55e-4506-a406-c1b3dfa8c2ca")
-		)
-		(pin "12"
-			(uuid "2803b8d6-8f14-431e-a610-d9fc3da57b39")
-		)
-		(pin "5"
-			(uuid "5acd213f-6c52-4be2-bda6-5eea2ef83084")
-		)
-		(pin "3"
-			(uuid "71cadd9d-412f-4e88-84d1-6c2d5e3741e7")
-		)
-		(pin "10"
-			(uuid "c2df4871-821e-4cf5-9a6a-9447d722f258")
-		)
-		(pin "8"
-			(uuid "9dc9f477-0e5d-4c32-87e7-9c1d3e3c236d")
-		)
-		(pin "21"
-			(uuid "f1ea606a-6908-4824-a1f0-893e85512e6b")
-		)
-		(pin "6"
-			(uuid "7ecbd619-f439-4284-b57a-508135d41f4e")
-		)
-		(pin "7"
-			(uuid "19815f9d-b213-4e4a-8c59-46a55e5a873d")
-		)
-		(pin "11"
-			(uuid "7c2eefc0-51e8-441d-8843-908d31e02479")
-		)
-		(pin "24"
-			(uuid "e8ea070a-0a39-4793-a6f4-ebc6c559d23c")
-		)
-		(pin "18"
-			(uuid "c3840870-4b84-44a4-ac1e-702dde81733f")
-		)
-		(pin "13"
-			(uuid "505fd5a7-9ff8-4356-a146-fa920d19e400")
-		)
-		(pin "22"
-			(uuid "bd6abe0a-20db-4e72-ab1e-1d1a686c0454")
-		)
-		(pin "4"
-			(uuid "fffaefed-aa06-4246-8309-bccc71bcd9b0")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae"
-					(reference "U4")
+					(reference "P3")
 					(unit 1)
 				)
 			)

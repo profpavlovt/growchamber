@@ -5,6 +5,119 @@
 	(uuid "033acf5d-ec61-4ae9-86f3-dda6a4867b5c")
 	(paper "A5")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:0603WAF1302T5E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2004,6 +2117,12 @@
 		(uuid "fb6bae37-01f9-4f68-94d3-f1ccd367fae6")
 	)
 	(junction
+		(at 21.59 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "361aee22-924d-4717-baaf-6bf1fa9ea7a2")
+	)
+	(junction
 		(at 34.29 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2014,6 +2133,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a55b145-0d06-4f0e-979b-c91f2ca4cdb6")
+	)
+	(junction
+		(at 54.61 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a93234d-5469-487a-98ac-2be7737cf6e9")
+	)
+	(junction
+		(at 69.85 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bd17fe3-1cdb-4eb8-aa5c-13a7cc8a46f0")
 	)
 	(junction
 		(at 33.02 43.18)
@@ -2056,6 +2187,16 @@
 			(type default)
 		)
 		(uuid "0de82551-c0cb-4bd8-9f83-b98bc1fc9801")
+	)
+	(wire
+		(pts
+			(xy 71.12 35.56) (xy 69.85 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a6249e9-db5d-4e23-a1a1-72db8b0d7d16")
 	)
 	(wire
 		(pts
@@ -2189,6 +2330,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 30.48) (xy 26.67 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94db7f23-e832-479f-b045-2c99163e036d")
+	)
+	(wire
+		(pts
 			(xy 40.64 62.23) (xy 38.1 62.23)
 		)
 		(stroke
@@ -2196,6 +2347,26 @@
 			(type default)
 		)
 		(uuid "9f042fea-56fd-424e-963a-4ad0ee7f38cc")
+	)
+	(wire
+		(pts
+			(xy 17.78 30.48) (xy 21.59 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5d8359e-c078-4066-8fd4-9bd0eb29f802")
+	)
+	(wire
+		(pts
+			(xy 69.85 35.56) (xy 68.58 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6fcd1f9-c7c4-43e7-a6bb-12eccf57c9d7")
 	)
 	(wire
 		(pts
@@ -2209,13 +2380,23 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 66.04) (xy 50.8 66.04)
+			(xy 57.15 66.04) (xy 54.61 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ce8c0dff-d9be-4804-9f1c-4f9c3ff7c5fe")
+	)
+	(wire
+		(pts
+			(xy 54.61 66.04) (xy 50.8 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d98f9dd3-c537-45a9-8424-f504b824cc40")
 	)
 	(wire
 		(pts
@@ -2359,7 +2540,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 26.67 30.48 180)
+		(at 17.78 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2369,7 +2550,7 @@
 		)
 		(uuid "458a4f17-ed46-498e-95f1-0cf05a85d773")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.8143 30.48 0)
+			(at 10.9243 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,7 +2804,7 @@
 	)
 	(global_label "12V"
 		(shape input)
-		(at 68.58 35.56 0)
+		(at 71.12 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2633,7 +2814,7 @@
 		)
 		(uuid "f72d67da-e8ce-46c9-bc75-451e56d1b09e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.0728 35.56 0)
+			(at 77.6128 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2928,6 +3109,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 69.85 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "47df66a6-fbaa-4637-92ef-1688aa83db46")
+		(property "Reference" "J47"
+			(at 72.39 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP"
+			(at 72.39 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 69.85 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 69.85 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b82590db-2545-4030-9b63-1b7cfc1329db")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/f0a634fa-7c02-4894-ad29-7158914e0ccb"
+					(reference "J47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:0603WAF1302T5E")
 		(at 27.94 66.04 0)
 		(unit 1)
@@ -3016,6 +3264,73 @@
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/f0a634fa-7c02-4894-ad29-7158914e0ccb"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 21.59 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "6f12bb90-12ec-4959-92a2-dc6539632d7a")
+		(property "Reference" "J48"
+			(at 24.13 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP"
+			(at 24.13 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+			(at 21.59 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 21.59 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ca4281c-a1c0-4a71-9965-3b1c93151905")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/f0a634fa-7c02-4894-ad29-7158914e0ccb"
+					(reference "J48")
 					(unit 1)
 				)
 			)
@@ -3488,6 +3803,73 @@
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/f0a634fa-7c02-4894-ad29-7158914e0ccb"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 54.61 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "995362f8-8219-425f-8c11-25d3ff56bf3e")
+		(property "Reference" "J46"
+			(at 57.15 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP"
+			(at 57.15 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 54.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 54.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5290c5b5-a573-49c9-bd57-879a591e8465")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/f0a634fa-7c02-4894-ad29-7158914e0ccb"
+					(reference "J46")
 					(unit 1)
 				)
 			)

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 1.020014,
+          "height": 1.5,
+          "width": 1.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -627,6 +627,13 @@
       {
         "name": "120V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "diff_pair_width": 0.15,
+        "name": "USB_Diff_Pair",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
@@ -644,6 +651,14 @@
       {
         "netclass": "120V",
         "pattern": "120V_Out"
+      },
+      {
+        "netclass": "USB_Diff_Pair",
+        "pattern": "Out_D-"
+      },
+      {
+        "netclass": "USB_Diff_Pair",
+        "pattern": "Out_D+"
       }
     ]
   },
@@ -882,10 +897,6 @@
     [
       "0d097ba2-d28c-4930-b98a-1f1b7e1ca130",
       "MOSFETSwitch5"
-    ],
-    [
-      "565f02d0-e3d6-4e50-99b8-483833894308",
-      "MOSFETSwitch6"
     ]
   ],
   "text_variables": {}

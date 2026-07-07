@@ -3276,7 +3276,7 @@
 		(uuid "98c4d4a7-8317-4ec5-916e-b8795a3384af")
 	)
 	(no_connect
-		(at 250.19 53.34)
+		(at 184.15 91.44)
 		(uuid "a48bf71e-7dbb-40a0-b328-bc1b60c21f8a")
 	)
 	(no_connect
@@ -3405,17 +3405,17 @@
 	)
 	(global_label "Circ_Fan_FP"
 		(shape input)
-		(at 250.19 22.86 0)
+		(at 184.15 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "041791c3-c8e9-48db-8a89-9f8866531a81")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.6052 22.86 0)
+			(at 169.7348 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3423,7 +3423,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -3453,7 +3453,7 @@
 	)
 	(global_label "Fan_Tach_FP"
 		(shape input)
-		(at 250.19 33.02 0)
+		(at 199.39 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3463,7 +3463,7 @@
 		)
 		(uuid "064b41c5-b9f6-4faa-a731-35b10ce48e9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.2098 33.02 0)
+			(at 214.4098 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3477,7 +3477,7 @@
 	)
 	(global_label "TXD0_FP"
 		(shape input)
-		(at 250.19 40.64 0)
+		(at 199.39 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3487,7 +3487,7 @@
 		)
 		(uuid "0d18844a-e07a-4755-8366-94fd2b8efa5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.158 40.64 0)
+			(at 210.358 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3499,7 +3499,7 @@
 			)
 		)
 	)
-	(global_label "GPIO4_FP"
+	(global_label "SoilMoisture4_FP"
 		(shape input)
 		(at 111.76 49.53 0)
 		(fields_autoplaced yes)
@@ -3511,7 +3511,7 @@
 		)
 		(uuid "0d2ea8cd-bb72-404e-a0a1-f724a1e293f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.7562 49.53 0)
+			(at 130.8922 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3573,7 +3573,7 @@
 	)
 	(global_label "Piezo1_FP"
 		(shape input)
-		(at 234.95 38.1 180)
+		(at 184.15 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3583,7 +3583,7 @@
 		)
 		(uuid "1c143e61-646a-413e-a9da-b051ab77b876")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.2886 38.1 0)
+			(at 171.4886 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3595,33 +3595,9 @@
 			)
 		)
 	)
-	(global_label "GPIO4_FP"
-		(shape input)
-		(at 250.19 30.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1d329ae2-5f1a-426c-bfc0-4fb7cb58fdbe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.1862 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "Heater Fans_FP"
 		(shape input)
-		(at 234.95 43.18 180)
+		(at 184.15 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3631,7 +3607,7 @@
 		)
 		(uuid "1f749f46-c4dd-4258-97f2-bdeac484588c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.0877 43.18 0)
+			(at 166.2877 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3656,6 +3632,30 @@
 		(uuid "205eb374-9bdc-4563-a8d9-6576ca0d6246")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 52.0919 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SoilMoisture1_FP"
+		(shape input)
+		(at 199.39 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21e8a7d7-e701-444a-bc75-31cbf683a3e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.5222 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3859,7 +3859,31 @@
 			)
 		)
 	)
-	(global_label "GPIO1_FP"
+	(global_label "3.3V_FP"
+		(shape input)
+		(at 199.39 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3111c6b3-add1-4dd5-9eb8-f7741570e05d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.8138 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SoilMoisture1_FP"
 		(shape input)
 		(at 111.76 24.13 0)
 		(fields_autoplaced yes)
@@ -3871,7 +3895,7 @@
 		)
 		(uuid "37a914b9-29a3-4bfb-971a-c5a7b3aec69d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.7562 24.13 0)
+			(at 130.8922 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4053,17 +4077,17 @@
 	)
 	(global_label "LEDs_FP"
 		(shape input)
-		(at 250.19 50.8 0)
+		(at 184.15 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "49f9bd1d-860e-4086-a64f-9656e344dd56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.9766 50.8 0)
+			(at 173.3634 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4071,7 +4095,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -4101,7 +4125,7 @@
 	)
 	(global_label "WaterSol_FP"
 		(shape input)
-		(at 234.95 50.8 180)
+		(at 184.15 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4111,7 +4135,7 @@
 		)
 		(uuid "4dd61948-f262-4667-9e1d-f4a625195f79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.414 50.8 0)
+			(at 169.614 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4125,17 +4149,17 @@
 	)
 	(global_label "3.3V_FP"
 		(shape input)
-		(at 234.95 33.02 180)
+		(at 199.39 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "4e6edd06-4c57-447a-90db-ac2f5655210f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.5262 33.02 0)
+			(at 209.8138 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4143,13 +4167,13 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
 	(global_label "Drain_Level_FP"
 		(shape input)
-		(at 250.19 45.72 0)
+		(at 199.39 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4159,7 +4183,7 @@
 		)
 		(uuid "4f7c4040-ddcf-4739-b071-9138c5271844")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.2661 45.72 0)
+			(at 216.4661 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4424,6 +4448,30 @@
 		(uuid "5e37c493-6d70-4a4d-bebf-900ed0d8fa4d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 146.979 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SoilMoisture2_FP"
+		(shape input)
+		(at 199.39 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f757aed-a051-49b5-8277-9b6eda1e4c51")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.5222 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4725,7 +4773,7 @@
 	)
 	(global_label "GlycolSol_FP"
 		(shape input)
-		(at 234.95 53.34 180)
+		(at 184.15 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4735,7 +4783,7 @@
 		)
 		(uuid "7696da2d-44fc-4fff-8d99-2482d7807ac4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.8093 53.34 0)
+			(at 169.0093 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4821,7 +4869,7 @@
 	)
 	(global_label "RXD0_FP"
 		(shape input)
-		(at 250.19 43.18 0)
+		(at 199.39 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4831,7 +4879,7 @@
 		)
 		(uuid "7d261a19-3ab6-4ffa-a109-008fb2e5d23a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.4604 43.18 0)
+			(at 210.6604 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5109,7 +5157,7 @@
 	)
 	(global_label "Fogger_Basin_Float_Switch_FP"
 		(shape input)
-		(at 250.19 48.26 0)
+		(at 199.39 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5119,7 +5167,7 @@
 		)
 		(uuid "917013d3-6950-4ffb-b33b-522f0b2e377d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.9011 48.26 0)
+			(at 231.1011 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5155,9 +5203,9 @@
 			)
 		)
 	)
-	(global_label "GPIO1_FP"
+	(global_label "BootMode_FP"
 		(shape input)
-		(at 250.19 25.4 0)
+		(at 199.39 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5165,9 +5213,9 @@
 			)
 			(justify left)
 		)
-		(uuid "92ca7806-40c9-4f18-9abb-2b7028ffcdae")
+		(uuid "93ba1b98-d984-4e28-ac29-b94055beb679")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.1862 25.4 0)
+			(at 214.8331 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5176,30 +5224,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "BootMode_FP"
-		(shape input)
-		(at 234.95 25.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "93ba1b98-d984-4e28-ac29-b94055beb679")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.5069 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -5253,17 +5277,17 @@
 	)
 	(global_label "EN_FP"
 		(shape input)
-		(at 234.95 22.86 180)
+		(at 199.39 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "99f7e568-7a84-43e1-879a-d24e914d3377")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.1591 22.86 0)
+			(at 208.1809 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5271,7 +5295,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -5325,7 +5349,7 @@
 	)
 	(global_label "SCL_FP"
 		(shape input)
-		(at 234.95 30.48 180)
+		(at 184.15 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5335,7 +5359,7 @@
 		)
 		(uuid "9e4f4fb3-e96c-49eb-8bd2-fdfe15e0c21e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.131 30.48 0)
+			(at 174.331 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5395,6 +5419,30 @@
 			)
 		)
 	)
+	(global_label "SoilMoisture4_FP"
+		(shape input)
+		(at 199.39 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2af9375-273b-4a70-addd-9d85686db0da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.5222 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "FoggerSol_FP"
 		(shape input)
 		(at 144.78 173.99 180)
@@ -5445,7 +5493,7 @@
 	)
 	(global_label "SDA_FP"
 		(shape input)
-		(at 234.95 27.94 180)
+		(at 184.15 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5455,7 +5503,7 @@
 		)
 		(uuid "a65e606a-cda2-4070-8b17-21dee7df5762")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.0705 27.94 0)
+			(at 174.2705 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6045,7 +6093,7 @@
 	)
 	(global_label "External_Fan_PWM_FP"
 		(shape input)
-		(at 250.19 35.56 0)
+		(at 199.39 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6055,7 +6103,7 @@
 		)
 		(uuid "d288f9f5-0a21-4935-9d7e-7a543df634d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.7368 35.56 0)
+			(at 222.9368 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6141,7 +6189,7 @@
 	)
 	(global_label "Piezo2_FP"
 		(shape input)
-		(at 234.95 35.56 180)
+		(at 184.15 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6151,7 +6199,7 @@
 		)
 		(uuid "dbe07a82-2f64-49e0-ba5d-1c38d98fcc97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.2886 35.56 0)
+			(at 171.4886 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6165,7 +6213,7 @@
 	)
 	(global_label "DrainSol_FP"
 		(shape input)
-		(at 234.95 48.26 180)
+		(at 184.15 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6175,7 +6223,7 @@
 		)
 		(uuid "ddc5ddad-60e3-4631-86bc-0f3a43b58c3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.6559 48.26 0)
+			(at 169.8559 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6237,7 +6285,7 @@
 	)
 	(global_label "FoggerSol_FP"
 		(shape input)
-		(at 234.95 45.72 180)
+		(at 184.15 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6247,7 +6295,7 @@
 		)
 		(uuid "ee4eb583-dafc-49b8-8584-501bd11ca6ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.2045 45.72 0)
+			(at 168.4045 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6307,7 +6355,7 @@
 			)
 		)
 	)
-	(global_label "GPIO2_FP"
+	(global_label "SoilMoisture2_FP"
 		(shape input)
 		(at 111.76 36.83 0)
 		(fields_autoplaced yes)
@@ -6319,7 +6367,7 @@
 		)
 		(uuid "f4416cf5-c5c2-4e07-a3e4-e22a42e53994")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.7562 36.83 0)
+			(at 130.8922 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6333,7 +6381,7 @@
 	)
 	(global_label "Heater_ON_FP"
 		(shape input)
-		(at 234.95 40.64 180)
+		(at 184.15 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6343,7 +6391,7 @@
 		)
 		(uuid "f56fd8e3-e51e-4f64-9b27-2dcc6a50cfb9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.8414 40.64 0)
+			(at 168.0414 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6352,30 +6400,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO2_FP"
-		(shape input)
-		(at 250.19 27.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f5a55b47-a35f-417b-9c8d-88ef895100f0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.1862 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)

@@ -41,7 +41,7 @@
         "pads": {
           "drill": 0.0,
           "height": 1.1,
-          "width": 0.3
+          "width": 0.55
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -84,6 +84,14 @@
         [
           "annular_width|21382500|97110000|33b74d90-1ec9-4951-8685-3eb816418665|00000000-0000-0000-0000-000000000000",
           "Footprint taken from LCSC"
+        ],
+        [
+          "clearance|21912500|102925000|c74c6869-24c4-4e8c-9f5d-2646eb47c6dd|a0d07f91-42f7-49e3-831a-d914f9ca17ea",
+          "footprint from lcsc"
+        ],
+        [
+          "clearance|21912500|97075000|33b74d90-1ec9-4951-8685-3eb816418665|2caacaed-9a03-4f41-8c5a-f6cda4096e3c",
+          "footprint from lcsc"
         ],
         [
           "hole_clearance|21912500|102675000|e0474780-d2a4-4f8e-aee6-f81ccda25dc8|c74c6869-24c4-4e8c-9f5d-2646eb47c6dd",
@@ -163,7 +171,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.18,
+        "min_clearance": 0.15,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -771,7 +779,7 @@
         "uuid": "e884bae1-e2d9-44d2-8169-161aa31a84ae"
       }
     ],
-    "used_designators": "L1,J46-48,J51-53,R5,R15,R43,R50,R54-60,C22-23,LED13,U4,U11",
+    "used_designators": "U4,U11,C22-23,LED13,R5,R15,R43,R50,R54-60,J46-48,J51-53,L1",
     "variants": []
   },
   "sheets": [

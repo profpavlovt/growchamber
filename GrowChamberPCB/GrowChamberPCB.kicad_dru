@@ -2,6 +2,6 @@
 
 (rule 120V_Clearance
 (condition "A.NetClass == '120V' && B.NetClass != '120V'")
-(constraint clearance (min 6.0mm))
+(constraint clearance (min 9.0mm))
 (severity error)
 )

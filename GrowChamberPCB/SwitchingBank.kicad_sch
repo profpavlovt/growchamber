@@ -4,1519 +4,10 @@
 	(generator_version "10.0")
 	(uuid "c744269f-fd3f-4a64-ab62-b9ab8c4b5a28")
 	(paper "A4")
-	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x01"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x01_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "easyeda2kicad:2N22221P-TD"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "2N2222 1P-TD"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C53064167.pdf"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "TDSEMIC(拓电半导体)"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "2N2222 1P-TD(0.26)"
-				(at 0 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C53064167"
-				(at 0 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "2N22221P-TD_0_1"
-				(polyline
-					(pts
-						(xy 0 2.29) (xy 0 -2.29)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.76) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 0 0.76)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 1.78 -1.27) (xy 1.02 -2.29) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "easyeda2kicad:AO3400A_C347475"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AO3400A_C347475"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Others_Youtai-Semiconductor-Co-Ltd-AO3400A-5-8A_C347475.html"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "UMW(友台半导体)"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "AO3400A"
-				(at 0 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C347475"
-				(at 0 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "MOSFETs"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "AO3400A_C347475_0_1"
-				(polyline
-					(pts
-						(xy -1.78 2.29) (xy -1.78 -2.29)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.29) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.78) (xy 1.27 1.78) (xy 1.27 2.54) (xy 3.81 2.54) (xy 3.81 0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0.25 -0.51) (xy 0.25 0.51) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0) (xy 1.27 -2.54) (xy 3.81 -2.54) (xy 3.81 -0.76)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -0.51) (xy -1.27 0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.29) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.78) (xy -1.27 -1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.96 0.57) (xy 4.59 0.57)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.51) (xy 3.05 -0.76) (xy 4.57 -0.76) (xy 3.81 0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 1.27 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 1.27 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "easyeda2kicad:BRT30N70P3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BRT30N70P3"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:TO-252-2_L6.6-W6.1-P4.60-LS10.0-BR-CW"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C51966740.pdf"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "XTX(芯天下)"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "BRT30N70P3"
-				(at 0 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C51966740"
-				(at 0 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BRT30N70P3_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.29) (xy -0.51 -2.29)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.29) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.78) (xy 2.54 1.78) (xy 2.54 2.54) (xy 5.08 2.54) (xy 5.08 2.54) (xy 5.08 0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.52 -0.51) (xy 1.52 0.51) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 2.54 0) (xy 2.54 -2.54) (xy 5.08 -2.54) (xy 5.08 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.51) (xy 0 0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.29) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.78) (xy 0 -1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0.51) (xy 4.32 -0.76) (xy 5.84 -0.76) (xy 5.08 0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.1 0.51) (xy 5.59 0.51) (xy 4.57 0.51) (xy 4.06 0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "easyeda2kicad:FRC0603F1004TS"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FRC0603F1004TS"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:R0603"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C2907003.pdf"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "FOJAN(富捷)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "FRC0603F1004TS"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C2907003"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Chip Resistor - Surface Mount"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FRC0603F1004TS_0_1"
-				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "easyeda2kicad:FRC0603J102TS"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FRC0603J102 TS"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:R0603"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C2907113.pdf"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "FOJAN(富捷)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "FRC0603J102 TS"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C2907113"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Chip Resistor - Surface Mount"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FRC0603J102TS_0_1"
-				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
-	(text "LED Driver"
-		(exclude_from_sim no)
-		(at 94.488 112.522 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4dd72259-1baa-430e-ab80-f73050305dc0")
-	)
-	(junction
-		(at 199.39 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3465dc0d-8b16-4f73-80f9-3b4c6eeecf21")
-	)
-	(junction
-		(at 222.25 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40bddeaa-ad4c-4429-bed6-ec13b14562be")
-	)
-	(junction
-		(at 106.68 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "538131e6-f1b3-457d-a8c1-c002621a4fc8")
-	)
-	(junction
-		(at 64.77 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6543c2ab-e582-465f-a082-a63432acead4")
-	)
-	(junction
-		(at 212.09 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b306e50-73d8-4a9b-8e3f-020a206df469")
-	)
-	(junction
-		(at 210.82 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75213106-5172-4bf5-8001-d835b67b1010")
-	)
-	(junction
-		(at 95.25 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d803d91-3a8e-4970-9831-56300373d757")
-	)
-	(junction
-		(at 83.82 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aab456dc-4832-4edd-9489-034954524279")
-	)
-	(junction
-		(at 93.98 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba80faf4-0631-4109-a3e8-89f1b139f93a")
-	)
-	(junction
-		(at 179.07 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d493b298-119a-487a-92b9-731d03e8c46c")
-	)
-	(wire
-		(pts
-			(xy 83.82 134.62) (xy 93.98 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06211ccc-0534-479c-b409-1992a1ca7708")
-	)
-	(wire
-		(pts
-			(xy 64.77 138.43) (xy 66.04 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0842b6cb-e1da-4ce2-a741-ca0d0a68b3c0")
-	)
-	(wire
-		(pts
-			(xy 106.68 127) (xy 106.68 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08f0e766-f083-40a3-bd7f-38b148053701")
-	)
-	(wire
-		(pts
-			(xy 66.04 139.7) (xy 68.58 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fcfd554-bc7e-4fd0-a377-aff71088ed27")
-	)
-	(wire
-		(pts
-			(xy 210.82 148.59) (xy 210.82 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cb21c0d-01be-471e-a4ac-ba2deb464ee7")
-	)
-	(wire
-		(pts
-			(xy 210.82 146.05) (xy 222.25 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34394059-dd86-4569-b2af-0b4240014fac")
-	)
-	(wire
-		(pts
-			(xy 106.68 120.65) (xy 106.68 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a6858f8-b90d-4911-b036-f4616eafc0b9")
-	)
-	(wire
-		(pts
-			(xy 83.82 119.38) (xy 83.82 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47a12e1c-fc7e-4a2d-9736-212b67a610c1")
-	)
-	(wire
-		(pts
-			(xy 222.25 121.92) (xy 222.25 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57ee5078-ae49-45ca-9a54-14c9b9fe9f09")
-	)
-	(wire
-		(pts
-			(xy 66.04 138.43) (xy 66.04 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c8f02df-4ddc-404f-903d-acf97814eabb")
-	)
-	(wire
-		(pts
-			(xy 172.72 140.97) (xy 179.07 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60f3dc4b-a1f8-499c-b6ba-6956bd318618")
-	)
-	(wire
-		(pts
-			(xy 199.39 146.05) (xy 210.82 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6df2ca86-3fdc-497d-a5bd-b040cabdbf82")
-	)
-	(wire
-		(pts
-			(xy 106.68 144.78) (xy 106.68 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7126d48f-29a2-4576-93c2-935325d7f5b9")
-	)
-	(wire
-		(pts
-			(xy 95.25 147.32) (xy 95.25 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "878ba542-9d21-4130-9161-803196d8c908")
-	)
-	(wire
-		(pts
-			(xy 60.96 138.43) (xy 64.77 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a72952b-e0b3-45f3-a203-da7cf06aa8c6")
-	)
-	(wire
-		(pts
-			(xy 212.09 135.89) (xy 217.17 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0c0f895-7aa7-45bd-b7f8-53a28e77c1ee")
-	)
-	(wire
-		(pts
-			(xy 199.39 135.89) (xy 212.09 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6a3e67a-8cd4-48cf-957a-c285b967eeb1")
-	)
-	(wire
-		(pts
-			(xy 222.25 140.97) (xy 222.25 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c05d7783-9eb2-4d2b-89c9-d2fd51422f8d")
-	)
-	(wire
-		(pts
-			(xy 199.39 120.65) (xy 199.39 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c57bc76b-016b-49ee-8695-eccb6b9a9f2f")
-	)
-	(wire
-		(pts
-			(xy 222.25 125.73) (xy 222.25 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce7e3c49-4641-4167-908d-8b613755be67")
-	)
-	(wire
-		(pts
-			(xy 179.07 140.97) (xy 184.15 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cff96ed5-3e60-4b6d-9e1c-09b275a9e64b")
-	)
-	(wire
-		(pts
-			(xy 93.98 134.62) (xy 99.06 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d588c357-fb6e-4fd1-8050-d0c5e1083e71")
-	)
-	(wire
-		(pts
-			(xy 95.25 144.78) (xy 106.68 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6b6e117-3b64-4ae1-97ee-fbb9472b47aa")
-	)
-	(wire
-		(pts
-			(xy 83.82 144.78) (xy 95.25 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f34016d3-004e-4d63-982d-bf4434d0209c")
-	)
-	(global_label "Heater_Switch"
+	(lib_symbols)
+	(global_label "Heater_ON"
 		(shape input)
-		(at 172.72 140.97 180)
+		(at 120.65 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1524,9 +15,9 @@
 			)
 			(justify right)
 		)
-		(uuid "0dbec455-68b0-4c16-affb-d7c6f73a9c12")
+		(uuid "14e7a215-8f77-44a3-a832-ebf4ceec21d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.4905 140.97 0)
+			(at 107.8676 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1538,103 +29,7 @@
 			)
 		)
 	)
-	(global_label "DrainSol"
-		(shape input)
-		(at 90.17 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0f50665b-e124-4b13-b743-5acffa37af61")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.2021 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "WaterSol_IO"
-		(shape input)
-		(at 119.38 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "10003aa9-565e-4fcb-8841-f46338a1cb98")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.2673 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GlycolSol_IO"
-		(shape input)
-		(at 149.86 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "12071ced-360e-40cc-a88c-f680b34ef337")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.1426 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "12V"
-		(shape input)
-		(at 199.39 120.65 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2859434d-c9e5-441d-aa5e-291e117d297d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.39 114.1572 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "WaterSol"
+	(global_label "Circ_Fan"
 		(shape input)
 		(at 119.38 92.71 180)
 		(fields_autoplaced yes)
@@ -1644,9 +39,9 @@
 			)
 			(justify right)
 		)
-		(uuid "2bc7d23c-f597-48ef-b101-ce0c08fd0363")
+		(uuid "1f1fa157-3a7f-4ea4-9f86-382e4c541b08")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.1702 92.71 0)
+			(at 108.291 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1658,9 +53,9 @@
 			)
 		)
 	)
-	(global_label "HeaterFans_IO"
+	(global_label "FoggerSol_IO"
 		(shape input)
-		(at 30.48 95.25 180)
+		(at 180.34 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1668,33 +63,9 @@
 			)
 			(justify right)
 		)
-		(uuid "30e6f83d-82f3-4cec-ac3a-0ab95804e362")
+		(uuid "237ee7f1-58d1-4108-b9f2-c8f43bcb2520")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.0086 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "Heater Fans"
-		(shape input)
-		(at 30.48 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "412cba25-bbd5-4447-bea7-fb73b4623392")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.9439 92.71 0)
+			(at 165.0178 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1708,7 +79,7 @@
 	)
 	(global_label "GlycolSol"
 		(shape input)
-		(at 149.86 92.71 180)
+		(at 29.21 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1716,153 +87,9 @@
 			)
 			(justify right)
 		)
-		(uuid "6aabf482-419b-4cab-93a6-d10871c410a5")
+		(uuid "3c9ae19b-ae14-42ba-be2d-3f7ae7ffb094")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.0455 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "LEDs"
-		(shape input)
-		(at 106.68 120.65 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7a4d6666-fa98-4c05-b16f-d75dffce89e1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.68 113.1896 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "FoggerSol_IO"
-		(shape input)
-		(at 60.96 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "98cdc1b9-b068-41af-a13e-c2e5057919e4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.6378 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "CircFan_IO"
-		(shape input)
-		(at 180.34 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a9528af9-f44b-4790-9c02-b27212e62c84")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.3157 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 95.25 147.32 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b9de5d0e-f59a-420b-b5a5-4e648f29643e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.25 154.1757 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "LEDIO"
-		(shape input)
-		(at 60.96 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c0b79870-a169-4a55-b538-46073f54592b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.5924 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 210.82 148.59 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c395840b-5e2c-4836-8e85-7dfa30afb5ba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.82 155.4457 90)
+			(at 17.3955 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1876,54 +103,6 @@
 	)
 	(global_label "FoggerSol"
 		(shape input)
-		(at 60.96 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d113ec4f-1c57-48f7-8910-f0f76c715ae7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.5407 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "Heater_ON"
-		(shape input)
-		(at 222.25 121.92 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d736ea15-8382-4409-95fc-aefd31209501")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.25 109.1376 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "Circ_Fan"
-		(shape input)
 		(at 180.34 92.71 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1932,9 +111,9 @@
 			)
 			(justify right)
 		)
-		(uuid "d8257d1d-4972-4b5a-953f-7453a578b7ac")
+		(uuid "3ce9246e-0bb9-4077-b2ae-23bb5f607996")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.251 92.71 0)
+			(at 167.9207 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1946,19 +125,19 @@
 			)
 		)
 	)
-	(global_label "12V"
+	(global_label "WaterSol_IO"
 		(shape input)
-		(at 83.82 119.38 90)
+		(at 60.96 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "e3edac49-629b-4f05-bab0-7aa7f8f0c25c")
+		(uuid "4a914531-0c9b-4a59-b5c5-a8c93ce9300b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.82 112.8872 90)
+			(at 46.8473 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1966,11 +145,59 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
-	(global_label "DrainSolIO"
+	(global_label "Heater_Switch"
+		(shape input)
+		(at 120.65 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ab76483-62af-43db-86bb-3ba3e85b531c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.4205 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CircFan_IO"
+		(shape input)
+		(at 119.38 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c1a8a5c-9144-4c10-91d3-ec436bc18ce6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.3557 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "HeaterFans_IO"
 		(shape input)
 		(at 90.17 95.25 180)
 		(fields_autoplaced yes)
@@ -1980,9 +207,9 @@
 			)
 			(justify right)
 		)
-		(uuid "e94614f6-a98f-4074-b4cf-829093f32c19")
+		(uuid "75842091-d6fe-4617-ba93-53685afb81e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.2668 95.25 0)
+			(at 73.6986 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1994,21 +221,20 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "easyeda2kicad:FRC0603F1004TS")
-		(at 199.39 130.81 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+	(global_label "LEDs"
+		(shape input)
+		(at 77.47 137.16 180)
 		(fields_autoplaced yes)
-		(uuid "2dce8d35-1c5d-40b6-af95-10dfa6fe60e5")
-		(property "Reference" "R53"
-			(at 201.93 132.0801 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a4d6666-fa98-4c05-b16f-d75dffce89e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.0096 137.16 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2018,8 +244,21 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
-			(at 201.93 129.5401 90)
+	)
+	(global_label "DrainSol"
+		(shape input)
+		(at 149.86 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8bfe8c28-db1a-471d-81b4-2fada1986f34")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.8921 92.71 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2029,788 +268,21 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 207.01 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2907003.pdf"
-			(at 209.55 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 199.39 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 212.09 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "FRC0603F1004TS"
-			(at 214.63 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2907003"
-			(at 217.17 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic Part?" ""
-			(at 199.39 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 199.39 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 199.39 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 199.39 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "74dc3b91-37ce-4b27-9449-8694381fbed5")
-		)
-		(pin "2"
-			(uuid "fb0cf07b-829b-4691-8b19-e55059afebbb")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
-					(reference "R53")
-					(unit 1)
-				)
-			)
-		)
 	)
-	(symbol
-		(lib_id "easyeda2kicad:AO3400A_C347475")
-		(at 220.98 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+	(global_label "WaterSol"
+		(shape input)
+		(at 60.96 92.71 180)
 		(fields_autoplaced yes)
-		(uuid "32cf8ee5-1205-4014-922b-e0c87f5d4a18")
-		(property "Reference" "Q18"
-			(at 227.33 134.6199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "MOSFET"
-			(at 227.33 137.1599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 220.98 148.59 0)
+		(uuid "b45e514c-2900-4625-b964-8399ae8f04c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.7502 92.71 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Youtai-Semiconductor-Co-Ltd-AO3400A-5-8A_C347475.html"
-			(at 220.98 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 220.98 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UMW(友台半导体)"
-			(at 220.98 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AO3400A"
-			(at 220.98 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C347475"
-			(at 220.98 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic Part?" ""
-			(at 220.98 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 220.98 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 220.98 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 220.98 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "4a183d29-bc5e-45a0-910e-63323ce8175c")
-		)
-		(pin "1"
-			(uuid "fd06a39a-dce1-4d72-b5a2-c60859db575e")
-		)
-		(pin "2"
-			(uuid "0c4b7001-9556-4c33-9e6a-5919762e6ab9")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
-					(reference "Q18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:FRC0603J102TS")
-		(at 189.23 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ffb67ad-6471-4773-9f4e-95e1acb6e635")
-		(property "Reference" "R52"
-			(at 189.23 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 189.23 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 189.23 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2907113.pdf"
-			(at 189.23 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 189.23 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "FOJAN(富捷)"
-			(at 189.23 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "FRC0603J102 TS"
-			(at 189.23 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2907113"
-			(at 189.23 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic Part?" ""
-			(at 189.23 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 189.23 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 189.23 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 189.23 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7086a1ef-a460-4662-bdf4-81470e914a55")
-		)
-		(pin "2"
-			(uuid "93ca4a11-b3b6-4045-a082-81d38d0c621a")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
-					(reference "R52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:2N22221P-TD")
-		(at 81.28 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "465504fe-2cdd-4f64-b064-2b9a85bfdbda")
-		(property "Reference" "Q9"
-			(at 85.09 138.4299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 85.09 140.9699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
-			(at 81.28 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C53064167.pdf"
-			(at 81.28 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TDSEMIC(拓电半导体)"
-			(at 81.28 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "2N2222 1P-TD(0.26)"
-			(at 81.28 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C53064167"
-			(at 81.28 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic Part?" ""
-			(at 81.28 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 81.28 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 81.28 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 81.28 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "4233a85c-0805-4149-87e4-dfcab81776bf")
-		)
-		(pin "2"
-			(uuid "b0c0ffec-2c9e-4478-8d0a-cdd926c9ee2b")
-		)
-		(pin "1"
-			(uuid "d20b43de-2f83-47f8-bc73-39d290ee5d8b")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
-					(reference "Q9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:BRT30N70P3")
-		(at 104.14 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "799904c6-67a6-4ed9-b0d0-8aeb6bc56383")
-		(property "Reference" "Q8"
-			(at 111.76 133.3499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BRT30N70P3"
-			(at 111.76 135.8899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:TO-252-2_L6.6-W6.1-P4.60-LS10.0-BR-CW"
-			(at 104.14 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C51966740.pdf"
-			(at 104.14 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "XTX(芯天下)"
-			(at 104.14 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "BRT30N70P3"
-			(at 104.14 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C51966740"
-			(at 104.14 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic Part?" ""
-			(at 104.14 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 104.14 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 104.14 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 104.14 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f34c6525-9853-4133-9b87-120c52893f53")
-		)
-		(pin "1"
-			(uuid "0a1b4262-1834-4bca-a00d-b506dcaf4642")
-		)
-		(pin "3"
-			(uuid "ef8628b5-eaf0-46a7-bd12-e238729a7bcb")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 179.07 135.89 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "79c8da6d-fae5-4c8f-9587-55f91af6f54e")
-		(property "Reference" "J18"
-			(at 181.61 134.6199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2820,8 +292,21 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TP"
-			(at 181.61 137.1599 90)
+	)
+	(global_label "LEDIO"
+		(shape input)
+		(at 77.47 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0b79870-a169-4a55-b538-46073f54592b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.1024 139.7 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2829,111 +314,23 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 179.07 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 179.07 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic Part?" ""
-			(at 179.07 135.89 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 179.07 135.89 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 179.07 135.89 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 179.07 135.89 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "25253e0a-4c52-4d80-a1d8-ef062d32fa6a")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
-					(reference "J18")
-					(unit 1)
-				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 212.09 130.81 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
+	(global_label "DrainSolIO"
+		(shape input)
+		(at 149.86 95.25 180)
 		(fields_autoplaced yes)
-		(uuid "7c0cbcaa-29ba-466a-bf37-0c911fa3f15d")
-		(property "Reference" "J11"
-			(at 214.63 129.5399 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c86d5c23-92ba-4ef6-abc1-35cb4b3d372f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.9568 95.25 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2941,123 +338,23 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(property "Value" "TP"
-			(at 214.63 132.0799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 212.09 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 212.09 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic Part?" ""
-			(at 212.09 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 212.09 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 212.09 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 212.09 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "77736a9d-36ff-4dba-8631-5c5567518c9b")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
-					(reference "J11")
-					(unit 1)
-				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "easyeda2kicad:FRC0603F1004TS")
-		(at 83.82 129.54 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+	(global_label "GlycolSol_IO"
+		(shape input)
+		(at 29.21 109.22 180)
 		(fields_autoplaced yes)
-		(uuid "7cc00e80-01ef-46b4-8bc9-ad181a51eb60")
-		(property "Reference" "R34"
-			(at 86.36 130.8101 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc023aa3-ae3b-433d-8d87-34ef9b28a25a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.4926 109.22 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3067,8 +364,21 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
-			(at 86.36 128.2701 90)
+	)
+	(global_label "Heater Fans"
+		(shape input)
+		(at 90.17 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6ff4a0b-ee89-494e-a8a4-016013264b3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.6339 92.71 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3076,947 +386,12 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 91.44 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2907003.pdf"
-			(at 93.98 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 96.52 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "FRC0603F1004TS"
-			(at 99.06 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2907003"
-			(at 101.6 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic Part?" ""
-			(at 83.82 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 83.82 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 83.82 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 83.82 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8261f528-98f2-4d91-b9f0-7e2042a47fb7")
-		)
-		(pin "2"
-			(uuid "ff3ccd4c-4098-4a07-9f64-5b32527c78a3")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 64.77 133.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "91c14f8a-245d-4d2a-a48b-54b6c6d1fdd5")
-		(property "Reference" "J21"
-			(at 67.31 132.0799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TP"
-			(at 67.31 134.6199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 64.77 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 64.77 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic Part?" ""
-			(at 64.77 133.35 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 64.77 133.35 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 64.77 133.35 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 64.77 133.35 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e2528a2c-7756-44dd-b6ed-896b07c9e575")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
-					(reference "J21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 111.76 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "a1a4d367-9fd6-48c8-a6f0-e0e1790afbca")
-		(property "Reference" "J20"
-			(at 114.3 125.7299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP"
-			(at 114.3 128.2699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 111.76 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 111.76 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic Part?" ""
-			(at 111.76 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 111.76 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 111.76 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 111.76 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3036f1cf-1746-4a84-9aa1-5fdd7c3dec98")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
-					(reference "J20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 227.33 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "afa88c8d-6fe2-4717-95e1-eaad84e8fe67")
-		(property "Reference" "J17"
-			(at 229.87 124.4599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP"
-			(at 229.87 126.9999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 227.33 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 227.33 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic Part?" ""
-			(at 227.33 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 227.33 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 227.33 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 227.33 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c24b562a-d826-46bf-a251-f136f4de46ff")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
-					(reference "J17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:FRC0603J102TS")
-		(at 73.66 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c62a7955-674e-45be-a408-652060befc42")
-		(property "Reference" "R32"
-			(at 73.66 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 73.66 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 73.66 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2907113.pdf"
-			(at 73.66 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "FOJAN(富捷)"
-			(at 73.66 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "FRC0603J102 TS"
-			(at 73.66 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2907113"
-			(at 73.66 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic Part?" ""
-			(at 73.66 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 73.66 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 73.66 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 73.66 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "36e68149-3321-4744-a92c-91de4e83de0a")
-		)
-		(pin "2"
-			(uuid "b2b094b2-9b2c-4829-a047-203e8f75b2df")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:2N22221P-TD")
-		(at 196.85 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cfad4d88-6e5e-48e4-896f-2d504f039936")
-		(property "Reference" "Q17"
-			(at 200.66 139.6999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 200.66 142.2399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
-			(at 196.85 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C53064167.pdf"
-			(at 196.85 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TDSEMIC(拓电半导体)"
-			(at 196.85 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "2N2222 1P-TD(0.26)"
-			(at 196.85 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C53064167"
-			(at 196.85 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic Part?" ""
-			(at 196.85 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 196.85 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 196.85 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 196.85 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "5830c2df-1140-4fa9-abf2-c8d7d1236579")
-		)
-		(pin "2"
-			(uuid "bacc6835-3649-4fbb-acb1-ee65437a6cf7")
-		)
-		(pin "1"
-			(uuid "cb8d4d29-dc03-4674-b9a1-c3e99b48eaaf")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
-					(reference "Q17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 93.98 129.54 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "e310c820-e455-4de0-af3f-534d81001548")
-		(property "Reference" "J19"
-			(at 96.52 128.2699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TP"
-			(at 96.52 130.8099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 93.98 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 93.98 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic Part?" ""
-			(at 93.98 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 93.98 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 93.98 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 93.98 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "602018b0-8aab-4340-8f58-95d110660d27")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
-					(reference "J19")
-					(unit 1)
-				)
 			)
 		)
 	)
 	(sheet
-		(at 180.34 88.9)
-		(size 12.7 10.16)
+		(at 149.86 87.63)
+		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4029,9 +404,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "0d097ba2-d28c-4930-b98a-1f1b7e1ca130")
-		(property "Sheetname" "MOSFETSwitch5"
-			(at 180.34 88.1884 0)
+		(uuid "03e4cf19-7b8c-4294-9dc9-fc2c3c219f4c")
+		(property "Sheetname" "Untitled Sheet4"
+			(at 149.86 86.9184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4042,73 +417,7 @@
 			)
 		)
 		(property "Sheetfile" "MOSFETSwitch.kicad_sch"
-			(at 180.34 99.6446 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "GPIO" input
-			(at 180.34 95.25 180)
-			(uuid "fec429d4-4299-44a3-ae17-93852044c03b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Switch_Out" input
-			(at 180.34 92.71 180)
-			(uuid "e37fe668-3fa8-42af-b85f-2bfb820bb925")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
-					(page "15")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 149.86 88.9)
-		(size 12.7 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "27f36bf0-6e29-4327-8654-019a11b8533b")
-		(property "Sheetname" "MOSFETSwitch4"
-			(at 149.86 88.1884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MOSFETSwitch.kicad_sch"
-			(at 149.86 99.6446 0)
+			(at 149.86 100.9146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4120,7 +429,7 @@
 		)
 		(pin "GPIO" input
 			(at 149.86 95.25 180)
-			(uuid "8a07d1ea-697b-405a-9c38-e4c97d58810f")
+			(uuid "46035f82-c717-456f-9fa6-3fa8b2ed4500")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4130,7 +439,7 @@
 		)
 		(pin "Switch_Out" input
 			(at 149.86 92.71 180)
-			(uuid "1c04b6f0-a549-4f0e-8728-fb8bac8b4038")
+			(uuid "0515ab60-2190-43b3-8314-56d8d8657df2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,8 +456,8 @@
 		)
 	)
 	(sheet
-		(at 90.17 88.9)
-		(size 12.7 10.16)
+		(at 180.34 87.63)
+		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4161,9 +470,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "709f662a-4c61-4ba3-ad4e-bdd3477be85d")
-		(property "Sheetname" "MOSFETSwitch2"
-			(at 90.17 88.1884 0)
+		(uuid "16ae4d16-103d-4315-a95d-30ef516bd2be")
+		(property "Sheetname" "Untitled Sheet5"
+			(at 180.34 86.9184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4174,7 +483,7 @@
 			)
 		)
 		(property "Sheetfile" "MOSFETSwitch.kicad_sch"
-			(at 90.17 99.6446 0)
+			(at 180.34 100.9146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4185,8 +494,8 @@
 			)
 		)
 		(pin "GPIO" input
-			(at 90.17 95.25 180)
-			(uuid "879871e8-9b20-47b9-9076-a6e20c67d43d")
+			(at 180.34 95.25 180)
+			(uuid "0373aac6-aeb7-4fa7-a8c9-a79a4c2930df")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4195,8 +504,8 @@
 			)
 		)
 		(pin "Switch_Out" input
-			(at 90.17 92.71 180)
-			(uuid "c63386eb-be6a-4371-b4dd-3ad54fc35c7c")
+			(at 180.34 92.71 180)
+			(uuid "d57c9797-b3e1-4297-8369-63cdc9565466")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4207,14 +516,14 @@
 		(instances
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
-					(page "12")
+					(page "15")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 119.38 88.9)
-		(size 12.7 10.16)
+		(at 120.65 132.08)
+		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4227,9 +536,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "b2710fb4-799f-498e-9bc6-1b5dde7ce006")
-		(property "Sheetname" "MOSFETSwitch3"
-			(at 119.38 88.1884 0)
+		(uuid "3eb7ef97-2be6-44fc-b442-196b4b54c44d")
+		(property "Sheetname" "Untitled Sheet7"
+			(at 120.65 131.3684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4240,7 +549,7 @@
 			)
 		)
 		(property "Sheetfile" "MOSFETSwitch.kicad_sch"
-			(at 119.38 99.6446 0)
+			(at 120.65 145.3646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4251,8 +560,8 @@
 			)
 		)
 		(pin "GPIO" input
-			(at 119.38 95.25 180)
-			(uuid "75ed03ac-671d-4bfb-93e3-487ae43d5951")
+			(at 120.65 139.7 180)
+			(uuid "540e8486-cef8-437d-8023-418d7d9f48dd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,8 +570,8 @@
 			)
 		)
 		(pin "Switch_Out" input
-			(at 119.38 92.71 180)
-			(uuid "efd670bf-a90e-43bd-a920-b5f2df921693")
+			(at 120.65 137.16 180)
+			(uuid "99ac0368-c0d8-4613-ae33-89a931461ecb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,14 +582,14 @@
 		(instances
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
-					(page "13")
+					(page "18")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 30.48 88.9)
-		(size 12.7 10.16)
+		(at 77.47 132.08)
+		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4293,9 +602,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "b7206f4a-8674-49f3-8947-42947dbeca24")
-		(property "Sheetname" "MOSFETSwitch"
-			(at 30.48 88.1884 0)
+		(uuid "aa2557c2-3763-4fdc-bfc3-8e5913c0b2f6")
+		(property "Sheetname" "Untitled Sheet6"
+			(at 77.47 131.3684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4306,7 +615,7 @@
 			)
 		)
 		(property "Sheetfile" "MOSFETSwitch.kicad_sch"
-			(at 30.48 99.6446 0)
+			(at 77.47 145.3646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4317,8 +626,8 @@
 			)
 		)
 		(pin "GPIO" input
-			(at 30.48 95.25 180)
-			(uuid "54b012cb-447a-467e-8bc6-62bc8e0b9c97")
+			(at 77.47 139.7 180)
+			(uuid "afc95905-766e-4053-a242-465d771bfdb6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4327,8 +636,74 @@
 			)
 		)
 		(pin "Switch_Out" input
-			(at 30.48 92.71 180)
-			(uuid "33f66e42-36d4-4453-84f4-5a3c06597121")
+			(at 77.47 137.16 180)
+			(uuid "59385a0d-0485-4395-9e14-02a70ccb9d2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 101.6)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c05d4b5a-fe0c-4974-bc6c-b89e995b6fd8")
+		(property "Sheetname" "Untitled Sheet"
+			(at 29.21 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MOSFETSwitch.kicad_sch"
+			(at 29.21 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO" input
+			(at 29.21 109.22 180)
+			(uuid "d16e266c-99d8-442c-9e33-8e1dea57abf3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Switch_Out" input
+			(at 29.21 106.68 180)
+			(uuid "b8df464e-1b64-4f2a-b028-34a49b409198")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,8 +720,8 @@
 		)
 	)
 	(sheet
-		(at 60.96 88.9)
-		(size 12.7 10.16)
+		(at 119.38 87.63)
+		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4359,9 +734,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "e30b5f9c-1263-4d24-bc54-c24609404da0")
-		(property "Sheetname" "MOSFETSwitch1"
-			(at 60.96 88.1884 0)
+		(uuid "d73ebc8e-acc8-4bb8-89c0-a57dd32680b7")
+		(property "Sheetname" "Untitled Sheet3"
+			(at 119.38 86.9184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4372,7 +747,139 @@
 			)
 		)
 		(property "Sheetfile" "MOSFETSwitch.kicad_sch"
-			(at 60.96 99.6446 0)
+			(at 119.38 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO" input
+			(at 119.38 95.25 180)
+			(uuid "23a9ea89-29a1-4fe9-bf27-d51a3bc3fbae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Switch_Out" input
+			(at 119.38 92.71 180)
+			(uuid "3d63b0c3-0e09-4e9c-84b5-fa97f47549e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 87.63)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e2f79cce-564d-4850-9564-7fa5455408bc")
+		(property "Sheetname" "Untitled Sheet2"
+			(at 90.17 86.9184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MOSFETSwitch.kicad_sch"
+			(at 90.17 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO" input
+			(at 90.17 95.25 180)
+			(uuid "35c4d359-dff8-45ad-b4ba-eaa3794a8f53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Switch_Out" input
+			(at 90.17 92.71 180)
+			(uuid "40256079-a5dc-48be-a8ec-21e164edf157")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 87.63)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e58bfa75-8678-4818-84fb-8fc2b4bb841e")
+		(property "Sheetname" "Untitled Sheet1"
+			(at 60.96 86.9184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MOSFETSwitch.kicad_sch"
+			(at 60.96 100.9146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4384,7 +891,7 @@
 		)
 		(pin "GPIO" input
 			(at 60.96 95.25 180)
-			(uuid "31e33734-859a-4d88-8a18-07d81ed1e9bd")
+			(uuid "2254f40e-ddf8-4489-bb16-b90db846e172")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,7 +901,7 @@
 		)
 		(pin "Switch_Out" input
 			(at 60.96 92.71 180)
-			(uuid "7994062f-af98-4b19-b5ad-c783b258ea2b")
+			(uuid "31eacfab-38e8-4786-8f81-023675c239e0")
 			(effects
 				(font
 					(size 1.27 1.27)

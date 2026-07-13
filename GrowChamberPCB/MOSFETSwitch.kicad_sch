@@ -134,13 +134,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:1N4007W_C7528871"
+		(symbol "easyeda2kicad:0603WAF1001T5E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
+			(property "Reference" "R"
 				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -150,7 +150,7 @@
 					)
 				)
 			)
-			(property "Value" "1N4007W_C7528871"
+			(property "Value" "0603WAF1001T5E"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -160,7 +160,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:SOD-123FL_L2.7-W1.8-LS3.7-RD"
+			(property "Footprint" "easyeda2kicad:R0603"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -171,7 +171,315 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C7528871.pdf"
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1KR-1001-1_C21190.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1KΩ (1001) ±1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(厚声)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0603WAF1001T5E"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C21190"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Resistors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0603WAF1001T5E_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:0603WAF1002T5E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0603WAF1002T5E"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R0603"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10KΩ (1002) ±1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(厚声)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0603WAF1002T5E"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C25804"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Resistors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0603WAF1002T5E_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:1N4007W_C18199088"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4007W_C18199088"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SOD-123FL_L2.7-W1.8-LS3.8-RD"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C18199088.pdf"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -193,7 +501,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "MSKSEMI(美森科)"
+			(property "Manufacturer" "R+O(宏嘉诚)"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -215,7 +523,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C7528871"
+			(property "LCSC Part" "C18199088"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -237,10 +545,10 @@
 					)
 				)
 			)
-			(symbol "1N4007W_C7528871_0_1"
+			(symbol "1N4007W_C18199088_0_1"
 				(polyline
 					(pts
-						(xy -1.27 1.78) (xy -1.27 -1.78)
+						(xy -1.27 -1.78) (xy -1.27 1.78)
 					)
 					(stroke
 						(width 0)
@@ -252,19 +560,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.78) (xy -1.27 0) (xy 1.27 -1.78) (xy 1.27 1.78)
+						(xy 1.27 1.52) (xy 1.27 -1.52) (xy -1.27 0) (xy 1.27 1.52)
 					)
 					(stroke
 						(width 0)
@@ -274,21 +570,9 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin unspecified line
 					(at -5.08 0 0)
-					(length 2.54)
+					(length 3.81)
 					(name "K"
 						(effects
 							(font
@@ -306,7 +590,7 @@
 				)
 				(pin unspecified line
 					(at 5.08 0 180)
-					(length 2.54)
+					(length 3.81)
 					(name "A"
 						(effects
 							(font
@@ -619,101 +903,123 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Basic"
-		(exclude_from_sim no)
-		(at 132.334 96.266 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "51cfef3d-dc6a-4039-bfea-0bb62630f3fc")
-	)
 	(junction
-		(at 132.08 88.9)
+		(at 123.19 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4c6e7fc0-e2f5-47ce-872e-d02c88bb9a10")
+		(uuid "749bdb5c-a850-4a20-bc7d-60a594f06376")
 	)
 	(junction
-		(at 132.08 86.36)
+		(at 134.62 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7e9f9abf-7951-4a52-bf34-ac366a56aae2")
+		(uuid "7de2f096-11eb-4fcd-8aac-c1b589b42956")
+	)
+	(junction
+		(at 120.65 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ada5a7bc-bf73-430f-97f5-2a7dc0499239")
+	)
+	(junction
+		(at 120.65 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fab3432e-4a10-4d0d-8cfe-b038bd1f0322")
 	)
 	(wire
 		(pts
-			(xy 120.65 109.22) (xy 120.65 106.68)
+			(xy 134.62 85.09) (xy 134.62 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11a088e7-cb3d-414a-8ead-c30566326d06")
+		(uuid "18eec955-ab33-4d2c-a83a-da61653cab40")
 	)
 	(wire
 		(pts
-			(xy 132.08 86.36) (xy 132.08 88.9)
+			(xy 118.11 93.98) (xy 120.65 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14d95363-5986-4cf9-bd7b-3e383dfb1c3e")
+		(uuid "2de866c7-9ff1-465b-b24f-94a92d15bf74")
 	)
 	(wire
 		(pts
-			(xy 127 86.36) (xy 132.08 86.36)
+			(xy 123.19 93.98) (xy 127 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1fd274a1-856b-48a2-9558-7d2ae79ef9ed")
+		(uuid "30f9b518-c630-4d28-a43d-e293b299e3eb")
 	)
 	(wire
 		(pts
-			(xy 132.08 82.55) (xy 132.08 86.36)
+			(xy 134.62 104.14) (xy 134.62 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3169be24-e96d-417b-8f40-e2775126c79c")
+		(uuid "896ab734-ef70-49c7-91dc-e036265aa73d")
 	)
 	(wire
 		(pts
-			(xy 132.08 101.6) (xy 132.08 106.68)
+			(xy 120.65 104.14) (xy 120.65 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e579152-813f-4e79-b9e5-9ad7793de74f")
+		(uuid "9155785e-fd47-4d47-a0c7-d1ea043da144")
 	)
 	(wire
 		(pts
-			(xy 120.65 106.68) (xy 132.08 106.68)
+			(xy 120.65 85.09) (xy 124.46 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4950fbeb-c213-4bc3-a08e-6a8f5c9ad4ea")
+		(uuid "e2bec5d1-f5e3-49ce-8c9b-51380eef20f8")
 	)
 	(wire
 		(pts
-			(xy 132.08 88.9) (xy 132.08 91.44)
+			(xy 134.62 74.93) (xy 134.62 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fada350c-f824-4949-bad8-3a55c1e9495b")
+		(uuid "e8253467-86ac-49d5-a1ab-29262bd320f8")
 	)
-	(global_label "GND"
+	(wire
+		(pts
+			(xy 120.65 93.98) (xy 123.19 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee17b471-b007-4964-8969-31ab01fddaf2")
+	)
+	(wire
+		(pts
+			(xy 120.65 104.14) (xy 134.62 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f961cf0b-f43b-47f9-b208-6596bf187d9b")
+	)
+	(global_label "12V"
 		(shape input)
-		(at 120.65 109.22 270)
+		(at 120.65 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -721,15 +1027,39 @@
 			)
 			(justify right)
 		)
-		(uuid "8123db47-7a2d-4aa3-b07b-9f67d6204b83")
+		(uuid "0f7b2316-52f4-405c-963f-9dea8b62cd0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.65 116.0757 90)
+			(at 114.1572 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 120.65 106.68 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "df63bd96-7ea3-4d13-9387-2db0a99f5d77")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.65 113.5357 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 				(justify right)
 			)
@@ -737,172 +1067,180 @@
 	)
 	(hierarchical_label "Switch_Out"
 		(shape input)
-		(at 132.08 82.55 90)
+		(at 134.62 74.93 90)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.524 1.524)
 			)
 			(justify left)
 		)
-		(uuid "1065471c-60e1-4150-a728-968219c62c58")
+		(uuid "513bab8b-7cbb-4d81-9b14-8fbbf91b0e32")
 	)
 	(hierarchical_label "GPIO"
 		(shape input)
-		(at 85.09 101.6 180)
+		(at 107.95 93.98 180)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.524 1.524)
 			)
 			(justify right)
 		)
-		(uuid "3cf1d4a1-5980-426f-a8b1-3fda1bd099cc")
+		(uuid "c7387cd5-f315-48ee-9c0b-afc6c9fa81c5")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 95.25 81.28 90)
+		(at 139.7 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "74177491-88d4-4e88-b719-62b774fa922f")
-		(property "Reference" "J28"
-			(at 97.79 80.0099 90)
+		(uuid "4ccec71c-dd8e-4828-9f7d-cddc8f4ed3a6")
+		(property "Reference" "J35"
+			(at 142.24 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "TP"
-			(at 97.79 82.5499 90)
+			(at 142.24 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 95.25 81.28 0)
+			(at 139.7 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 81.28 0)
+			(at 139.7 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 95.25 81.28 0)
+			(at 139.7 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Basic Part?" ""
-			(at 95.25 81.28 90)
+			(at 139.7 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "MFG Part Number" ""
-			(at 95.25 81.28 90)
+			(at 139.7 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Package" ""
-			(at 95.25 81.28 90)
+			(at 139.7 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 95.25 81.28 90)
+			(at 139.7 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(pin "1"
-			(uuid "25a7154c-0b43-4556-bfdc-d0cec0c23556")
+			(uuid "c175d49c-1533-4ff1-84c6-0a138164983f")
 		)
 		(instances
 			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/0d097ba2-d28c-4930-b98a-1f1b7e1ca130"
-					(reference "J33")
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/03e4cf19-7b8c-4294-9dc9-fc2c3c219f4c"
+					(reference "J53")
 					(unit 1)
 				)
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/27f36bf0-6e29-4327-8654-019a11b8533b"
-					(reference "J32")
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/16ae4d16-103d-4315-a95d-30ef516bd2be"
+					(reference "J55")
 					(unit 1)
 				)
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/709f662a-4c61-4ba3-ad4e-bdd3477be85d"
-					(reference "J30")
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/3eb7ef97-2be6-44fc-b442-196b4b54c44d"
+					(reference "J59")
 					(unit 1)
 				)
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/b2710fb4-799f-498e-9bc6-1b5dde7ce006"
-					(reference "J31")
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/aa2557c2-3763-4fdc-bfc3-8e5913c0b2f6"
+					(reference "J57")
 					(unit 1)
 				)
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/b7206f4a-8674-49f3-8947-42947dbeca24"
-					(reference "J28")
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/c05d4b5a-fe0c-4974-bc6c-b89e995b6fd8"
+					(reference "J35")
 					(unit 1)
 				)
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/e30b5f9c-1263-4d24-bc54-c24609404da0"
-					(reference "J29")
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/d73ebc8e-acc8-4bb8-89c0-a57dd32680b7"
+					(reference "J51")
+					(unit 1)
+				)
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/e2f79cce-564d-4850-9564-7fa5455408bc"
+					(reference "J39")
+					(unit 1)
+				)
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/e58bfa75-8678-4818-84fb-8fc2b4bb841e"
+					(reference "J37")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:AO3400A")
-		(at 129.54 96.52 0)
+		(lib_id "easyeda2kicad:0603WAF1002T5E")
+		(at 120.65 99.06 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -910,32 +1248,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76935790-9e2a-4232-9223-5f0c974918da")
-		(property "Reference" "Q1"
-			(at 137.16 95.2499 0)
+		(uuid "7f1c5f32-953f-4167-bca2-327390c0b45c")
+		(property "Reference" "R61"
+			(at 116.332 98.552 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "AO3400A"
-			(at 137.16 97.7899 0)
+		(property "Value" "10k"
+			(at 118.11 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 129.54 109.22 0)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 128.27 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -945,8 +1280,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_AOS_AO3400A_AO3400A_C20917.html"
-			(at 129.54 111.76 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
+			(at 130.81 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -956,8 +1291,8 @@
 				)
 			)
 		)
-		(property "Description" "AO3400A"
-			(at 129.54 96.52 0)
+		(property "Description" "10KΩ (1002) ±1%"
+			(at 120.65 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -967,8 +1302,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "AOS"
-			(at 129.54 114.3 0)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 133.35 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -978,8 +1313,8 @@
 				)
 			)
 		)
-		(property "MPN" "AO3400A"
-			(at 129.54 116.84 0)
+		(property "MPN" "0603WAF1002T5E"
+			(at 135.89 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -989,8 +1324,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C20917"
-			(at 129.54 119.38 0)
+		(property "LCSC Part" "C25804"
+			(at 138.43 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -999,40 +1334,45 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "3"
-			(uuid "67a29323-46c8-4ec7-af1f-e861c1c89547")
-		)
-		(pin "1"
-			(uuid "305ed62a-bf77-46e1-b0e7-c94a1f5b1572")
 		)
 		(pin "2"
-			(uuid "9a956de6-1961-410f-9e1c-837d0cc92044")
+			(uuid "29788f00-de91-43f9-afcb-3930bb06c116")
+		)
+		(pin "1"
+			(uuid "9f6e55d2-ca2a-4f6f-b4d2-bbc47bfd6337")
 		)
 		(instances
 			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/0d097ba2-d28c-4930-b98a-1f1b7e1ca130"
-					(reference "Q13")
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/03e4cf19-7b8c-4294-9dc9-fc2c3c219f4c"
+					(reference "R69")
 					(unit 1)
 				)
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/27f36bf0-6e29-4327-8654-019a11b8533b"
-					(reference "Q11")
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/16ae4d16-103d-4315-a95d-30ef516bd2be"
+					(reference "R71")
 					(unit 1)
 				)
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/709f662a-4c61-4ba3-ad4e-bdd3477be85d"
-					(reference "Q5")
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/3eb7ef97-2be6-44fc-b442-196b4b54c44d"
+					(reference "R75")
 					(unit 1)
 				)
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/b2710fb4-799f-498e-9bc6-1b5dde7ce006"
-					(reference "Q7")
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/aa2557c2-3763-4fdc-bfc3-8e5913c0b2f6"
+					(reference "R73")
 					(unit 1)
 				)
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/b7206f4a-8674-49f3-8947-42947dbeca24"
-					(reference "Q1")
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/c05d4b5a-fe0c-4974-bc6c-b89e995b6fd8"
+					(reference "R61")
 					(unit 1)
 				)
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/e30b5f9c-1263-4d24-bc54-c24609404da0"
-					(reference "Q3")
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/d73ebc8e-acc8-4bb8-89c0-a57dd32680b7"
+					(reference "R67")
+					(unit 1)
+				)
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/e2f79cce-564d-4850-9564-7fa5455408bc"
+					(reference "R65")
+					(unit 1)
+				)
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/e58bfa75-8678-4818-84fb-8fc2b4bb841e"
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -1040,150 +1380,158 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 137.16 88.9 0)
+		(at 123.19 88.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "e2acd1a7-6960-41c1-9bc5-986721905d13")
-		(property "Reference" "J22"
-			(at 139.7 87.6299 0)
+		(uuid "975e1b4a-5849-454a-bb2c-c69601f472a3")
+		(property "Reference" "J34"
+			(at 125.73 87.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "TP"
-			(at 139.7 90.1699 0)
+			(at 125.73 90.1699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 137.16 88.9 0)
+			(at 123.19 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 88.9 0)
+			(at 123.19 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 137.16 88.9 0)
+			(at 123.19 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Basic Part?" ""
-			(at 137.16 88.9 0)
+			(at 123.19 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "MFG Part Number" ""
-			(at 137.16 88.9 0)
+			(at 123.19 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Package" ""
-			(at 137.16 88.9 0)
+			(at 123.19 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 137.16 88.9 0)
+			(at 123.19 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(pin "1"
-			(uuid "6cf5b5a6-2512-44c7-af0c-6af60283954c")
+			(uuid "da93645d-3b3c-4e13-a4cb-5510650439cd")
 		)
 		(instances
 			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/0d097ba2-d28c-4930-b98a-1f1b7e1ca130"
-					(reference "J27")
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/03e4cf19-7b8c-4294-9dc9-fc2c3c219f4c"
+					(reference "J52")
 					(unit 1)
 				)
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/27f36bf0-6e29-4327-8654-019a11b8533b"
-					(reference "J26")
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/16ae4d16-103d-4315-a95d-30ef516bd2be"
+					(reference "J54")
 					(unit 1)
 				)
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/709f662a-4c61-4ba3-ad4e-bdd3477be85d"
-					(reference "J24")
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/3eb7ef97-2be6-44fc-b442-196b4b54c44d"
+					(reference "J58")
 					(unit 1)
 				)
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/b2710fb4-799f-498e-9bc6-1b5dde7ce006"
-					(reference "J25")
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/aa2557c2-3763-4fdc-bfc3-8e5913c0b2f6"
+					(reference "J56")
 					(unit 1)
 				)
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/b7206f4a-8674-49f3-8947-42947dbeca24"
-					(reference "J22")
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/c05d4b5a-fe0c-4974-bc6c-b89e995b6fd8"
+					(reference "J34")
 					(unit 1)
 				)
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/e30b5f9c-1263-4d24-bc54-c24609404da0"
-					(reference "J23")
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/d73ebc8e-acc8-4bb8-89c0-a57dd32680b7"
+					(reference "J46")
+					(unit 1)
+				)
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/e2f79cce-564d-4850-9564-7fa5455408bc"
+					(reference "J38")
+					(unit 1)
+				)
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/e58bfa75-8678-4818-84fb-8fc2b4bb841e"
+					(reference "J36")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:1N4007W_C7528871")
-		(at 121.92 86.36 0)
+		(lib_id "easyeda2kicad:1N4007W_C18199088")
+		(at 129.54 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1192,9 +1540,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e63afbca-8fb8-4a63-8b14-1ca0367fc988")
-		(property "Reference" "U17"
-			(at 121.92 80.01 0)
+		(uuid "a7ef6818-bfaf-47f2-897d-61094ae712c5")
+		(property "Reference" "D27"
+			(at 129.54 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1203,8 +1551,8 @@
 				)
 			)
 		)
-		(property "Value" "1N4007W"
-			(at 121.92 82.55 0)
+		(property "Value" "1n4007W"
+			(at 129.54 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1213,8 +1561,8 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SOD-123FL_L2.7-W1.8-LS3.7-RD"
-			(at 121.92 93.98 0)
+		(property "Footprint" "easyeda2kicad:SOD-123FL_L2.7-W1.8-LS3.8-RD"
+			(at 129.54 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1224,8 +1572,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C7528871.pdf"
-			(at 121.92 96.52 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C18199088.pdf"
+			(at 129.54 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1236,7 +1584,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 86.36 0)
+			(at 129.54 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1246,8 +1594,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "MSKSEMI(美森科)"
-			(at 121.92 99.06 0)
+		(property "Manufacturer" "R+O(宏嘉诚)"
+			(at 129.54 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1258,7 +1606,7 @@
 			)
 		)
 		(property "MPN" "1N4007W"
-			(at 121.92 101.6 0)
+			(at 129.54 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1268,52 +1616,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C7528871"
-			(at 121.92 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic Part?" ""
-			(at 121.92 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 121.92 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 121.92 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 121.92 86.36 0)
+		(property "LCSC Part" "C18199088"
+			(at 129.54 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1324,35 +1628,329 @@
 			)
 		)
 		(pin "2"
-			(uuid "50fb3ceb-eaa9-4059-8913-36106c90a1f4")
+			(uuid "1c6a5727-0a55-4828-8b05-136f16c766df")
 		)
 		(pin "1"
-			(uuid "3f49ef46-b147-4092-a4ae-245d2a9fa2dd")
+			(uuid "fdda5e8d-6266-4021-8a08-12d99cc00785")
 		)
 		(instances
 			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/0d097ba2-d28c-4930-b98a-1f1b7e1ca130"
-					(reference "U14")
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/03e4cf19-7b8c-4294-9dc9-fc2c3c219f4c"
+					(reference "D31")
 					(unit 1)
 				)
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/27f36bf0-6e29-4327-8654-019a11b8533b"
-					(reference "U13")
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/16ae4d16-103d-4315-a95d-30ef516bd2be"
+					(reference "D32")
 					(unit 1)
 				)
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/709f662a-4c61-4ba3-ad4e-bdd3477be85d"
-					(reference "U10")
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/3eb7ef97-2be6-44fc-b442-196b4b54c44d"
+					(reference "D34")
 					(unit 1)
 				)
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/b2710fb4-799f-498e-9bc6-1b5dde7ce006"
-					(reference "U12")
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/aa2557c2-3763-4fdc-bfc3-8e5913c0b2f6"
+					(reference "D33")
 					(unit 1)
 				)
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/b7206f4a-8674-49f3-8947-42947dbeca24"
-					(reference "U17")
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/c05d4b5a-fe0c-4974-bc6c-b89e995b6fd8"
+					(reference "D27")
 					(unit 1)
 				)
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/e30b5f9c-1263-4d24-bc54-c24609404da0"
-					(reference "U5")
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/d73ebc8e-acc8-4bb8-89c0-a57dd32680b7"
+					(reference "D30")
+					(unit 1)
+				)
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/e2f79cce-564d-4850-9564-7fa5455408bc"
+					(reference "D29")
+					(unit 1)
+				)
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/e58bfa75-8678-4818-84fb-8fc2b4bb841e"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:0603WAF1001T5E")
+		(at 113.03 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df592d45-c694-4f43-9404-98a5a2ec376b")
+		(property "Reference" "R60"
+			(at 113.03 89.662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 113.03 91.186 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 113.03 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1KR-1001-1_C21190.html"
+			(at 113.03 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1KΩ (1001) ±1%"
+			(at 113.03 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 113.03 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 113.03 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C21190"
+			(at 113.03 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "20d89a85-f500-4c3e-b4ce-ca8116bf7b4e")
+		)
+		(pin "1"
+			(uuid "5449f66f-8cf8-4d48-bc17-3b4dad5c70ca")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/03e4cf19-7b8c-4294-9dc9-fc2c3c219f4c"
+					(reference "R68")
+					(unit 1)
+				)
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/16ae4d16-103d-4315-a95d-30ef516bd2be"
+					(reference "R70")
+					(unit 1)
+				)
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/3eb7ef97-2be6-44fc-b442-196b4b54c44d"
+					(reference "R74")
+					(unit 1)
+				)
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/aa2557c2-3763-4fdc-bfc3-8e5913c0b2f6"
+					(reference "R72")
+					(unit 1)
+				)
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/c05d4b5a-fe0c-4974-bc6c-b89e995b6fd8"
+					(reference "R60")
+					(unit 1)
+				)
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/d73ebc8e-acc8-4bb8-89c0-a57dd32680b7"
+					(reference "R66")
+					(unit 1)
+				)
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/e2f79cce-564d-4850-9564-7fa5455408bc"
+					(reference "R64")
+					(unit 1)
+				)
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/e58bfa75-8678-4818-84fb-8fc2b4bb841e"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:AO3400A")
+		(at 132.08 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e08e1567-19b1-45fd-880f-a05c08247078")
+		(property "Reference" "Q7"
+			(at 139.7 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 139.7 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+			(at 132.08 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_AOS_AO3400A_AO3400A_C20917.html"
+			(at 132.08 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "AO3400A"
+			(at 132.08 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Manufacturer" "AOS"
+			(at 132.08 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 132.08 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "LCSC Part" "C20917"
+			(at 132.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "7e19eea5-6195-411d-a10d-5cd2dd12eb18")
+		)
+		(pin "1"
+			(uuid "d1aebbd6-f1d1-4ba7-a793-756a687a6208")
+		)
+		(pin "2"
+			(uuid "227e953c-c3b8-4bb0-91e6-1094d8759933")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/03e4cf19-7b8c-4294-9dc9-fc2c3c219f4c"
+					(reference "Q13")
+					(unit 1)
+				)
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/16ae4d16-103d-4315-a95d-30ef516bd2be"
+					(reference "Q14")
+					(unit 1)
+				)
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/3eb7ef97-2be6-44fc-b442-196b4b54c44d"
+					(reference "Q16")
+					(unit 1)
+				)
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/aa2557c2-3763-4fdc-bfc3-8e5913c0b2f6"
+					(reference "Q15")
+					(unit 1)
+				)
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/c05d4b5a-fe0c-4974-bc6c-b89e995b6fd8"
+					(reference "Q7")
+					(unit 1)
+				)
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/d73ebc8e-acc8-4bb8-89c0-a57dd32680b7"
+					(reference "Q12")
+					(unit 1)
+				)
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/e2f79cce-564d-4850-9564-7fa5455408bc"
+					(reference "Q11")
+					(unit 1)
+				)
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/0d345d9a-4cbe-4d19-9fb4-26a36a105e36/e58bfa75-8678-4818-84fb-8fc2b4bb841e"
+					(reference "Q10")
 					(unit 1)
 				)
 			)

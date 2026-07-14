@@ -762,30 +762,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(global_label "3.3V_FP"
-		(shape input)
-		(at 130.81 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "07e54b19-9515-4d9b-8823-4f874614b13e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.3862 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "Display_Reset"
 		(shape input)
 		(at 15.5271 1.3498 180)
@@ -810,30 +786,6 @@
 			)
 		)
 	)
-	(global_label "GND_FP"
-		(shape input)
-		(at 156.21 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b5e903a1-55fd-4e65-9435-c56f92334f82")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.3919 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(hierarchical_label "IO2"
 		(shape input)
 		(at 156.21 97.79 0)
@@ -844,6 +796,17 @@
 			(justify left)
 		)
 		(uuid "06406d5d-0d27-4904-8043-2ab44a1c4d00")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 130.81 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "117676cd-6490-4db3-8205-b579eb609e21")
 	)
 	(hierarchical_label "IO1"
 		(shape input)
@@ -877,6 +840,17 @@
 			(justify right)
 		)
 		(uuid "52535521-9c56-475d-be13-bf7d9c3cbfca")
+	)
+	(hierarchical_label "Power"
+		(shape input)
+		(at 156.21 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e37bfb87-30ce-4900-9fbd-40338d113e7b")
 	)
 	(symbol
 		(lib_id "easyeda2kicad:SRV05-4A_C20615829")

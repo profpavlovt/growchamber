@@ -6377,6 +6377,30 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 255.27 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d28b8cd-b95f-4bf0-bac0-c58e64caf87b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.1257 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "DC_Display"
 		(shape input)
 		(at 242.57 38.1 180)
@@ -6918,6 +6942,30 @@
 		(uuid "3529f002-7fc3-464e-90fb-7b1d3611a804")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.6242 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 283.21 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "359fb4bf-73ec-4a09-b233-cb5912f0f72b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 290.0657 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7505,6 +7553,30 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 254 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "709d8d6e-22dd-48ee-be5b-049a93fa4217")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.8557 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SCK"
 		(shape input)
 		(at 270.51 52.07 180)
@@ -7673,6 +7745,54 @@
 			)
 		)
 	)
+	(global_label "3.3V"
+		(shape input)
+		(at 283.21 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86787e89-cf5b-4d34-9966-3c04cbe4bb80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 290.3076 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 254 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "87c6a425-5c46-4d24-ae2f-bfaac9f0c497")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.0976 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "Fan_Tach"
 		(shape input)
 		(at 96.52 36.83 0)
@@ -7814,6 +7934,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 232.41 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "902814e2-644a-49f2-a73d-d76c40adf052")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.2657 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -8681,6 +8825,30 @@
 			)
 		)
 	)
+	(global_label "3.3V"
+		(shape input)
+		(at 232.41 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e81e4091-4a2c-414c-b63b-4aebbec5ffe9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.5076 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "IO19"
 		(shape input)
 		(at 207.01 135.89 0)
@@ -8742,6 +8910,30 @@
 		(uuid "e994f723-9c39-45b6-9eb8-391c1ae2601b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 170.4438 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 255.27 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea9b954c-dc2a-420d-95aa-b06135dee288")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.3676 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11501,7 +11693,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8042041c-4346-42c7-95e5-1512866d4b39")
 		(property "Reference" "U3"
@@ -15412,6 +15604,26 @@
 				(justify left)
 			)
 		)
+		(pin "GND" input
+			(at 254 93.98 0)
+			(uuid "2a534faf-44c2-46fa-8f62-d8862b7cb1c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Power" input
+			(at 254 97.79 0)
+			(uuid "6ee1d3b0-b724-4f44-9cee-2d82066def8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
@@ -15495,6 +15707,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 255.27 38.1 0)
+			(uuid "183b66e8-d8bd-4160-9d50-b0f53ddade77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Power" input
+			(at 255.27 40.64 0)
+			(uuid "9c212d13-fe13-4aa2-931d-a2a5b8ca97f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -15582,6 +15814,26 @@
 				(justify left)
 			)
 		)
+		(pin "GND" input
+			(at 232.41 55.88 0)
+			(uuid "58ea5351-b94c-464f-b67e-8861bfeace0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Power" input
+			(at 232.41 58.42 0)
+			(uuid "d0a2942e-0c50-495f-af69-5cdc67d53db2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
@@ -15665,6 +15917,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 283.21 53.34 0)
+			(uuid "f67c7cf2-c893-4cb4-b2f1-c9e0fc533d16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Power" input
+			(at 283.21 57.15 0)
+			(uuid "31be604e-8633-439d-a25f-a992f1a90829")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

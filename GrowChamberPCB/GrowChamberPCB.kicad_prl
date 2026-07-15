@@ -1,16 +1,25 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
-    "auto_track_width": true,
+    "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [
-      "GND_FP",
       "3.3V_FP",
+      "GND_FP",
       "12V",
+      "DrainSol",
       "3.3V",
       "GND",
-      "12V_FP"
+      "GlycolSol",
+      "12V_FP",
+      "WaterSol",
+      "FoggerSol",
+      "Heater Fans",
+      "Circ_Fan",
+      "HeaterFans_IO",
+      "LEDIO",
+      "GlycolSol_IO"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,

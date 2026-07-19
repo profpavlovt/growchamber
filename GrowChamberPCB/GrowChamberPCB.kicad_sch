@@ -985,6 +985,30 @@
 			)
 		)
 	)
+	(global_label "12V"
+		(shape input)
+		(at 259.08 105.41 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "23201625-9ff0-46de-8e26-409208f4c098")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.08 111.9028 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Soil_Moisture2"
 		(shape input)
 		(at 207.01 74.93 180)
@@ -1513,6 +1537,30 @@
 			)
 		)
 	)
+	(global_label "LEDs"
+		(shape input)
+		(at 261.62 105.41 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e43115fa-5125-49ea-bd75-418fada963a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.62 112.8704 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Piezo1"
 		(shape input)
 		(at 207.01 64.77 180)
@@ -1609,30 +1657,6 @@
 			)
 		)
 	)
-	(global_label "LEDs"
-		(shape input)
-		(at 261.62 105.41 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f511f2c3-63b5-4c14-b337-506ea3da6018")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.62 112.8704 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "Heater Fans"
 		(shape input)
 		(at 222.25 82.55 0)
@@ -1654,30 +1678,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "12V"
-		(shape input)
-		(at 259.08 105.41 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "faacb1a9-8ae7-4eec-ad90-c22a7fd1b210")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.08 111.9028 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)

@@ -1406,7 +1406,7 @@
 	)
 	(text "Voltage divider to keep Vout below 3.3V."
 		(exclude_from_sim no)
-		(at 214.376 60.706 0)
+		(at 148.59 128.016 0)
 		(effects
 			(font
 				(size 1.27 1.27)

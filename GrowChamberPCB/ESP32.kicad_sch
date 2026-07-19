@@ -1155,160 +1155,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:0603WAF1002T5E"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0603WAF1002T5E"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:R0603"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "10KΩ (1002) ±1%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "UNI-ROYAL(厚声)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "0603WAF1002T5E"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C25804"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Resistors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "0603WAF1002T5E_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda2kicad:0603WAF1003T5E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1875,6 +1721,160 @@
 				)
 			)
 			(symbol "0603WAF5101T5E_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:0805W8F1002T5E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0805W8F1002T5E"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R0805"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C17414.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10KΩ (1002) ±1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(厚声)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0805W8F1002T5E"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C17414"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Resistors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0805W8F1002T5E_0_1"
 				(rectangle
 					(start -2.54 1.02)
 					(end 2.54 -1.02)
@@ -4185,7 +4185,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:TC4428EOA"
+		(symbol "easyeda2kicad:TC4428EOA713-TUDI"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4201,7 +4201,7 @@
 					)
 				)
 			)
-			(property "Value" "TC4428EOA"
+			(property "Value" "TC4428EOA713-TUDI"
 				(at 0 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4222,7 +4222,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C478097.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C54858213.pdf"
 				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4244,7 +4244,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "MICROCHIP(美国微芯)"
+			(property "Manufacturer" "Tudi(钍地半导体)"
 				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4255,7 +4255,7 @@
 					)
 				)
 			)
-			(property "MPN" "TC4428EOA"
+			(property "MPN" "TC4428EOA713-TUDI"
 				(at 0 -19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4266,7 +4266,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C478097"
+			(property "LCSC Part" "C54858213"
 				(at 0 -21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4277,18 +4277,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Full bridge / half bridge Driver"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TC4428EOA_0_1"
+			(symbol "TC4428EOA713-TUDI_0_1"
 				(rectangle
 					(start -8.89 6.35)
 					(end 8.89 -6.35)
@@ -4448,197 +4437,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "easyeda2kicad:TCC1206X5R226K250HT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TCC1206X5R226K250HT"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C1206"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C5448922.pdf"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "CCTC(三环)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "TCC1206X5R226K250HT"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C5448922"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TCC1206X5R226K250HT_0_1"
-				(polyline
-					(pts
-						(xy -0.51 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 -2.03) (xy -0.51 2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5526,18 +5324,6 @@
 		(uuid "fae1421a-3a02-4776-ad87-0d3c9bed1e01")
 	)
 	(junction
-		(at 276.86 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02691220-3524-419c-abb2-219c0961be47")
-	)
-	(junction
-		(at 191.77 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2db448e1-17e1-4859-8f93-ffe49c39bb90")
-	)
-	(junction
 		(at 48.26 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5572,12 +5358,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89527994-644d-4b88-ab88-4f82b88b9b4a")
-	)
-	(junction
-		(at 195.58 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9950ee35-0622-4142-aeb7-af103444d2d8")
 	)
 	(junction
 		(at 259.08 133.35)
@@ -5620,6 +5400,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db52d750-2a91-4581-8d76-4a15e71cef97")
+	)
+	(junction
+		(at 276.86 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7eae16e-398e-4c9e-a9f3-f8bbc4d4d2a2")
 	)
 	(junction
 		(at 41.91 34.29)
@@ -5809,16 +5595,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 138.43) (xy 195.58 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34f853ea-35fa-4e6a-9ace-d361caae3f58")
-	)
-	(wire
-		(pts
 			(xy 259.08 135.89) (xy 265.43 135.89)
 		)
 		(stroke
@@ -5826,16 +5602,6 @@
 			(type default)
 		)
 		(uuid "3d40c55c-be85-48f9-a881-11823f69a250")
-	)
-	(wire
-		(pts
-			(xy 191.77 135.89) (xy 191.77 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45438b39-3721-4e05-ac0a-dbac382c4c60")
 	)
 	(wire
 		(pts
@@ -5899,23 +5665,13 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 138.43) (xy 195.58 138.43)
+			(xy 187.96 138.43) (xy 196.85 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7866ab3f-5b3e-45ed-9991-3b468b7231b9")
-	)
-	(wire
-		(pts
-			(xy 187.96 138.43) (xy 195.58 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b76c878-e84a-4ba1-a9b7-b7a6ac0ce201")
 	)
 	(wire
 		(pts
@@ -5949,13 +5705,23 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 135.89) (xy 196.85 135.89)
+			(xy 187.96 135.89) (xy 196.85 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "97645420-2b63-46f6-ab5b-260e5841d193")
+	)
+	(wire
+		(pts
+			(xy 125.73 34.29) (xy 134.62 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b92633-a2b4-4e15-a073-e7006d6eb8f6")
 	)
 	(wire
 		(pts
@@ -5999,16 +5765,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 149.86) (xy 191.77 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1044015-499a-4b08-b5bf-d0e6ed492faa")
-	)
-	(wire
-		(pts
 			(xy 71.12 113.03) (xy 78.74 113.03)
 		)
 		(stroke
@@ -6019,6 +5775,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 27.94) (xy 106.68 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11f40d4-40fa-4281-9a06-7a57bb52e405")
+	)
+	(wire
+		(pts
 			(xy 30.48 24.13) (xy 30.48 25.4)
 		)
 		(stroke
@@ -6026,16 +5792,6 @@
 			(type default)
 		)
 		(uuid "d158702f-224c-41b7-ace7-496840a7facc")
-	)
-	(wire
-		(pts
-			(xy 187.96 135.89) (xy 191.77 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d950022f-1afa-4c8e-ba4e-6562050511ef")
 	)
 	(wire
 		(pts
@@ -6206,6 +5962,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "D+"
+		(shape input)
+		(at 219.71 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01411d6d-744c-4e79-b860-a6c2c6626b1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.8824 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -6833,30 +6613,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 191.77 148.59 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2cc638ab-9b35-428b-8610-33017809f47d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.77 155.4457 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SCK"
 		(shape input)
 		(at 83.82 139.7 180)
@@ -6966,30 +6722,6 @@
 		(uuid "359fb4bf-73ec-4a09-b233-cb5912f0f72b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 290.0657 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "3.3V"
-		(shape input)
-		(at 170.18 31.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "37328cab-5374-4d46-83da-81c534681007")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.2776 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7145,6 +6877,30 @@
 			)
 		)
 	)
+	(global_label "Memory_IO3"
+		(shape input)
+		(at 160.02 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f49a162-730d-445c-88f9-17a46b83ec15")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.2537 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "MISO_ESD"
 		(shape input)
 		(at 71.12 113.03 270)
@@ -7267,7 +7023,7 @@
 	)
 	(global_label "External_Fan_PWM"
 		(shape input)
-		(at 106.68 34.29 0)
+		(at 106.68 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7277,7 +7033,7 @@
 		)
 		(uuid "54d905ba-57ee-4c19-81ad-d00f46c06fd3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.9006 34.29 0)
+			(at 126.9006 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8153,9 +7909,9 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "Memory_IO3"
 		(shape input)
-		(at 195.58 152.4 270)
+		(at 127 34.29 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8163,9 +7919,9 @@
 			)
 			(justify right)
 		)
-		(uuid "a5ca8d6d-e8f1-4c4f-8e90-78ef6459bffb")
+		(uuid "a03f11ca-5dcd-4038-a08b-41cbcf9888f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.58 159.2557 90)
+			(at 127 48.5237 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8214,30 +7970,6 @@
 		(uuid "a81d06bf-f2a4-4a49-ad76-2d799ff6cccb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 60.96 93.9414 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "D+"
-		(shape input)
-		(at 219.71 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aa716bf1-60ff-4741-8f06-bf6f0fe4b93c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.8824 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8347,7 +8079,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 124.46 34.29 180)
+		(at 115.57 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8357,7 +8089,7 @@
 		)
 		(uuid "b90ef5f1-092a-459c-b903-f6668b948f6c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.3624 34.29 0)
+			(at 108.4724 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8510,6 +8242,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "D-"
+		(shape input)
+		(at 219.71 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8f6562a-96d4-487a-b42e-fce50ffd5dec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.8824 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -8969,30 +8725,6 @@
 			)
 		)
 	)
-	(global_label "D-"
-		(shape input)
-		(at 219.71 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eec3de0e-54cb-4c8d-97ea-02550fb506c9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.8824 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 111.76 177.8 180)
@@ -9158,6 +8890,119 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:0805W8F1002T5E")
+		(at 224.79 154.94 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06a062f6-bfc3-4453-adfc-f1addd7cd124")
+		(property "Reference" "R53"
+			(at 224.79 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 224.79 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0805"
+			(at 224.79 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C17414.html"
+			(at 224.79 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10KΩ (1002) ±1%"
+			(at 224.79 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 224.79 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F1002T5E"
+			(at 224.79 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C17414"
+			(at 224.79 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e25b2fad-d560-4a85-b7e9-5b816d0af656")
+		)
+		(pin "1"
+			(uuid "00838535-6bc4-441d-92d0-468cf863ed6f")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
+					(reference "R53")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -9846,8 +9691,8 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:0603WAF1002T5E")
-		(at 129.54 34.29 0)
+		(lib_id "easyeda2kicad:TC4428EOA713-TUDI")
+		(at 20.32 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9855,29 +9700,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1edbc7b3-4a00-43a2-b253-0ca993577544")
-		(property "Reference" "R27"
-			(at 130.048 36.322 0)
+		(fields_autoplaced yes)
+		(uuid "2d043e74-3e80-4c93-87f5-96c2c5e6329a")
+		(property "Reference" "U1"
+			(at 29.21 107.9499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 129.794 31.75 0)
+		(property "Value" "TC4428EOA713-TUDI"
+			(at 29.21 110.4899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 129.54 41.91 0)
+		(property "Footprint" "easyeda2kicad:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
+			(at 31.75 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9887,8 +9735,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
-			(at 129.54 44.45 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C54858213.pdf"
+			(at 34.29 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9898,8 +9746,8 @@
 				)
 			)
 		)
-		(property "Description" "10KΩ (1002) ±1%"
-			(at 129.54 34.29 0)
+		(property "Description" ""
+			(at 20.32 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9909,8 +9757,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 129.54 46.99 0)
+		(property "Manufacturer" "Tudi(钍地半导体)"
+			(at 36.83 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9920,8 +9768,8 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF1002T5E"
-			(at 129.54 49.53 0)
+		(property "MPN" "TC4428EOA713-TUDI"
+			(at 39.37 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9931,8 +9779,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25804"
-			(at 129.54 52.07 0)
+		(property "LCSC Part" "C54858213"
+			(at 41.91 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9942,128 +9790,34 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "0be8a11d-7556-4d94-a1e9-a335fc7f04b6")
+		(pin "7"
+			(uuid "8204a7c1-0b0d-465c-822c-182ea27e53fd")
+		)
+		(pin "3"
+			(uuid "149f8c2c-5bf6-4690-a5b8-e20a9642f55f")
+		)
+		(pin "5"
+			(uuid "8ad81c24-4959-4348-be1b-45c9ac720e7b")
+		)
+		(pin "4"
+			(uuid "dfa24b7b-7f03-4fa7-b867-e27f0e2045fe")
 		)
 		(pin "1"
-			(uuid "20e7c69d-b535-412b-9241-09f5f4035b84")
+			(uuid "6d2fd714-af87-47ec-b28c-6d2fbe7fcfb6")
+		)
+		(pin "2"
+			(uuid "61493ec7-0a07-44df-9180-db4c54d0b1df")
+		)
+		(pin "8"
+			(uuid "2bb34ab1-00e6-42ad-b501-68282bea19e4")
+		)
+		(pin "6"
+			(uuid "73649c18-0583-4b02-b946-b0dc86efd5c7")
 		)
 		(instances
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:0603WAF1002T5E")
-		(at 138.43 64.77 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2c5c9017-a7ea-4245-81f4-835724903d47")
-		(property "Reference" "R28"
-			(at 140.462 64.262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 135.89 64.516 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 146.05 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
-			(at 148.59 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10KΩ (1002) ±1%"
-			(at 138.43 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 151.13 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0603WAF1002T5E"
-			(at 153.67 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25804"
-			(at 156.21 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1a5593e1-fa79-4ec9-b642-40c81f7f0b15")
-		)
-		(pin "1"
-			(uuid "dc93dbf0-61d5-468c-9997-cca46206aeb8")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
-					(reference "R28")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -10183,8 +9937,8 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:0603WAF1002T5E")
-		(at 276.86 152.4 90)
+		(lib_id "easyeda2kicad:0805W8F1002T5E")
+		(at 120.65 34.29 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10192,9 +9946,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "33fdf579-30f8-419d-a9da-d2bf632e6968")
-		(property "Reference" "R25"
-			(at 278.892 151.892 0)
+		(fields_autoplaced yes)
+		(uuid "33bdb42f-8076-4657-a0c2-d9f520ecf648")
+		(property "Reference" "R57"
+			(at 120.65 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10203,8 +9958,8 @@
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 274.32 152.146 0)
+		(property "Value" "10K"
+			(at 120.65 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10213,8 +9968,8 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 284.48 152.4 0)
+		(property "Footprint" "easyeda2kicad:R0805"
+			(at 120.65 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10224,8 +9979,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
-			(at 287.02 152.4 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C17414.html"
+			(at 120.65 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10236,7 +9991,7 @@
 			)
 		)
 		(property "Description" "10KΩ (1002) ±1%"
-			(at 276.86 152.4 0)
+			(at 120.65 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10247,7 +10002,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 289.56 152.4 0)
+			(at 120.65 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10257,8 +10012,8 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF1002T5E"
-			(at 292.1 152.4 0)
+		(property "MPN" "0805W8F1002T5E"
+			(at 120.65 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10268,8 +10023,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25804"
-			(at 294.64 152.4 0)
+		(property "LCSC Part" "C17414"
+			(at 120.65 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10280,15 +10035,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d2382d2a-7abd-49b2-a9b1-25b6eb07f0e4")
+			(uuid "07a26825-d3a2-475b-8ca1-3ff1261f89f6")
 		)
 		(pin "1"
-			(uuid "c5f033ac-0dbc-412a-b558-2ef41d6036c4")
+			(uuid "578d365c-00d0-4351-9206-7e48bcb42522")
 		)
 		(instances
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
-					(reference "R25")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -10608,118 +10363,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:0603WAF1002T5E")
-		(at 224.79 154.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3cbe4bd1-c67f-405e-baab-3c9123dc63d6")
-		(property "Reference" "R24"
-			(at 225.298 156.972 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 225.044 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 224.79 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
-			(at 224.79 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10KΩ (1002) ±1%"
-			(at 224.79 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 224.79 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0603WAF1002T5E"
-			(at 224.79 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25804"
-			(at 224.79 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e8d46689-a719-4203-8f3a-771ae4637376")
-		)
-		(pin "1"
-			(uuid "bd0d1b4b-66c6-45c8-b64b-f90a1e75a469")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:0603WAF330JT5E")
 		(at 43.18 52.07 0)
 		(unit 1)
@@ -10827,6 +10470,121 @@
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:0805W8F1002T5E")
+		(at 134.62 64.77 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40299c62-a428-400c-9c3f-adad4e3a5dfb")
+		(property "Reference" "R55"
+			(at 137.16 63.4999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 137.16 66.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0805"
+			(at 142.24 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C17414.html"
+			(at 144.78 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10KΩ (1002) ±1%"
+			(at 134.62 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 147.32 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F1002T5E"
+			(at 149.86 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C17414"
+			(at 152.4 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b7c2b47f-7400-432d-b4be-fa03e29b06f9")
+		)
+		(pin "1"
+			(uuid "ade69361-369d-49c1-8b4c-b613946fec9f")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -11562,6 +11320,121 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:0805W8F1002T5E")
+		(at 276.86 152.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76cef455-d1d3-4c0b-9c34-7a3f23f8ee63")
+		(property "Reference" "R54"
+			(at 279.4 151.1299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 279.4 153.6699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0805"
+			(at 284.48 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C17414.html"
+			(at 287.02 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10KΩ (1002) ±1%"
+			(at 276.86 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 289.56 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F1002T5E"
+			(at 292.1 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C17414"
+			(at 294.64 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d7b4d9a4-ebe3-4747-891e-14dd3bef7bb6")
+		)
+		(pin "1"
+			(uuid "f525917f-ca3c-4440-b052-2982738d7c71")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 281.94 140.97 0)
 		(unit 1)
@@ -12186,164 +12059,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:TCC1206X5R226K250HT")
-		(at 191.77 144.78 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "8fa430a4-0976-4a5b-bf35-edf326d89041")
-		(property "Reference" "C17"
-			(at 188.468 143.002 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNP"
-			(at 186.69 143.002 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C1206"
-			(at 184.15 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5448922.pdf"
-			(at 181.61 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "CCTC(三环)"
-			(at 179.07 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TCC1206X5R226K250HT"
-			(at 176.53 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C5448922"
-			(at 173.99 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic Part?" ""
-			(at 191.77 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 191.77 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 191.77 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 191.77 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "15d51d95-ba91-4a5b-9679-4391d9af39d7")
-		)
-		(pin "1"
-			(uuid "18ea7a7c-c9e3-4901-adcc-3ca94612e537")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:CL05B104KO5NNNC")
 		(at 41.91 29.21 90)
 		(unit 1)
@@ -12459,118 +12174,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:0603WAF1002T5E")
-		(at 134.62 64.77 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a73eca77-a195-4e5b-880d-55c6e34ca2bb")
-		(property "Reference" "R30"
-			(at 136.652 64.262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 132.08 64.516 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 142.24 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
-			(at 144.78 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10KΩ (1002) ±1%"
-			(at 134.62 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 147.32 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0603WAF1002T5E"
-			(at 149.86 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25804"
-			(at 152.4 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0901bbbe-ff03-428f-af02-15a3e4cd8608")
-		)
-		(pin "1"
-			(uuid "d5e43cc8-9010-46aa-9b12-2001387414b7")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 161.29 69.85 0)
 		(unit 1)
@@ -12658,8 +12261,8 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:TC4428EOA")
-		(at 20.32 109.22 270)
+		(lib_id "easyeda2kicad:0805W8F1002T5E")
+		(at 64.77 151.13 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12667,9 +12270,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b1825b18-03a4-47b5-b702-3a59711ff926")
-		(property "Reference" "U7"
-			(at 17.526 107.95 0)
+		(fields_autoplaced yes)
+		(uuid "ac853220-5e5b-4d07-b1a5-a1083b3e8cb1")
+		(property "Reference" "R61"
+			(at 64.77 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12678,8 +12282,8 @@
 				)
 			)
 		)
-		(property "Value" "TC4428EOA"
-			(at 15.24 108.712 0)
+		(property "Value" "10K"
+			(at 64.77 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12688,8 +12292,8 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
-			(at 8.89 109.22 0)
+		(property "Footprint" "easyeda2kicad:R0805"
+			(at 64.77 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12699,8 +12303,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C478097.pdf"
-			(at 6.35 109.22 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C17414.html"
+			(at 64.77 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12710,8 +12314,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 20.32 109.22 0)
+		(property "Description" "10KΩ (1002) ±1%"
+			(at 64.77 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12721,8 +12325,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "MICROCHIP(美国微芯)"
-			(at 3.81 109.22 0)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 64.77 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12732,8 +12336,8 @@
 				)
 			)
 		)
-		(property "MPN" "TC4428EOA"
-			(at 1.27 109.22 0)
+		(property "MPN" "0805W8F1002T5E"
+			(at 64.77 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12743,8 +12347,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C478097"
-			(at -1.27 109.22 0)
+		(property "LCSC Part" "C17414"
+			(at 64.77 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12753,79 +12357,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Basic Part?" ""
-			(at 20.32 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 20.32 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 20.32 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 20.32 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f0b8ca1d-dc78-47f6-95f5-73a1ae5634c2")
-		)
-		(pin "5"
-			(uuid "bfb8dd48-1394-4d20-9f5c-a38e7dac7b6a")
-		)
-		(pin "6"
-			(uuid "4ef64ff6-e828-4915-824b-48e3425a841a")
-		)
-		(pin "4"
-			(uuid "333d8365-bdbf-4c94-8a78-d7dae76548e4")
-		)
-		(pin "3"
-			(uuid "4a57cf1e-54e2-401b-a4d9-d9b3af8ab520")
-		)
-		(pin "7"
-			(uuid "1f50c335-32ee-4f2a-85ec-dee2e989dd79")
 		)
 		(pin "2"
-			(uuid "05ac7ae8-80c1-439d-a985-4d5b21dda289")
+			(uuid "b6bdaf12-4527-4da6-9044-9ea8a6c1d343")
 		)
-		(pin "8"
-			(uuid "8db438ae-6042-462d-9177-c2a8f04f4c67")
+		(pin "1"
+			(uuid "5d521e09-e9e3-4ca0-ade4-ad272e100c95")
 		)
 		(instances
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
-					(reference "U7")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -13140,6 +12682,121 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:0805W8F1002T5E")
+		(at 138.43 64.77 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcf938ed-f55a-4d0d-9eef-da044d6963ee")
+		(property "Reference" "R56"
+			(at 140.97 63.4999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 140.97 66.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0805"
+			(at 146.05 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C17414.html"
+			(at 148.59 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10KΩ (1002) ±1%"
+			(at 138.43 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 151.13 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F1002T5E"
+			(at 153.67 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C17414"
+			(at 156.21 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f70b10e4-38e8-4953-9a76-176403b397d8")
+		)
+		(pin "1"
+			(uuid "fdecc3e1-38e7-400c-a7a7-4674b811749a")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:CL10B104KO8NNNC")
 		(at 166.37 25.4 90)
 		(unit 1)
@@ -13404,164 +13061,6 @@
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:TCC1206X5R226K250HT")
-		(at 195.58 147.32 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "bf5d7036-9abb-476d-b43a-da33d289ebaa")
-		(property "Reference" "C16"
-			(at 198.628 145.796 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNP"
-			(at 200.406 145.796 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C1206"
-			(at 187.96 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5448922.pdf"
-			(at 185.42 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "CCTC(三环)"
-			(at 182.88 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TCC1206X5R226K250HT"
-			(at 180.34 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C5448922"
-			(at 177.8 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic Part?" ""
-			(at 195.58 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG Part Number" ""
-			(at 195.58 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 195.58 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type (SMD/thru-hole, etc.)" ""
-			(at 195.58 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b90c4dbe-6b15-42fd-9ef7-3ce406d97509")
-		)
-		(pin "1"
-			(uuid "1b187af5-720a-44c6-94a7-1fc85237143e")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
-					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -15077,342 +14576,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:0603WAF1002T5E")
-		(at 64.77 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f2dd6ef7-05b9-4536-b86c-5a104e050646")
-		(property "Reference" "R14"
-			(at 65.024 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 65.024 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 64.77 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
-			(at 64.77 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10KΩ (1002) ±1%"
-			(at 64.77 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 64.77 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0603WAF1002T5E"
-			(at 64.77 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25804"
-			(at 64.77 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0f841a06-ece8-4434-b10f-98efd4457d06")
-		)
-		(pin "1"
-			(uuid "17c9df21-9995-4be1-b83e-961fa3ce3b52")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:0603WAF1002T5E")
-		(at 165.1 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f39d440b-fbd2-4f50-ad13-f67f8bfa0a4a")
-		(property "Reference" "R26"
-			(at 165.608 33.782 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 165.354 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 165.1 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
-			(at 165.1 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10KΩ (1002) ±1%"
-			(at 165.1 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 165.1 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0603WAF1002T5E"
-			(at 165.1 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25804"
-			(at 165.1 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5c7cc62c-78d8-4705-8109-8d96d9b2a6d5")
-		)
-		(pin "1"
-			(uuid "209706ed-ed12-4f0c-b1a0-dda874b12877")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:0603WAF1002T5E")
-		(at 66.04 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fb5c3583-e4de-4c45-9d66-632f8841c44c")
-		(property "Reference" "R17"
-			(at 66.548 169.672 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 66.294 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 66.04 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
-			(at 66.04 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10KΩ (1002) ±1%"
-			(at 66.04 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 66.04 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0603WAF1002T5E"
-			(at 66.04 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25804"
-			(at 66.04 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2d5b9e23-d179-432a-9c98-91ab91053596")
-		)
-		(pin "1"
-			(uuid "597497f3-5848-4e6a-8896-f44b9ca0c304")
-		)
-		(instances
-			(project "GrowChamberPCB"
-				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:CL21A106KAYNNNE")
 		(at 48.26 109.22 90)
 		(unit 1)
@@ -15522,6 +14685,119 @@
 			(project "GrowChamberPCB"
 				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:0805W8F1002T5E")
+		(at 66.04 167.64 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff618776-3f48-4c1a-9fd7-f26f4aac7e4c")
+		(property "Reference" "R59"
+			(at 66.04 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 66.04 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0805"
+			(at 66.04 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C17414.html"
+			(at 66.04 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10KΩ (1002) ±1%"
+			(at 66.04 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 66.04 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F1002T5E"
+			(at 66.04 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C17414"
+			(at 66.04 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "184d08cc-df6f-4c22-98f5-8e2199fb77eb")
+		)
+		(pin "1"
+			(uuid "15535ec9-377a-4836-a0e1-a3cb881782cb")
+		)
+		(instances
+			(project "GrowChamberPCB"
+				(path "/e884bae1-e2d9-44d2-8169-161aa31a84ae/23dbc102-7df9-49e8-b89b-2ac86618ae12"
+					(reference "R59")
 					(unit 1)
 				)
 			)

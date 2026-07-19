@@ -64,7 +64,7 @@
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 3,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -121,7 +121,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "ignore",
+        "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -162,7 +162,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.15,
-        "solder_mask_to_copper_clearance": 0.1,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -534,7 +534,9 @@
         "tuning_profile": ""
       },
       {
-        "diff_pair_width": 0.15,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.29,
         "name": "USB_Diff_Pair",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
@@ -558,11 +560,11 @@
       },
       {
         "netclass": "USB_Diff_Pair",
-        "pattern": "Out_D-"
+        "pattern": "D-"
       },
       {
         "netclass": "USB_Diff_Pair",
-        "pattern": "Out_D+"
+        "pattern": "D+"
       }
     ]
   },
@@ -571,7 +573,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "FabFiles/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -766,7 +768,7 @@
         "uuid": "e884bae1-e2d9-44d2-8169-161aa31a84ae"
       }
     ],
-    "used_designators": "L1-2,J11,J17,J22-39,J46-48,J51-61,R1-43,R45-51,R54-77,LED3-7,LED10,LED13,C1-3,C5-6,C8-15,C22-23,D1-3,D5-12,D20-34,U1,U4-5,U9-19,Q1-7,Q10-17,Q19-22,#PWR1-11,TV1-6,SW1,SW5,H1-6",
+    "used_designators": "L1-2,J11,J17,J22-39,J46-48,J51-61,R1-77,LED3-7,LED10,LED13,C1-3,C5-6,C8-15,C22-23,D1-3,D5-12,D20-34,U1,U4-5,U9-19,Q1-7,Q10-17,Q19-22,#PWR1-11,TV1-6,SW1,SW5,H1-6",
     "variants": []
   },
   "sheets": [

@@ -1,62 +1,36 @@
-"Reference","DNP","Qty","Basic Part?","Value","Exclude from BOM","Exclude from Board","Footprint","Datasheet","MFG Part Number","Manufacturer","Package","Type (SMD/thru-hole, etc.)","LCSC Part"
-"C1","","1","","4.7uF - X7R","","","easyeda2kicad:C1206","https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_4-7uF-475-10-50V_C29823.html","","FH(风华)","","","C29823"
-"C2","","1","","10nF","","","easyeda2kicad:C0603","https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_10nF-103-10-50V_C57112.html","","FH(风华)","","","C57112"
-"C3,C9","","2","","47uF X5R","","","easyeda2kicad:C1206","https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL31A476MPHNNNE_47uF-476-20-10V_C96123.html","","SAMSUNG(三星)","","","C96123"
-"C4","","1","","100nF","","","easyeda2kicad:C0402","https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html","","SAMSUNG(三星)","","","C1525"
-"C5","","1","","100nF - Basic","","","easyeda2kicad:C0402","https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html","","SAMSUNG(三星)","","","C1525"
-"C6,C12","","2","","10uF - Basic","","","easyeda2kicad:C0805","https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A106KAYNNNE_10uF-106-10-25V_C15850.html","","SAMSUNG(三星)","","","C15850"
-"C7","","1","","150pF","","","easyeda2kicad:C0603","https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_150pF-151-10-50V_C1594.html","","FH(风华)","","","C1594"
-"C8","","1","","1500pF","","","easyeda2kicad:C0603","https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_1-5nF-152-10-50V_C1595.html","","FH(风华)","","","C1595"
-"C10,C11","","2","","22uF - X5R - Basic","","","easyeda2kicad:C1206","https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL31A226KAHNNNE_22uF-226-10-25V_C12891.html","","SAMSUNG(三星)","","","C12891"
-"C13","","1","","100pF - Basic","","","easyeda2kicad:C0603","https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10C101JB8NNNC_100pF-101-5-50V_C14858.html","","SAMSUNG(三星)","","","C14858"
-"C15","","1","","0.1nF","","","easyeda2kicad:C0603","https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10B104KB8NNNC_100nF-104-10-50V_C1591.html","","SAMSUNG(三星)","","","C1591"
-"C20","","1","","100nF","","","easyeda2kicad:C0603","https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10B104KO8NNNC_100nF-104-10-16V_C66501.html","","SAMSUNG(三星)","","","C66501"
-"D1,D3,D5,D6,D7,D8,D9,D10,D11,D12","","10","","SMF15A_C19077509","","","easyeda2kicad:SOD-123FL_L2.7-W1.8-LS3.8-RD","https://www.lcsc.com/datasheet/C19077509.pdf","","R+O(宏嘉诚)","","","C19077509"
-"D2","","1","","SS34","","","easyeda2kicad:SMA_L4.3-W2.6-LS5.2-RD","https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_SS34_C8678.html","","MDD(辰达半导体)","","","C8678"
-"D4","","1","","SD15","","","easyeda2kicad:SOD-323_L1.7-W1.3-LS2.6-RD","https://www.lcsc.com/datasheet/C2931147.pdf","","UMW(友台半导体)","","","C2931147"
-"D19","","1","","USBLC6-2SC6","","","easyeda2kicad:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL","https://lcsc.com/product-detail/Diodes-ESD_STMicroelectronics_USBLC6-2SC6_USBLC6-2SC6_C7519.html","","ST(意法半导体)","","","C7519"
-"D20","","1","","1N4007W_C18199088","","","easyeda2kicad:SOD-123FL_L2.7-W1.8-LS3.8-RD","https://www.lcsc.com/datasheet/C18199088.pdf","","R+O(宏嘉诚)","","","C18199088"
-"D27,D28,D29,D30,D31,D32,D33","","7","","1n4007W - Basic","","","easyeda2kicad:SOD-123FL_L2.7-W1.8-LS3.8-RD","https://www.lcsc.com/datasheet/C18199088.pdf","","R+O(宏嘉诚)","","","C18199088"
-"L2","","1","","SL0650-150M","","","easyeda2kicad:IND-SMD_L7.0-W6.6","https://www.lcsc.com/datasheet/C22463830.pdf","","台湾陆海","","","C22463830"
-"L3","","1","","ZHT103","","","easyeda2kicad:IND-TH_L18.2-W10.2-P12.00-D0.9_ZHT103","https://www.lcsc.com/datasheet/C2935356.pdf","","ZHT(圳恒通)","","","C2935356"
-"LED1,LED12","","2","","LED On","","","easyeda2kicad:LED-TH_BD3.9-P2.54-RD_RED","https://www.lcsc.com/datasheet/C2856645.pdf","","ekinglux(亿晶源)","","","C2856645"
-"LED2,LED13","","2","","12V On","","","easyeda2kicad:LED-TH_BD3.9-P2.54-RD_RED","https://www.lcsc.com/datasheet/C2856645.pdf","","ekinglux(亿晶源)","","","C2856645"
-"LED3","","1","","CircFan","","","easyeda2kicad:LED-TH_BD3.9-P2.54-RD_RED","https://www.lcsc.com/datasheet/C2856645.pdf","","ekinglux(亿晶源)","","","C2856645"
-"LED4","","1","","Glycol Solenoid","","","easyeda2kicad:LED-TH_BD3.9-P2.54-RD_RED","https://www.lcsc.com/datasheet/C2856645.pdf","","ekinglux(亿晶源)","","","C2856645"
-"LED5","","1","","Water Solenoid","","","easyeda2kicad:LED-TH_BD3.9-P2.54-RD_RED","https://www.lcsc.com/datasheet/C2856645.pdf","","ekinglux(亿晶源)","","","C2856645"
-"LED6","","1","","Drain Solenoid","","","easyeda2kicad:LED-TH_BD3.9-P2.54-RD_RED","https://www.lcsc.com/datasheet/C2856645.pdf","","ekinglux(亿晶源)","","","C2856645"
-"LED7","","1","","Fogger Solenoid","","","easyeda2kicad:LED-TH_BD3.9-P2.54-RD_RED","https://www.lcsc.com/datasheet/C2856645.pdf","","ekinglux(亿晶源)","","","C2856645"
-"LED8","","1","","Heater Fans","","","easyeda2kicad:LED-TH_BD3.9-P2.54-RD_RED","https://www.lcsc.com/datasheet/C2856645.pdf","","ekinglux(亿晶源)","","","C2856645"
-"LED9","","1","","Heating Element","","","easyeda2kicad:LED-TH_BD3.9-P2.54-RD_RED","https://www.lcsc.com/datasheet/C2856645.pdf","","ekinglux(亿晶源)","","","C2856645"
-"LED10","","1","","Mister","","","easyeda2kicad:LED-TH_BD3.9-P2.54-RD_RED","https://www.lcsc.com/datasheet/C2856645.pdf","","ekinglux(亿晶源)","","","C2856645"
-"LED11","","1","","FAE","","","easyeda2kicad:LED-TH_BD3.9-P2.54-RD_RED","https://www.lcsc.com/datasheet/C2856645.pdf","","ekinglux(亿晶源)","","","C2856645"
-"P1","","1","","12V_In","","","easyeda2kicad:CONN-TH_2P-P5.00_CPC3703CTR","https://lcsc.com/product-detail/Terminal-Blocks_WJ127-5-0-2P_C3703.html","","KANGNEX(康奈克斯电气)","","","C3703"
-"P3","","1","","Screw Terminal","","","easyeda2kicad:CONN-TH_2P-P5.00_CPC3703CTR","https://lcsc.com/product-detail/Terminal-Blocks_WJ127-5-0-2P_C3703.html","","KANGNEX(康奈克斯电气)","","","C3703"
-"Q7,Q10,Q11,Q12,Q13,Q14,Q15,Q16","","8","","AO3400A","","","easyeda2kicad:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR","https://lcsc.com/product-detail/MOSFET_AOS_AO3400A_AO3400A_C20917.html","","AOS","","","C20917"
-"R1,R14,R17,R24,R25,R26,R27,R28,R30,R61,R63,R65,R67,R69,R71,R73,R75","","17","","10k - Basic","","","easyeda2kicad:R0603","https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html","","UNI-ROYAL(厚声)","","","C25804"
-"R2","","1","","5k6","","","easyeda2kicad:R0603","https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-6KR-5601-1_C23189.html","","UNI-ROYAL(厚声)","","","C23189"
-"R3","","1","","300","","","easyeda2kicad:R0603","https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_300R-3000-1_C23025.html","","UNI-ROYAL(厚声)","","","C23025"
-"R4","","1","","560","","","easyeda2kicad:R0603","https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_560R-5600-1_C23204.html","","UNI-ROYAL(厚声)","","","C23204"
-"R5","","1","","50 basic","","","easyeda2kicad:R0603","https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_49-9R-49R9-1_C23185.html","","UNI-ROYAL(厚声)","","","C23185"
-"R6,R8","","2","","22 - basic","","","easyeda2kicad:R0603","https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_22R-22R0-1_C23345.html","","UNI-ROYAL(厚声)","","","C23345"
-"R7,R9,R11,R12,R13,R15,R43,R46","","8","","33 basic","","","easyeda2kicad:R0603","https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_33R-33R0-1_C23140.html","","UNI-ROYAL(厚声)","","","C23140"
-"R10,R16,R18,R32,R33,R34,R36,R37,R38,R39","","10","","1k - basic","","","easyeda2kicad:R0603","https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1KR-1001-1_C21190.html","","UNI-ROYAL(厚声)","","","C21190"
-"R19,R20,R45,R47","","4","","100k basic","","","easyeda2kicad:R0603","https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_100KR-1003-1_C25803.html","","UNI-ROYAL(厚声)","","","C25803"
-"R21,R60,R62,R64,R66,R68,R70,R72,R74","","9","","1k basic","","","easyeda2kicad:R0603","https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1KR-1001-1_C21190.html","","UNI-ROYAL(厚声)","","","C21190"
-"R22,R23","","2","","5.1k basic","","","easyeda2kicad:R0603","https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-1KR-5101-1_C23186.html","","UNI-ROYAL(厚声)","","","C23186"
-"R40,R41,R42","","3","","75 - basic","","","easyeda2kicad:R0603","https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_75R-75R0-1_C4275.html","","UNI-ROYAL(厚声)","","","C4275"
-"RLY1","","1","","G5NB-1A-E-DC12","","","easyeda2kicad:RELAY-TH_G5NB-1A-E-DCXX","https://lcsc.com/product-detail/Others_Omron-Electronics_G5NB-1A-E-DC12_Omron-Electronics-G5NB-1A-E-DC12_C225714.html","","OMRON(欧姆龙)","","","C225714"
-"SW1","","1","","Reset_Button_Internal","","","easyeda2kicad:SW-SMD_L4.0-W2.9-LS5.0","https://www.lcsc.com/datasheet/C36498961.pdf","","hanxia(韩下)","","","C36498961"
-"SW2","","1","","ResetButton_External","","","easyeda2kicad:CONN-TH_PB-05B-R","https://www.lcsc.com/datasheet/C268254.pdf","","HONGJU(宏聚)","","","C268254"
-"SW3","","1","","Bootmode_Internal","","","easyeda2kicad:SW-TH_SS-12D02-VG4","https://lcsc.com/product-detail/Toggle-Switches_Korean-Hroparts-Elec-SS-12D02-VG4_C136719.html","","韩国韩荣","","","C136719"
-"SW4","","1","","BootMode_External","","","easyeda2kicad:SW-TH_SS-12D02-VG4","https://lcsc.com/product-detail/Toggle-Switches_Korean-Hroparts-Elec-SS-12D02-VG4_C136719.html","","韩国韩荣","","","C136719"
-"TV1,TV2,TV3,TV4,TV5,TV6","","6","","SRV05-4-P-T7","","","easyeda2kicad:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR","https://lcsc.com/product-detail/TVS_SRV05-4-P-T7_C85364.html","","PROTEK","","","C85364"
-"U3","","1","","ESP32-S3-WROOM-1U-N8R8","","","easyeda2kicad:WIRELM-SMD_ESP32-S3-WROOM-1U","https://www.lcsc.com/datasheet/C2980300.pdf","","ESPRESSIF(乐鑫)","","","C2980300"
-"U4","","1","","ZX-IDC2.54-2-13PZZ","","","easyeda2kicad:IDC-TH_26P-P2.54_ZX-IDC2.54-2-13PZZ","https://www.lcsc.com/datasheet/C7501247.pdf","","Megastar(兆星)","","","C7501247"
-"U6","","1","","TPS5430DDAR","","","easyeda2kicad:ESOP-8_L4.9-W3.9-P1.27-LS6.0-TL-EP","https://lcsc.com/product-detail/DC-DC-Converters_TI_TPS5430DDAR_TPS5430DDAR_C9864.html","","TI(德州仪器)","","","C9864"
-"U7","","1","","TC4428EOA","","","easyeda2kicad:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL","https://www.lcsc.com/datasheet/C478097.pdf","","MICROCHIP(美国微芯)","","","C478097"
-"U8","","1","","Memory - Basic","","","easyeda2kicad:SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL","https://lcsc.com/product-detail/FLASH_W25Q128JVSIQTR_C97521.html","","Winbond(华邦)","","","C97521"
-"U20","","1","","PCA9555APW,118","","","easyeda2kicad:TSSOP-24_L7.8-W4.4-P0.65-LS6.4-BL","https://www.lcsc.com/datasheet/C2652295.pdf","","NXP(恩智浦)","","","C2652295"
-"USB1","","1","","TYPE-C 16PIN 2MD","","","easyeda2kicad:USB-C-SMD_TYPE-C-16PIN-2MD-073","https://www.lcsc.com/datasheet/C2765186.pdf","","SHOU HAN(首韩)","","","C2765186"
-"Power_FP1","DNP","1","","Screw Terminal","","Excluded from board","easyeda2kicad:CONN-TH_2P-P5.00_CPC3703CTR","https://lcsc.com/product-detail/Terminal-Blocks_WJ127-5-0-2P_C3703.html","","KANGNEX(康奈克斯电气)","","","C3703"
-"U2","DNP","1","","ZX-IDC2.54-2-13PZZ","","Excluded from board","easyeda2kicad:IDC-TH_26P-P2.54_ZX-IDC2.54-2-13PZZ","https://www.lcsc.com/datasheet/C7501247.pdf","","Megastar(兆星)","","","C7501247"
+Designator,Comment,Footprint,JLCPCB Part #
+"C7,C14",150pF,C0603,C1594
+"D27,D28,D29,D30,D31,D32,D33,D34",1n4007W,SOD-123FL_L2.7-W1.8-LS3.8-RD,C18199088
+C8,1500pF,C0603,C1595
+C2,10nF,C0603,C57112
+"C4,C5,C15",100nF,C0402,C1525
+C20,100nF,C0603,C66501
+"C6,C12",10uF,C0805,C15850
+"R6,R8",22,R0603,C23345
+"R7,R9,R11,R12,R13,R15,R29,R43,R46",33,R0603,C23140
+R5,50,R0603,C23185
+R3,300,R0603,C23025
+R4,560,R0603,C23204
+"R10,R16,R18,R21,R32,R33,R34,R35,R37,R38,R39,R60,R62,R64,R66,R68,R70,R72,R74",1k,R0603,C21190
+"R22,R23",5.1k,R0603,C23186
+R2,5k6,R0603,C23189
+"R40,R41,R42,R44,R48,R49,R50,R51,R52,R53,R54,R55,R56,R57,R59,R61,R63",10K,R0805,C17414
+"R19,R20,R45,R47",100k,R0603,C25803
+R36,0603WAF750JT5E,R0603,C4275
+D20,1N4007W,SOD-123FL_L2.7-W1.8-LS3.8-RD,C18199088
+C10,22uF - X5R,C1206,C12891
+"C1,C13",4.7uF - X7R,C1206,C29823
+"C3,C9,C11",47uF X5R,C1206,C96123
+"Q7,Q10,Q11,Q12,Q13,Q14,Q15,Q16",AO3400A,SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR,C20917
+U8,Memory,SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL,C97521
+D4,SD15,SOD-323_L1.7-W1.3-LS2.6-RD,C2931147
+L2,SL0650-150M,IND-SMD_L7.0-W6.6,C22463830
+"D1,D3,D5,D6,D7,D8,D9,D10,D11,D12",SMF15A,SOD-123FL_L2.7-W1.8-LS3.8-RD,C19077509
+"U11,U12,U13,U14,U15,U16,U17,U18",SRV05-4A,SOT-23-6_L2.9-W1.6-P0.95-LS2.9-BL,C20615829
+D2,SS34,SMA_L4.3-W2.6-LS5.2-RD,C8678
+U1,TC4428EOA713-TUDI,SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL,C54858213
+U6,TPS5430DDAR,ESOP-8_L4.9-W3.9-P1.27-LS6.0-TL-EP,C9864
+SW1,TS-1088-AR02016,SW-SMD_L3.9-W3.0-P4.45,C720477
+USB1,TYPE-C 16PIN 2MD,USB-C-SMD_TYPE-C-16PIN-2MD-073,C2765186
+L3,ZHT103,IND-TH_L18.2-W10.2-P12.00-D0.9_ZHT103,C2935356
+U4,ZX-IDC2.54-2-13PZZ,IDC-TH_26P-P2.54_ZX-IDC2.54-2-13PZZ,C7501247

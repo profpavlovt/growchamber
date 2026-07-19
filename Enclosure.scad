@@ -16,7 +16,41 @@
 //   Faceplate mounting holes (M3): fx=15.86 at fy=5 and fy=95
 //-----------------------------------------------------------------------
 
+//-- !! These must be defined BEFORE the include below. !!
+//-- cutoutsBack is also assigned inside YAPPgenerator_v3.scad, so OpenSCAD
+//-- evaluates our cutoutsBack expression at the INCLUDE's position, not at the
+//-- line we write it on. Anything it references must already exist here.
+//-- (A freshly-named variable would be fine; a YAPP-predefined one is not.)
+//
+//-- Mains group offset: slides the C14/C13 back-wall modules LEFT so their
+//-- bodies (~30 mm deep) stop clear of the PSU footprint at psuYin = 110.
+//-- Less negative = closer to the PSU.
+mainsShiftY = -38;
+c14CtrY     = 115.5 + mainsShiftY;   // C14 combo centre Y  ->  77.5
+                                     // (SNAP-IN module: no ears, no screw holes -
+                                     //  the panel cutout alone retains it)
+c13CtrY     = 116.9 + mainsShiftY;   // C13 outlet centre Y ->  78.9
+c13CtrZ     = 53.75;
+c13EarPitch = 40;                    // C13 ears: HORIZONTAL pair, in line with
+                                     // the socket centre                <-- measure
+
+//-- PSU side mounts (same must-precede-the-include rule: cutoutsRight is
+//-- YAPP-predefined too). Per the LRS-50 datasheet the supply has 2x M3 tapped
+//-- holes, L=3.0 mm deep, BOTH on one side face: 55 mm apart, the first 20.5 mm
+//-- from the terminal end, on a line 40.5 mm up from the supply's base.
+//-- That face sits flush against the box's right wall, so these are plain
+//-- CLEARANCE holes - the screw threads into the supply's own metal, which is
+//-- far stronger than anything printed. No bosses.
+psuX0      = 3;                  // PSU terminal end, from the back inner region (X)
+psuRiserH  = 8;                  // riser rails the bottom flange rests on
+psuHole1X  = psuX0 + 20.5;       // first M3 hole, along the box length
+psuHolePitch = 55;               // datasheet spacing between the two holes
+psuHoleZ   = psuRiserH + 40.5;   // 40.5 above the supply's base, which sits on the risers
+psuHoleR   = 1.7;                // Ø3.4 clearance for M3
+
 include <YAPPgenerator_v3.scad>
+
+
 
 //-- which part(s) to print
 printBaseShell  = true;
@@ -82,12 +116,16 @@ showOrientation = true;
 //  M3 holes @ (5.73,5) (62.43,5) (5.73,95) (62.43,95)  [yappCoordPCB]
 //  (positions are relative to the PCB, so they track it automatically)
 //===================================================================
+//-- SCREW-DOWN stands: yappHole + yappSelfThreading gives each standoff a
+//-- self-tapping bore instead of a locating pin, so an M3 screw passes down
+//-- through the PCB and threads into the printed stand - the board is clamped,
+//-- not just located. yappBaseOnly keeps the lid clear (no opposing post).
 pcbStands =
 [
-  [ 5.73,  5, yappPin],
-  [62.43,  5, yappPin],
-  [ 5.73, 95, yappPin],
-  [62.43, 95, yappPin]
+  [ 5.73,  5, yappHole, yappSelfThreading, yappBaseOnly],
+  [62.43,  5, yappHole, yappSelfThreading, yappBaseOnly],
+  [ 5.73, 95, yappHole, yappSelfThreading, yappBaseOnly],
+  [62.43, 95, yappHole, yappSelfThreading, yappBaseOnly]
 ];
 
 connectors  = [];
@@ -133,20 +171,31 @@ cutoutsFront =
 //   Screw holes: M3 clearance (Ø3.2, r=1.6). yappCircle position is the
 //   bounding-box CORNER, so corner = hole-centre - 1.6.  *** MEASURE the real
 //   centre-to-centre spacing of each connector's ears and retune. ***
-//     C14 combo centre (Y115.5,Z21.5): vertical ear pair (placeholder 35 mm).
-//     C13 outlet centre (Y116.9,Z53.75): diagonal ear pair (placeholder 40 mm).
+//
+//   The group is slid LEFT by mainsShiftY to clear the PSU. That constant and
+//   the c14*/c13* centres are defined at the TOP of this file, ABOVE the
+//   include - see the note there for why they cannot live here.
 cutoutsBack  =
 [
-  [92.0,   8.0, 47.0, 27.0, 0, yappRectangle, yappCoordBox],    // C14 mains IN (switched)
-  [113.9,  37.4, 0, 0, 1.6, yappCircle, yappCoordBox],          // C14 ear (top)    ctr 115.5,39.0  <-- tune
-  [113.9,   2.4, 0, 0, 1.6, yappCircle, yappCoordBox],          // C14 ear (bottom) ctr 115.5, 4.0  <-- tune
-  [103.0, 44.0, 27.8, 19.5, 0, yappRectangle, yappCoordBox],    // C13 mains OUT (heater)
-  [129.4, 66.3, 0, 0, 1.6, yappCircle, yappCoordBox],           // C13 ear (upper-R) ctr 131.0,67.9 <-- tune
-  [101.2, 38.0, 0, 0, 1.6, yappCircle, yappCoordBox]            // C13 ear (lower-L) ctr 102.8,39.6 <-- tune
+  [c14CtrY - 47.0/2,       8.0,           47.0, 27.0, 0, yappRectangle, yappCoordBox],  // C14 mains IN (switched, snap-in)
+  [c13CtrY - 27.8/2,       c13CtrZ-19.5/2, 27.8, 19.5, 0, yappRectangle, yappCoordBox], // C13 mains OUT (heater)
+  [c13CtrY + c13EarPitch/2 - 1.6, c13CtrZ-1.6, 0, 0, 1.6, yappCircle, yappCoordBox],    // C13 ear (right)
+  [c13CtrY - c13EarPitch/2 - 1.6, c13CtrZ-1.6, 0, 0, 1.6, yappCircle, yappCoordBox]     // C13 ear (left)
 ];
 
 cutoutsLeft  = [];
-cutoutsRight = [];
+
+//-- RIGHT wall : the two M3 clearance holes the PSU screws pass through, from
+//-- OUTSIDE the box into the supply's own tapped holes. See the psuHole* block
+//-- at the top of this file. yappCircle position is the bounding-box CORNER.
+//-- *** Screw length matters: the tapped holes are only 3.0 mm deep. With a
+//-- 2.0 mm wall that means M3 x 5 MAX - anything longer bottoms out and jacks
+//-- the supply off the wall. ***
+cutoutsRight =
+[
+  [psuHole1X - psuHoleR,                 psuHoleZ - psuHoleR, 0, 0, psuHoleR, yappCircle, yappCoordBox],
+  [psuHole1X + psuHolePitch - psuHoleR,  psuHoleZ - psuHoleR, 0, 0, psuHoleR, yappCircle, yappCoordBox]
+];
 
 snapJoins    = [];
 boxMounts    = [];
@@ -168,6 +217,12 @@ fpBossLen   = 12;     // how far it reaches back into the box
 fpBossPilot = 2.5;    // M3 self-tap pilot (use ~4.2 for a heat-set insert)
 fpMountZ    = basePlaneThickness + 15.86;          // faceplate hole height
 fpFrontIn   = wallThickness + paddingBack + pcbLength + paddingFront; // front wall inner face
+
+//-- Where each boss's sideways arm ends. The front window spans Y 6..102, so
+//-- solid front wall exists at Y<6 (left) and Y>102 (right) for it to bond to.
+fpArmEndL   = wallThickness - 0.5;   // left arm buries into the left wall
+fpArmEndR   = 107;                   // right arm stops short of the PSU
+                                     // footprint - keep this < psuYin (110)
 
 //-- Display post geometry (ILI9341 2.8")
 dispPostOD    = 6;
@@ -217,40 +272,17 @@ module cableClip()
 //  right-side zone. Length(99) runs along X, depth(30) along Y from the
 //  right wall inward, height(82) along Z. The bottom L-flange rests on two
 //  riser rails (psuRiserH tall) so the 12V output screws sit ABOVE the PCB
-//  standoffs; the side flange screws horizontally into a boss on the right
-//  wall.  *** PLACEHOLDER hole positions - measure your LRS-50 and tune. ***
+//  standoffs.
+//  MOUNTING: the rails carry the weight; two M3 screws through the RIGHT WALL
+//  into the supply's own tapped side holes locate and secure it. There are no
+//  printed bosses and nothing self-taps into plastic - see cutoutsRight and the
+//  psuHole* block at the top of this file.
+//  psuX0 and psuRiserH are also declared up there (they position the holes).
 //---------------------------------------------------------------------
 psuLen        = 99;
 psuDepth      = 30;
-psuRiserH     = 8;      // lifts 12V output screws above PCB standoff height
-psuX0         = 3;      // PSU back end, measured from box back inner region (X)
 psuRightIn    = wallThickness + paddingLeft + pcbWidth + paddingRight; // right inner wall (Y) = 140
 psuYin        = psuRightIn - psuDepth;   // inboard edge of PSU footprint (Y) = 110
-psuBossOD     = 7;
-psuBossPilot  = 2.8;    // M3 self-tap (use ~4.2 for a heat-set insert)
-psuFootX      = psuX0 + 8;           // floor screw X        <-- tune to your flange
-psuFootY      = psuYin + 4;          // floor screw Y        <-- tune to your flange
-psuWallX      = psuX0 + psuLen - 8;  // wall screw X         <-- tune to your flange
-psuWallZ      = psuRiserH + 70;      // wall screw height Z  <-- tune to your flange
-psuWallBossLen = 8;
-
-module psuFootBoss()
-{
-  difference()
-  {
-    cylinder(h = psuRiserH + 4, d = psuBossOD, $fn = 48);
-    translate([0, 0, -0.1]) cylinder(h = psuRiserH + 4.2, d = psuBossPilot, $fn = 24);
-  }
-}
-
-module psuWallBoss()
-{
-  difference()
-  {
-    cylinder(h = psuWallBossLen, d = psuBossOD, $fn = 48);
-    translate([0, 0, -0.1]) cylinder(h = psuWallBossLen + 0.2, d = psuBossPilot, $fn = 24);
-  }
-}
 
 module dispPost(len)
 {
@@ -263,40 +295,40 @@ module dispPost(len)
 
 module hookBaseInside()
 {
-  //-- Faceplate mounting towers (H5/H6). The front WINDOW cutout removes the
-  //-- wall where these M3 holes land, so the bosses can't hang off the wall.
-  //-- Instead each is a buttress rising from the FLOOR with a horizontal bore;
-  //-- the faceplate screw enters -X into the bore, load carries down to floor.
-  for (y = [ wallThickness + paddingLeft + 5,
-             wallThickness + paddingLeft + 95 ])
-    fpTower(y);
+  //-- Faceplate mounting bosses (H5/H6), carried by the FRONT WALL.
+  //-- Left boss reaches out to the left wall; right boss stops short of the
+  //-- PSU footprint (see fpArmEndR).
+  fpTower(wallThickness + paddingLeft +  5, fpArmEndL);
+  fpTower(wallThickness + paddingLeft + 95, fpArmEndR);
 
-  //-- PSU riser rails (inboard edge + wall-side edge) that the bottom
-  //-- L-flange rests on, plus floor + wall mounting bosses.
+  //-- PSU riser rails (inboard edge + wall-side edge) that the bottom L-flange
+  //-- rests on. These carry the supply's weight; the two M3 screws through the
+  //-- right wall (cutoutsRight) do the securing.
   translate([psuX0, psuYin,       0]) cube([psuLen, 6, psuRiserH]);
   translate([psuX0, psuRightIn-6, 0]) cube([psuLen, 6, psuRiserH]);
-  translate([psuFootX, psuFootY, 0]) psuFootBoss();
-  translate([psuWallX, psuRightIn, psuWallZ]) rotate([90, 0, 0]) psuWallBoss();
 } //-- hookBaseInside()
 
-//-- Faceplate mounting tower: a solid buttress rising from the floor to the
-//-- M3 hole height, with a horizontal pilot bore the faceplate screw taps into.
-//-- Rooted to the floor (not the wall) because the front window removes the
-//-- wall material at this Y/Z. y = box-Y centre of the faceplate hole.
-module fpTower(y)
+//-- Faceplate mounting boss: the old floor buttress laid on its side. It is a
+//-- horizontal bar at the M3 hole height, backed against the front inner face,
+//-- running SIDEWAYS in Y from the screw onto the solid front-wall strip beside
+//-- the window (window spans Y 6..102, so solid wall is Y<6 and Y>102). Load
+//-- carries into the front wall instead of down to the floor, and nothing
+//-- touches the base plane. y = box-Y centre of the hole; yEnd = where the arm
+//-- stops (embedded in the left wall, or short of the PSU on the right).
+module fpTower(y, yEnd)
 {
-  towerTop = fpMountZ + fpBossOD/2;      // above the bore so it's fully wrapped
-  translate([0, y, 0])
-    difference()
-    {
-      // buttress block: floor -> towerTop, backed against the front inner face
-      translate([fpFrontIn - fpBossLen, -fpBossOD/2, 0])
-        cube([fpBossLen, fpBossOD, towerTop]);
-      // horizontal M3 self-tap bore, entering from the faceplate (+X) going -X
-      translate([fpFrontIn + 0.1, 0, fpMountZ])
-        rotate([0, -90, 0])
-          cylinder(h = fpBossLen + 0.2, d = fpBossPilot, $fn = 24);
-    }
+  y0 = min(y - fpBossOD/2, yEnd);
+  y1 = max(y + fpBossOD/2, yEnd);
+  difference()
+  {
+    // bar: spans y0..y1 across, fpBossOD tall in Z, reaching fpBossLen back
+    translate([fpFrontIn - fpBossLen, y0, fpMountZ - fpBossOD/2])
+      cube([fpBossLen, y1 - y0, fpBossOD]);
+    // horizontal M3 self-tap bore, entering from the faceplate (+X) going -X
+    translate([fpFrontIn + 0.1, y, fpMountZ])
+      rotate([0, -90, 0])
+        cylinder(h = fpBossLen + 0.2, d = fpBossPilot, $fn = 24);
+  }
 }
 
 module hookLidInside()

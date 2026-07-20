@@ -63,9 +63,9 @@ pcbLength           = 68.34;   // X : back <-> front (front edge = razor cut = f
 pcbWidth            = 100;      // Y : left <-> right
 pcbThickness        = 1.6;
 standoffHeight      = 4.0;      // lift PCB off the floor to clear bottom-side solder
-standoffDiameter    = 6;
-standoffPinDiameter = 2.8;      // locating pin into the 3.2 mm M3 holes
-standoffHoleSlack   = 0.4;
+standoffDiameter    = 8;        // wider boss: ~2.5 mm wall around the 3.0 mm bore
+standoffPinDiameter = 3.0;      // yappHole bore = Pin+Slack = 3.0 mm self-tap for the
+standoffHoleSlack   = 0.0;      //   PC self-tapping screws (~3.2 mm core / ~3.8 mm crest)
 
 pcb =
 [
@@ -116,16 +116,23 @@ showOrientation = true;
 //  M3 holes @ (5.73,5) (62.43,5) (5.73,95) (62.43,95)  [yappCoordPCB]
 //  (positions are relative to the PCB, so they track it automatically)
 //===================================================================
-//-- SCREW-DOWN stands: yappHole + yappSelfThreading gives each standoff a
-//-- self-tapping bore instead of a locating pin, so an M3 screw passes down
-//-- through the PCB and threads into the printed stand - the board is clamped,
-//-- not just located. yappBaseOnly keeps the lid clear (no opposing post).
+//-- SCREW-DOWN stands: yappHole makes each standoff a bore (diameter =
+//-- standoffPinDiameter+standoffHoleSlack = 3.0 mm) instead of a locating pin,
+//-- so a PC self-tapping screw passes down through the PCB and forms threads in
+//-- the printed stand - the board is clamped, not just located. yappBaseOnly
+//-- keeps the lid clear (no opposing post). (yappSelfThreading is NOT a YAPP
+//-- token; the self-tap comes from sizing the bore ~= the screw core diameter.)
+//-- yappNoFillet: REQUIRED here. YAPP's default hole fillet radius = basePlaneThickness
+//-- (1.5). When the bore radius equals it (bore = 2*1.5 = exactly 3.0 mm, our case)
+//-- its pinFillet() rotate_extrude sweeps a profile through the rotation axis and
+//-- makes a non-manifold ("mesh is not closed") shell. Dropping the cosmetic hole
+//-- fillet sidesteps that bug and keeps the exact 3.0 mm self-tap bore.
 pcbStands =
 [
-  [ 5.73,  5, yappHole, yappSelfThreading, yappBaseOnly],
-  [62.43,  5, yappHole, yappSelfThreading, yappBaseOnly],
-  [ 5.73, 95, yappHole, yappSelfThreading, yappBaseOnly],
-  [62.43, 95, yappHole, yappSelfThreading, yappBaseOnly]
+  [ 5.73,  5, yappHole, yappBaseOnly, yappNoFillet],
+  [62.43,  5, yappHole, yappBaseOnly, yappNoFillet],
+  [ 5.73, 95, yappHole, yappBaseOnly, yappNoFillet],
+  [62.43, 95, yappHole, yappBaseOnly, yappNoFillet]
 ];
 
 connectors  = [];
@@ -142,12 +149,29 @@ connectors  = [];
 //-------------------------------------------------------------------
 cutoutsBase  = [];
 
-//-- LID : long axis along box length (X). board ctr (44.17,54); active ctr (52.17,54)
-//   [fromBack(X), fromLeft(Y), width(Y), length(X), r, shape, coord]
-//   fromBack = 52.17 - 57.6/2 = 23.37 ; fromLeft = 54 - 43.2/2 = 32.40
+//-- LID display window for the RED ILI9341 2.8" board. Viewable glass ~43.2 x
+//   57.6. On this rigid board the glass LONG edge is parallel to the mounting
+//   holes' LONG spacing (both along box Y here), and the glass is NOT centred in
+//   the hole rectangle - it sits hard against ONE short-edge hole pair, leaving
+//   a wide red PCB margin at the header end (see the photo). So:
+//     * glass long edge (57.6) -> Y  (aligned with the 79.5 hole spacing)
+//     * glass short edge (43.2) -> X  (fills the 43.5 hole spacing)
+//     * shifted -11 mm in Y so its top edge sits at the Y=14 hole pair, big
+//       margin toward the Y=94 (header) pair - matching the image.
+//   Glass is CENTRED in the 4-hole rectangle (centre 44.17, 54): equal margins
+//   to the top and bottom hole pairs, and centred left-right between the side
+//   holes.
+//   AXIS MAPPING (verified by render): for the lid cutout the 3rd param spans
+//   box-X and the 4th spans box-Y. So to put the glass LONG edge (57.6) along Y
+//   - parallel to the 79.5 hole spacing - the 43.2 goes in slot 3 (X) and 57.6
+//   in slot 4 (Y). Getting these backwards rotates the window 90 deg vs the holes.
+//   [fromBack(X), fromLeft(Y), Xspan, Yspan, r, shape, coord]
+//   fromBack = 44.17 - 43.2/2 = 22.57 ; fromLeft = 54 - 57.6/2 = 25.2
+//   *** MEASURE the real glass W x H; if the real glass sits off-centre toward
+//   the header, add that offset to fromLeft when you fit the module. ***
 cutoutsLid   =
 [
-  [23.37, 32.40, 43.2, 57.6, 0, yappRectangle, yappCoordBox]
+  [22.57, 25.2, 43.2, 57.6, 0, yappRectangle, yappCoordBox]   // <-- MEASURE glass
 ];
 
 //-- FRONT wall : window for the faceplate's external components + DC099 jack.
@@ -212,9 +236,12 @@ labelsPlane  = [];
 //  the faceplate into the boss.  Hook coords: X back->front (0..L),
 //  Y left->right (0..W), Z up (0..H); front inner face computed below.
 //-------------------------------------------------------------------
-fpBossOD    = 7;      // boss outer diameter
+fpBossOD    = 7;      // boss outer diameter (2.0 mm wall around the 3.0 mm bore)
 fpBossLen   = 12;     // how far it reaches back into the box
-fpBossPilot = 2.5;    // M3 self-tap pilot (use ~4.2 for a heat-set insert)
+//-- Bore tracks the SAME PC self-tapping screw as the PCB stands. Set once via
+//-- standoffPinDiameter+standoffHoleSlack (3.0 mm) after the screw_test_coupon
+//-- print, and every self-tap bore in the design follows.
+fpBossPilot = standoffPinDiameter + standoffHoleSlack;   // 3.0 mm PC self-tap
 fpMountZ    = basePlaneThickness + 15.86;          // faceplate hole height
 fpFrontIn   = wallThickness + paddingBack + pcbLength + paddingFront; // front wall inner face
 
@@ -224,18 +251,27 @@ fpArmEndL   = wallThickness - 0.5;   // left arm buries into the left wall
 fpArmEndR   = 107;                   // right arm stops short of the PSU
                                      // footprint - keep this < psuYin (110)
 
-//-- Display post geometry (ILI9341 2.8")
-dispPostOD    = 6;
-dispPostPilot = 2.5;   // M3 self-tap
+//-- Display post geometry. The SHIPPED module is the classic RED portrait
+//-- ILI9341 2.8" board (9-pin SPI header on a short edge, SD slot on the back) -
+//-- NOT the CR2013-MI2120 landscape footprint the KiCad PCB happens to reference.
+//-- Standard red-board dims (board ~50 x 86 mm): 4 corner holes ~2.5 mm at a
+//-- 43.5 x 79.5 mm rectangle; viewable glass ~43.2 x 57.6.  These are the widely
+//-- published figures - *** MEASURE with calipers when the module arrives. ***
+//-- ORIENTATION: hookLidInside() maps dispHoleLong to Y and dispHoleShort to X,
+//-- so the long screw spacing crosses the screen's SHORT edge (matches the part).
+dispPostOD    = 8;     // widened 6->8 so the fat PC screw has ~2.5 mm wall (was M3)
+dispPostPilot = standoffPinDiameter + standoffHoleSlack;   // 3.0 mm PC self-tap
 dispPostLen   = 5;     // stand-off gap between wall/lid and the module PCB
-dispHoleLong  = 81;    // module hole spacing (long axis)
-dispHoleShort = 45;    // module hole spacing (short axis)
+dispHoleLong  = 79.5;  // hole spacing, long axis (along board length)  <-- measure
+dispHoleShort = 43.5;  // hole spacing, short axis (across board width) <-- measure
 
 //---------------------------------------------------------------------
 //  LID cable management (tethered service loop).
 //  The display module is NOT on the fabricated PCB - it is hand-wired via
-//  two edge headers pointing down into the box: a 9-pin display/SPI header
-//  and a 4-pin SD header (13 pins). Flying ribbons run from the main board
+//  two edge headers on OPPOSITE ends, pointing down into the box: a 13-pin
+//  top header (9 display/SPI wired + 4 touch pins UNUSED) and, on the far
+//  edge, a 4-pin SD header the user solders into the unpopulated holes.
+//  Flying ribbons run from the main board
 //  up to these headers. The lid is fully removable, so leave a SERVICE LOOP
 //  ~ interior height (~90 mm) + 40 mm so the lid can be set beside the box
 //  (like an open laptop) while it stays connected; the loop coils in the
@@ -244,8 +280,8 @@ dispHoleShort = 45;    // module hole spacing (short axis)
 //  the fragile header pins, and dress both runs toward the LEFT flip edge.
 //  *** PLACEHOLDER positions/sizes - tune to your ribbon width. ***
 //---------------------------------------------------------------------
-dispHdr9X    = 44.17 - dispHoleLong/2;   // 9-pin header end (X)   <-- tune
-dispHdr4X    = 44.17 + dispHoleLong/2;   // 4-pin header end (X)   <-- tune
+dispHdr13X   = 44.17 - dispHoleLong/2;   // 13-pin top header end (X) <-- tune
+dispHdr4X    = 44.17 + dispHoleLong/2;   // 4-pin SD header end (X)   <-- tune
 dispHdrY     = 54;                       // headers on display Y-centre
 flipEdgeY    = wallThickness + 4;        // LEFT flip edge the loop exits toward
 cableClipW   = 18;     // clip opening width (across the ribbon)   <-- tune
@@ -333,21 +369,26 @@ module fpTower(y, yEnd)
 
 module hookLidInside()
 {
-  //-- LID display posts (board ctr X=44.17 Y=54), hanging down from the lid
-  for (x = [44.17 - dispHoleLong/2, 44.17 + dispHoleLong/2])
-    for (y = [54 - dispHoleShort/2, 54 + dispHoleShort/2])
+  //-- LID display posts (hole-rectangle centre X=44.17 Y=54), hanging from the
+  //-- lid. The hole rectangle is 43.5 (X) x 79.5 (Y) - long spacing along Y - to
+  //-- match the board. The glass window (cutoutsLid) is ALIGNED to this: its long
+  //-- edge also runs along Y, offset toward the Y=14 pair (see the note there).
+  for (x = [44.17 - dispHoleShort/2, 44.17 + dispHoleShort/2])
+    for (y = [54 - dispHoleLong/2, 54 + dispHoleLong/2])
       translate([x, y, -(lidPlaneThickness + dispPostLen)])
         dispPost(dispPostLen);
 
-  //-- Cable-retention clips. They hang from the lid ceiling in the CLEAR strip
-  //-- between the display module (Y ~29..79) and the LEFT flip edge, so the
-  //-- ribbons emerging from the headers rise alongside the module and dress
-  //-- toward flipEdgeY. Each clip leaves a slot against the ceiling that the
-  //-- ribbon tucks into, so its weight is off the fragile header pins.
-  //-- [X, Y] positions are PLACEHOLDERS - tune to your ribbon routing.
-  for (p = [ [20, 18],                 // near the 9-pin header run
-             [70, 18],                 // near the 4-pin header run
-             [44, flipEdgeY + 4] ])    // central gather toward the flip edge
+  //-- Cable-retention clips. After rotating the display, its posts now occupy the
+  //-- rectangle X 22..66 x Y 14..94, so the old low-Y strip is taken. The CLEAR
+  //-- strip is now IN FRONT of the window (X >= 78, running the full Y), well
+  //-- clear of the window (X < 73) and every post (X < 70). The clips form a
+  //-- column there; the ribbons from the display's short-edge headers dress into
+  //-- this column so their weight is off the fragile header pins.
+  //-- [X, Y] positions are PLACEHOLDERS - finalise once the module arrives and the
+  //-- real header positions are known.
+  for (p = [ [84, 24],
+             [84, 54],
+             [84, 84] ])
     translate([p[0], p[1], -lidPlaneThickness])
       cableClip();
 } //-- hookLidInside()

@@ -34,6 +34,12 @@ c13CtrZ     = 53.75;
 c13EarPitch = 40;                    // C13 ears: HORIZONTAL pair, in line with
                                      // the socket centre                <-- measure
 
+//-- The inside floor, in BOX coordinates. This is just basePlaneThickness, but it
+//-- has to be spelled out here: basePlaneThickness is YAPP-predefined and so is
+//-- not resolvable this early (see the note above). hookBaseInside asserts the
+//-- two agree, so this cannot silently drift.
+baseFloorZ = 1.5;
+
 //-- PSU side mounts (same must-precede-the-include rule: cutoutsRight is
 //-- YAPP-predefined too). Per the LRS-50 datasheet the supply has 2x M3 tapped
 //-- holes, L=3.0 mm deep, BOTH on one side face: 55 mm apart, the first 20.5 mm
@@ -45,16 +51,80 @@ psuX0      = 3;                  // PSU terminal end, from the back inner region
 psuRiserH  = 8;                  // riser rails the bottom flange rests on
 psuHole1X  = psuX0 + 20.5;       // first M3 hole, along the box length
 psuHolePitch = 55;               // datasheet spacing between the two holes
-psuHoleZ   = psuRiserH + 40.5;   // 40.5 above the supply's base, which sits on the risers
+psuHoleZ   = baseFloorZ + psuRiserH + 40.5;  // 40.5 above the supply's base, which
+                                             // rests on the risers, which stand on the floor
 psuHoleR   = 1.7;                // Ø3.4 clearance for M3
+
+//-- FACEPLATE BOSS NOTCHES (same must-precede-the-include rule: cutoutsFront is
+//-- YAPP-predefined too). The front window is split into three stacked rectangles
+//-- so a tab of SOLID WALL is left standing behind each faceplate boss. That tab
+//-- is what makes the boss printable on a resin printer - it grows continuously
+//-- from the plate, instead of the boss floating as a 90-degree cantilever.
+//--
+//-- The bands were derived from GrowChamber_FP.kicad_pcb. Outward-facing THT
+//-- parts still push solder TAILS back through the window, and those set the
+//-- limits:
+//--    J1  pads @ Z 6.15  and  J15 pads @ Z 6.34  -> tabs must start above Z 9
+//--    LED2 (THT) @ Y 94.27                       -> right tab starts at Y 96
+//--    Power_FP1 @ Z 27.21, U2 @ Z 25.82          -> tabs must stop by Z 21
+//-- Everything else inside the bands (J60, D1, D3, J49, R18) is SMD.
+fpNotchZ0   = 9;      // tab bottom - above the J1/J15 solder tails
+fpNotchZ1   = 21;     // tab top    - below Power_FP1 / U2
+fpNotchL0   = 6;      // left tab : window edge (wall already solid below this)
+fpNotchL1   = 12.5;   // left tab : inboard edge
+fpNotchR0   = 96;     // right tab: inboard edge, trimmed 0.5 to clear LED2
+fpNotchR1   = 102;    // right tab: window edge
+fpScrewR    = 1.7;    // Ø3.4 M3 clearance through the wall (boss provides the thread)
+
+//===================================================================
+//  SPLIT FOR PRINTING  (130 x 82 x 160 mm resin build volume)
+//-------------------------------------------------------------------
+//  The base is 105.3 x 142.0 x 91.5 and fits in NO orientation:
+//     142.0 on Z -> 105.3 x 91.5 footprint, 91.5 > 82
+//     105.3 on Z -> 142.0 x 91.5 footprint, 142.0 > 130
+//      91.5 on Z -> 142.0 x 105.3 footprint, both > 82
+//  It is not the PSU bay's fault - the PCB alone is 100 wide, so the box can
+//  never be under 82. So it is cut into three along Y.
+//
+//  A SINGLE cut is impossible: for both halves to fit, it must land in
+//  Y 60..82, and that whole range is occupied by the C14 (54..101) and C13
+//  (65..92.8) apertures. The only aperture-free bands are Y 15..50 and
+//  Y 102..110 / 116..134, hence two cuts:
+//     Y=49  -> crosses only the front window, and that seam is hidden behind
+//              the faceplate PCB (which spans Y 4..104 and mounts over it)
+//     Y=104 -> completely clean; clears the front window (ends 102), the C14
+//              (ends 101) and the C13 ear (ends 100.6)
+//  Pieces are 49 / 55 / 38 wide, all printed base-down at 91.5 tall.
+//
+//  JOINT: stepped lap. The innermost jointLipT of the shell carries on past the
+//  seam by jointLap as a continuous lip around the whole cross-section, and the
+//  neighbouring piece is relieved to accept it. The outer part of the wall butts
+//  at the seam and the inner part butts jointLap further on, so there is NO
+//  straight-through path from inside to outside at any seam. Bond with CA or
+//  fresh resin cured under UV.
+//-------------------------------------------------------------------
+splitPart  = 0;          // 0 = whole box (preview) | 1, 2, 3 = printable piece
+splitY     = [49, 104];  // seam positions in box Y
+//-- jointLipT splits the shell thickness between the lip and the receiving
+//-- ledge. In the 2.0 mm walls either value is fine, but the floor is only
+//-- basePlaneThickness = 1.5 mm, so 0.75 halves it evenly: a 0.75 mm lip on one
+//-- piece and a 0.75 mm ledge on the other. At 1.0 the ledge drops to 0.5 mm,
+//-- which is fragile right where the PCB bridges the Y=49 seam.
+//-- *** The root fix is a thicker floor - see the note in the summary. ***
+jointLipT  = 0.75;       // lip thickness, taken off the shell's INNER face
+jointLap   = 5.0;        // how far the lip laps past the seam
+jointSlack = 0.15;       // clearance on the receiving side
 
 include <YAPPgenerator_v3.scad>
 
 
 
-//-- which part(s) to print
+//-- which part(s) to print. Splitting applies to the BASE only - the lid is
+//-- 105.3 x 142.0 x 14.2 and fits as one piece stood on edge (142 along Z,
+//-- leaned ~15 deg -> 105.3 x 50.4 footprint, 141 tall). Splitting the lid is
+//-- actually harder: its window, posts and clips leave only Y 79.5..82 legal.
 printBaseShell  = true;
-printLidShell   = true;
+printLidShell   = (splitPart == 0);
 
 //---------------------------------------------------------------------
 //  MAIN PCB (the 68.34 x 100 board that lies flat in the base)
@@ -155,9 +225,22 @@ cutoutsLid   =
 //   For yappCircle: pos is the bounding-box corner, so center = (p0+r, p1+r).
 //   DC099 barrel jack (12V -> LEDs): Ø8 hole, centered Y=54, Z=45, ABOVE window.
 //   *** PLACEHOLDER: set the DC099 hole Ø to your panel-mount jack. ***
+//   The window is SPLIT into three stacked bands so a tab of solid wall survives
+//   behind each faceplate boss (see the fpNotch* block at the top of this file).
+//   Band heights sum to 29, so the overall opening is unchanged.
 cutoutsFront =
 [
-  [6, 3, 96, 29, 0, yappRectangle, yappCoordBox],   // faceplate window
+  //-- window, lower band: full width, below the tabs (clears J1/J15 solder tails)
+  [fpNotchL0, 3, fpNotchR1 - fpNotchL0, fpNotchZ0 - 3, 0, yappRectangle, yappCoordBox],
+  //-- window, middle band: narrowed - this is what leaves the two tabs standing
+  [fpNotchL1, fpNotchZ0, fpNotchR0 - fpNotchL1, fpNotchZ1 - fpNotchZ0, 0, yappRectangle, yappCoordBox],
+  //-- window, upper band: full width again (clears Power_FP1 and U2)
+  [fpNotchL0, fpNotchZ1, fpNotchR1 - fpNotchL0, 32 - fpNotchZ1, 0, yappRectangle, yappCoordBox],
+
+  //-- M3 clearance holes through the tabs - the boss behind provides the thread
+  [ 9 - fpScrewR, 17.36 - fpScrewR, 0, 0, fpScrewR, yappCircle, yappCoordBox],  // ctr Y  9, Z 17.36
+  [99 - fpScrewR, 17.36 - fpScrewR, 0, 0, fpScrewR, yappCircle, yappCoordBox],  // ctr Y 99, Z 17.36
+
   [50, 41, 0, 0, 4, yappCircle, yappCoordBox]        // DC099 12V jack (Ø8)
 ];
 
@@ -212,17 +295,19 @@ labelsPlane  = [];
 //  the faceplate into the boss.  Hook coords: X back->front (0..L),
 //  Y left->right (0..W), Z up (0..H); front inner face computed below.
 //-------------------------------------------------------------------
-fpBossOD    = 7;      // boss outer diameter
-fpBossLen   = 12;     // how far it reaches back into the box
+fpBossOD    = 7;      // boss height in Z (the wedge's tall end, at the wall)
 fpBossPilot = 2.5;    // M3 self-tap pilot (use ~4.2 for a heat-set insert)
 fpMountZ    = basePlaneThickness + 15.86;          // faceplate hole height
 fpFrontIn   = wallThickness + paddingBack + pcbLength + paddingFront; // front wall inner face
 
-//-- Where each boss's sideways arm ends. The front window spans Y 6..102, so
-//-- solid front wall exists at Y<6 (left) and Y>102 (right) for it to bond to.
-fpArmEndL   = wallThickness - 0.5;   // left arm buries into the left wall
-fpArmEndR   = 107;                   // right arm stops short of the PSU
-                                     // footprint - keep this < psuYin (110)
+//-- RESIN PRINTABILITY: the boss is a wedge whose underside slopes UP at 45 deg
+//-- going into the box, rooted on the solid wall tab left by the fpNotch* bands.
+//-- Nothing exists below fpWedgeZ0, and no layer overhangs the one beneath it by
+//-- more than 45 deg, so it grows continuously from the plate with the box
+//-- printed base-down. (It replaces a horizontal bar whose whole underside floated.)
+fpWedgeZ0    = fpNotchZ0;   // underside starts here, at the wall face
+fpWedgeDepth = 7;           // how far the wedge reaches into the box
+fpBoreDepth  = 6.5;         // pilot depth into the wedge - stops short of the thin tip
 
 //-- Display post geometry (ILI9341 2.8")
 dispPostOD    = 6;
@@ -248,23 +333,41 @@ dispHdr9X    = 44.17 - dispHoleLong/2;   // 9-pin header end (X)   <-- tune
 dispHdr4X    = 44.17 + dispHoleLong/2;   // 4-pin header end (X)   <-- tune
 dispHdrY     = 54;                       // headers on display Y-centre
 flipEdgeY    = wallThickness + 4;        // LEFT flip edge the loop exits toward
-cableClipW   = 18;     // clip opening width (across the ribbon)   <-- tune
-cableClipGap = 3;      // clearance under the bar (ribbon stack thickness)
-cableClipH   = 3;      // foot/bar thickness
-cableClipLeg = 3;      // foot width along the ribbon run
+cableClipW   = 18;     // tunnel span (across the ribbon)          <-- tune
+cableClipH   = 2.5;    // arch wall thickness
+cableClipLeg = 3;      // clip depth along the ribbon run
 
-//-- A small printable arch that HANGS DOWN from z=0 into the lid cavity
-//-- (negative Z), just like dispPost. Two full-height feet at the ends and a
-//-- retaining bar at the bottom leave a slot of height cableClipGap between the
-//-- lid ceiling and the bar; the ribbon slides through that slot (running in Y).
+//-- A printable ARCH that hangs DOWN from z=0 into the lid cavity (negative Z),
+//-- just like dispPost. The ribbon lies flat on the lid ceiling and the arch
+//-- vaults over it, running in Y.
+//--
+//-- RESIN PRINTABILITY: the tunnel is a TEARDROP, not a semicircle. Printed with
+//-- the lid outer-face-down the clip points up, so the tunnel's crown is the
+//-- overhang - and a circular crown is shallower than 45 deg across the middle
+//-- ~71% of its span, which resin will not hold. The 45 deg apex removes every
+//-- sub-45 deg face. (This replaces a flat bar that bridged ~12 mm unsupported.)
+//-- Total drop is cableClipW/2 + cableClipH, times sqrt(2) for the apex.
+module clipProfile(rad)   // half-teardrop: flat floor at y=0, 45 deg point on top
+{
+  intersection()
+  {
+    union() { circle(r = rad, $fn = 64); rotate(45) square(rad); }
+    translate([-rad, 0]) square([2*rad, rad*1.5]);
+  }
+}
+
 module cableClip()
 {
-  hTot = cableClipGap + cableClipH;              // total drop
-  for (x = [-cableClipW/2, cableClipW/2 - cableClipLeg])
-    translate([x, -cableClipLeg/2, -hTot])
-      cube([cableClipLeg, cableClipLeg, hTot]);   // two feet (ceiling -> bottom)
-  translate([-cableClipW/2, -cableClipLeg/2, -hTot])
-    cube([cableClipW, cableClipLeg, cableClipH]); // retaining bar at the bottom
+  r = cableClipW/2;
+  translate([0, cableClipLeg/2, 0])
+    rotate([90, 0, 0])
+      linear_extrude(height = cableClipLeg)
+        mirror([0, 1])                       // flip so the arch hangs into -Z
+          difference()
+          {
+            clipProfile(r + cableClipH);     // outer shell
+            clipProfile(r);                  // ribbon tunnel
+          }
 }
 
 //---------------------------------------------------------------------
@@ -293,41 +396,79 @@ module dispPost(len)
   }
 }
 
+//===================================================================
+//  *** COORDINATE FRAME ***
+//  YAPP calls this hook with its origin at the box's INSIDE back-left-floor
+//  corner, NOT at box(0,0,0) as the library comment claims - measured, a probe
+//  cube at hook (50,70,40) lands at box (52,72,41.5). So hook coords are offset
+//  by (wallThickness, wallThickness, basePlaneThickness).
+//
+//  Everything in this file is written in BOX coordinates (the same frame the
+//  cutouts* lists use), so the wrapper below converts once and the contents can
+//  be authored in box coords throughout. Without it, every feature here lands
+//  2 mm forward, 2 mm right and 1.5 mm high - which is exactly what used to
+//  happen, harmlessly, until the faceplate screw had to line up with a hole in
+//  the wall.
+//===================================================================
 module hookBaseInside()
 {
-  //-- Faceplate mounting bosses (H5/H6), carried by the FRONT WALL.
-  //-- Left boss reaches out to the left wall; right boss stops short of the
-  //-- PSU footprint (see fpArmEndR).
-  fpTower(wallThickness + paddingLeft +  5, fpArmEndL);
-  fpTower(wallThickness + paddingLeft + 95, fpArmEndR);
+  assert(abs(baseFloorZ - basePlaneThickness) < 0.001,
+         "baseFloorZ must equal basePlaneThickness - see the note at the top of this file");
 
-  //-- PSU riser rails (inboard edge + wall-side edge) that the bottom L-flange
-  //-- rests on. These carry the supply's weight; the two M3 screws through the
-  //-- right wall (cutoutsRight) do the securing.
-  translate([psuX0, psuYin,       0]) cube([psuLen, 6, psuRiserH]);
-  translate([psuX0, psuRightIn-6, 0]) cube([psuLen, 6, psuRiserH]);
+  translate([-wallThickness, -wallThickness, -basePlaneThickness])   //-- box coords below
+  {
+    //-- Faceplate mounting bosses (H5/H6 at box Y 9 and 99), each a self-supporting
+    //-- wedge rooted on the solid wall tab behind it. Widths match the tabs: the
+    //-- left one runs to the window edge at Y 6 (wall is solid below that anyway),
+    //-- the right one is trimmed to Y 96 to clear LED2's through-hole pads.
+    fpTower(wallThickness + paddingLeft +  5, fpNotchL0 - 0.5, fpNotchL1);  // H5 -> Y  9
+    fpTower(wallThickness + paddingLeft + 95, fpNotchR0,       fpNotchR1);  // H6 -> Y 99
+
+    //-- PSU riser rails (inboard edge + wall-side edge) that the bottom L-flange
+    //-- rests on. These carry the supply's weight; the two M3 screws through the
+    //-- right wall (cutoutsRight) do the securing. They stand on the inside floor.
+    translate([psuX0, psuYin,       baseFloorZ]) cube([psuLen, 6, psuRiserH]);
+    translate([psuX0, psuRightIn-6, baseFloorZ]) cube([psuLen, 6, psuRiserH]);
+  }
 } //-- hookBaseInside()
 
-//-- Faceplate mounting boss: the old floor buttress laid on its side. It is a
-//-- horizontal bar at the M3 hole height, backed against the front inner face,
-//-- running SIDEWAYS in Y from the screw onto the solid front-wall strip beside
-//-- the window (window spans Y 6..102, so solid wall is Y<6 and Y>102). Load
-//-- carries into the front wall instead of down to the floor, and nothing
-//-- touches the base plane. y = box-Y centre of the hole; yEnd = where the arm
-//-- stops (embedded in the left wall, or short of the PSU on the right).
-module fpTower(y, yEnd)
+//-- Faceplate mounting boss, shaped as a SELF-SUPPORTING WEDGE for resin.
+//-- Cross-section in X-Z, extruded across y0..y1:
+//--
+//--        wall face (fpFrontIn)
+//--            |
+//--   zTop  +--+          <- flat top, faces up, prints fine
+//--         |   \
+//--         |    \        <- 45 deg underside: each layer overhangs the one
+//--         |     \          below it by exactly one layer height
+//--   zBot  +------+
+//--         |<- d ->|
+//--
+//-- The wall behind it is solid (fpNotch* tabs), so the load path is
+//-- boss -> tab -> wall -> floor, with no material below zBot.
+//-- yBore is the PCB hole centre (fixed by H5/H6); y0/y1 are the boss's Y extent,
+//-- passed per side because the right one is trimmed to clear LED2's THT pads.
+//-- They are separate arguments on purpose: retuning a tab must never drag the
+//-- screw off the faceplate hole.
+module fpTower(yBore, y0, y1)
 {
-  y0 = min(y - fpBossOD/2, yEnd);
-  y1 = max(y + fpBossOD/2, yEnd);
+  assert(y0 <= yBore - fpBossPilot/2 && yBore + fpBossPilot/2 <= y1,
+         "fpTower: bore falls outside the boss - check the fpNotch* bands");
+  zTop = fpMountZ + fpBossOD/2;
+  d    = fpWedgeDepth;
   difference()
   {
-    // bar: spans y0..y1 across, fpBossOD tall in Z, reaching fpBossLen back
-    translate([fpFrontIn - fpBossLen, y0, fpMountZ - fpBossOD/2])
-      cube([fpBossLen, y1 - y0, fpBossOD]);
-    // horizontal M3 self-tap bore, entering from the faceplate (+X) going -X
-    translate([fpFrontIn + 0.1, y, fpMountZ])
+    translate([0, y1, 0])
+      rotate([90, 0, 0])
+        linear_extrude(height = y1 - y0)
+          polygon([[fpFrontIn,     fpWedgeZ0],
+                   [fpFrontIn - d, fpWedgeZ0 + d],   // 45 deg underside
+                   [fpFrontIn - d, zTop],
+                   [fpFrontIn,     zTop]]);
+    // M3 self-tap bore, entering from the faceplate (+X) going -X
+    translate([fpFrontIn + 0.1, yBore, fpMountZ])
       rotate([0, -90, 0])
-        cylinder(h = fpBossLen + 0.2, d = fpBossPilot, $fn = 24);
+        cylinder(h = fpBoreDepth + 0.1, d = fpBossPilot, $fn = 24);
   }
 }
 
@@ -352,4 +493,61 @@ module hookLidInside()
       cableClip();
 } //-- hookLidInside()
 
-YAPPgenerate();
+//===================================================================
+//  Split-for-printing machinery. See the SPLIT FOR PRINTING block at the
+//  top of this file for why the seams are where they are.
+//===================================================================
+
+//-- A slab covering the whole box, limited in Y. Used to carve out one piece.
+module splitSlab(y0, y1)
+{
+  m = 20;   // overshoot, so the slab always fully clears the shell
+  translate([-m, y0, -m]) cube([shellLength + 2*m, y1 - y0, shellHeight + 2*m]);
+}
+
+//-- The innermost `t` of the shell: the shell intersected with the interior
+//-- cavity grown outward by t. Following the shell rather than hard-coding a
+//-- cross-section means the lip automatically wraps the floor and both end
+//-- walls, and tracks any later change to padding or wall thickness.
+module shellInnerLayer(t)
+{
+  intersection()
+  {
+    YAPPgenerate();
+    translate([wallThickness - t, wallThickness - t, basePlaneThickness - t])
+      cube([shellLength  - 2*wallThickness + 2*t,
+            shellWidth   - 2*wallThickness + 2*t,
+            shellHeight  + t]);
+  }
+}
+
+//-- The lap itself: a continuous lip of the shell's inner skin, running from
+//-- the seam forward by `lap`.
+module jointTongue(yc, t, lap)
+{
+  intersection()
+  {
+    shellInnerLayer(t);
+    splitSlab(yc, yc + lap);
+  }
+}
+
+//-- One printable piece. Each piece keeps the tongue at its HIGH seam and is
+//-- relieved (with slack) for the tongue arriving from the piece below it.
+module printPiece(n)
+{
+  y0 = (n == 1) ? -20            : splitY[n-2];
+  y1 = (n == 3) ? shellWidth + 20 : splitY[n-1];
+  difference()
+  {
+    union()
+    {
+      intersection() { YAPPgenerate(); splitSlab(y0, y1); }
+      if (n < 3) jointTongue(splitY[n-1], jointLipT, jointLap);
+    }
+    if (n > 1) jointTongue(splitY[n-2], jointLipT + jointSlack, jointLap + jointSlack);
+  }
+}
+
+if (splitPart == 0) YAPPgenerate();
+else                printPiece(splitPart);
